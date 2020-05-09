@@ -41,7 +41,7 @@ Please cite our paper if you find it helpful.
 ## [Survey](#content)
 1. **Generalizing from a few examples: A survey on few-shot learning,** CSUR, 2020
 *Y. Wang, Q. Yao, J. T. Kwok, and L. M. Ni.*
-[paper](https://arxiv.org/abs/1903.03253)
+[paper](https://arxiv.org/abs/1904.05046)
 
 ## [Data](#content)
 1. **Learning from one example through shared densities on transforms,** in CVPR, 2000.
