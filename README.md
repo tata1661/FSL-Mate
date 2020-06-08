@@ -220,6 +220,17 @@ Please cite our paper if you find it helpful.
 *Y. Liu, J. Lee, M. Park, S. Kim, E. Yang, S. Hwang, and Y. Yang.*
 [paper](https://openreview.net/forum?id=SyVuRiC5K7)
 
+1. **Multi-level matching and aggregation network for few-shot relation classification,** in ACL, 2019.
+*Z.-X. Ye, and Z.-H. Ling.*
+[paper](https://www.aclweb.org/anthology/P19-1277.pdf)
+
+1. **Induction networks for few-shot text classification,** in EMNLP, 2019.
+*R. Geng, B. Li, Y. Li, X. Zhu, P. Jian, and J. Sun.*
+[paper](https://www.aclweb.org/anthology/D19-1403.pdf)
+
+1. **Hierarchical attention prototypical networks for few-shot text classification,** in EMNLP, 2019.
+*S. Sun, Q. Sun, K. Zhou, and T. Lv.*
+[paper](https://www.aclweb.org/anthology/D19-1045.pdf)
 
 ### Learning with External Memory
 
@@ -353,8 +364,12 @@ and L. Van Gool.*
 [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Qi_Low-Shot_Learning_With_CVPR_2018_paper.pdf)
 
 1. **Neural voice cloning with a few samples,** in NeurIPS, 2018.
-*S.Arik,J.Chen,K.Peng,W.Ping,andY.Zhou.*
+*S. Arik, J. Chen, K. Peng, W. Ping, and Y. Zhou.*
 [paper](https://papers.nips.cc/paper/8206-neural-voice-cloning-with-a-few-samples.pdf)
+
+1. **Text classification with few examples using controlled generalization,** in NAACL-HLT, 2019.
+*A. Mahabal, J. Baldridge, B. K. Ayan, V. Perot, and D. Roth.* 
+[paper](https://www.aclweb.org/anthology/N19-1319.pdf)
 
 ### Refining Meta-learned Parameters
 
@@ -394,6 +409,13 @@ and L. Van Gool.*
 *A. A. Rusu, D. Rao, J. Sygnowski, O. Vinyals, R. Pascanu, S. Osindero, and R. Hadsell.* 
 [paper](https://openreview.net/forum?id=BJgklhAcK7)
 
+1. **Meta relational learning for few-shot link prediction in knowledge graphs,** in EMNLP, 2019.
+*M. Chen, W. Zhang, W. Zhang, Q. Chen, and H. Chen.*
+[paper](https://www.aclweb.org/anthology/D19-1431.pdf)
+
+1. **Adapting meta knowledge graph information for multi-hop reasoning over few-shot relations,** in EMNLP, 2019.
+*X. Lv, Y. Gu, X. Han, L. Hou, J. Li, and Z. Liu.*
+[paper](https://www.aclweb.org/anthology/D19-1334.pdf)
 
 ### Learning Search Steps
 
@@ -467,6 +489,14 @@ and L. Van Gool.*
 *X. Han, H. Zhu, P. Yu, Z. Wang, Y. Yao, Z. Liu, and M. Sun.*
 [paper](https://www.aclweb.org/anthology/D18-1514.pdf)
 
+1. **FewRel 2.0: Towards more challenging few-shot relation classification,** in EMNLP, 2019.
+*T. Gao, X. Han, H. Zhu, Z. Liu, P. Li, M. Sun, and J. Zhou.*
+[paper](https://www.aclweb.org/anthology/D19-1649.pdf)
+
+1. **Few-shot representation learning for out-of-vocabulary words,** in ACL, 2019.
+*Z. Hu, T. Chen, K.-W. Chang, and Y. Sun.*
+[paper](https://www.aclweb.org/anthology/P19-1402.pdf)
+
 ### Acoustic Signal Processing
 
 1. **One-shot learning of generative speech concepts,** in CogSci, 2014. 
@@ -480,6 +510,23 @@ and L. Van Gool.*
 1. **Investigation of using disentangled and interpretable representations for one-shot cross-lingual voice conversion,** INTERSPEECH, 2018.
 *S. H. Mohammadi and T. Kim.*
 [paper](https://isca-speech.org/archive/Interspeech_2018/pdfs/2525.pdf)
+
+1. **Few-shot audio classification with attentional graph neural networks,** INTERSPEECH, 2019.
+*S. Zhang, Y. Qin, K. Sun, and Y. Lin.*
+[paper](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1532.pdf)
+
+1. **One-shot voice conversion with disentangled representations by leveraging phonetic posteriorgrams,** INTERSPEECH, 2019.
+*S. H. Mohammadi, and T. Kim.*
+[paper](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1798.pdf)
+
+1. **One-shot voice conversion with global speaker embeddings,** INTERSPEECH, 2019.
+*H. Lu, Z. Wu, D. Dai, R. Li, S. Kang, J. Jia, and H. Meng.*
+[paper](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2365.pdf)
+
+1. **One-shot voice conversion by separating speaker and content representations with instance normalization,** INTERSPEECH, 2019.
+*J.-C. Chou, and H.-Y. Lee.*
+[paper](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2663.pdf)
+
 
 ### Others
 
@@ -501,3 +548,4 @@ and L. Van Gool.*
 1. **Meta-learning and universality: Deep representations and gradient descent can approximate any learning algorithm,** in ICLR, 2018.
 *C. Finn and S. Levine.*
 [paper](https://openreview.net/forum?id=HyjC5yWCW)
+
