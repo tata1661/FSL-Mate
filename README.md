@@ -417,6 +417,10 @@ and L. Van Gool.*
 *X. Lv, Y. Gu, X. Han, L. Hou, J. Li, and Z. Liu.*
 [paper](https://www.aclweb.org/anthology/D19-1334.pdf)
 
+1. **Automated Relational Meta-learning,** in ICLR, 2020.
+*H. Yao, X. Wu, Z. Tao, Y. Li, B. Ding, and Z. Li*
+[paper](https://openreview.net/pdf?id=rklp93EtwH), [code](https://github.com/huaxiuyao/ARML)
+
 ### Learning Search Steps
 
 1. **Optimization as a model for few-shot learning,** in ICLR, 2017.
