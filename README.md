@@ -44,7 +44,7 @@ Please cite our paper if you find it helpful.
 ## [Survey](#content)
 1. **Generalizing from a few examples: A survey on few-shot learning,** CSUR, 2020
 *Y. Wang, Q. Yao, J. T. Kwok, and L. M. Ni.*
-[paper](https://dl.acm.org/doi/10.1145/3386252)
+[paper](https://dl.acm.org/doi/10.1145/3386252?cid=99659542534)
 [arXiv](https://arxiv.org/abs/1904.05046)
 
 ## [Data](#content)
