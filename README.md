@@ -373,6 +373,39 @@ Please cite our paper if you find it helpful.
 *C. Zhang, Y. Cai, G. Lin, and C. Shen.*
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DeepEMD_Few-Shot_Image_Classification_With_Differentiable_Earth_Movers_Distance_and_CVPR_2020_paper.pdf)
 
+1. **Few-shot text classification with distributional signatures,** in ICLR, 2020.
+*Y. Bao, M. Wu, S. Chang, and R. Barzilay.*
+[paper](https://openreview.net/pdf?id=H1emfT4twB)
+
+1. **Cross-domain few-shot classification via learned feature-wise transformation,** in ICLR, 2020.
+*H. Tseng, H. Lee, J. Huang, and M. Yang.*
+[paper](https://openreview.net/pdf?id=SJl5Np4tPr)
+
+1. **Learning task-aware local representations for few-shot learning,** in IJCAI, 2020.
+*C. Dong, W. Li, J. Huo, Z. Gu, and Y. Gao.*
+[paper](https://www.ijcai.org/Proceedings/2020/0100.pdf)
+
+1. **SimPropNet: Improved similarity propagation for few-shot image segmentation,** in IJCAI, 2020.
+*S. Gairola, M. Hemani, A. Chopra, and B. Krishnamurthy.*
+[paper](https://www.ijcai.org/Proceedings/2020/0080.pdf)
+
+1. **Asymmetric distribution measure for few-shot learning,** in IJCAI, 2020.
+*W. Li, L. Wang, J. Huo, Y. Shi, Y. Gao, and J. Luo.*
+[paper](https://www.ijcai.org/Proceedings/2020/0409.pdf)
+
+1. **Transductive relation-propagation network for few-shot learning,** in IJCAI, 2020.
+*Y. Ma, S. Bai, S. An, W. Liu, A. Liu, X. Zhen, and X. Liu.*
+[paper](https://www.ijcai.org/Proceedings/2020/0112.pdf)
+
+1. **Weakly supervised few-shot object segmentation using co-attention with visual and semantic embeddings,** in IJCAI, 2020.
+*M. Siam, N. Doraiswamy, B. N. Oreshkin, H. Yao, and M. Jägersand.*
+[paper](https://www.ijcai.org/Proceedings/2020/0120.pdf)
+
+1. **Few-shot learning on graphs via super-classes based on graph spectral measures,** in ICLR, 2020.
+*J. Chauhan, D. Nathani, and M. Kaul.*
+[paper](https://openreview.net/pdf?id=Bkeeca4Kvr)
+
+
 ### Learning with External Memory
 
 1. **Meta-learning with memory-augmented neural networks,** in ICML, 2016.
@@ -418,6 +451,14 @@ Please cite our paper if you find it helpful.
 1. **ACMM: Aligned cross-modal memory for few-shot image and sentence matching,** in ICCV, 2019. 
 *Y. Huang, and L. Wang.*
 [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)
+
+1. **Dynamic memory induction networks for few-shot text classification,** in ACL, 2020.
+*R. Geng, B. Li, Y. Li, J. Sun, and X. Zhu.*
+[paper](https://www.aclweb.org/anthology/2020.acl-main.102.pdf)
+
+1. **Few-shot visual learning with contextual memory and fine-grained calibration,** in IJCAI, 2020.
+*Y. Ma, W. Liu, S. Bai, Q. Zhang, A. Liu, W. Chen, and X. Liu.*
+[paper](https://www.ijcai.org/Proceedings/2020/0113.pdf)
 
 ### Generative Modeling
 1. **One-shot learning of object categories,** TPAMI, 2006.
@@ -484,6 +525,14 @@ and L. Van Gool.*
 1. **Dual variational generation for low shot heterogeneous face recognition,** in NeurIPS, 2019.
 *C. Fu, X. Wu, Y. Hu, H. Huang, and R. He.*
 [paper](https://papers.nips.cc/paper/8535-dual-variational-generation-for-low-shot-heterogeneous-face-recognition.pdf)
+
+1. **Bayesian meta sampling for fast uncertainty adaptation,** in ICLR, 2020.
+*Z. Wang, Y. Zhao, P. Yu, R. Zhang, and C. Chen.*
+[paper](https://openreview.net/pdf?id=Bkxv90EKPB)
+
+1. **Empirical Bayes transductive meta-learning with synthetic gradients,** in ICLR, 2020.
+*S. X. Hu, P. G. Moreno, Y. Xiao, X. Shen, G. Obozinski, N. D. Lawrence, and A. C. Damianou.*
+[paper](https://openreview.net/pdf?id=Hkg-xgrYvH)
 
 ## [Algorithm](#content)
 
@@ -573,6 +622,17 @@ and L. Van Gool.*
 *L. Zhou, P. Cui, X. Jia, S. Yang, and Q. Tian*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_Learning_to_Select_Base_Classes_for_Few-Shot_Classification_CVPR_2020_paper.pdf)
 
+1. **Few-shot NLG with pre-trained language model,** in ACL, 2020.
+*Z. Chen, H. Eavani, W. Chen, Y. Liu, and W. Y. Wang.*
+[paper](https://www.aclweb.org/anthology/2020.acl-main.18.pdf)
+
+1. **Span-ConveRT: Few-shot span extraction for dialog with pretrained conversational representations,** in ACL, 2020.
+*S. Coope, T. Farghly, D. Gerz, I. Vulic, and M. Henderson.*
+[paper](https://www.aclweb.org/anthology/2020.acl-main.11.pdf)
+
+1. **A baseline for few-shot image classification,** in ICLR, 2020.
+*G. S. Dhillon, P. Chaudhari, A. Ravichandran, and S. Soatto.*
+[paper](https://openreview.net/pdf?id=rylXBkrYDS)
 
 ### Refining Meta-learned Parameters
 
@@ -655,6 +715,31 @@ and L. Van Gool.*
 1. **Incremental few-shot object detection,** in CVPR, 2020.
 *J.-M. Perez-Rua, X. Zhu, T. M. Hospedales, and T. Xiang.*
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Perez-Rua_Incremental_Few-Shot_Object_Detection_CVPR_2020_paper.pdf)
+
+1. **Automated relational meta-learning,** in ICLR, 2020.
+*H. Yao, X. Wu, Z. Tao, Y. Li, B. Ding, R. Li, and Z. Li.*
+[paper](https://openreview.net/pdf?id=rklp93EtwH)
+
+1. **Meta-learning with warped gradient descent,** in ICLR, 2020.
+*S. Flennerhag, A. A. Rusu, R. Pascanu, F. Visin, H. Yin, and R. Hadsell.*
+[paper](https://openreview.net/pdf?id=rkeiQlBFPB)
+
+1. **Meta-learning without memorization,** in ICLR, 2020.
+*M. Yin, G. Tucker, M. Zhou, S. Levine, and C. Finn.*
+[paper](https://openreview.net/pdf?id=BklEFpEYwS)
+
+1. **ES-MAML: Simple Hessian-free meta learning,** in ICLR, 2020.
+*X. Song, W. Gao, Y. Yang, K. Choromanski, A. Pacchiano, and Y. Tang.*
+[paper](https://openreview.net/pdf?id=S1exA2NtDB)
+
+1. **Self-supervised tuning for few-shot segmentation,** in IJCAI, 2020.
+*K. Zhu, W. Zhai, and Y. Cao.*
+[paper](https://www.ijcai.org/Proceedings/2020/0142.pd)
+
+1. **Multi-attention meta learning for few-shot fine-grained image recognition,** in IJCAI, 2020.
+*Y. Zhu, C. Liu, and S. Jiang.*
+[paper](https://www.ijcai.org/Proceedings/2020/0152.pdf)
+
 
 ### Learning Search Steps
 
@@ -776,6 +861,18 @@ and L. Van Gool.*
 *C. Yang, and S.-N. Lim.*
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_One-Shot_Domain_Adaptation_for_Face_Generation_CVPR_2020_paper.pdf)
 
+1. **MetaPix: Few-shot video retargeting,** in ICLR, 2020.
+*J. Lee, D. Ramanan, and R. Girdhar.*
+[paper](https://openreview.net/pdf?id=SJx1URNKwH)
+
+1. **Few-shot human motion prediction via learning novel motion dynamics,** in IJCAI, 2020.
+*C. Zang, M. Pei, and Y. Kong.*
+[paper](https://www.ijcai.org/Proceedings/2020/0118.pdf)
+
+1. **Shaping visual representations with language for few-shot classification,** in ACL, 2020.
+*J. Mu, P. Liang, and N. D. Goodman.*
+[paper](https://www.aclweb.org/anthology/2020.acl-main.436.pdf)
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -806,6 +903,14 @@ and L. Van Gool.*
 *J. D. Co-Reyes, A. Gupta, S. Sanjeev, N. Altieri, J. DeNero, P. Abbeel, and S. Levine.*
 [paper](https://openreview.net/forum?id=HkgSEnA5KQ)
 
+1. **Meta reinforcement learning with autonomous inference of subtask dependencies,** in ICLR, 2020.
+*S. Sohn, H. Woo, J. Choi, and H. Lee.*
+[paper](https://openreview.net/pdf?id=HkgsWxrtPB)
+
+1. **Watch, try, learn: Meta-learning from demonstrations and rewards,** in ICLR, 2020.
+*A. Zhou, E. Jang, D. Kappler, A. Herzog, M. Khansari, P. Wohlhart, Y. Bai, M. Kalakrishnan, S. Levine, and C. Finn.*
+[paper](https://openreview.net/pdf?id=SJg5J6NtDr)
+
 ### Natural Language Processing
 
 1. **High-risk learning: Acquiring new word vectors from tiny data,** in EMNLP, 2017.
@@ -815,6 +920,18 @@ and L. Van Gool.*
 1. **Few-shot representation learning for out-of-vocabulary words,** in ACL, 2019.
 *Z. Hu, T. Chen, K.-W. Chang, and Y. Sun.*
 [paper](https://www.aclweb.org/anthology/P19-1402.pdf)
+
+1. **Learning to customize model structures for few-shot dialogue generation tasks,** in ACL, 2020.
+*Y. Song, Z. Liu, W. Bi, R. Yan, and M. Zhang.*
+[paper](https://www.aclweb.org/anthology/2020.acl-main.517.pdf)
+
+1. **Few-shot slot tagging with collapsed dependency transfer and label-enhanced task-adaptive projection network,** in ACL, 2020.
+*Y. Hou, W. Che, Y. Lai, Z. Zhou, Y. Liu, H. Liu, and T. Liu.*
+[paper](https://www.aclweb.org/anthology/2020.acl-main.128.pdf)
+
+1. **Meta-reinforced multi-domain state generator for dialogue systems,** in ACL, 2020.
+*Y. Huang, J. Feng, M. Hu, X. Wu, X. Du, and S. Ma.*
+[paper](https://www.aclweb.org/anthology/2020.acl-main.636.pdf)
 
 ### Acoustic Signal Processing
 
@@ -869,6 +986,26 @@ and L. Van Gool.*
 *S. Wang, S. Cao, D. Wei, R. Wang, K. Ma, L. Wang, D. Meng, and Y. Zheng.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_LT-Net_Label_Transfer_by_Learning_Reversible_Voxel-Wise_Correspondence_for_One-Shot_CVPR_2020_paper.pdf)
 
+1. **Federated meta-learning for fraudulent credit card detection,** in IJCAI, 2020.
+*W. Zheng, L. Yan, C. Gou, and F. Wang.*
+[paper](https://www.ijcai.org/Proceedings/2020/0642.pdf)
+
+1. **Differentially private meta-learning,** in ICLR, 2020.
+*J. Li, M. Khodak, S. Caldas, and A. Talwalkar.*
+[paper](https://openreview.net/pdf?id=rJgqMRVYvr)
+
+1. **Towards fast adaptation of neural architectures with meta learning,** in ICLR, 2020.
+*D. Lian, Y. Zheng, Y. Xu, Y. Lu, L. Lin, P. Zhao, J. Huang, and S. Gao.*
+[paper](https://openreview.net/pdf?id=r1eowANFvr)
+
+## [Theories](#content)
+1. **A theoretical analysis of the number of shots in few-shot learning,** in ICLR, 2020.
+*T. Cao, M. T. Law, and S. Fidler.*
+[paper](https://openreview.net/pdf?id=HkgB2TNYPS)
+
+1. **Rapid learning or feature reuse? Towards understanding the effectiveness of MAML,** in ICLR, 2020.
+*A. Raghu, M. Raghu, S. Bengio, and O. Vinyals.*
+[paper](https://openreview.net/pdf?id=rkgMkCEtPB)
 
 ## [Theories](#content)
 
@@ -895,9 +1032,9 @@ and L. Van Gool.*
 *T. Gao, X. Han, H. Zhu, Z. Liu, P. Li, M. Sun, and J. Zhou.*
 [paper](https://www.aclweb.org/anthology/D19-1649.pdf)
 
-1. **Meta-dataset: A dataset of datasets for learning to learn from few examples,** arXiv preprint, 2019.
-*E. Triantafillou, T. Zhu, V. Dumoulin, P. Lamblin, K. Xu, R. Goroshin, C. Gelada, K. Swersky, P.-A. Manzagol et al.*
-[paper](https://arxiv.org/abs/1903.03096)
+1. **META-DATASET: A dataset of datasets for learning to learn from few examples,** in ICLR, 2020.
+*E. Triantafillou, T. Zhu, V. Dumoulin, P. Lamblin, U. Evci, K. Xu, R. Goroshin, C. Gelada, K. Swersky, P. Manzagol, and H. Larochelle.*
+[paper](https://openreview.net/pdf?id=rkgAGAVKPr)
 
 1. **Meta-World: A benchmark and evaluation for multi-task and meta reinforcement learning,** arXiv preprint, 2019.
 *T. Yu, D. Quillen, Z. He, R. Julian, K. Hausman, C. Finn, and S. Levine.*
@@ -910,6 +1047,7 @@ and L. Van Gool.*
 1. **FSS-1000: A 1000-class dataset for few-shot segmentation,** in CVPR, 2020.
 *X. Li, T. Wei, Y. P. Chen, Y.-W. Tai, and C.-K. Tang.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_FSS-1000_A_1000-Class_Dataset_for_Few-Shot_Segmentation_CVPR_2020_paper.pdf)
+
 
 ## [Few-shot Learning and Zero-shot Learning](#content)
 
