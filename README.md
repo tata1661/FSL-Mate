@@ -63,6 +63,7 @@ Please cite our paper if you find it helpful.
 1. **Low-shot visual recognition by shrinking and hallucinating features,** in ICCV, 2017.
 *B. Hariharan and R. Girshick.*
 [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Hariharan_Low-Shot_Visual_Recognition_ICCV_2017_paper.pdf)
+[code](https://github.com/facebookresearch/low-shot-shrink-hallucinate)
 
 1. **Improving one-shot learning through fusing side information,** arXiv preprint, 2017.
 *Y.H.Tsai and R.Salakhutdinov.*
@@ -115,6 +116,7 @@ Please cite our paper if you find it helpful.
 1. **Image deformation meta-networks for one-shot learning,** in CVPR, 2019.
 *Z. Chen, Y. Fu, Y.-X. Wang, L. Ma, W. Liu, and M. Hebert.*
 [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Image_Deformation_Meta-Networks_for_One-Shot_Learning_CVPR_2019_paper.pdf)
+[code](https://github.com/tankche1/IDeMe-Net)
 
 1. **Spot and learn: A maximum-entropy patch sampler for few-shot image classification,** in CVPR, 2019.
 *W.-H. Chu, Y.-J. Li, J.-C. Chang, and Y.-C. F. Wang.*
@@ -149,6 +151,7 @@ Please cite our paper if you find it helpful.
 1. **Multi-content GAN for few-shot font style transfer,** in CVPR, 2018. 
 *S. Azadi, M. Fisher, V. G. Kim, Z. Wang, E. Shechtman, and T. Darrell.*
 [paper](http://www.vovakim.com/papers/18_CVPRSpotlight_FontDropper.pdf)
+[code](https://github.com/azadis/MC-GAN)
 
 1. **Feature space transfer for data augmentation,** in CVPR, 2018.
 *B. Liu, X. Wang, M. Dixit, R. Kwitt, and N. Vasconcelos.* 
@@ -211,6 +214,7 @@ Please cite our paper if you find it helpful.
 1.  **Prototypical networks for few-shot learning,** in NeurIPS, 2017.
 *J. Snell, K. Swersky, and R. S. Zemel.*
 [paper](https://papers.nips.cc/paper/6996-prototypical-networks-for-few-shot-learning.pdf)
+[code](https://github.com/jakesnell/prototypical-networks)
 
 1. **Attentive recurrent comparators,** in ICML, 2017.
 *P. Shyam, S. Gupta, and A. Dukkipati.*
@@ -235,10 +239,12 @@ Please cite our paper if you find it helpful.
 1. **Learning to compare: Relation network for few-shot learning,** in CVPR, 2018.
 *F. Sung, Y. Yang, L. Zhang, T. Xiang, P. H. Torr, and T. M. Hospedales.*
 [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sung_Learning_to_Compare_CVPR_2018_paper.pdf)
+[code](https://github.com/floodsung/LearningToCompare_FSL)
 
 1. **Dynamic conditional networks for few-shot learning,** in ECCV, 2018.
 *F. Zhao, J. Zhao, S. Yan, and J. Feng.*
 [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Fang_Zhao_Dynamic_Conditional_Networks_ECCV_2018_paper.pdf)
+[code](https://github.com/ZhaoJ9014/Dynamic-Conditional-Networks.PyTorch)
 
 1. **Tadam: Task dependent adaptive metric for improved few-shot learning,** in NeurIPS, 2018.
 *B. Oreshkin, P. R. López, and A. Lacoste.*
@@ -247,10 +253,12 @@ Please cite our paper if you find it helpful.
 1. **Meta-learning for semi- supervised few-shot classification,** in ICLR, 2018.
 *M. Ren, S. Ravi, E. Triantafillou, J. Snell, K. Swersky, J. B. Tenen- baum, H. Larochelle, and R. S. Zemel.* 
 [paper](https://openreview.net/forum?id=r1n5Osurf)
+[code](https://github.com/renmengye/few-shot-ssl-public)
 
 1. **Few-shot learning with graph neural networks,** in ICLR, 2018.
 *V. G. Satorras and J. B. Estrach.*
 [paper](https://openreview.net/pdf?id=HJcSzz-CZ)
+[code](https://github.com/vgsatorras/few-shot-gnn)
 
 1. **A simple neural attentive meta-learner,** in ICLR, 2018.
 *N. Mishra, M. Rohaninejad, X. Chen, and P. Abbeel.*
@@ -263,6 +271,7 @@ Please cite our paper if you find it helpful.
 1. **Learning to propopagate labels: Transductive propagation network for few-shot learning,** in ICLR, 2019.
 *Y. Liu, J. Lee, M. Park, S. Kim, E. Yang, S. Hwang, and Y. Yang.*
 [paper](https://openreview.net/forum?id=SyVuRiC5K7)
+[code](https://github.com/csyanbin/TPN-pytorch)
 
 1. **Multi-level matching and aggregation network for few-shot relation classification,** in ACL, 2019.
 *Z.-X. Ye, and Z.-H. Ling.*
@@ -284,6 +293,7 @@ Please cite our paper if you find it helpful.
 1. **Hybrid attention-based prototypical networks for noisy few-shot relation classification,** in AAAI, 2019.
 *T. Gao, X. Han, Z. Liu, and M. Sun.*
 [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4604/4482)
+[code](https://github.com/thunlp/HATT-Proto)
 
 1. **Attention-based multi-context guiding for few-shot semantic segmentation,** in AAAI, 2019.
 *T. Hu, P. Yang, C. Zhang, G. Yu, Y. Mu and C. G. M. Snoek.*
@@ -304,6 +314,7 @@ Please cite our paper if you find it helpful.
 1. **Prototype propagation networks (PPN) for weakly-supervised few-shot learning on category graph,** in IJCAI, 2019.
 *L. Liu, T. Zhou, G. Long, J. Jiang, L. Yao, C. Zhang.*
 [paper](https://www.ijcai.org/Proceedings/2019/0418.pdf)
+[code](https://github.com/liulu112601/Prototype-Propagation-Net)
 
 1. **Collect and select: Semantic alignment metric learning for few-shot learning,** in ICCV, 2019.
 *F. Hao, F. He, J. Cheng, L. Wang, J. Cao, and D. Tao.*
@@ -328,10 +339,12 @@ Please cite our paper if you find it helpful.
 1. **PANet: Few-shot image semantic segmentation with prototype alignment,** in ICCV, 2019.
 *K. Wang, J. H. Liew, Y. Zou, D. Zhou, and J. Feng.*
 [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_PANet_Few-Shot_Image_Semantic_Segmentation_With_Prototype_Alignment_ICCV_2019_paper.pdf)
+[code](https://github.com/kaixin96/PANet)
 
 1. **RepMet: Representative-based metric learning for classification and few-shot object detection,** in CVPR, 2019.
 *L. Karlinsky, J. Shtok, S. Harary, E. Schwartz, A. Aides, R. Feris, R. Giryes, and A. M. Bronstein.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Karlinsky_RepMet_Representative-Based_Metric_Learning_for_Classification_and_Few-Shot_Object_Detection_CVPR_2019_paper.pdf)
+[code](https://github.com/jshtok/RepMet)
 
 1. **Edge-labeling graph neural network for few-shot learning,** in CVPR, 2019.
 *J. Kim, T. Kim, S. Kim, and C. D. Yoo.*
@@ -340,14 +353,17 @@ Please cite our paper if you find it helpful.
 1. **Finding task-relevant features for few-shot learning by category traversal,** in CVPR, 2019.
 *H. Li, D. Eigen, S. Dodge, M. Zeiler, and X. Wang.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Finding_Task-Relevant_Features_for_Few-Shot_Learning_by_Category_Traversal_CVPR_2019_paper.pdf)
+[code](https://github.com/Clarifai/few-shot-ctm)
 
 1. **Revisiting local descriptor based image-to-class measure for few-shot learning,** in CVPR, 2019.
 *W. Li, L. Wang, J. Xu, J. Huo, Y. Gao, and J. Luo.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Revisiting_Local_Descriptor_Based_Image-To-Class_Measure_for_Few-Shot_Learning_CVPR_2019_paper.pdf)
+[code](https://github.com/WenbinLee/DN4)
 
 1. **TAFE-Net: Task-aware feature embeddings for low shot learning,** in CVPR, 2019.
 *X. Wang, F. Yu, R. Wang, T. Darrell, and J. E. Gonzalez.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_TAFE-Net_Task-Aware_Feature_Embeddings_for_Low_Shot_Learning_CVPR_2019_paper.pdf)
+[code](https://github.com/ucbdrive/tafe-net)
 
 1. **Improved few-shot visual classification,** in CVPR, 2020.
 *P. Bateni, R. Goyal, V. Masrani, F. Wood, and L. Sigal.*
@@ -368,18 +384,22 @@ Please cite our paper if you find it helpful.
 1. **Few-shot learning via embedding adaptation with set-to-set functions,** in CVPR, 2020.
 *H.-J. Ye, H. Hu, D.-C. Zhan, and F. Sha.*
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Ye_Few-Shot_Learning_via_Embedding_Adaptation_With_Set-to-Set_Functions_CVPR_2020_paper.pdf)
+[code](https://github.com/Sha-Lab/FEAT)
 
 1. **DeepEMD: Few-shot image classification with differentiable earth mover's distance and structured classifiers,** in CVPR, 2020.
 *C. Zhang, Y. Cai, G. Lin, and C. Shen.*
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DeepEMD_Few-Shot_Image_Classification_With_Differentiable_Earth_Movers_Distance_and_CVPR_2020_paper.pdf)
+[code](https://github.com/icoz69/DeepEMD)
 
 1. **Few-shot text classification with distributional signatures,** in ICLR, 2020.
 *Y. Bao, M. Wu, S. Chang, and R. Barzilay.*
 [paper](https://openreview.net/pdf?id=H1emfT4twB)
+[code](https://github.com/YujiaBao/Distributional-Signatures)
 
 1. **Cross-domain few-shot classification via learned feature-wise transformation,** in ICLR, 2020.
 *H. Tseng, H. Lee, J. Huang, and M. Yang.*
 [paper](https://openreview.net/pdf?id=SJl5Np4tPr)
+[code](https://github.com/hytseng0509/CrossDomainFewShot)
 
 1. **Learning task-aware local representations for few-shot learning,** in IJCAI, 2020.
 *C. Dong, W. Li, J. Huo, Z. Gu, and Y. Gao.*
@@ -443,6 +463,7 @@ Please cite our paper if you find it helpful.
 1. **Adaptive posterior learning: Few-shot learning with a surprise-based memory module,** in ICLR, 2019. 
 *T. Ramalho and M. Garnelo.*
 [paper](https://openreview.net/forum?id=ByeSdsC9Km)
+[code](https://github.com/cogentlabs/apl)
 
 1. **Coloring with limited data: Few-shot colorization via memory augmented networks,** in CVPR, 2019. 
 *S. Yoo, H. Bahng, S. Chung, J. Lee, J. Chang, and J. Choo.*
@@ -513,6 +534,7 @@ and L. Van Gool.*
 1. **Variational prototyping-encoder: One-shot learning with prototypical images,** in CVPR, 2019.
 *J. Kim, T.-H. Oh, S. Lee, F. Pan, and I. S. Kweon*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Variational_Prototyping-Encoder_One-Shot_Learning_With_Prototypical_Images_CVPR_2019_paper.pdf)
+[code](https://github.com/mibastro/VPE)
 
 1. **Variational few-shot learning,** in ICCV, 2019.
 *J. Zhang, C. Zhao, B. Ni, M. Xu, and X. Yang.*
@@ -569,6 +591,7 @@ and L. Van Gool.*
 1. **Dynamic few-shot visual learning without forgetting,** in CVPR, 2018.
 *S. Gidaris and N. Komodakis.*
 [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gidaris_Dynamic_Few-Shot_Visual_CVPR_2018_paper.pdf)
+[code](https://github.com/gidariss/FewShotWithoutForgetting)
 
 1. **Low-shot learning with imprinted weights,** in CVPR, 2018.
 *H. Qi, M. Brown, and D. G. Lowe.*
@@ -585,6 +608,7 @@ and L. Van Gool.*
 1. **Incremental few-shot learning with attention attractor networks,** in NeurIPS, 2019.
 *M. Ren, R. Liao, E. Fetaya, and R. S. Zemel.*
 [paper](https://papers.nips.cc/paper/8769-incremental-few-shot-learning-with-attention-attractor-networks.pdf)
+[code](https://github.com/renmengye/inc-few-shot-attractor-public)
 
 1. **Low shot box correction for weakly supervised object detection,** in IJCAI, 2019.
 *T. Pan, B. Wang, G. Ding, J. Han, and J. Yong*
@@ -601,6 +625,7 @@ and L. Van Gool.*
 1. **Generating classification weights with gnn denoising autoencoders for few-shot learning,** in CVPR, 2019.
 *S. Gidaris, and N. Komodakis.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Gidaris_Generating_Classification_Weights_With_GNN_Denoising_Autoencoders_for_Few-Shot_Learning_CVPR_2019_paper.pdf)
+[code](https://github.com/gidariss/wDAE_GNN_FewShot)
 
 1. **Dense classification and implanting for few-shot learning,** in CVPR, 2019.
 *Y. Lifchitz, Y. Avrithis, S. Picard, and A. Bursuc*
@@ -625,6 +650,7 @@ and L. Van Gool.*
 1. **Few-shot NLG with pre-trained language model,** in ACL, 2020.
 *Z. Chen, H. Eavani, W. Chen, Y. Liu, and W. Y. Wang.*
 [paper](https://www.aclweb.org/anthology/2020.acl-main.18.pdf)
+[code](https://github.com/czyssrs/Few-Shot-NLG)
 
 1. **Span-ConveRT: Few-shot span extraction for dialog with pretrained conversational representations,** in ACL, 2020.
 *S. Coope, T. Farghly, D. Gerz, I. Vulic, and M. Henderson.*
@@ -675,6 +701,7 @@ and L. Van Gool.*
 1. **Meta-learning with latent embedding optimization,** in ICLR, 2019.
 *A. A. Rusu, D. Rao, J. Sygnowski, O. Vinyals, R. Pascanu, S. Osindero, and R. Hadsell.* 
 [paper](https://openreview.net/forum?id=BJgklhAcK7)
+[code](https://github.com/deepmind/leo)
 
 1. **Meta relational learning for few-shot link prediction in knowledge graphs,** in EMNLP, 2019.
 *M. Chen, W. Zhang, W. Zhang, Q. Chen, and H. Chen.*
@@ -687,6 +714,7 @@ and L. Van Gool.*
 1. **LGM-Net: Learning to generate matching networks for few-shot learning,** in ICML, 2019.
 *H. Li, W. Dong, X. Mei, C. Ma, F. Huang, and B.-G. Hu.*
 [paper](http://proceedings.mlr.press/v97/li19c/li19c.pdf)
+[code](https://github.com/likesiwell/LGM-Net/)
 
 1. **Meta R-CNN: Towards general solver for instance-level low-shot learning,** in ICCV, 2019.
 *X. Yan, Z. Chen, A. Xu, X. Wang, X. Liang, and L. Lin.*
@@ -699,6 +727,7 @@ and L. Van Gool.*
 1. **Meta-transfer learning for few-shot learning,** in CVPR, 2019.
 *Q. Sun, Y. Liu, T.-S. Chua, and B. Schiele.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_Meta-Transfer_Learning_for_Few-Shot_Learning_CVPR_2019_paper.pdf)
+[code](https://github.com/yaoyao-liu/meta-transfer-learning)
 
 1. **Meta-learning of neural architectures for few-shot learning,** in CVPR, 2020.
 *T. Elsken, B. Staffler, J. H. Metzen, and F. Hutter.*
@@ -746,6 +775,7 @@ and L. Van Gool.*
 1. **Optimization as a model for few-shot learning,** in ICLR, 2017.
 *S. Ravi and H. Larochelle.*
 [paper](https://openreview.net/forum?id=rJY0-Kcll)
+[code](https://github.com/twitter/meta-learning-lstm)
 
 
 ## [Applications](#content)
@@ -772,14 +802,17 @@ and L. Van Gool.*
 1. **Few-shot video-to-video synthesis,** in NeurIPS, 2019.
 *T.-C. Wang, M.-Y. Liu, A. Tao, G. Liu, J. Kautz, and B. Catanzaro.*
 [paper](https://papers.nips.cc/paper/8746-few-shot-video-to-video-synthesis.pdf)
+[code](https://github.com/NVlabs/few-shot-vid2vid)
 
 1. **Few-shot object detection via feature reweighting,** in ICCV, 2019.
 *B. Kang, Z. Liu, X. Wang, F. Yu, J. Feng, and T. Darrell.*
 [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kang_Few-Shot_Object_Detection_via_Feature_Reweighting_ICCV_2019_paper.pdf)
+[code](https://github.com/bingykang/Fewshot_Detection)
 
 1. **Few-shot unsupervised image-to-image translation,** in ICCV, 2019.
 *M.-Y. Liu, X. Huang, A. Mallya, T. Karras, T. Aila, J. Lehtinen, and J. Kautz.*
 [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Few-Shot_Unsupervised_Image-to-Image_Translation_ICCV_2019_paper.pdf)
+[code](https://github.com/NVlabs/FUNIT)
 
 1. **Feature weighting and boosting for few-shot segmentation,** in ICCV, 2019.
 *K. Nguyen, and S. Todorovic.*
@@ -792,6 +825,7 @@ and L. Van Gool.*
 1. **AMP: Adaptive masked proxies for few-shot segmentation,** in ICCV, 2019.
 *M. Siam, B. N. Oreshkin, and M. Jagersand.*
 [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Siam_AMP_Adaptive_Masked_Proxies_for_Few-Shot_Segmentation_ICCV_2019_paper.pdf)
+[code](https://github.com/MSiam/AdaptiveMaskedProxies)
 
 1. **Few-shot generalization for single-image 3D reconstruction via priors,** in ICCV, 2019.
 *B. Wallace, and B. Hariharan.*
@@ -800,6 +834,7 @@ and L. Van Gool.*
 1. **Few-shot adversarial learning of realistic neural talking head models,** in ICCV, 2019.
 *E. Zakharov, A. Shysheya, E. Burkov, and V. Lempitsky.*
 [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)
+[code](https://github.com/vincent-thevenin/Realistic-Neural-Talking-Head-Models)
 
 1. **Pyramid graph networks with connection attentions for region-based one-shot semantic segmentation,** in ICCV, 2019.
 *C. Zhang, G. Lin, F. Liu, J. Guo, Q. Wu, and R. Yao.*
@@ -812,6 +847,7 @@ and L. Van Gool.*
 1. **Few-shot learning with localization in realistic settings,** in CVPR, 2019.
 *D. Wertheimer, and B. Hariharan.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wertheimer_Few-Shot_Learning_With_Localization_in_Realistic_Settings_CVPR_2019_paper.pdf)
+[code](https://github.com/daviswer/fewshotlocal)
 
 1. **Improving few-shot user-specific gaze adaptation via gaze redirection synthesis,** in CVPR, 2019.
 *Y. Yu, G. Liu, and J.-M. Odobez.*
@@ -820,6 +856,7 @@ and L. Van Gool.*
 1. **CANet: Class-agnostic segmentation networks with iterative refinement and attentive few-shot learning,** in CVPR, 2019.
 *C. Zhang, G. Lin, F. Liu, R. Yao, and C. Shen.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf)
+[code](https://github.com/icoz69/CaNet)
 
 1. **3FabRec: Fast few-shot face alignment by reconstruction,** in CVPR, 2020.
 *B. Browatzki, and C. Wallraven.*
@@ -1023,6 +1060,7 @@ and L. Van Gool.*
 1. **FewRel: A large-scale supervised few-shot relation classification dataset with state-of-the-art evaluation,** in EMNLP, 2018.
 *X. Han, H. Zhu, P. Yu, Z. Wang, Y. Yao, Z. Liu, and M. Sun.*
 [paper](https://www.aclweb.org/anthology/D18-1514.pdf)
+[code](https://github.com/thunlp/FewRel)
 
 1. **The Omniglot challenge: A 3-year progress report,** in Current Opinion in Behavioral Sciences, 2019.
 *B. M. Lake, R. Salakhutdinov, and J. B. Tenenbaum.*
@@ -1031,6 +1069,7 @@ and L. Van Gool.*
 1. **FewRel 2.0: Towards more challenging few-shot relation classification,** in EMNLP, 2019.
 *T. Gao, X. Han, H. Zhu, Z. Liu, P. Li, M. Sun, and J. Zhou.*
 [paper](https://www.aclweb.org/anthology/D19-1649.pdf)
+[code](https://github.com/thunlp/FewRel)
 
 1. **META-DATASET: A dataset of datasets for learning to learn from few examples,** in ICLR, 2020.
 *E. Triantafillou, T. Zhu, V. Dumoulin, P. Lamblin, U. Evci, K. Xu, R. Goroshin, C. Gelada, K. Swersky, P. Manzagol, and H. Larochelle.*
@@ -1043,11 +1082,12 @@ and L. Van Gool.*
 1. **Few-shot object detection with attention-rpn and multi-relation detector,** in CVPR, 2020.
 *Q. Fan, W. Zhuo, C.-K. Tang, Y.-W. Tai.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fan_Few-Shot_Object_Detection_With_Attention-RPN_and_Multi-Relation_Detector_CVPR_2020_paper.pdf)
+[code](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset)
 
 1. **FSS-1000: A 1000-class dataset for few-shot segmentation,** in CVPR, 2020.
 *X. Li, T. Wei, Y. P. Chen, Y.-W. Tai, and C.-K. Tang.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_FSS-1000_A_1000-Class_Dataset_for_Few-Shot_Segmentation_CVPR_2020_paper.pdf)
-
+[code](https://github.com/HKUSTCV/FSS-1000)
 
 ## [Few-shot Learning and Zero-shot Learning](#content)
 
@@ -1070,6 +1110,7 @@ and L. Van Gool.*
 1. **Learning compositional representations for few-shot recognition,** in ICCV, 2019.
 *P. Tokmakov, Y.-X. Wang, and M. Hebert.*
 [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Tokmakov_Learning_Compositional_Representations_for_Few-Shot_Recognition_ICCV_2019_paper.pdf)
+[code](https://sites.google.com/view/comprepr/home)
 
 1. **Large-scale few-shot learning: Knowledge transfer with class hierarchy,** in CVPR, 2019.
 *A. Li, T. Luo, Z. Lu, T. Xiang, and L. Wang.*
@@ -1078,6 +1119,7 @@ and L. Van Gool.*
 1. **Generalized zero- and few-shot learning via aligned variational autoencoders,** in CVPR, 2019.
 *E. Schonfeld, S. Ebrahimi, S. Sinha, T. Darrell, and Z. Akata.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Schonfeld_Generalized_Zero-_and_Few-Shot_Learning_via_Aligned_Variational_Autoencoders_CVPR_2019_paper.pdf)
+[code](https://github.com/edgarschnfld/CADA-VAE-PyTorch)
 
 1. **F-VAEGAN-D2: A feature generating framework for any-shot learning,** in CVPR, 2019.
 *Y. Xian, S. Sharma, B. Schiele, and Z. Akata.*
