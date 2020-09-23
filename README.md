@@ -1065,6 +1065,7 @@ and L. Van Gool.*
 1. **The Omniglot challenge: A 3-year progress report,** in Current Opinion in Behavioral Sciences, 2019.
 *B. M. Lake, R. Salakhutdinov, and J. B. Tenenbaum.*
 [paper](https://arxiv.org/abs/1902.03477)
+[code](https://github.com/brendenlake/omniglot)
 
 1. **FewRel 2.0: Towards more challenging few-shot relation classification,** in EMNLP, 2019.
 *T. Gao, X. Han, H. Zhu, Z. Liu, P. Li, M. Sun, and J. Zhou.*
@@ -1074,10 +1075,12 @@ and L. Van Gool.*
 1. **META-DATASET: A dataset of datasets for learning to learn from few examples,** in ICLR, 2020.
 *E. Triantafillou, T. Zhu, V. Dumoulin, P. Lamblin, U. Evci, K. Xu, R. Goroshin, C. Gelada, K. Swersky, P. Manzagol, and H. Larochelle.*
 [paper](https://openreview.net/pdf?id=rkgAGAVKPr)
+[code](https://github.com/google-research/meta-dataset)
 
 1. **Meta-World: A benchmark and evaluation for multi-task and meta reinforcement learning,** arXiv preprint, 2019.
 *T. Yu, D. Quillen, Z. He, R. Julian, K. Hausman, C. Finn, and S. Levine.*
 [paper](https://arxiv.org/abs/1910.10897)
+[code](https://meta-world.github.io/)
 
 1. **Few-shot object detection with attention-rpn and multi-relation detector,** in CVPR, 2020.
 *Q. Fan, W. Zhuo, C.-K. Tang, Y.-W. Tai.*
