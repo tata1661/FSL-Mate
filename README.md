@@ -1044,8 +1044,6 @@ and L. Van Gool.*
 *A. Raghu, M. Raghu, S. Bengio, and O. Vinyals.*
 [paper](https://openreview.net/pdf?id=rkgMkCEtPB)
 
-## [Theories](#content)
-
 1. **Learning to learn around a common mean,** in NeurIPS, 2018.
 *G. Denevi, C. Ciliberto, D. Stamos, and M. Pontil.* 
 [paper](https://papers.nips.cc/paper/8220-learning-to-learn-around-a-common-mean.pdf)
