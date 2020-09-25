@@ -84,6 +84,7 @@ Please cite our paper if you find it helpful.
 1. **Diverse few-shot text classification with multiple metrics,** in NAACL-HLT, 2018.
 *M. Yu, X. Guo, J. Yi, S. Chang, S. Potdar, Y. Cheng, G. Tesauro, H. Wang, and B. Zhou.* 
 [paper](https://www.aclweb.org/anthology/N18-1109.pdf)
+[code](https://github.com/Gorov/DiverseFewShot_Amazon)
 
 1. **Delta-encoder: An effective sample synthesis method for few-shot object recognition,** in NeurIPS, 2018.
 *E. Schwartz, L. Karlinsky, J. Shtok, S. Harary, M. Marder, A. Kumar, R. Feris, R. Giryes, and A. Bronstein.*
