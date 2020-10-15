@@ -426,6 +426,13 @@ Please cite our paper if you find it helpful.
 *J. Chauhan, D. Nathani, and M. Kaul.*
 [paper](https://openreview.net/pdf?id=Bkeeca4Kvr)
 
+1. **SGAP-Net: Semantic-guided attentive prototypes network for few-shot human-object interaction recognition,** in AAAI, 2020.
+*Z. Ji, X. Liu, Y. Pang, and X. Li.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6764)
+
+1. **One-shot image classification by learning to restore prototypes,** in AAAI, 2020.
+*W. Xue, and W. Wang.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6130)
 
 ### Learning with External Memory
 
@@ -911,6 +918,12 @@ and L. Van Gool.*
 *J. Mu, P. Liang, and N. D. Goodman.*
 [paper](https://www.aclweb.org/anthology/2020.acl-main.436.pdf)
 
+
+1. **MarioNETte: Few-shot face reenactment preserving identity of unseen targets,** in AAAI, 2020.
+*S. Ha, M. Kersner, B. Kim, S. Seo, and D. Kim.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6721)
+
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -948,6 +961,10 @@ and L. Van Gool.*
 1. **Watch, try, learn: Meta-learning from demonstrations and rewards,** in ICLR, 2020.
 *A. Zhou, E. Jang, D. Kappler, A. Herzog, M. Khansari, P. Wohlhart, Y. Bai, M. Kalakrishnan, S. Levine, and C. Finn.*
 [paper](https://openreview.net/pdf?id=SJg5J6NtDr)
+
+1. **Few-shot Bayesian imitation learning with logical program policies,** in AAAI, 2020.
+*T. Silver, K. R. Allen, A. K. Lew, L. P. Kaelbling, and J. Tenenbaum.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6587)
 
 ### Natural Language Processing
 
@@ -1134,3 +1151,7 @@ and L. Van Gool.*
 1. **Adaptive cross-modal few-shot learning,** in NeurIPS, 2019.
 *C. Xing, N. Rostamzadeh, B. N. Oreshkin, and P. O. Pinheiro.*
 [paper](https://papers.nips.cc/paper/8731-adaptive-cross-modal-few-shot-learning.pdf)
+
+1. **Learning meta model for zero- and few-shot face anti-spoofing,** in AAAI, 2020.
+*Y. Qin, C. Zhao, X. Zhu, Z. Wang, Z. Yu, T. Fu, F. Zhou, J. Shi, and Z. Lei.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6866)
