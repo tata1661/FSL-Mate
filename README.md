@@ -135,7 +135,10 @@ Please cite our paper if you find it helpful.
 *Y. Wang, C. Xu, C. Liu, L. Zhang, and Y. Fu.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.pdf)
 
-
+1. **Neural snowball for few-shot relation learning,** in AAAI, 2020.
+*T. Gao, X. Han, R. Xie, Z. Liu, F. Lin, L. Lin, and M. Sun.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6281)
+[code](https://github.com/thunlp/Neural-Snowball)
 
 ## [Model](#content)
 
@@ -433,6 +436,19 @@ Please cite our paper if you find it helpful.
 *W. Xue, and W. Wang.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6130)
 
+1. **Differentiable meta-learning model for few-shot semantic segmentation,** in AAAI, 2020.
+*P. Tian, Z. Wu, L. Qi, L. Wang, Y. Shi, and Y. Gao.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6887)
+
+1. **Few-shot knowledge graph completion,** in AAAI, 2020.
+*C. Zhang, H. Yao, C. Huang, M. Jiang, Z. Li, and N. V. Chawla.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5698)
+
+1. **One-shot learning for long-tail visual relation detection,** in AAAI, 2020.
+*W. Wang, M. Wang, S. Wang, G. Long, L. Yao, G. Qi, and Y. Chen.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6904)
+[code](https://github.com/Witt-Wang/oneshot)
+
 ### Learning with External Memory
 
 1. **Meta-learning with memory-augmented neural networks,** in ICML, 2016.
@@ -563,6 +579,11 @@ and L. Van Gool.*
 *S. X. Hu, P. G. Moreno, Y. Xiao, X. Shen, G. Obozinski, N. D. Lawrence, and A. C. Damianou.*
 [paper](https://openreview.net/pdf?id=Hkg-xgrYvH)
 
+1. **Diversity transfer network for few-shot learning,** in AAAI, 2020.
+*M. Chen, Y. Fang, X. Wang, H. Luo, Y. Geng, X. Zhang, C. Huang, W. Liu, and B. Wang.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6628)
+[code](https://github.com/Yuxin-CV/DTN)
+
 ## [Algorithm](#content)
 
 ### Refining Existing Parameters
@@ -670,6 +691,14 @@ and L. Van Gool.*
 1. **Graph few-shot learning via knowledge transfer,** in AAAI, 2020.
 *H. Yao, C. Zhang, Y. Wei, M. Jiang, S. Wang, J. Huang, N. V. Chawla, and Z. Li.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6142)
+
+1. **Knowledge graph transfer network for few-shot recognition,** in AAAI, 2020.
+*R. Chen, T. Chen, X. Hui, H. Wu, G. Li, and L. Lin.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6630)
+
+1. **Context-Transformer: Tackling object confusion for few-shot detection,** in AAAI, 2020.
+*Z. Yang, Y. Wang, X. Chen, J. Liu, and Y. Qiao.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6957)
 
 ### Refining Meta-learned Parameters
 
