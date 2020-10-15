@@ -36,8 +36,8 @@ Please cite our paper if you find it helpful.
     1. [Natural Language Processing](#Natural-Language-Processing)
     1. [Acoustic Signal Processing](#Acoustic-Signal-Processing)
     1. [Others](#others)
-6. [Theories](##Theories)
-7. [Data Sets](##Data-Sets)
+6. [Theories](#Theories)
+7. [Data Sets](#Data-Sets)
 8. [Few-shot Learning and Zero-shot Learning](#Few-shot-Learning-and-Zero-shot-Learning)
 
 
