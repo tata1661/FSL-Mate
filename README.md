@@ -290,7 +290,6 @@ Please cite our paper if you find it helpful.
 *R. Hou, H. Chang, B. Ma, S. Shan, and X. Chen.*
 [paper](https://papers.nips.cc/paper/8655-cross-attention-network-for-few-shot-classification.pdf)
 
-
 1. **Hybrid attention-based prototypical networks for noisy few-shot relation classification,** in AAAI, 2019.
 *T. Gao, X. Han, Z. Liu, and M. Sun.*
 [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4604/4482)
@@ -667,6 +666,10 @@ and L. Van Gool.*
 1. **A baseline for few-shot image classification,** in ICLR, 2020.
 *G. S. Dhillon, P. Chaudhari, A. Ravichandran, and S. Soatto.*
 [paper](https://openreview.net/pdf?id=rylXBkrYDS)
+
+1. **Graph few-shot learning via knowledge transfer,** in AAAI, 2020.
+*H. Yao, C. Zhang, Y. Wei, M. Jiang, S. Wang, J. Huang, N. V. Chawla, and Z. Li.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6142)
 
 ### Refining Meta-learned Parameters
 
