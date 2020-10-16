@@ -449,10 +449,6 @@ Please cite our paper if you find it helpful.
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6904)
 [code](https://github.com/Witt-Wang/oneshot)
 
-1. **Multi-channel convolutional neural networks with adversarial training for few-shot relation classification (student abstract),** in AAAI, 2020.
-*Y. Xie, H. Xu, C. Yang, and K. Gao.*
-[paper](https://aaai.org/ojs/index.php/AAAI/article/view/7256)
-
 ### Learning with External Memory
 
 1. **Meta-learning with memory-augmented neural networks,** in ICML, 2016.
