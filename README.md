@@ -36,8 +36,8 @@ Please cite our paper if you find it helpful.
     1. [Natural Language Processing](#Natural-Language-Processing)
     1. [Acoustic Signal Processing](#Acoustic-Signal-Processing)
     1. [Others](#others)
-6. [Theories](##Theories)
-7. [Data Sets](##Data-Sets)
+6. [Theories](#Theories)
+7. [Data Sets](#Data-Sets)
 8. [Few-shot Learning and Zero-shot Learning](#Few-shot-Learning-and-Zero-shot-Learning)
 
 
@@ -84,6 +84,7 @@ Please cite our paper if you find it helpful.
 1. **Diverse few-shot text classification with multiple metrics,** in NAACL-HLT, 2018.
 *M. Yu, X. Guo, J. Yi, S. Chang, S. Potdar, Y. Cheng, G. Tesauro, H. Wang, and B. Zhou.* 
 [paper](https://www.aclweb.org/anthology/N18-1109.pdf)
+[code](https://github.com/Gorov/DiverseFewShot_Amazon)
 
 1. **Delta-encoder: An effective sample synthesis method for few-shot object recognition,** in NeurIPS, 2018.
 *E. Schwartz, L. Karlinsky, J. Shtok, S. Harary, M. Marder, A. Kumar, R. Feris, R. Giryes, and A. Bronstein.*
@@ -134,7 +135,15 @@ Please cite our paper if you find it helpful.
 *Y. Wang, C. Xu, C. Liu, L. Zhang, and Y. Fu.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.pdf)
 
+1. **Diversity transfer network for few-shot learning,** in AAAI, 2020.
+*M. Chen, Y. Fang, X. Wang, H. Luo, Y. Geng, X. Zhang, C. Huang, W. Liu, and B. Wang.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6628)
+[code](https://github.com/Yuxin-CV/DTN)
 
+1. **Neural snowball for few-shot relation learning,** in AAAI, 2020.
+*T. Gao, X. Han, R. Xie, Z. Liu, F. Lin, L. Lin, and M. Sun.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6281)
+[code](https://github.com/thunlp/Neural-Snowball)
 
 ## [Model](#content)
 
@@ -289,7 +298,6 @@ Please cite our paper if you find it helpful.
 *R. Hou, H. Chang, B. Ma, S. Shan, and X. Chen.*
 [paper](https://papers.nips.cc/paper/8655-cross-attention-network-for-few-shot-classification.pdf)
 
-
 1. **Hybrid attention-based prototypical networks for noisy few-shot relation classification,** in AAAI, 2019.
 *T. Gao, X. Han, Z. Liu, and M. Sun.*
 [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4604/4482)
@@ -425,6 +433,13 @@ Please cite our paper if you find it helpful.
 *J. Chauhan, D. Nathani, and M. Kaul.*
 [paper](https://openreview.net/pdf?id=Bkeeca4Kvr)
 
+1. **SGAP-Net: Semantic-guided attentive prototypes network for few-shot human-object interaction recognition,** in AAAI, 2020.
+*Z. Ji, X. Liu, Y. Pang, and X. Li.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6764)
+
+1. **One-shot image classification by learning to restore prototypes,** in AAAI, 2020.
+*W. Xue, and W. Wang.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6130)
 
 ### Learning with External Memory
 
@@ -659,6 +674,18 @@ and L. Van Gool.*
 1. **A baseline for few-shot image classification,** in ICLR, 2020.
 *G. S. Dhillon, P. Chaudhari, A. Ravichandran, and S. Soatto.*
 [paper](https://openreview.net/pdf?id=rylXBkrYDS)
+
+1. **Graph few-shot learning via knowledge transfer,** in AAAI, 2020.
+*H. Yao, C. Zhang, Y. Wei, M. Jiang, S. Wang, J. Huang, N. V. Chawla, and Z. Li.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6142)
+
+1. **Knowledge graph transfer network for few-shot recognition,** in AAAI, 2020.
+*R. Chen, T. Chen, X. Hui, H. Wu, G. Li, and L. Lin.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6630)
+
+1. **Context-Transformer: Tackling object confusion for few-shot detection,** in AAAI, 2020.
+*Z. Yang, Y. Wang, X. Chen, J. Liu, and Y. Qiao.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6957)
 
 ### Refining Meta-learned Parameters
 
@@ -910,6 +937,19 @@ and L. Van Gool.*
 *J. Mu, P. Liang, and N. D. Goodman.*
 [paper](https://www.aclweb.org/anthology/2020.acl-main.436.pdf)
 
+1. **MarioNETte: Few-shot face reenactment preserving identity of unseen targets,** in AAAI, 2020.
+*S. Ha, M. Kersner, B. Kim, S. Seo, and D. Kim.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6721)
+
+1. **One-shot learning for long-tail visual relation detection,** in AAAI, 2020.
+*W. Wang, M. Wang, S. Wang, G. Long, L. Yao, G. Qi, and Y. Chen.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6904)
+[code](https://github.com/Witt-Wang/oneshot)
+
+1. **Differentiable meta-learning model for few-shot semantic segmentation,** in AAAI, 2020.
+*P. Tian, Z. Wu, L. Qi, L. Wang, Y. Shi, and Y. Gao.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6887)
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -948,6 +988,10 @@ and L. Van Gool.*
 *A. Zhou, E. Jang, D. Kappler, A. Herzog, M. Khansari, P. Wohlhart, Y. Bai, M. Kalakrishnan, S. Levine, and C. Finn.*
 [paper](https://openreview.net/pdf?id=SJg5J6NtDr)
 
+1. **Few-shot Bayesian imitation learning with logical program policies,** in AAAI, 2020.
+*T. Silver, K. R. Allen, A. K. Lew, L. P. Kaelbling, and J. Tenenbaum.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6587)
+
 ### Natural Language Processing
 
 1. **High-risk learning: Acquiring new word vectors from tiny data,** in EMNLP, 2017.
@@ -969,6 +1013,10 @@ and L. Van Gool.*
 1. **Meta-reinforced multi-domain state generator for dialogue systems,** in ACL, 2020.
 *Y. Huang, J. Feng, M. Hu, X. Wu, X. Du, and S. Ma.*
 [paper](https://www.aclweb.org/anthology/2020.acl-main.636.pdf)
+
+1. **Few-shot knowledge graph completion,** in AAAI, 2020.
+*C. Zhang, H. Yao, C. Huang, M. Jiang, Z. Li, and N. V. Chawla.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5698)
 
 ### Acoustic Signal Processing
 
@@ -1133,3 +1181,7 @@ and L. Van Gool.*
 1. **Adaptive cross-modal few-shot learning,** in NeurIPS, 2019.
 *C. Xing, N. Rostamzadeh, B. N. Oreshkin, and P. O. Pinheiro.*
 [paper](https://papers.nips.cc/paper/8731-adaptive-cross-modal-few-shot-learning.pdf)
+
+1. **Learning meta model for zero- and few-shot face anti-spoofing,** in AAAI, 2020.
+*Y. Qin, C. Zhao, X. Zhu, Z. Wang, Z. Yu, T. Fu, F. Zhou, J. Shi, and Z. Lei.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6866)
