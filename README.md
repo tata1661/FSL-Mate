@@ -135,6 +135,11 @@ Please cite our paper if you find it helpful.
 *Y. Wang, C. Xu, C. Liu, L. Zhang, and Y. Fu.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.pdf)
 
+1. **Diversity transfer network for few-shot learning,** in AAAI, 2020.
+*M. Chen, Y. Fang, X. Wang, H. Luo, Y. Geng, X. Zhang, C. Huang, W. Liu, and B. Wang.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6628)
+[code](https://github.com/Yuxin-CV/DTN)
+
 1. **Neural snowball for few-shot relation learning,** in AAAI, 2020.
 *T. Gao, X. Han, R. Xie, Z. Liu, F. Lin, L. Lin, and M. Sun.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6281)
@@ -436,19 +441,6 @@ Please cite our paper if you find it helpful.
 *W. Xue, and W. Wang.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6130)
 
-1. **Differentiable meta-learning model for few-shot semantic segmentation,** in AAAI, 2020.
-*P. Tian, Z. Wu, L. Qi, L. Wang, Y. Shi, and Y. Gao.*
-[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6887)
-
-1. **Few-shot knowledge graph completion,** in AAAI, 2020.
-*C. Zhang, H. Yao, C. Huang, M. Jiang, Z. Li, and N. V. Chawla.*
-[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5698)
-
-1. **One-shot learning for long-tail visual relation detection,** in AAAI, 2020.
-*W. Wang, M. Wang, S. Wang, G. Long, L. Yao, G. Qi, and Y. Chen.*
-[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6904)
-[code](https://github.com/Witt-Wang/oneshot)
-
 ### Learning with External Memory
 
 1. **Meta-learning with memory-augmented neural networks,** in ICML, 2016.
@@ -578,11 +570,6 @@ and L. Van Gool.*
 1. **Empirical Bayes transductive meta-learning with synthetic gradients,** in ICLR, 2020.
 *S. X. Hu, P. G. Moreno, Y. Xiao, X. Shen, G. Obozinski, N. D. Lawrence, and A. C. Damianou.*
 [paper](https://openreview.net/pdf?id=Hkg-xgrYvH)
-
-1. **Diversity transfer network for few-shot learning,** in AAAI, 2020.
-*M. Chen, Y. Fang, X. Wang, H. Luo, Y. Geng, X. Zhang, C. Huang, W. Liu, and B. Wang.*
-[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6628)
-[code](https://github.com/Yuxin-CV/DTN)
 
 ## [Algorithm](#content)
 
@@ -950,11 +937,18 @@ and L. Van Gool.*
 *J. Mu, P. Liang, and N. D. Goodman.*
 [paper](https://www.aclweb.org/anthology/2020.acl-main.436.pdf)
 
-
 1. **MarioNETte: Few-shot face reenactment preserving identity of unseen targets,** in AAAI, 2020.
 *S. Ha, M. Kersner, B. Kim, S. Seo, and D. Kim.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6721)
 
+1. **One-shot learning for long-tail visual relation detection,** in AAAI, 2020.
+*W. Wang, M. Wang, S. Wang, G. Long, L. Yao, G. Qi, and Y. Chen.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6904)
+[code](https://github.com/Witt-Wang/oneshot)
+
+1. **Differentiable meta-learning model for few-shot semantic segmentation,** in AAAI, 2020.
+*P. Tian, Z. Wu, L. Qi, L. Wang, Y. Shi, and Y. Gao.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6887)
 
 ### Robotics
 
@@ -1019,6 +1013,10 @@ and L. Van Gool.*
 1. **Meta-reinforced multi-domain state generator for dialogue systems,** in ACL, 2020.
 *Y. Huang, J. Feng, M. Hu, X. Wu, X. Du, and S. Ma.*
 [paper](https://www.aclweb.org/anthology/2020.acl-main.636.pdf)
+
+1. **Few-shot knowledge graph completion,** in AAAI, 2020.
+*C. Zhang, H. Yao, C. Huang, M. Jiang, Z. Li, and N. V. Chawla.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5698)
 
 ### Acoustic Signal Processing
 
