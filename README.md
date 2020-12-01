@@ -2,7 +2,7 @@
 
 This repository contains few-shot learning (FSL) papers mentioned in our FSL survey published in ACM Computing Surveys (JCR Q1, CORE A*). 
 
-We will update this paper list to include new FSL papers periodically.
+We will update this paper list to include new FSL papers periodically (updated to 2020.12.01).
 
 ## Citation 
 
