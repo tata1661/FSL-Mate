@@ -145,6 +145,11 @@ Please cite our paper if you find it helpful.
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6281)
 [code](https://github.com/thunlp/Neural-Snowball)
 
+1. **Associative alignment for few-shot image classification,** in ECCV, 2020.
+*A. Afrasiyabi, J. Lalonde, and C. Gagné.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500018.pdf)
+[code](https://github.com/ArmanAfrasiyabi/associative-alignment-fs)
+
 ## [Model](#content)
 
 ### Multitask Learning
@@ -153,7 +158,7 @@ Please cite our paper if you find it helpful.
 *W. Yan, J. Yap, and G. Mori.*
 [paper](http://www.bmva.org/bmvc/2015/papers/paper037/index.html)
 
-1. **Label efficient learning of transferable representations acrosss domains and tasks,** in NeurIPS, 2017.
+1. **Label efficient learning of transferable representations across domains and tasks,** in NeurIPS, 2017.
 *Z. Luo, Y. Zou, J. Hoffman, and L. Fei-Fei.*
 [paper](https://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks.pdf)
 
@@ -189,6 +194,10 @@ Please cite our paper if you find it helpful.
 1. **Boosting few-shot visual learning with self-supervision,** in ICCV, 2019.
 *S. Gidaris, A. Bursuc, N. Komodakis, P. Pérez, and M. Cord*
 [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gidaris_Boosting_Few-Shot_Visual_Learning_With_Self-Supervision_ICCV_2019_paper.pdf)
+
+1. **When does self-supervision improve few-shot learning?,** in ECCV, 2020.
+*J. Su, S. Maji, and B. Hariharan.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520630.pdf)
 
 ### Embedding Learning
 
@@ -259,7 +268,7 @@ Please cite our paper if you find it helpful.
 *B. Oreshkin, P. R. López, and A. Lacoste.*
 [paper](https://papers.nips.cc/paper/7352-tadam-task-dependent-adaptive-metric-for-improved-few-shot-learning.pdf)
 
-1. **Meta-learning for semi- supervised few-shot classification,** in ICLR, 2018.
+1. **Meta-learning for semi-supervised few-shot classification,** in ICLR, 2018.
 *M. Ren, S. Ravi, E. Triantafillou, J. Snell, K. Swersky, J. B. Tenen- baum, H. Larochelle, and R. S. Zemel.* 
 [paper](https://openreview.net/forum?id=r1n5Osurf)
 [code](https://github.com/renmengye/few-shot-ssl-public)
@@ -277,7 +286,7 @@ Please cite our paper if you find it helpful.
 *L. Bertinetto, J. F. Henriques, P. Torr, and A. Vedaldi.* 
 [paper](https://openreview.net/forum?id=HyxnZh0ct7)
 
-1. **Learning to propopagate labels: Transductive propagation network for few-shot learning,** in ICLR, 2019.
+1. **Learning to propagate labels: Transductive propagation network for few-shot learning,** in ICLR, 2019.
 *Y. Liu, J. Lee, M. Park, S. Kim, E. Yang, S. Hwang, and Y. Yang.*
 [paper](https://openreview.net/forum?id=SyVuRiC5K7)
 [code](https://github.com/csyanbin/TPN-pytorch)
@@ -340,9 +349,6 @@ Please cite our paper if you find it helpful.
 *Z. Wu, Y. Li, L. Guo, and K. Jia.*
 [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wu_PARN_Position-Aware_Relation_Networks_for_Few-Shot_Learning_ICCV_2019_paper.pdf)
 
-1. **Collect and select: Semantic alignment metric learning for few-shot learning,** in ICCV, 2019.
-*F. Hao, F. He, J. Cheng, L. Wang, J. Cao, D. Tao.*
-[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf)
 
 1. **PANet: Few-shot image semantic segmentation with prototype alignment,** in ICCV, 2019.
 *K. Wang, J. H. Liew, Y. Zou, D. Zhou, and J. Feng.*
@@ -440,6 +446,38 @@ Please cite our paper if you find it helpful.
 1. **One-shot image classification by learning to restore prototypes,** in AAAI, 2020.
 *W. Xue, and W. Wang.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6130)
+
+1. **Negative margin matters: Understanding margin in few-shot classification,** in ECCV, 2020.
+*B. Liu, Y. Cao, Y. Lin, Q. Li, Z. Zhang, M. Long, and H. Hu.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490426.pdf)
+[code](https://github.com/bl0/negative-margin.few-shot)
+
+1. **Prototype rectification for few-shot learning,** in ECCV, 2020.
+*J. Liu, L. Song, and Y. Qin.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460715.pdf)
+
+1. **Rethinking few-shot image classification: A good embedding is all you need?,** in ECCV, 2020.
+*Y. Tian, Y. Wang, D. Krishnan, J. B. Tenenbaum, and P. Isola.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590256.pdf)
+[code](https://github.com/WangYueFt/rfs/)
+
+1. **SEN: A novel feature normalization dissimilarity measure for prototypical few-shot learning networks,** in ECCV, 2020.
+*V. N. Nguyen, S. Løkse, K. Wickstrøm, M. Kampffmeyer, D. Roverso, and R. Jenssen.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680120.pdf)
+
+1. **TAFSSL: Task-adaptive feature sub-space learning for few-shot classification,** in ECCV, 2020.
+*M. Lichtenstein, P. Sattigeri, R. Feris, R. Giryes, and L. Karlinsky.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520511.pdf)
+
+1. **Attentive prototype few-shot learning with capsule network-based embedding,** in ECCV, 2020.
+*F. Wu, J. S.Smith, W. Lu, C. Pang, and B. Zhang.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730239.pdf)
+
+1. **Embedding propagation: Smoother manifold for few-shot classification,** in ECCV, 2020.
+*P. Rodríguez, I. Laradji, A. Drouin, and A. Lacoste.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710120.pdf)
+[code](https://github.com/ElementAI/embedding-propagation)
+
 
 ### Learning with External Memory
 
@@ -687,6 +725,11 @@ and L. Van Gool.*
 *Z. Yang, Y. Wang, X. Chen, J. Liu, and Y. Qiao.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6957)
 
+1. **Selecting relevant features from a multi-domain representation for few-shot classification,** in ECCV, 2020.
+*N. Dvornik, C. Schmid, and J. Mairal.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550766.pdf)
+[code](https://github.com/dvornikita/SUR)
+
 ### Refining Meta-learned Parameters
 
 1.  **Model-agnostic meta-learning for fast adaptation of deep networks,** in ICML, 2017.
@@ -796,6 +839,19 @@ and L. Van Gool.*
 *Y. Zhu, C. Liu, and S. Jiang.*
 [paper](https://www.ijcai.org/Proceedings/2020/0152.pdf)
 
+1. **An ensemble of epoch-wise empirical Bayes for few-shot learning,** in ECCV, 2020.
+*Y. Liu, B. Schiele, and Q. Sun.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610392.pdf)
+[code](https://gitlab.mpi-klsb.mpg.de/yaoyaoliu/e3bm)
+
+1. **Incremental few-shot meta-learning via indirect discriminant alignment,** in ECCV, 2020.
+*Q. Liu, O. Majumder, A. Achille, A. Ravichandran, R. Bhotika, and S. Soatto.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520664.pdf)
+
+1. **Model-agnostic boundary-adversarial sampling for test-time generalization in few-shot learning,** in ECCV, 2020.
+*J. Kim, H. Kim, and G. Kim.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460579.pdf)
+[code](https://github.com/jaekyeom/MABAS)
 
 ### Learning Search Steps
 
@@ -817,10 +873,6 @@ and L. Van Gool.*
 1. **One-shot action localization by learning sequence matching network,** in CVPR, 2018.
 *H. Yang, X. He, and F. Porikli.*
 [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_One-Shot_Action_Localization_CVPR_2018_paper.pdf)
-
-1. **Few-shot and zero-shot multi-label learning for structured label spaces,** in EMNLP, 2018.
-*A. Rios and R. Kavuluru.*
-[paper](https://www.aclweb.org/anthology/D18-1352.pdf)
 
 1. **Incremental few-shot learning for pedestrian attribute recognition,** in EMNLP, 2018.
 *L. Xiang, X. Jin, G. Ding, J. Han, and L. Li.*
@@ -950,6 +1002,69 @@ and L. Van Gool.*
 *P. Tian, Z. Wu, L. Qi, L. Wang, Y. Shi, and Y. Gao.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6887)
 
+1. **Part-aware prototype network for few-shot semantic segmentation,** in ECCV, 2020.
+*Y. Liu, X. Zhang, S. Zhang, and X. He.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540137.pdf)
+[code](https://github.com/Xiangyi1996/PPNet-PyTorch)
+
+1. **Prototype mixture models for few-shot semantic segmentation,** in ECCV, 2020.
+*B. Yang, C. Liu, B. Li, J. Jiao, and Q. Ye.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530749.pdf)
+[code](https://github.com/Yang-Bob/PMMs)
+
+1. **Self-supervision with superpixels: Training few-shot medical image segmentation without annotation,** in ECCV, 2020.
+*C. Ouyang, C. Biffi, C. Chen, T. Kart, H. Qiu, and D. Rueckert.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740749.pdf)
+[code](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation)
+
+1. **Few-shot action recognition with permutation-invariant attention,** in ECCV, 2020.
+*H. Zhang, L. Zhang, X. Qi, H. Li, P. H. S. Torr, and P. Koniusz.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500511.pdf)
+
+1. **Few-shot compositional font generation with dual memory,** in ECCV, 2020.
+*J. Cha, S. Chun, G. Lee, B. Lee, S. Kim, and H. Lee.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640715.pdf)
+[code](https://github.com/clovaai/dmfont)
+
+1. **Few-shot object detection and viewpoint estimation for objects in the wild,** in ECCV, 2020.
+*Y. Xiao, and R. Marlet.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620188.pdf)
+
+1. **Few-shot scene-adaptive anomaly detection,** in ECCV, 2020.
+*Y. Lu, F. Yu, M. K. K. Reddy, and Y. Wang.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500120.pdf)
+[code](https://github.com/yiweilu3/Few-shot-Scene-adaptive-Anomaly-Detection)
+
+1. **Few-shot semantic segmentation with democratic attention networks,** in ECCV, 2020.
+*H. Wang, X. Zhang, Y. Hu, Y. Yang, X. Cao, and X. Zhen.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580715.pdf)
+
+1. **Few-shot single-view 3-D object reconstruction with compositional priors,** in ECCV, 2020.
+*M. Michalkiewicz, S. Parisot, S. Tsogkas, M. Baktashmotlagh, A. Eriksson, and E. Belilovsky.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700613.pdf)
+
+1. **COCO-FUNIT: Few-shot unsupervised image translation with a content conditioned style encoder,** in ECCV, 2020.
+*K. Saito, K. Saenko, and M. Liu.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480392.pdf)
+[code](https://nvlabs.github.io/COCO-FUNIT/)
+
+1. **Deep complementary joint model for complex scene registration and few-shot segmentation on medical images,** in ECCV, 2020.
+*Y. He, T. Li, G. Yang, Y. Kong, Y. Chen, H. Shu, J. Coatrieux, J. Dillenseger, and S. Li.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630749.pdf)
+
+1. **Multi-scale positive sample refinement for few-shot object detection,** in ECCV, 2020.
+*J. Wu, S. Liu, D. Huang, and Y. Wang.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610443.pdf)
+[code](https://github.com/jiaxi-wu/MPSR)
+
+1. **Large-scale few-shot learning via multi-modal knowledge discovery,** in ECCV, 2020.
+*S. Wang, J. Yue, J. Liu, Q. Tian, and M. Wang.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550715.pdf)
+
+1. **Graph convolutional networks for learning with few clean and many noisy labels,** in ECCV, 2020.
+*A. Iscen, G. Tolias, Y. Avrithis, O. Chum, and C. Schmid.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550290.pdf)
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -1017,6 +1132,46 @@ and L. Van Gool.*
 1. **Few-shot knowledge graph completion,** in AAAI, 2020.
 *C. Zhang, H. Yao, C. Huang, M. Jiang, Z. Li, and N. V. Chawla.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/5698)
+
+1. **Universal natural language processing with limited annotations: Try few-shot textual entailment as a start,** in EMNLP, 2020.
+*W. Yin, N. F. Rajani, D. Radev, R. Socher, and C. Xiong.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.660.pdf)
+[code](https://github.com/salesforce/UniversalFewShotNLP)
+
+1. **Simple and effective few-shot named entity recognition with structured nearest neighbor learning,** in EMNLP, 2020.
+*Y. Yang, and A. Katiyar.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.516.pdf)
+[code](https://github.com/asappresearch/structshot)
+
+1. **Discriminative nearest neighbor few-shot intent detection by transferring natural language inference,** in EMNLP, 2020.
+*J. Zhang, K. Hashimoto, W. Liu, C. Wu, Y. Wan, P. Yu, R. Socher, and C. Xiong.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.411.pdf)
+[code](https://github.com/salesforce/DNNC-few-shot-intent)
+
+1. **Few-shot learning for opinion summarization,** in EMNLP, 2020.
+*A. Bražinskas, M. Lapata, and I. Titov.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.337.pdf)
+[code](https://github.com/abrazinskas/FewSum)
+
+1. **Adaptive attentional network for few-shot knowledge graph completion,** in EMNLP, 2020.
+*J. Sheng, S. Guo, Z. Chen, J. Yue, L. Wang, T. Liu, and H. Xu.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.131.pdf)
+[code](https://github.com/JiaweiSheng/FAAN)
+
+1. **Few-shot complex knowledge base question answering via meta reinforcement learning,** in EMNLP, 2020.
+*Y. Hua, Y. Li, G. Haffari, G. Qi, and T. Wu.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.469.pdf)
+[code](https://github.com/DevinJake/MRL-CQA)
+
+1. **Self-supervised meta-learning for few-shot natural language classification tasks,** in EMNLP, 2020.
+*T. Bansal, R. Jha, T. Munkhdalai, and A. McCallum.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.38.pdf)
+[code](https://github.com/iesl/metanlp)
+
+1. **Structural supervision improves few-shot learning and syntactic generalization in neural language models,** in EMNLP, 2020.
+*E. Wilcox, P. Qian, R. Futrell, R. Kohita, R. Levy, and M. Ballesteros.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.375.pdf)
+[code](https://github.com/wilcoxeg/fsl_invar)
 
 ### Acoustic Signal Processing
 
@@ -1138,13 +1293,24 @@ and L. Van Gool.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_FSS-1000_A_1000-Class_Dataset_for_Few-Shot_Segmentation_CVPR_2020_paper.pdf)
 [code](https://github.com/HKUSTCV/FSS-1000)
 
+1. **A broader study of cross-domain few-shot learning,** in ECCV, 2020.
+*Y. Guo, N. C. Codella, L. Karlinsky, J. V. Codella, J. R. Smith, K. Saenko, T. Rosing, and R. Feris.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720120.pdf)
+[code](https://github.com/IBM/cdfsl-benchmark)
+
+1. **Impact of base dataset design on few-shot image classification,** in ECCV, 2020.
+*O. Sbai, C. Couprie, and M. Aubry.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610579.pdf)
+[code](https://github.com/facebookresearch/fewshotDatasetDesign)
+
+
 ## [Few-shot Learning and Zero-shot Learning](#content)
 
-1. **Label-embedding for attribute-based classifcation,** in CVPR, 2013.
+1. **Label-embedding for attribute-based classification,** in CVPR, 2013.
 *Z. Akata, F. Perronnin, Z. Harchaoui, and C. Schmid.*
 [paper](http://openaccess.thecvf.com/content_cvpr_2013/papers/Akata_Label-Embedding_for_Attribute-Based_2013_CVPR_paper.pdf)
 
-1. **A unifed semantic embedding: Relating taxonomies and attributes,** in NeurIPS, 2014.
+1. **A unified semantic embedding: Relating taxonomies and attributes,** in NeurIPS, 2014.
 *S. J. Hwang and L. Sigal.*
 [paper](https://papers.nips.cc/paper/5289-a-unified-semantic-embedding-relating-taxonomies-and-attributes.pdf)
 
@@ -1185,3 +1351,15 @@ and L. Van Gool.*
 1. **Learning meta model for zero- and few-shot face anti-spoofing,** in AAAI, 2020.
 *Y. Qin, C. Zhao, X. Zhu, Z. Wang, Z. Yu, T. Fu, F. Zhou, J. Shi, and Z. Lei.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6866)
+
+1. **RD-GAN: Few/Zero-shot chinese character style transfer via radical decomposition and rendering,** in ECCV, 2020.
+*Y. Huang, M. He, L. Jin, and Y. Wang.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510154.pdf)
+
+1. **An empirical study on large-scale multi-label text classification including few and zero-shot labels,** in EMNLP, 2020.
+*I. Chalkidis, M. Fergadiotis, S. Kotitsas, P. Malakasiotis, N. Aletras, and I. Androutsopoulos.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.607.pdf)
+
+1. **Multi-label few/zero-shot learning with knowledge aggregated from multiple label graphs,** in EMNLP, 2020.
+*J. Lu, L. Du, M. Liu, and J. Dipnall.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.235.pdf)
