@@ -2,7 +2,10 @@
 
 This repository contains few-shot learning (FSL) papers mentioned in our FSL survey published in ACM Computing Surveys (JCR Q1, CORE A*). 
 
-We will update this paper list to include new FSL papers periodically (updated to 2020.12.01).
+For convenience, we also include public implementations of respective authors.
+
+We will update this paper list to include new FSL papers periodically. 
+The current version is updated on 2021.02.04.
 
 ## Citation 
 
@@ -11,9 +14,13 @@ Please cite our paper if you find it helpful.
 ```
 @article{wang2020generalizing,
   title={Generalizing from a few examples: A survey on few-shot learning},
-  author={Wang, Yaqing, Yao, Quanming, James T. Kwok, and Lionel M. Ni},
+  author={Wang, Yaqing and Yao, Quanming and Kwok, James T and Ni, Lionel M},
   journal={ACM Computing Surveys},
-  year={2020}
+  volume={53},
+  number={3},
+  pages={1--34},
+  year={2020},
+  publisher={ACM New York, NY, USA}
 }
 ```
 
@@ -39,15 +46,18 @@ Please cite our paper if you find it helpful.
 6. [Theories](#Theories)
 7. [Data Sets](#Data-Sets)
 8. [Few-shot Learning and Zero-shot Learning](#Few-shot-Learning-and-Zero-shot-Learning)
+9. [Software Library](#Software-Library)
 
 
 ## [Survey](#content)
+
 1. **Generalizing from a few examples: A survey on few-shot learning,** CSUR, 2020
 *Y. Wang, Q. Yao, J. T. Kwok, and L. M. Ni.*
 [paper](https://dl.acm.org/doi/10.1145/3386252?cid=99659542534)
 [arXiv](https://arxiv.org/abs/1904.05046)
 
 ## [Data](#content)
+
 1. **Learning from one example through shared densities on transforms,** in CVPR, 2000.
 *E. G. Miller, N. E. Matsakis, and P. A. Viola.*
 [paper](https://people.cs.umass.edu/~elm/papers/Miller_congealing.pdf)
@@ -149,6 +159,21 @@ Please cite our paper if you find it helpful.
 *A. Afrasiyabi, J. Lalonde, and C. Gagné.*
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500018.pdf)
 [code](https://github.com/ArmanAfrasiyabi/associative-alignment-fs)
+
+1. **Self-training for few-shot transfer across extreme task differences,** in ICLR, 2021.
+*C. P. Phoo, and B. Hariharan.*
+[paper](https://openreview.net/pdf?id=O3Y56aqpChA)
+
+1. **Information maximization for few-shot learning,** in NeurIPS, 2020.
+*M. Boudiaf, I. Ziko, J. Rony, J. Dolz, P. Piantanida, and I. B. Ayed.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/196f5641aa9dc87067da4ff90fd81e7b-Paper.pdf)
+[code](https://github.com/mboudiaf/TIM)
+
+1. **Free lunch for few-shot learning: Distribution calibration,** in ICLR, 2021.
+*S. Yang, L. Liu, and M. Xu.*
+[paper](https://openreview.net/pdf?id=JWOiYxMG92s)
+[code](https://github.com/ShuoYang-1998/ICLR2021-Oral_Distribution_Calibration)
+
 
 ## [Model](#content)
 
@@ -478,6 +503,16 @@ Please cite our paper if you find it helpful.
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710120.pdf)
 [code](https://github.com/ElementAI/embedding-propagation)
 
+1. **XtarNet: Learning to extract task-adaptive representation for incremental few-shot learning,** in ICML, 2020:.
+*S. W. Yoon, D. Kim, J. Seo, and J. Moon.*
+[paper](http://proceedings.mlr.press/v119/yoon20b/yoon20b.pdf)
+[code](https://github.com/EdwinKim3069/XtarNet)
+
+2. **Laplacian regularized few-shot learning,** in ICML, 2020.
+*I. M. Ziko, J. Dolz, E. Granger, and I. B. Ayed.*
+[paper](http://proceedings.mlr.press/v119/ziko20a/ziko20a.pdf)
+[code](https://github.com/imtiazziko/LaplacianShot)
+
 
 ### Learning with External Memory
 
@@ -608,6 +643,18 @@ and L. Van Gool.*
 1. **Empirical Bayes transductive meta-learning with synthetic gradients,** in ICLR, 2020.
 *S. X. Hu, P. G. Moreno, Y. Xiao, X. Shen, G. Obozinski, N. D. Lawrence, and A. C. Damianou.*
 [paper](https://openreview.net/pdf?id=Hkg-xgrYvH)
+
+1. **Few-shot relation extraction via bayesian meta-learning on relation graphs,** in ICML, 2020.
+*M. Qu, T. Gao, L. A. C. Xhonneux, and J. Tang.*
+[paper](http://proceedings.mlr.press/v119/qu20a/qu20a.pdf)
+[code](https://github.com/DeepGraphLearning/FewShotRE)
+
+1. **Interventional few-shot learning,** in NeurIPS, 2020.
+*Z. Yue, H. Zhang, Q. Sun, and X. Hua.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/1cc8a8ea51cd0adddf5dab504a285915-Paper.pdf)
+[code](https://github.com/yue-zhongqi/ifsl)
+
+
 
 ## [Algorithm](#content)
 
@@ -853,6 +900,31 @@ and L. Van Gool.*
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460579.pdf)
 [code](https://github.com/jaekyeom/MABAS)
 
+1. **Bayesian meta-learning for the few-shot setting via deep kernels,** in NeurIPS, 2020.
+*M. Patacchiola, J. Turner, E. J. Crowley, M. O'Boyle, and A. J. Storkey.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/b9cfe8b6042cf759dc4c0cccb27a6737-Paper.pdf)
+[code](https://github.com/BayesWatch/deep-kernel-transfer)
+
+1. **OOD-MAML: Meta-learning for few-shot out-of-distribution detection and classification,** in NeurIPS, 2020.
+*T. Jeong, and H. Kim.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/28e209b61a52482a0ae1cb9f5959c792-Paper.pdf)
+[code](https://github.com/twj-KAIST/OOD-MAML)
+
+1. **Unraveling meta-learning: Understanding feature representations for few-shot tasks,** in ICML, 2020.
+*M. Goldblum, S. Reich, L. Fowl, R. Ni, V. Cherepanova, and T. Goldstein.*
+[paper](http://proceedings.mlr.press/v119/goldblum20a/goldblum20a.pdf)
+[code](https://github.com/goldblum/FeatureClustering)
+
+1. **Node classification on graphs with few-shot novel labels via meta transformed network embedding,** in NeurIPS, 2020.
+*L. Lan, P. Wang, X. Du, K. Song, J. Tao, and X. Guan.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/c055dcc749c2632fd4dd806301f05ba6-Paper.pdf)
+
+1. **Adversarially robust few-shot learning: A meta-learning approach,** in NeurIPS, 2020.
+*M. Goldblum, L. Fowl, and T. Goldstein.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/cfee398643cbc3dc5eefc89334cacdc1-Paper.pdf)
+[code](https://github.com/goldblum/AdversarialQuerying)
+
+
 ### Learning Search Steps
 
 1. **Optimization as a model for few-shot learning,** in ICLR, 2017.
@@ -1065,6 +1137,44 @@ and L. Van Gool.*
 *A. Iscen, G. Tolias, Y. Avrithis, O. Chum, and C. Schmid.*
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550290.pdf)
 
+1. **Self-supervised few-shot learning on point clouds,** in NeurIPS, 2020.
+*C. Sharma, and M. Kaul.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/50c1f44e426560f3f2cdcb3e19e39903-Paper.pdf)
+[code](https://github.com/charusharma1991/SSL_PointClouds)
+
+1. **Restoring negative information in few-shot object detection,** in NeurIPS, 2020.
+*Y. Yang, F. Wei, M. Shi, and G. Li.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/240ac9371ec2671ae99847c3ae2e6384-Paper.pdf)
+[code](https://github.com/yang-yk/NP-RepMet)
+
+1. **Few-shot image generation with elastic weight consolidation,** in NeurIPS, 2020.
+*Y. Li, R. Zhang, J. (. Lu, and E. Shechtman.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/b6d767d2f8ed5d21a44b0e5886680cb9-Paper.pdf)
+
+1. **Few-shot visual reasoning with meta-analogical contrastive learning,** in NeurIPS, 2020.
+*Y. Kim, J. Shin, E. Yang, and S. J. Hwang.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/c39e1a03859f9ee215bc49131d0caf33-Paper.pdf)
+
+1. **Crosstransformers: spatially-aware few-shot transfer,** in NeurIPS, 2020.
+*C. Doersch, A. Gupta, and A. Zisserman.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/fa28c6cdf8dd6f41a657c3d7caa5c709-Paper.pdf)
+
+1. **Make one-shot video object segmentation efficient again,** in NeurIPS, 2020.
+*T. Meinhardt, and L. Leal-Taixé.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/781397bc0630d47ab531ea850bddcf63-Paper.pdf)
+[code](https://github.com/dvl-tum/e-osvos)
+
+1. **Frustratingly simple few-shot object detection,** in ICML, 2020.
+*X. Wang, T. E. Huang, J. Gonzalez, T. Darrell, and F. Yu.*
+[paper](http://proceedings.mlr.press/v119/wang20j/wang20j.pdf)
+[code](https://github.com/ucbdrive/few-shot-object-detection)
+
+1. **Adversarial style mining for one-shot unsupervised domain adaptation,** in NeurIPS, 2020.
+*Y. Luo, P. Liu, T. Guan, J. Yu, and Y. Yang.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/781397bc0630d47ab531ea850bddcf63-Paper.pdf)
+[code](https://github.com/RoyalVane/ASM)
+
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -1106,6 +1216,11 @@ and L. Van Gool.*
 1. **Few-shot Bayesian imitation learning with logical program policies,** in AAAI, 2020.
 *T. Silver, K. R. Allen, A. K. Lew, L. P. Kaelbling, and J. Tenenbaum.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6587)
+
+1. **One solution is not all you need: Few-shot extrapolation via structured MaxEnt RL,** in NeurIPS, 2020.
+*S. Kumar, A. Kumar, S. Levine, and C. Finn.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/5d151d1059a6281335a10732fc49620e-Paper.pdf)
+
 
 ### Natural Language Processing
 
@@ -1173,6 +1288,16 @@ and L. Van Gool.*
 [paper](https://www.aclweb.org/anthology/2020.emnlp-main.375.pdf)
 [code](https://github.com/wilcoxeg/fsl_invar)
 
+1. **Language models are few-shot learners,** in NeurIPS, 2020.
+*T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhariwal, A. Neelakantan, P. Shyam, G. Sastry, A. Askell, S. Agarwal, A. Herbert-Voss, G. Krueger, T. Henighan, R. Child, A. Ramesh, D. Ziegler, J. Wu, C. Winter, C. Hesse, M. Chen, E. Sigler, M. Litwin, S. Gray, B. Chess, J. Clark, C. Berner, S. McCandlish, A. Radford, I. Sutskever, and D. Amodei.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
+
+1. **Uncertainty-aware self-training for few-shot text classification,** in NeurIPS, 2020.
+*S. Mukherjee, and A. Awadallah.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/f23d125da1e29e34c552f448610ff25f-Paper.pdf)
+[code](https://github.com/microsoft/UST)
+
+
 ### Acoustic Signal Processing
 
 1. **One-shot learning of generative speech concepts,** in CogSci, 2014. 
@@ -1238,7 +1363,14 @@ and L. Van Gool.*
 *D. Lian, Y. Zheng, Y. Xu, Y. Lu, L. Lin, P. Zhao, J. Huang, and S. Gao.*
 [paper](https://openreview.net/pdf?id=r1eowANFvr)
 
+1. **Learning to extrapolate knowledge: Transductive few-shot out-of-graph link prediction,** in NeurIPS, 2020:.
+*J. Baek, D. B. Lee, and S. J. Hwang.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/0663a4ddceacb40b095eda264a85f15c-Paper.pdf)
+[code](https://github.com/JinheonBaek/GEN)
+
+
 ## [Theories](#content)
+
 1. **A theoretical analysis of the number of shots in few-shot learning,** in ICLR, 2020.
 *T. Cao, M. T. Law, and S. Fidler.*
 [paper](https://openreview.net/pdf?id=HkgB2TNYPS)
@@ -1254,6 +1386,14 @@ and L. Van Gool.*
 1. **Meta-learning and universality: Deep representations and gradient descent can approximate any learning algorithm,** in ICLR, 2018.
 *C. Finn and S. Levine.*
 [paper](https://openreview.net/forum?id=HyjC5yWCW)
+
+1. **Robust meta-learning for mixed linear regression with small batches,** in NeurIPS, 2020.
+*W. Kong, R. Somani, S. Kakade, and S. Oh.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/3214a6d842cc69597f9edf26df552e43-Paper.pdf)
+
+1. **One-shot distributed ridge regression in high dimensions,** in ICML, 2020.
+*Y. Sheng, and E. Dobriban.*
+[paper](http://proceedings.mlr.press/v119/sheng20a/sheng20a.pdf)
 
 
 ## [Data Sets](#content)
@@ -1363,3 +1503,25 @@ and L. Van Gool.*
 1. **Multi-label few/zero-shot learning with knowledge aggregated from multiple label graphs,** in EMNLP, 2020.
 *J. Lu, L. Du, M. Liu, and J. Dipnall.*
 [paper](https://www.aclweb.org/anthology/2020.emnlp-main.235.pdf)
+
+1. **Emergent complexity and zero-shot transfer via unsupervised environment design,** in NeurIPS, 2020.
+*M. Dennis, N. Jaques, E. Vinitsky, A. Bayen, S. Russell, A. Critch, and S. Levine.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/985e9a46e10005356bbaf194249f6856-Paper.pdf)
+
+## [Software Library](#content)
+
+1. **Torchmeta,** a library for few-shot learning & meta-learning baselines written in *PyTorch*.
+[link](https://github.com/tristandeleu/pytorch-meta#torchmeta)
+
+1. **learn2learn,** a library for meta-learning baselines written in *PyTorch*.
+[link](https://github.com/learnables/learn2learn)
+
+1. **keras-fsl,** a library for few-shot learning baselines written in *Tensorflow*.
+[link](https://github.com/few-shot-learning/Keras-FewShotLearning)
+
+1. **PaddleFSL,** a library for few-shot learning baselines written in *PaddlePaddle*.
+[link](https://github.com/PaddlePaddle/Research/tree/master/CV/PaddleFSL)
+
+
+
+
