@@ -123,6 +123,7 @@ Please cite our paper if you find it helpful.
 1. **LaSO: Label-set operations networks for multi-label few-shot learning,** in CVPR, 2019.
 *A. Alfassy, L. Karlinsky, A. Aides, J. Shtok, S. Harary, R. Feris, R. Giryes, and A. M. Bronstein.*
 [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Douze_Low-Shot_Learning_With_CVPR_2018_paper.pdf)
+[code](https://github.com/leokarlin/LaSO)
 
 1. **Image deformation meta-networks for one-shot learning,** in CVPR, 2019.
 *Z. Chen, Y. Fu, Y.-X. Wang, L. Ma, W. Liu, and M. Hebert.*
