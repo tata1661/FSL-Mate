@@ -42,6 +42,7 @@ Please cite our paper if you find it helpful.
     1. [Robotics](#Robotics)
     1. [Natural Language Processing](#Natural-Language-Processing)
     1. [Acoustic Signal Processing](#Acoustic-Signal-Processing)
+    1. [Recommendation](#Recommendation)
     1. [Others](#others)
 6. [Theories](#Theories)
 7. [Data Sets](#Data-Sets)
@@ -161,14 +162,14 @@ Please cite our paper if you find it helpful.
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500018.pdf)
 [code](https://github.com/ArmanAfrasiyabi/associative-alignment-fs)
 
-1. **Self-training for few-shot transfer across extreme task differences,** in ICLR, 2021.
-*C. P. Phoo, and B. Hariharan.*
-[paper](https://openreview.net/pdf?id=O3Y56aqpChA)
-
 1. **Information maximization for few-shot learning,** in NeurIPS, 2020.
 *M. Boudiaf, I. Ziko, J. Rony, J. Dolz, P. Piantanida, and I. B. Ayed.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/196f5641aa9dc87067da4ff90fd81e7b-Paper.pdf)
 [code](https://github.com/mboudiaf/TIM)
+
+1. **Self-training for few-shot transfer across extreme task differences,** in ICLR, 2021.
+*C. P. Phoo, and B. Hariharan.*
+[paper](https://openreview.net/pdf?id=O3Y56aqpChA)
 
 1. **Free lunch for few-shot learning: Distribution calibration,** in ICLR, 2021.
 *S. Yang, L. Liu, and M. Xu.*
@@ -187,6 +188,10 @@ Please cite our paper if you find it helpful.
 1. **Label efficient learning of transferable representations across domains and tasks,** in NeurIPS, 2017.
 *Z. Luo, Y. Zou, J. Hoffman, and L. Fei-Fei.*
 [paper](https://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks.pdf)
+
+1. **Few-shot adversarial domain adaptation,** in NeurIPS, 2017.
+*S. Motiian, Q. Jones, S. Iranmanesh, and G. Doretto.*
+[paper](https://papers.nips.cc/paper/7244-few-shot-adversarial-domain-adaptation)
 
 1. **Multi-content GAN for few-shot font style transfer,** in CVPR, 2018. 
 *S. Azadi, M. Fisher, V. G. Kim, Z. Wang, E. Shechtman, and T. Darrell.*
@@ -209,10 +214,6 @@ Please cite our paper if you find it helpful.
 *Z. Hu, X. Li, C. Tu, Z. Liu, and M. Sun.*
 [paper](https://www.aclweb.org/anthology/C18-1041.pdf)
 
-1. **Few-shot adversarial domain adaptation,** in NeurIPS, 2017.
-*S. Motiian, Q. Jones, S. Iranmanesh, and G. Doretto.*
-[paper](https://papers.nips.cc/paper/7244-few-shot-adversarial-domain-adaptation)
-
 1. **Bidirectional one-shot unsupervised domain mapping,** in ICCV, 2019.
 *T. Cohen, and L. Wolf*
 [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cohen_Bidirectional_One-Shot_Unsupervised_Domain_Mapping_ICCV_2019_paper.pdf)
@@ -231,10 +232,6 @@ Please cite our paper if you find it helpful.
 *M. Fink.*
 [paper](https://papers.nips.cc/paper/2576-object-classification-from-a-single-example-utilizing-class-relevance-metrics.pdf)
 
-1. **Few-shot learning through an information retrieval lens,** in NeurIPS, 2017.
-*E. Triantafillou, R. Zemel, and R. Urtasun.*
-[paper](https://papers.nips.cc/paper/6820-few-shot-learning-through-an-information-retrieval-lens.pdf)
-
 1. **Optimizing one-shot recognition with micro-set learning,** in CVPR, 2010.
 *K. D. Tang, M. F. Tappen, R. Sukthankar, and C. H. Lampert.*
 [paper](http://www.cs.ucf.edu/~mtappen/pubs/cvpr10_oneshot.pdf)
@@ -251,9 +248,9 @@ Please cite our paper if you find it helpful.
 *L. Bertinetto, J. F. Henriques, J. Valmadre, P. Torr, and A. Vedaldi.*
 [paper](https://papers.nips.cc/paper/6068-learning-feed-forward-one-shot-learners.pdf)
 
-1. **Low data drug discovery with one-shot learning,** ACS Central Science, 2017.
-*H. Altae-Tran, B. Ramsundar, A. S. Pappu, and V. Pande.* 
-[paper](https://arxiv.org/abs/1611.03199)
+1. **Few-shot learning through an information retrieval lens,** in NeurIPS, 2017.
+*E. Triantafillou, R. Zemel, and R. Urtasun.*
+[paper](https://papers.nips.cc/paper/6820-few-shot-learning-through-an-information-retrieval-lens.pdf)
 
 1.  **Prototypical networks for few-shot learning,** in NeurIPS, 2017.
 *J. Snell, K. Swersky, and R. S. Zemel.*
@@ -374,7 +371,6 @@ Please cite our paper if you find it helpful.
 1. **PARN: Position-aware relation networks for few-shot learning,** in ICCV, 2019.
 *Z. Wu, Y. Li, L. Guo, and K. Jia.*
 [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wu_PARN_Position-Aware_Relation_Networks_for_Few-Shot_Learning_ICCV_2019_paper.pdf)
-
 
 1. **PANet: Few-shot image semantic segmentation with prototype alignment,** in ICCV, 2019.
 *K. Wang, J. H. Liew, Y. Zou, D. Zhou, and J. Feng.*
@@ -509,11 +505,18 @@ Please cite our paper if you find it helpful.
 [paper](http://proceedings.mlr.press/v119/yoon20b/yoon20b.pdf)
 [code](https://github.com/EdwinKim3069/XtarNet)
 
-2. **Laplacian regularized few-shot learning,** in ICML, 2020.
+1. **Laplacian regularized few-shot learning,** in ICML, 2020.
 *I. M. Ziko, J. Dolz, E. Granger, and I. B. Ayed.*
 [paper](http://proceedings.mlr.press/v119/ziko20a/ziko20a.pdf)
 [code](https://github.com/imtiazziko/LaplacianShot)
 
+1. **TAdaNet: Task-adaptive network for graph-enriched meta-learning,** in KDD, 2020.
+*Q. Suo, i. Chou, W. Zhong, and A. Zhang.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403230)
+
+1. **Concept learners for few-shot learning,** in ICLR, 2021.
+*K. Cao, M. Brbic, and J. Leskovec.*
+[paper](https://openreview.net/pdf?id=eJIJF3-LoZO)
 
 ### Learning with External Memory
 
@@ -655,6 +658,14 @@ and L. Van Gool.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/1cc8a8ea51cd0adddf5dab504a285915-Paper.pdf)
 [code](https://github.com/yue-zhongqi/ifsl)
 
+1. **Bayesian few-shot classification with one-vs-each pólya-gamma augmented gaussian processes,** in ICLR, 2021.
+*J. Snell, and R. Zemel.*
+[paper](https://openreview.net/pdf?id=lgNx56yZh8a)
+
+1. **Few-shot Bayesian optimization with deep kernel surrogates,** in ICLR, 2021.
+*M. Wistuba, and J. Grabocka.*
+[paper](https://openreview.net/pdf?id=bJxgv5C3sYc)
+
 
 
 ## [Algorithm](#content)
@@ -777,6 +788,11 @@ and L. Van Gool.*
 *N. Dvornik, C. Schmid, and J. Mairal.*
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550766.pdf)
 [code](https://github.com/dvornikita/SUR)
+
+1. **A universal representation transformer layer for few-shot image classification,** in ICLR, 2021.
+*L. Liu, W. L. Hamilton, G. Long, J. Jiang, and H. Larochelle.*
+[paper](https://openreview.net/pdf?id=04cII6MumYV)
+
 
 ### Refining Meta-learned Parameters
 
@@ -925,6 +941,12 @@ and L. Van Gool.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/cfee398643cbc3dc5eefc89334cacdc1-Paper.pdf)
 [code](https://github.com/goldblum/AdversarialQuerying)
 
+1. **BOIL: Towards representation change for few-shot learning,** in ICLR, 2021.
+*J. Oh, H. Yoo, C. Kim, and S. Yun.*
+[paper](https://openreview.net/pdf?id=umIdUL8rMH)
+[code](https://github.com/flennerhag/warpgrad)
+
+
 
 ### Learning Search Steps
 
@@ -1009,6 +1031,11 @@ and L. Van Gool.*
 *C. Zhang, G. Lin, F. Liu, R. Yao, and C. Shen.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_CANet_Class-Agnostic_Segmentation_Networks_With_Iterative_Refinement_and_Attentive_Few-Shot_CVPR_2019_paper.pdf)
 [code](https://github.com/icoz69/CaNet)
+
+1. **Multi-level Semantic Feature Augmentation for One-shot Learning,** in TIP, 2019.
+*Z. Chen, Y. Fu, Y. Zhang, Y.-G. Jiang, X. Xue, and L. Sigal.*
+[paper](https://arxiv.org/abs/1804.05298)
+[code](https://github.com/tankche1/Semantic-Feature-Augmentation-in-Few-shot-Learning)
 
 1. **3FabRec: Fast few-shot face alignment by reconstruction,** in CVPR, 2020.
 *B. Browatzki, and C. Wallraven.*
@@ -1175,6 +1202,13 @@ and L. Van Gool.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/781397bc0630d47ab531ea850bddcf63-Paper.pdf)
 [code](https://github.com/RoyalVane/ASM)
 
+1. **Disentangling 3D prototypical networks for few-shot concept learning,** in ICLR, 2021.
+*M. Prabhudesai, S. Lal, D. Patil, H. Tung, A. W. Harley, and K. Fragkiadaki.*
+[paper](https://openreview.net/pdf?id=-Lr-u0b42he)
+
+
+
+
 
 ### Robotics
 
@@ -1221,6 +1255,14 @@ and L. Van Gool.*
 1. **One solution is not all you need: Few-shot extrapolation via structured MaxEnt RL,** in NeurIPS, 2020.
 *S. Kumar, A. Kumar, S. Levine, and C. Finn.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/5d151d1059a6281335a10732fc49620e-Paper.pdf)
+
+1. **Bowtie networks: Generative modeling for joint few-shot recognition and novel-view synthesis,** in ICLR, 2021.
+*Z. Bao, Y. Wang, and M. Hebert.*
+[paper](https://openreview.net/pdf?id=ESG-DMKQKsD)
+
+1. **Wandering within a world: Online contextualized few-shot learning,** in ICLR, 2021.
+*M. Ren, M. L. Iuzzolino, M. C. Mozer, and R. Zemel.*
+[paper](https://openreview.net/pdf?id=oZIvHV04XgC)
 
 
 ### Natural Language Processing
@@ -1298,6 +1340,20 @@ and L. Van Gool.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/f23d125da1e29e34c552f448610ff25f-Paper.pdf)
 [code](https://github.com/microsoft/UST)
 
+1. **MetaNER: Named entity recognition with meta-learning,** in WWW, 2020.
+*J. Li, S. Shang, and L. Shao.*
+[paper](https://dl.acm.org/doi/10.1145/3366423.3380127)
+
+1. **Conditionally adaptive multi-task learning: Improving transfer learning in NLP using fewer parameters & less data,** in ICLR, 2021.
+*J. Pilault, A. E. hattami, and C. Pal.*
+[paper](https://openreview.net/pdf?id=de11dbHzAMF)
+[code](https://github.com/CAMTL/CA-MTL)
+
+1. **Revisiting few-sample BERT fine-tuning,** in ICLR, 2021.
+*T. Zhang, F. Wu, A. Katiyar, K. Q. Weinberger, and Y. Artzi.*
+[paper](https://openreview.net/pdf?id=cO1IH43yUF)
+[code](https://pytorch.org/docs/1.4.0/_modules/torch/optim/adamw.html)
+
 
 ### Acoustic Signal Processing
 
@@ -1330,19 +1386,78 @@ and L. Van Gool.*
 [paper](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2663.pdf)
 
 
-### Others
+
+### Recommendation
 
 1. **A meta-learning perspective on cold-start recommendations for items,** in NeurIPS, 2017.
 *M. Vartak, A. Thiagarajan, C. Miranda, J. Bratman, and H. Larochelle.*
 [paper](https://papers.nips.cc/paper/7266-a-meta-learning-perspective-on-cold-start-recommendations-for-items.pdf)
 
+1. **MeLU: Meta-learned user preference estimator for cold-start recommendation,** in KDD, 2019.
+*H. Lee, J. Im, S. Jang, H. Cho, and S. Chung.*
+[paper](https://arxiv.org/pdf/1908.00413.pdf)
+[code](https://github.com/hoyeoplee/MeLU)
+
+1. **Sequential scenario-specific meta learner for online recommendation,** in KDD, 2019.
+*Z. Du, X. Wang, H. Yang, J. Zhou, and J. Tang.*
+[paper](https://arxiv.org/pdf/1906.00391.pdf)
+[code](https://github.com/THUDM/ScenarioMeta)
+
+1. **Few-shot learning for new user recommendation in location-based social networks,** in WWW, 2020.
+*R. Li, X. Wu, X. Chen, and W. Wang.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3366423.3379994)
+
+1. **MAMO: Memory-augmented meta-optimization for cold-start recommendation,** in KDD, 2020.
+*M. Dong, F. Yuan, L. Yao, X. Xu, and L. Zhu.*
+[paper](https://arxiv.org/pdf/2007.03183.pdf)
+[code](https://github.com/dongmanqing/Code-for-MAMO)
+
+1. **Meta-learning on heterogeneous information networks for cold-start recommendation,** in KDD, 2020.
+*Y. Lu, Y. Fang, and C. Shi.*
+[paper](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6158&context=sis_research)
+[code](https://github.com/rootlu/MetaHIN)
+
+1. **MetaSelector: Meta-learning for recommendation with user-level adaptive model selection,** in WWW, 2020.
+*M. Luo, F. Chen, P. Cheng, Z. Dong, X. He, J. Feng, and Z. Li.*
+[paper](https://arxiv.org/pdf/2001.10378v1.pdf)
+
+1. **Fast adaptation for cold-start collaborative filtering with meta-learning,** in ICDM, 2020.
+*T. Wei, Z. Wu, R. Li, Z. Hu, F. Feng, X. H. Sun, and W. Wang.*
+[paper](https://ieeexplore.ieee.org/document/9338389)
+
+
+### Others
+
+1. **Low data drug discovery with one-shot learning,** ACS Central Science, 2017.
+*H. Altae-Tran, B. Ramsundar, A. S. Pappu, and V. Pande.* 
+[paper](https://arxiv.org/abs/1611.03199)
+
 1. **SMASH: One-shot model architecture search through hypernetworks,** in ICLR, 2018.
 *A. Brock, T. Lim, J. Ritchie, and N. Weston.*
 [paper](https://openreview.net/forum?id=rydeCEhs-)
 
+1. **MetaEXP: Interactive explanation and exploration of large knowledge graphs,** in WWW, 2018.
+*F. Behrens, S. Bischoff, P. Ladenburger, J. Rückin, L. Seidel, F. Stolp, M. Vaichenker, A. Ziegler, D. Mottin, F. Aghaei, E. Müller, M. Preusse, N. Müller, and M. Hunger.*
+[paper](https://meta-exp.github.io/resources/paper.pdf)
+[code](https://hpi.de/en/mueller/metaex)
+
+1. **SPARC: Self-paced network representation for few-shot rare category characterization,** in KDD, 2018.
+*D. Zhou, J. He, H. Yang, and W. Fan.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3219968)
+
+1. **MetaPred: Meta-learning for clinical risk prediction with limited patient electronic health records,** in KDD, 2019.
+*X. S. Zhang, F. Tang, H. H. Dodge, J. Zhou, and F. Wang.*
+[paper](https://arxiv.org/pdf/1905.03218.pdf)
+[code](https://github.com/sheryl-ai/MetaPred)
+
 1. **AffnityNet: Semi-supervised few-shot learning for disease type prediction,** in AAAI, 2019.
 *T. Ma, and A. Zhang.*
 [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/3898/3776)
+
+1. **Learning from multiple cities: A meta-learning approach for spatial-temporal prediction,** in WWW, 2019.
+*H. Yao, Y. Liu, Y. Wei, X. Tang, and Z. Li.*
+[paper](https://arxiv.org/pdf/1901.08518.pdf)
+[code](https://github.com/huaxiuyao/MetaST)
 
 1. **Few-shot pill recognition,** in CVPR, 2020.
 *S. Ling, A. Pastor, J. Li, Z. Che, J. Wang, J. Kim, and P. L. Callet.*
@@ -1369,16 +1484,25 @@ and L. Van Gool.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/0663a4ddceacb40b095eda264a85f15c-Paper.pdf)
 [code](https://github.com/JinheonBaek/GEN)
 
+1. **Repurposing pretrained models for robust out-of-domain few-shot learning,** in ICLR, 2021.
+*N. Kwon, H. Na, G. Huang, and S. Lacoste-Julien.*
+[paper](https://openreview.net/pdf?id=qkLMTphG5-h)
+[code](https://anonymous.4open.science/r/08ef52cf-456a-4e36-a408-04e1ad0bc5a9/)
+
+1. **Using optimal embeddings to learn new intents with few examples: An application in the insurance domain,** in KDD, 2020:.
+*S. Acharya, and G. Fung.*
+[paper](http://ceur-ws.org/Vol-2666/KDD_Converse20_paper_10.pdf)
+
+1. **Meta-learning for query conceptualization at web scale,** in KDD, 2020.
+*F. X. Han, D. Niu, H. Chen, W. Guo, S. Yan, and B. Long.*
+[paper](https://sites.ualberta.ca/~dniu/Homepage/Publications_files/fhan-KDD20.pdf)
+
+1. **Few-sample and adversarial representation learning for continual stream mining,** in WWW, 2020.
+*Z. Wang, Y. Wang, Y. Lin, E. Delord, and L. Khan.*
+[paper](https://dl.acm.org/doi/10.1145/3366423.3380153)
+
 
 ## [Theories](#content)
-
-1. **A theoretical analysis of the number of shots in few-shot learning,** in ICLR, 2020.
-*T. Cao, M. T. Law, and S. Fidler.*
-[paper](https://openreview.net/pdf?id=HkgB2TNYPS)
-
-1. **Rapid learning or feature reuse? Towards understanding the effectiveness of MAML,** in ICLR, 2020.
-*A. Raghu, M. Raghu, S. Bengio, and O. Vinyals.*
-[paper](https://openreview.net/pdf?id=rkgMkCEtPB)
 
 1. **Learning to learn around a common mean,** in NeurIPS, 2018.
 *G. Denevi, C. Ciliberto, D. Stamos, and M. Pontil.* 
@@ -1387,6 +1511,14 @@ and L. Van Gool.*
 1. **Meta-learning and universality: Deep representations and gradient descent can approximate any learning algorithm,** in ICLR, 2018.
 *C. Finn and S. Levine.*
 [paper](https://openreview.net/forum?id=HyjC5yWCW)
+
+1. **A theoretical analysis of the number of shots in few-shot learning,** in ICLR, 2020.
+*T. Cao, M. T. Law, and S. Fidler.*
+[paper](https://openreview.net/pdf?id=HkgB2TNYPS)
+
+1. **Rapid learning or feature reuse? Towards understanding the effectiveness of MAML,** in ICLR, 2020.
+*A. Raghu, M. Raghu, S. Bengio, and O. Vinyals.*
+[paper](https://openreview.net/pdf?id=rkgMkCEtPB)
 
 1. **Robust meta-learning for mixed linear regression with small batches,** in NeurIPS, 2020.
 *W. Kong, R. Somani, S. Kakade, and S. Oh.*
@@ -1404,6 +1536,11 @@ and L. Van Gool.*
 [paper](https://www.aclweb.org/anthology/D18-1514.pdf)
 [code](https://github.com/thunlp/FewRel)
 
+1. **Meta-World: A benchmark and evaluation for multi-task and meta reinforcement learning,** arXiv preprint, 2019.
+*T. Yu, D. Quillen, Z. He, R. Julian, K. Hausman, C. Finn, and S. Levine.*
+[paper](https://arxiv.org/abs/1910.10897)
+[code](https://meta-world.github.io/)
+
 1. **The Omniglot challenge: A 3-year progress report,** in Current Opinion in Behavioral Sciences, 2019.
 *B. M. Lake, R. Salakhutdinov, and J. B. Tenenbaum.*
 [paper](https://arxiv.org/abs/1902.03477)
@@ -1418,11 +1555,6 @@ and L. Van Gool.*
 *E. Triantafillou, T. Zhu, V. Dumoulin, P. Lamblin, U. Evci, K. Xu, R. Goroshin, C. Gelada, K. Swersky, P. Manzagol, and H. Larochelle.*
 [paper](https://openreview.net/pdf?id=rkgAGAVKPr)
 [code](https://github.com/google-research/meta-dataset)
-
-1. **Meta-World: A benchmark and evaluation for multi-task and meta reinforcement learning,** arXiv preprint, 2019.
-*T. Yu, D. Quillen, Z. He, R. Julian, K. Hausman, C. Finn, and S. Levine.*
-[paper](https://arxiv.org/abs/1910.10897)
-[code](https://meta-world.github.io/)
 
 1. **Few-shot object detection with attention-rpn and multi-relation detector,** in CVPR, 2020.
 *Q. Fan, W. Zhuo, C.-K. Tang, Y.-W. Tai.*
