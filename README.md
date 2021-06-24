@@ -226,6 +226,16 @@ Please cite our paper if you find it helpful.
 *J. Su, S. Maji, and B. Hariharan.*
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520630.pdf)
 
+1. **Pareto self-supervised training for few-shot learning,** in CVPR, 2021.
+*Z. Chen, J. Ge, H. Zhan, S. Huang, and D. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Pareto_Self-Supervised_Training_for_Few-Shot_Learning_CVPR_2021_paper.pdf)
+
+1. **Prototypical cross-domain self-supervised learning for few-shot unsupervised domain adaptation,** in CVPR, 2021.
+*X. Yue, Z. Zheng, S. Zhang, Y. Gao, T. Darrell, K. Keutzer, and A. S. Vincentelli.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yue_Prototypical_Cross-Domain_Self-Supervised_Learning_for_Few-Shot_Unsupervised_Domain_Adaptation_CVPR_2021_paper.pdf)
+
+
+
 ### Embedding Learning
 
 1. **Object classification from a single example utilizing class relevance metrics,** in NeurIPS, 2005.
@@ -252,7 +262,7 @@ Please cite our paper if you find it helpful.
 *E. Triantafillou, R. Zemel, and R. Urtasun.*
 [paper](https://papers.nips.cc/paper/6820-few-shot-learning-through-an-information-retrieval-lens.pdf)
 
-1.  **Prototypical networks for few-shot learning,** in NeurIPS, 2017.
+1. **Prototypical networks for few-shot learning,** in NeurIPS, 2017.
 *J. Snell, K. Swersky, and R. S. Zemel.*
 [paper](https://papers.nips.cc/paper/6996-prototypical-networks-for-few-shot-learning.pdf)
 [code](https://github.com/jakesnell/prototypical-networks)
@@ -287,7 +297,7 @@ Please cite our paper if you find it helpful.
 [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Fang_Zhao_Dynamic_Conditional_Networks_ECCV_2018_paper.pdf)
 [code](https://github.com/ZhaoJ9014/Dynamic-Conditional-Networks.PyTorch)
 
-1. **Tadam: Task dependent adaptive metric for improved few-shot learning,** in NeurIPS, 2018.
+1. **TADAM: Task dependent adaptive metric for improved few-shot learning,** in NeurIPS, 2018.
 *B. Oreshkin, P. R. López, and A. Lacoste.*
 [paper](https://papers.nips.cc/paper/7352-tadam-task-dependent-adaptive-metric-for-improved-few-shot-learning.pdf)
 
@@ -517,6 +527,39 @@ Please cite our paper if you find it helpful.
 1. **Concept learners for few-shot learning,** in ICLR, 2021.
 *K. Cao, M. Brbic, and J. Leskovec.*
 [paper](https://openreview.net/pdf?id=eJIJF3-LoZO)
+
+1. **Reinforced attention for few-shot learning and beyond,** in CVPR, 2021.
+*J. Hong, P. Fang, W. Li, T. Zhang, C. Simon, M. Harandi, and L. Petersson.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Hong_Reinforced_Attention_for_Few-Shot_Learning_and_Beyond_CVPR_2021_paper.pdf)
+
+1. **Mutual CRF-GNN for few-shot learning,** in CVPR, 2021.
+*S. Tang, D. Chen, L. Bai, K. Liu, Y. Ge, and W. Ouyang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Mutual_CRF-GNN_for_Few-Shot_Learning_CVPR_2021_paper.pdf)
+
+1. **Self-promoted prototype refinement for few-shot class-incremental learning,** in CVPR, 2021.
+*K. Zhu, Y. Cao, W. Zhai, J. Cheng, and Z. Zha.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Self-Promoted_Prototype_Refinement_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf)
+
+1. **Few-shot classification with feature map reconstruction networks,** in CVPR, 2021.
+*D. Wertheimer, L. Tang, and B. Hariharan.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Wertheimer_Few-Shot_Classification_With_Feature_Map_Reconstruction_Networks_CVPR_2021_paper.pdf)
+[code](https://github.com/Tsingularity/FRN)
+
+1. **ECKPN: Explicit class knowledge propagation network for transductive few-shot learning,** in CVPR, 2021.
+*C. Chen, X. Yang, C. Xu, X. Huang, and Z. Ma.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_ECKPN_Explicit_Class_Knowledge_Propagation_Network_for_Transductive_Few-Shot_Learning_CVPR_2021_paper.pdf)
+
+1. **Semantic-aware knowledge distillation for few-shot class-incremental learning,** in CVPR, 2021.
+*A. Cheraghian, S. Rahman, P. Fang, S. K. Roy, L. Petersson, and M. Harandi.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheraghian_Semantic-Aware_Knowledge_Distillation_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf)
+
+1. **Exploring complementary strengths of invariant and equivariant representations for few-shot learning,** in CVPR, 2021.
+*M. N. Rizve, S. Khan, F. S. Khan, and M. Shah.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Rizve_Exploring_Complementary_Strengths_of_Invariant_and_Equivariant_Representations_for_Few-Shot_CVPR_2021_paper.pdf)
+
+1. **Rethinking class relations: Absolute-relative supervised and unsupervised few-shot learning,** in CVPR, 2021.
+*H. Zhang, P. Koniusz, S. Jian, H. Li, and P. H. S. Torr.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Rethinking_Class_Relations_Absolute-Relative_Supervised_and_Unsupervised_Few-Shot_Learning_CVPR_2021_paper.pdf)
 
 ### Learning with External Memory
 
@@ -793,10 +836,18 @@ and L. Van Gool.*
 *L. Liu, W. L. Hamilton, G. Long, J. Jiang, and H. Larochelle.*
 [paper](https://openreview.net/pdf?id=04cII6MumYV)
 
+1. **Prototype completion with primitive knowledge for few-shot learning,** in CVPR, 2021.
+*B. Zhang, X. Li, Y. Ye, Z. Huang, and L. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Prototype_Completion_With_Primitive_Knowledge_for_Few-Shot_Learning_CVPR_2021_paper.pdf)
+[code](https://github.com/zhangbq-research/Prototype_Completion_for_FSL)
+
+1. **Few-shot incremental learning with continually evolved classifiers,** in CVPR, 2021.
+*C. Zhang, N. Song, G. Lin, Y. Zheng, P. Pan, and Y. Xu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Few-Shot_Incremental_Learning_With_Continually_Evolved_Classifiers_CVPR_2021_paper.pdf)
 
 ### Refining Meta-learned Parameters
 
-1.  **Model-agnostic meta-learning for fast adaptation of deep networks,** in ICML, 2017.
+1. **Model-agnostic meta-learning for fast adaptation of deep networks,** in ICML, 2017.
 *C. Finn, P. Abbeel, and S. Levine.*
 [paper](http://proceedings.mlr.press/v70/finn17a/finn17a.pdf?source=post_page---------------------------)
 
@@ -946,6 +997,9 @@ and L. Van Gool.*
 [paper](https://openreview.net/pdf?id=umIdUL8rMH)
 [code](https://github.com/flennerhag/warpgrad)
 
+1. **Few-shot open-set recognition by transformation consistency,** in CVPR, 2021.
+*M. Jeong, S. Choi, and C. Kim.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Jeong_Few-Shot_Open-Set_Recognition_by_Transformation_Consistency_CVPR_2021_paper.pdf)
 
 
 ### Learning Search Steps
@@ -1206,9 +1260,131 @@ and L. Van Gool.*
 *M. Prabhudesai, S. Lal, D. Patil, H. Tung, A. W. Harley, and K. Fragkiadaki.*
 [paper](https://openreview.net/pdf?id=-Lr-u0b42he)
 
+1. **Learning normal dynamics in videos with meta prototype network,** in CVPR, 2021.
+*H. Lv, C. Chen, Z. Cui, C. Xu, Y. Li, and J. Yang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Learning_Normal_Dynamics_in_Videos_With_Meta_Prototype_Network_CVPR_2021_paper.pdf)
+[code](https://github.com/ktr-hubrt/MPN/)
 
+1. **Learning dynamic alignment via meta-filter for few-shot learning,** in CVPR, 2021.
+*C. Xu, Y. Fu, C. Liu, C. Wang, J. Li, F. Huang, L. Zhang, and X. Xue.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Xu_Learning_Dynamic_Alignment_via_Meta-Filter_for_Few-Shot_Learning_CVPR_2021_paper.pdf)
 
+1. **Delving deep into many-to-many attention for few-shot video object segmentation,** in CVPR, 2021.
+*H. Chen, H. Wu, N. Zhao, S. Ren, and S. He.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Delving_Deep_Into_Many-to-Many_Attention_for_Few-Shot_Video_Object_Segmentation_CVPR_2021_paper.pdf)
+[code](https://github.com/scutpaul/DANet)
 
+1. **Adaptive prototype learning and allocation for few-shot segmentation,** in CVPR, 2021.
+*G. Li, V. Jampani, L. Sevilla-Lara, D. Sun, J. Kim, and J. Kim.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Adaptive_Prototype_Learning_and_Allocation_for_Few-Shot_Segmentation_CVPR_2021_paper.pdf)
+[code](https://git.io/ASGNet)
+
+1. **FAPIS: A few-shot anchor-free part-based instance segmenter,** in CVPR, 2021.
+*K. Nguyen, and S. Todorovic.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Nguyen_FAPIS_A_Few-Shot_Anchor-Free_Part-Based_Instance_Segmenter_CVPR_2021_paper.pdf)
+
+1. **FSCE: Few-shot object detection via contrastive proposal encoding,** in CVPR, 2021.
+*B. Sun, B. Li, S. Cai, Y. Yuan, and C. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_FSCE_Few-Shot_Object_Detection_via_Contrastive_Proposal_Encoding_CVPR_2021_paper.pdf)
+[code](https://github.com/MegviiDetection/FSCE)
+
+1. **Few-shot 3D point cloud semantic segmentation,** in CVPR, 2021.
+*N. Zhao, T. Chua, and G. H. Lee.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Few-Shot_3D_Point_Cloud_Semantic_Segmentation_CVPR_2021_paper.pdf)
+[code](https://github.com/Na-Z/attMPTI)
+
+1. **Generalized few-shot object detection without forgetting,** in CVPR, 2021.
+*Z. Fan, Y. Ma, Z. Li, and J. Sun.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Generalized_Few-Shot_Object_Detection_Without_Forgetting_CVPR_2021_paper.pdf)
+
+1. **Few-shot human motion transfer by personalized geometry and texture modeling,** in CVPR, 2021.
+*Z. Huang, X. Han, J. Xu, and T. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Few-Shot_Human_Motion_Transfer_by_Personalized_Geometry_and_Texture_Modeling_CVPR_2021_paper.pdf)
+[code](https://github.com/HuangZhiChao95/FewShotMotionTransfer)
+
+1. **Labeled from unlabeled: Exploiting unlabeled data for few-shot deep HDR deghosting,** in CVPR, 2021.
+*K. R. Prabhakar, G. Senthil, S. Agrawal, R. V. Babu, and R. K. S. S. Gorthi.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Prabhakar_Labeled_From_Unlabeled_Exploiting_Unlabeled_Data_for_Few-Shot_Deep_HDR_CVPR_2021_paper.pdf)
+
+1. **Few-shot transformation of common actions into time and space,** in CVPR, 2021.
+*P. Yang, P. Mettes, and C. G. M. Snoek.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Few-Shot_Transformation_of_Common_Actions_Into_Time_and_Space_CVPR_2021_paper.pdf)
+[code](https://github.com/PengWan-Yang/few-shot-transformer)
+
+1. **Temporal-relational crosstransformers for few-shot action recognition,** in CVPR, 2021.
+*T. Perrett, A. Masullo, T. Burghardt, M. Mirmehdi, and D. Damen.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Perrett_Temporal-Relational_CrossTransformers_for_Few-Shot_Action_Recognition_CVPR_2021_paper.pdf)
+
+1. **pixelNeRF: Neural radiance fields from one or few images,** in CVPR, 2021.
+*A. Yu, V. Ye, M. Tancik, and A. Kanazawa.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_pixelNeRF_Neural_Radiance_Fields_From_One_or_Few_Images_CVPR_2021_paper.pdf)
+[code](https://alexyu.net/pixelnerf)
+
+1. **Hallucination improves few-shot object detection,** in CVPR, 2021.
+*W. Zhang, and Y. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Hallucination_Improves_Few-Shot_Object_Detection_CVPR_2021_paper.pdf)
+
+1. **Few-shot object detection via classification refinement and distractor retreatment,** in CVPR, 2021.
+*Y. Li, H. Zhu, Y. Cheng, W. Wang, C. S. Teo, C. Xiang, P. Vadakkepat, and T. H. Lee.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Few-Shot_Object_Detection_via_Classification_Refinement_and_Distractor_Retreatment_CVPR_2021_paper.pdf)
+
+1. **Dense relation distillation with context-aware aggregation for few-shot object detection,** in CVPR, 2021.
+*H. Hu, S. Bai, A. Li, J. Cui, and L. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Dense_Relation_Distillation_With_Context-Aware_Aggregation_for_Few-Shot_Object_Detection_CVPR_2021_paper.pdf)
+[code](https://github.com/hzhupku/DCNet)
+
+1. **Few-shot segmentation without meta-learning: A good transductive inference is all you need? ,** in CVPR, 2021.
+*M. Boudiaf, H. Kervadec, Z. I. Masud, P. Piantanida, I. B. Ayed, and J. Dolz.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Boudiaf_Few-Shot_Segmentation_Without_Meta-Learning_A_Good_Transductive_Inference_Is_All_CVPR_2021_paper.pdf)
+[code](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation)
+
+1. **Few-shot image generation via cross-domain correspondence,** in CVPR, 2021.
+*U. Ojha, Y. Li, J. Lu, A. A. Efros, Y. J. Lee, E. Shechtman, and R. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ojha_Few-Shot_Image_Generation_via_Cross-Domain_Correspondence_CVPR_2021_paper.pdf)
+
+1. **Self-guided and cross-guided learning for few-shot segmentation,** in CVPR, 2021.
+*B. Zhang, J. Xiao, and T. Qin.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Self-Guided_and_Cross-Guided_Learning_for_Few-Shot_Segmentation_CVPR_2021_paper.pdf)
+[code](https://github.com/zbf1991/SCL)
+
+1. **Anti-aliasing semantic reconstruction for few-shot semantic segmentation,** in CVPR, 2021.
+*B. Liu, Y. Ding, J. Jiao, X. Ji, and Q. Ye.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Anti-Aliasing_Semantic_Reconstruction_for_Few-Shot_Semantic_Segmentation_CVPR_2021_paper.pdf)
+
+1. **Beyond max-margin: Class margin equilibrium for few-shot object detection,** in CVPR, 2021.
+*B. Li, B. Yang, C. Liu, F. Liu, R. Ji, and Q. Ye.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Beyond_Max-Margin_Class_Margin_Equilibrium_for_Few-Shot_Object_Detection_CVPR_2021_paper.pdf)
+[code](https://github.com/Bohao-Lee/CME)
+
+1. **Incremental few-shot instance segmentation,** in CVPR, 2021.
+*D. A. Ganea, B. Boom, and R. Poppe.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ganea_Incremental_Few-Shot_Instance_Segmentation_CVPR_2021_paper.pdf)
+[code](https://github.com/danganea/iMTFA)
+
+1. **Scale-aware graph neural network for few-shot semantic segmentation,** in CVPR, 2021.
+*G. Xie, J. Liu, H. Xiong, and L. Shao.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Xie_Scale-Aware_Graph_Neural_Network_for_Few-Shot_Semantic_Segmentation_CVPR_2021_paper.pdf)
+
+1. **Semantic relation reasoning for shot-stable few-shot object detection,** in CVPR, 2021.
+*C. Zhu, F. Chen, U. Ahmed, Z. Shen, and M. Savvides.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Semantic_Relation_Reasoning_for_Shot-Stable_Few-Shot_Object_Detection_CVPR_2021_paper.pdf)
+
+1. **Accurate few-shot object detection with support-query mutual guidance and hybrid loss,** in CVPR, 2021.
+*L. Zhang, S. Zhou, J. Guan, and J. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Accurate_Few-Shot_Object_Detection_With_Support-Query_Mutual_Guidance_and_Hybrid_CVPR_2021_paper.pdf)
+
+1. **Transformation invariant few-shot object detection,** in CVPR, 2021.
+*A. Li, and Z. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Transformation_Invariant_Few-Shot_Object_Detection_CVPR_2021_paper.pdf)
+
+1. **MetaHTR: Towards writer-adaptive handwritten text recognition,** in CVPR, 2021.
+*A. K. Bhunia, S. Ghose, A. Kumar, P. N. Chowdhury, A. Sain, and Y. Song.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Bhunia_MetaHTR_Towards_Writer-Adaptive_Handwritten_Text_Recognition_CVPR_2021_paper.pdf)
+
+1. **What if we only use real datasets for scene text recognition? toward scene text recognition with fewer labels,** in CVPR, 2021.
+*J. Baek, Y. Matsui, and K. Aizawa.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Baek_What_if_We_Only_Use_Real_Datasets_for_Scene_Text_CVPR_2021_paper.pdf)
+[code](https://github.com/ku21fan/STR-Fewer-Labels)
 
 ### Robotics
 
@@ -1640,6 +1816,11 @@ and L. Van Gool.*
 1. **Emergent complexity and zero-shot transfer via unsupervised environment design,** in NeurIPS, 2020.
 *M. Dennis, N. Jaques, E. Vinitsky, A. Bayen, S. Russell, A. Critch, and S. Levine.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/985e9a46e10005356bbaf194249f6856-Paper.pdf)
+
+1. **Learning graphs for knowledge transfer with limited labels,** in CVPR, 2021.
+*P. Ghosh, N. Saini, L. S. Davis, and A. Shrivastava.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghosh_Learning_Graphs_for_Knowledge_Transfer_With_Limited_Labels_CVPR_2021_paper.pdf)
+
 
 ## [Software Library](#content)
 
