@@ -47,7 +47,8 @@ Please cite our paper if you find it helpful.
 6. [Theories](#Theories)
 7. [Data Sets](#Data-Sets)
 8. [Few-shot Learning and Zero-shot Learning](#Few-shot-Learning-and-Zero-shot-Learning)
-9. [Software Library](#Software-Library)
+9. [Variants of Few-shot Learning](#Variants-of-Few-shot-Learning)
+10. [Software Library](#Software-Library)
 
 
 ## [Survey](#content)
@@ -176,6 +177,9 @@ Please cite our paper if you find it helpful.
 [paper](https://openreview.net/pdf?id=JWOiYxMG92s)
 [code](https://github.com/ShuoYang-1998/ICLR2021-Oral_Distribution_Calibration)
 
+1. **Parameterless transductive feature re-representation for few-shot learning,** in ICML, 2021.
+*W. Cui, and Y. Guo;.*
+[paper](http://proceedings.mlr.press/v139/cui21a/cui21a.pdf)
 
 ## [Model](#content)
 
@@ -184,14 +188,6 @@ Please cite our paper if you find it helpful.
 1. **Multi-task transfer methods to improve one-shot learning for multimedia event detection,** in BMVC, 2015.
 *W. Yan, J. Yap, and G. Mori.*
 [paper](http://www.bmva.org/bmvc/2015/papers/paper037/index.html)
-
-1. **Label efficient learning of transferable representations across domains and tasks,** in NeurIPS, 2017.
-*Z. Luo, Y. Zou, J. Hoffman, and L. Fei-Fei.*
-[paper](https://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks.pdf)
-
-1. **Few-shot adversarial domain adaptation,** in NeurIPS, 2017.
-*S. Motiian, Q. Jones, S. Iranmanesh, and G. Doretto.*
-[paper](https://papers.nips.cc/paper/7244-few-shot-adversarial-domain-adaptation)
 
 1. **Multi-content GAN for few-shot font style transfer,** in CVPR, 2018. 
 *S. Azadi, M. Fisher, V. G. Kim, Z. Wang, E. Shechtman, and T. Darrell.*
@@ -202,10 +198,6 @@ Please cite our paper if you find it helpful.
 *B. Liu, X. Wang, M. Dixit, R. Kwitt, and N. Vasconcelos.* 
 [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Feature_Space_Transfer_CVPR_2018_paper.pdf)
 
-1. **One-shot unsupervised cross domain translation,** in NeurIPS, 2018.
-*S. Benaim and L. Wolf.* 
-[paper](https://papers.nips.cc/paper/7480-one-shot-unsupervised-cross-domain-translation.pdf)
-
 1. **Fine-grained visual categorization using meta-learning optimization with sample selection of auxiliary data,** in ECCV, 2018.
 *Y. Zhang, H. Tang, and K. Jia.*
 [paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yabin_Zhang_Fine-Grained_Visual_Categorization_ECCV_2018_paper.pdf)
@@ -214,9 +206,6 @@ Please cite our paper if you find it helpful.
 *Z. Hu, X. Li, C. Tu, Z. Liu, and M. Sun.*
 [paper](https://www.aclweb.org/anthology/C18-1041.pdf)
 
-1. **Bidirectional one-shot unsupervised domain mapping,** in ICCV, 2019.
-*T. Cohen, and L. Wolf*
-[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cohen_Bidirectional_One-Shot_Unsupervised_Domain_Mapping_ICCV_2019_paper.pdf)
 
 1. **Boosting few-shot visual learning with self-supervision,** in ICCV, 2019.
 *S. Gidaris, A. Bursuc, N. Komodakis, P. Pérez, and M. Cord*
@@ -230,10 +219,10 @@ Please cite our paper if you find it helpful.
 *Z. Chen, J. Ge, H. Zhan, S. Huang, and D. Wang.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Pareto_Self-Supervised_Training_for_Few-Shot_Learning_CVPR_2021_paper.pdf)
 
-1. **Prototypical cross-domain self-supervised learning for few-shot unsupervised domain adaptation,** in CVPR, 2021.
-*X. Yue, Z. Zheng, S. Zhang, Y. Gao, T. Darrell, K. Keutzer, and A. S. Vincentelli.*
-[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yue_Prototypical_Cross-Domain_Self-Supervised_Learning_for_Few-Shot_Unsupervised_Domain_Adaptation_CVPR_2021_paper.pdf)
-
+1. **Bridging multi-task learning and meta-learning: Towards efficient training and effective adaptation,** in ICML, 2021.
+*H. Wang, H. Zhao, and B. Li;.*
+[paper](http://proceedings.mlr.press/v139/wang21ad/wang21ad.pdf)
+[code](https://github.com/AI-secure/multi-task-learning)
 
 
 ### Embedding Learning
@@ -442,11 +431,6 @@ Please cite our paper if you find it helpful.
 [paper](https://openreview.net/pdf?id=H1emfT4twB)
 [code](https://github.com/YujiaBao/Distributional-Signatures)
 
-1. **Cross-domain few-shot classification via learned feature-wise transformation,** in ICLR, 2020.
-*H. Tseng, H. Lee, J. Huang, and M. Yang.*
-[paper](https://openreview.net/pdf?id=SJl5Np4tPr)
-[code](https://github.com/hytseng0509/CrossDomainFewShot)
-
 1. **Learning task-aware local representations for few-shot learning,** in IJCAI, 2020.
 *C. Dong, W. Li, J. Huo, Z. Gu, and Y. Gao.*
 [paper](https://www.ijcai.org/Proceedings/2020/0100.pdf)
@@ -510,11 +494,6 @@ Please cite our paper if you find it helpful.
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710120.pdf)
 [code](https://github.com/ElementAI/embedding-propagation)
 
-1. **XtarNet: Learning to extract task-adaptive representation for incremental few-shot learning,** in ICML, 2020:.
-*S. W. Yoon, D. Kim, J. Seo, and J. Moon.*
-[paper](http://proceedings.mlr.press/v119/yoon20b/yoon20b.pdf)
-[code](https://github.com/EdwinKim3069/XtarNet)
-
 1. **Laplacian regularized few-shot learning,** in ICML, 2020.
 *I. M. Ziko, J. Dolz, E. Granger, and I. B. Ayed.*
 [paper](http://proceedings.mlr.press/v119/ziko20a/ziko20a.pdf)
@@ -536,10 +515,6 @@ Please cite our paper if you find it helpful.
 *S. Tang, D. Chen, L. Bai, K. Liu, Y. Ge, and W. Ouyang.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Mutual_CRF-GNN_for_Few-Shot_Learning_CVPR_2021_paper.pdf)
 
-1. **Self-promoted prototype refinement for few-shot class-incremental learning,** in CVPR, 2021.
-*K. Zhu, Y. Cao, W. Zhai, J. Cheng, and Z. Zha.*
-[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Self-Promoted_Prototype_Refinement_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf)
-
 1. **Few-shot classification with feature map reconstruction networks,** in CVPR, 2021.
 *D. Wertheimer, L. Tang, and B. Hariharan.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Wertheimer_Few-Shot_Classification_With_Feature_Map_Reconstruction_Networks_CVPR_2021_paper.pdf)
@@ -549,10 +524,6 @@ Please cite our paper if you find it helpful.
 *C. Chen, X. Yang, C. Xu, X. Huang, and Z. Ma.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_ECKPN_Explicit_Class_Knowledge_Propagation_Network_for_Transductive_Few-Shot_Learning_CVPR_2021_paper.pdf)
 
-1. **Semantic-aware knowledge distillation for few-shot class-incremental learning,** in CVPR, 2021.
-*A. Cheraghian, S. Rahman, P. Fang, S. K. Roy, L. Petersson, and M. Harandi.*
-[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheraghian_Semantic-Aware_Knowledge_Distillation_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf)
-
 1. **Exploring complementary strengths of invariant and equivariant representations for few-shot learning,** in CVPR, 2021.
 *M. N. Rizve, S. Khan, F. S. Khan, and M. Shah.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Rizve_Exploring_Complementary_Strengths_of_Invariant_and_Equivariant_Representations_for_Few-Shot_CVPR_2021_paper.pdf)
@@ -560,6 +531,11 @@ Please cite our paper if you find it helpful.
 1. **Rethinking class relations: Absolute-relative supervised and unsupervised few-shot learning,** in CVPR, 2021.
 *H. Zhang, P. Koniusz, S. Jian, H. Li, and P. H. S. Torr.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Rethinking_Class_Relations_Absolute-Relative_Supervised_and_Unsupervised_Few-Shot_Learning_CVPR_2021_paper.pdf)
+
+1. **Unsupervised embedding adaptation via early-stage feature reconstruction for few-shot classification,** in ICML, 2021.
+*D. H. Lee, and S. Chung.*
+[paper](http://proceedings.mlr.press/v139/lee21d/lee21d.pdf)
+[code](https://github.com/movinghoon/ESFR)
 
 ### Learning with External Memory
 
@@ -760,11 +736,6 @@ and L. Van Gool.*
 *A. Mahabal, J. Baldridge, B. K. Ayan, V. Perot, and D. Roth.* 
 [paper](https://www.aclweb.org/anthology/N19-1319.pdf)
 
-1. **Incremental few-shot learning with attention attractor networks,** in NeurIPS, 2019.
-*M. Ren, R. Liao, E. Fetaya, and R. S. Zemel.*
-[paper](https://papers.nips.cc/paper/8769-incremental-few-shot-learning-with-attention-attractor-networks.pdf)
-[code](https://github.com/renmengye/inc-few-shot-attractor-public)
-
 1. **Low shot box correction for weakly supervised object detection,** in IJCAI, 2019.
 *T. Pan, B. Wang, G. Ding, J. Han, and J. Yong*
 [paper](https://www.ijcai.org/Proceedings/2019/0125.pdf)
@@ -789,10 +760,6 @@ and L. Van Gool.*
 1. **Few-shot adaptive faster R-CNN,** in CVPR, 2019.
 *T. Wang, X. Zhang, L. Yuan, and J. Feng*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Few-Shot_Adaptive_Faster_R-CNN_CVPR_2019_paper.pdf)
-
-1. **Few-shot class-incremental learning,** in CVPR, 2020.
-*X. Tao, X. Hong, X. Chang, S. Dong, X. Wei, and Y. Gong*
-[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tao_Few-Shot_Class-Incremental_Learning_CVPR_2020_paper.pdf)
 
 1. **TransMatch: A transfer-learning scheme for semi-supervised few-shot learning,** in CVPR, 2020.
 *Z. Yu, L. Chen, Z. Cheng, and J. Luo*
@@ -827,23 +794,11 @@ and L. Van Gool.*
 *Z. Yang, Y. Wang, X. Chen, J. Liu, and Y. Qiao.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6957)
 
-1. **Selecting relevant features from a multi-domain representation for few-shot classification,** in ECCV, 2020.
-*N. Dvornik, C. Schmid, and J. Mairal.*
-[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550766.pdf)
-[code](https://github.com/dvornikita/SUR)
-
-1. **A universal representation transformer layer for few-shot image classification,** in ICLR, 2021.
-*L. Liu, W. L. Hamilton, G. Long, J. Jiang, and H. Larochelle.*
-[paper](https://openreview.net/pdf?id=04cII6MumYV)
-
 1. **Prototype completion with primitive knowledge for few-shot learning,** in CVPR, 2021.
 *B. Zhang, X. Li, Y. Ye, Z. Huang, and L. Zhang.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Prototype_Completion_With_Primitive_Knowledge_for_Few-Shot_Learning_CVPR_2021_paper.pdf)
 [code](https://github.com/zhangbq-research/Prototype_Completion_for_FSL)
 
-1. **Few-shot incremental learning with continually evolved classifiers,** in CVPR, 2021.
-*C. Zhang, N. Song, G. Lin, Y. Zheng, P. Pan, and Y. Xu.*
-[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Few-Shot_Incremental_Learning_With_Continually_Evolved_Classifiers_CVPR_2021_paper.pdf)
 
 ### Refining Meta-learned Parameters
 
@@ -1001,6 +956,20 @@ and L. Van Gool.*
 *M. Jeong, S. Choi, and C. Kim.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Jeong_Few-Shot_Open-Set_Recognition_by_Transformation_Consistency_CVPR_2021_paper.pdf)
 
+1. **Improving generalization in meta-learning via task augmentation,** in ICML, 2021.
+*H. Yao, L. Huang, L. Zhang, Y. Wei, L. Tian, J. Zou, J. Huang, and Z. (. Li.*
+[paper](http://proceedings.mlr.press/v139/yao21b/yao21b.pdf)
+
+1. **A representation learning perspective on the importance of train-validation splitting in meta-learning,** in ICML, 2021.
+*N. Saunshi, A. Gupta, and W. Hu.*
+[paper](http://proceedings.mlr.press/v139/saunshi21a/saunshi21a.pdf)
+[code](https://github.com/nsaunshi/meta_tr_val_split)
+
+1. **Data augmentation for meta-learning,** in ICML, 2021.
+*R. Ni, M. Goldblum, A. Sharaf, K. Kong, and T. Goldstein.*
+[paper](http://proceedings.mlr.press/v139/ni21a/ni21a.pdf)
+[code](https://github.com/RenkunNi/MetaAug)
+
 
 ### Learning Search Steps
 
@@ -1090,6 +1059,14 @@ and L. Van Gool.*
 *Z. Chen, Y. Fu, Y. Zhang, Y.-G. Jiang, X. Xue, and L. Sigal.*
 [paper](https://arxiv.org/abs/1804.05298)
 [code](https://github.com/tankche1/Semantic-Feature-Augmentation-in-Few-shot-Learning)
+
+1. **Few-shot pill recognition,** in CVPR, 2020.
+*S. Ling, A. Pastor, J. Li, Z. Che, J. Wang, J. Kim, and P. L. Callet.*
+[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ling_Few-Shot_Pill_Recognition_CVPR_2020_paper.pdf)
+
+1. **LT-Net: Label transfer by learning reversible voxel-wise correspondence for one-shot medical image segmentation,** in CVPR, 2020.
+*S. Wang, S. Cao, D. Wei, R. Wang, K. Ma, L. Wang, D. Meng, and Y. Zheng.*
+[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_LT-Net_Label_Transfer_by_Learning_Reversible_Voxel-Wise_Correspondence_for_One-Shot_CVPR_2020_paper.pdf)
 
 1. **3FabRec: Fast few-shot face alignment by reconstruction,** in CVPR, 2020.
 *B. Browatzki, and C. Wallraven.*
@@ -1404,14 +1381,6 @@ and L. Van Gool.*
 *Y. Duan, M. Andrychowicz, B. Stadie, J. Ho, J. Schneider, I. Sutskever, P. Abbeel, and W. Zaremba.*
 [paper](https://papers.nips.cc/paper/6709-one-shot-imitation-learning.pdf)
 
-1. **Continuous adaptation via meta-learning in nonstationary and competitive environments,** in ICLR, 2018.
-*M. Al-Shedivat, T. Bansal, Y. Burda, I. Sutskever, I. Mordatch, and P. Abbeel.*
-[paper](https://openreview.net/forum?id=Sk2u1g-0-)
-
-1. **Deep online learning via meta-learning: Continual adaptation for model-based RL,** in ICLR, 2018.
-*A. Nagabandi, C. Finn, and S. Levine.*
-[paper](https://openreview.net/references/pdf?id=ryuIpa6S4)
-
 1. **Meta-learning language-guided policy learning,** in ICLR, 2019.
 *J. D. Co-Reyes, A. Gupta, S. Sanjeev, N. Altieri, J. DeNero, P. Abbeel, and S. Levine.*
 [paper](https://openreview.net/forum?id=HkgSEnA5KQ)
@@ -1436,16 +1405,20 @@ and L. Van Gool.*
 *Z. Bao, Y. Wang, and M. Hebert.*
 [paper](https://openreview.net/pdf?id=ESG-DMKQKsD)
 
-1. **Wandering within a world: Online contextualized few-shot learning,** in ICLR, 2021.
-*M. Ren, M. L. Iuzzolino, M. C. Mozer, and R. Zemel.*
-[paper](https://openreview.net/pdf?id=oZIvHV04XgC)
-
+1. **Demonstration-conditioned reinforcement learning for few-shot imitation,** in ICML, 2021.
+*C. R. Dance, J. Perez, and T. Cachet.*
+[paper](http://proceedings.mlr.press/v139/dance21a/dance21a.pdf)
 
 ### Natural Language Processing
 
 1. **High-risk learning: Acquiring new word vectors from tiny data,** in EMNLP, 2017.
 *A. Herbelot and M. Baroni.*
 [paper](https://www.aclweb.org/anthology/D17-1030.pdf)
+
+1. **MetaEXP: Interactive explanation and exploration of large knowledge graphs,** in WWW, 2018.
+*F. Behrens, S. Bischoff, P. Ladenburger, J. Rückin, L. Seidel, F. Stolp, M. Vaichenker, A. Ziegler, D. Mottin, F. Aghaei, E. Müller, M. Preusse, N. Müller, and M. Hunger.*
+[paper](https://meta-exp.github.io/resources/paper.pdf)
+[code](https://hpi.de/en/mueller/metaex)
 
 1. **Few-shot representation learning for out-of-vocabulary words,** in ACL, 2019.
 *Z. Hu, T. Chen, K.-W. Chang, and Y. Sun.*
@@ -1516,6 +1489,11 @@ and L. Van Gool.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/f23d125da1e29e34c552f448610ff25f-Paper.pdf)
 [code](https://github.com/microsoft/UST)
 
+1. **Learning to extrapolate knowledge: Transductive few-shot out-of-graph link prediction,** in NeurIPS, 2020:.
+*J. Baek, D. B. Lee, and S. J. Hwang.*
+[paper](https://proceedings.neurips.cc/paper/2020/file/0663a4ddceacb40b095eda264a85f15c-Paper.pdf)
+[code](https://github.com/JinheonBaek/GEN)
+
 1. **MetaNER: Named entity recognition with meta-learning,** in WWW, 2020.
 *J. Li, S. Shang, and L. Shao.*
 [paper](https://dl.acm.org/doi/10.1145/3366423.3380127)
@@ -1529,6 +1507,25 @@ and L. Van Gool.*
 *T. Zhang, F. Wu, A. Katiyar, K. Q. Weinberger, and Y. Artzi.*
 [paper](https://openreview.net/pdf?id=cO1IH43yUF)
 [code](https://pytorch.org/docs/1.4.0/_modules/torch/optim/adamw.html)
+
+1. **Few-shot conversational dense retrieval,** in SIGIR, 2021.
+*S. Yu, Z. Liu, C. Xiong, T. Feng, and Z. Liu.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3462856)
+[code](https://github.com/thunlp/ConvDR)
+
+1. **Relational learning with gated and attentive neighbor aggregator for few-shot knowledge graph completion,** in SIGIR, 2021.
+*G. Niu, Y. Li, C. Tang, R. Geng, J. Dai, Q. Liu, H. Wang, J. Sun, F. Huang, and L. Si.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3462925)
+
+1. **Calibrate before use: Improving few-shot performance of language models,** in ICML, 2021.
+*Z. Zhao, E. Wallace, S. Feng, D. Klein, and S. Singh.*
+[paper](http://proceedings.mlr.press/v139/zhao21c/zhao21c.pdf)
+[code](https://www.github.com/tonyzhaozh/few-shot-learning)
+
+1. **Few-shot language coordination by modeling theory of mind,** in ICML, 2021.
+*H. Zhu, G. Neubig, and Y. Bisk.*
+[paper](http://proceedings.mlr.press/v139/zhu21d/zhu21d.pdf)
+[code](https://github.com/CLAW-Lab/ToM)
 
 
 ### Acoustic Signal Processing
@@ -1612,11 +1609,6 @@ and L. Van Gool.*
 *A. Brock, T. Lim, J. Ritchie, and N. Weston.*
 [paper](https://openreview.net/forum?id=rydeCEhs-)
 
-1. **MetaEXP: Interactive explanation and exploration of large knowledge graphs,** in WWW, 2018.
-*F. Behrens, S. Bischoff, P. Ladenburger, J. Rückin, L. Seidel, F. Stolp, M. Vaichenker, A. Ziegler, D. Mottin, F. Aghaei, E. Müller, M. Preusse, N. Müller, and M. Hunger.*
-[paper](https://meta-exp.github.io/resources/paper.pdf)
-[code](https://hpi.de/en/mueller/metaex)
-
 1. **SPARC: Self-paced network representation for few-shot rare category characterization,** in KDD, 2018.
 *D. Zhou, J. He, H. Yang, and W. Fan.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3219968)
@@ -1635,14 +1627,6 @@ and L. Van Gool.*
 [paper](https://arxiv.org/pdf/1901.08518.pdf)
 [code](https://github.com/huaxiuyao/MetaST)
 
-1. **Few-shot pill recognition,** in CVPR, 2020.
-*S. Ling, A. Pastor, J. Li, Z. Che, J. Wang, J. Kim, and P. L. Callet.*
-[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ling_Few-Shot_Pill_Recognition_CVPR_2020_paper.pdf)
-
-1. **LT-Net: Label transfer by learning reversible voxel-wise correspondence for one-shot medical image segmentation,** in CVPR, 2020.
-*S. Wang, S. Cao, D. Wei, R. Wang, K. Ma, L. Wang, D. Meng, and Y. Zheng.*
-[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_LT-Net_Label_Transfer_by_Learning_Reversible_Voxel-Wise_Correspondence_for_One-Shot_CVPR_2020_paper.pdf)
-
 1. **Federated meta-learning for fraudulent credit card detection,** in IJCAI, 2020.
 *W. Zheng, L. Yan, C. Gou, and F. Wang.*
 [paper](https://www.ijcai.org/Proceedings/2020/0642.pdf)
@@ -1655,16 +1639,6 @@ and L. Van Gool.*
 *D. Lian, Y. Zheng, Y. Xu, Y. Lu, L. Lin, P. Zhao, J. Huang, and S. Gao.*
 [paper](https://openreview.net/pdf?id=r1eowANFvr)
 
-1. **Learning to extrapolate knowledge: Transductive few-shot out-of-graph link prediction,** in NeurIPS, 2020:.
-*J. Baek, D. B. Lee, and S. J. Hwang.*
-[paper](https://proceedings.neurips.cc/paper/2020/file/0663a4ddceacb40b095eda264a85f15c-Paper.pdf)
-[code](https://github.com/JinheonBaek/GEN)
-
-1. **Repurposing pretrained models for robust out-of-domain few-shot learning,** in ICLR, 2021.
-*N. Kwon, H. Na, G. Huang, and S. Lacoste-Julien.*
-[paper](https://openreview.net/pdf?id=qkLMTphG5-h)
-[code](https://anonymous.4open.science/r/08ef52cf-456a-4e36-a408-04e1ad0bc5a9/)
-
 1. **Using optimal embeddings to learn new intents with few examples: An application in the insurance domain,** in KDD, 2020:.
 *S. Acharya, and G. Fung.*
 [paper](http://ceur-ws.org/Vol-2666/KDD_Converse20_paper_10.pdf)
@@ -1676,6 +1650,16 @@ and L. Van Gool.*
 1. **Few-sample and adversarial representation learning for continual stream mining,** in WWW, 2020.
 *Z. Wang, Y. Wang, Y. Lin, E. Delord, and L. Khan.*
 [paper](https://dl.acm.org/doi/10.1145/3366423.3380153)
+
+1. **Graph learning regularization and transfer learning for few-shot event detection,** in SIGIR, 2021.
+*V. D. Lai, M. V. Nguyen, T. H. Nguyen, and F. Dernoncourt.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3463054)
+[code](https://github.com/laiviet/ed-fsl)
+
+1. **A large-scale benchmark for few-shot program induction and synthesis,** in ICML, 2021.
+*F. Alet, J. Lopez-Contreras, J. Koppel, M. Nye, A. Solar-Lezama, T. Lozano-Perez, L. Kaelbling, and J. Tenenbaum.*
+[paper](http://proceedings.mlr.press/v139/alet21a/alet21a.pdf)
+[code](https://github.com/javierlc2000/progres)
 
 
 ## [Theories](#content)
@@ -1741,11 +1725,6 @@ and L. Van Gool.*
 *X. Li, T. Wei, Y. P. Chen, Y.-W. Tai, and C.-K. Tang.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_FSS-1000_A_1000-Class_Dataset_for_Few-Shot_Segmentation_CVPR_2020_paper.pdf)
 [code](https://github.com/HKUSTCV/FSS-1000)
-
-1. **A broader study of cross-domain few-shot learning,** in ECCV, 2020.
-*Y. Guo, N. C. Codella, L. Karlinsky, J. V. Codella, J. R. Smith, K. Saenko, T. Rosing, and R. Feris.*
-[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720120.pdf)
-[code](https://github.com/IBM/cdfsl-benchmark)
 
 1. **Impact of base dataset design on few-shot image classification,** in ECCV, 2020.
 *O. Sbai, C. Couprie, and M. Aubry.*
@@ -1820,6 +1799,109 @@ and L. Van Gool.*
 1. **Learning graphs for knowledge transfer with limited labels,** in CVPR, 2021.
 *P. Ghosh, N. Saini, L. S. Davis, and A. Shrivastava.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghosh_Learning_Graphs_for_Knowledge_Transfer_With_Limited_Labels_CVPR_2021_paper.pdf)
+
+## [Variants of Few-shot Learning](#content)
+
+1. **Label efficient learning of transferable representations across domains and tasks,** in NeurIPS, 2017.
+*Z. Luo, Y. Zou, J. Hoffman, and L. Fei-Fei.*
+[paper](https://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks.pdf)
+
+1. **Few-shot adversarial domain adaptation,** in NeurIPS, 2017.
+*S. Motiian, Q. Jones, S. Iranmanesh, and G. Doretto.*
+[paper](https://papers.nips.cc/paper/7244-few-shot-adversarial-domain-adaptation)
+
+1. **One-shot unsupervised cross domain translation,** in NeurIPS, 2018.
+*S. Benaim and L. Wolf.* 
+[paper](https://papers.nips.cc/paper/7480-one-shot-unsupervised-cross-domain-translation.pdf)
+
+1. **Continuous adaptation via meta-learning in nonstationary and competitive environments,** in ICLR, 2018.
+*M. Al-Shedivat, T. Bansal, Y. Burda, I. Sutskever, I. Mordatch, and P. Abbeel.*
+[paper](https://openreview.net/forum?id=Sk2u1g-0-)
+
+1. **Deep online learning via meta-learning: Continual adaptation for model-based RL,** in ICLR, 2018.
+*A. Nagabandi, C. Finn, and S. Levine.*
+[paper](https://openreview.net/references/pdf?id=ryuIpa6S4)
+
+1. **Incremental few-shot learning with attention attractor networks,** in NeurIPS, 2019.
+*M. Ren, R. Liao, E. Fetaya, and R. S. Zemel.*
+[paper](https://papers.nips.cc/paper/8769-incremental-few-shot-learning-with-attention-attractor-networks.pdf)
+[code](https://github.com/renmengye/inc-few-shot-attractor-public)
+
+1. **Bidirectional one-shot unsupervised domain mapping,** in ICCV, 2019.
+*T. Cohen, and L. Wolf*
+[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cohen_Bidirectional_One-Shot_Unsupervised_Domain_Mapping_ICCV_2019_paper.pdf)
+
+1. **XtarNet: Learning to extract task-adaptive representation for incremental few-shot learning,** in ICML, 2020.
+*S. W. Yoon, D. Kim, J. Seo, and J. Moon.*
+[paper](http://proceedings.mlr.press/v119/yoon20b/yoon20b.pdf)
+[code](https://github.com/EdwinKim3069/XtarNet)
+
+1. **Cross-domain few-shot classification via learned feature-wise transformation,** in ICLR, 2020.
+*H. Tseng, H. Lee, J. Huang, and M. Yang.*
+[paper](https://openreview.net/pdf?id=SJl5Np4tPr)
+[code](https://github.com/hytseng0509/CrossDomainFewShot)
+
+1. **Few-shot class-incremental learning,** in CVPR, 2020.
+*X. Tao, X. Hong, X. Chang, S. Dong, X. Wei, and Y. Gong*
+[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tao_Few-Shot_Class-Incremental_Learning_CVPR_2020_paper.pdf)
+
+1. **A broader study of cross-domain few-shot learning,** in ECCV, 2020.
+*Y. Guo, N. C. Codella, L. Karlinsky, J. V. Codella, J. R. Smith, K. Saenko, T. Rosing, and R. Feris.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720120.pdf)
+[code](https://github.com/IBM/cdfsl-benchmark)
+
+1. **Selecting relevant features from a multi-domain representation for few-shot classification,** in ECCV, 2020.
+*N. Dvornik, C. Schmid, and J. Mairal.*
+[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550766.pdf)
+[code](https://github.com/dvornikita/SUR)
+
+1. **Wandering within a world: Online contextualized few-shot learning,** in ICLR, 2021.
+*M. Ren, M. L. Iuzzolino, M. C. Mozer, and R. Zemel.*
+[paper](https://openreview.net/pdf?id=oZIvHV04XgC)
+
+1. **A universal representation transformer layer for few-shot image classification,** in ICLR, 2021.
+*L. Liu, W. L. Hamilton, G. Long, J. Jiang, and H. Larochelle.*
+[paper](https://openreview.net/pdf?id=04cII6MumYV)
+
+1. **Repurposing pretrained models for robust out-of-domain few-shot learning,** in ICLR, 2021.
+*N. Kwon, H. Na, G. Huang, and S. Lacoste-Julien.*
+[paper](https://openreview.net/pdf?id=qkLMTphG5-h)
+[code](https://anonymous.4open.science/r/08ef52cf-456a-4e36-a408-04e1ad0bc5a9/)
+
+1. **Prototypical cross-domain self-supervised learning for few-shot unsupervised domain adaptation,** in CVPR, 2021.
+*X. Yue, Z. Zheng, S. Zhang, Y. Gao, T. Darrell, K. Keutzer, and A. S. Vincentelli.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yue_Prototypical_Cross-Domain_Self-Supervised_Learning_for_Few-Shot_Unsupervised_Domain_Adaptation_CVPR_2021_paper.pdf)
+
+1. **Self-promoted prototype refinement for few-shot class-incremental learning,** in CVPR, 2021.
+*K. Zhu, Y. Cao, W. Zhai, J. Cheng, and Z. Zha.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_Self-Promoted_Prototype_Refinement_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf)
+
+1. **Semantic-aware knowledge distillation for few-shot class-incremental learning,** in CVPR, 2021.
+*A. Cheraghian, S. Rahman, P. Fang, S. K. Roy, L. Petersson, and M. Harandi.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheraghian_Semantic-Aware_Knowledge_Distillation_for_Few-Shot_Class-Incremental_Learning_CVPR_2021_paper.pdf)
+
+1. **Few-shot incremental learning with continually evolved classifiers,** in CVPR, 2021.
+*C. Zhang, N. Song, G. Lin, Y. Zheng, P. Pan, and Y. Xu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Few-Shot_Incremental_Learning_With_Continually_Evolved_Classifiers_CVPR_2021_paper.pdf)
+
+1. **Learning a universal template for few-shot dataset generalization,** in ICML, 2021.
+*E. Triantafillou, H. Larochelle, R. Zemel, and V. Dumoulin.*
+[paper](http://proceedings.mlr.press/v139/triantafillou21a/triantafillou21a.pdf)
+
+1. **GP-Tree: A gaussian process classifier for few-shot incremental learning,** in ICML, 2021.
+*I. Achituve, A. Navon, Y. Yemini, G. Chechik, and E. Fetaya.*
+[paper](http://proceedings.mlr.press/v139/achituve21a/achituve21a.pdf)
+[code](https://github.com/IdanAchituve/GP-Tree)
+
+1. **Addressing catastrophic forgetting in few-shot problems,** in ICML, 2021.
+*P. Yap, H. Ritter, and D. Barber.*
+[paper](http://proceedings.mlr.press/v139/yap21a/yap21a.pdf)
+[code](https://github.com/pauchingyap/boml)
+
+1. **Few-shot conformal prediction with auxiliary tasks,** in ICML, 2021.
+*A. Fisch, T. Schuster, T. Jaakkola, and D. Barzilay.*
+[paper](http://proceedings.mlr.press/v139/fisch21a/fisch21a.pdf)
+[code](https://github.com/ajfisch/few-shot-cp)
 
 
 ## [Software Library](#content)
