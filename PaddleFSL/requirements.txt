@@ -1,0 +1,5 @@
+numpy~=1.19.2
+requests~=2.24.0
+pillow==8.2.0
+tqdm~=4.27.0
+paddlenlp~=2.0.6
