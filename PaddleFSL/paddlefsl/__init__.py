@@ -7,4 +7,4 @@ from . import model_zoo
 from . import task_sampler
 from . import utils
 
-__version__ = '1.0.0a1'
+__version__ = '1.0.0'
