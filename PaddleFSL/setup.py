@@ -29,7 +29,7 @@ setuptools.setup(
     description=long_description,
     long_description=long_description,
     long_description_content_type="text/plain",
-    url="https://github.com/tianxin1860/fsl-collection-developing.git",
+    url="https://github.com/tata1661/FSL-Mate",
     packages=setuptools.find_packages(
         where='.', exclude=('examples*', 'tests*')),
     setup_requires=['cython', 'numpy'],
