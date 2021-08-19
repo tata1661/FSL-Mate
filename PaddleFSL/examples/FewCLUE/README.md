@@ -1,6 +1,11 @@
 # FewCLUE Tasks
 
-For FewCLUE tasks, we currently provide implementation of three algorithms: PET, P-Tuning and EFL. 
+For FewCLUE tasks, we currently provide implementation of three algorithms: PET, P-Tuning and EFL.  
+
+To run the FewCLUE's examples, users should first install paddlenlp-2.0.6 or later versions, see https://paddlenlp.readthedocs.io/zh/latest/get_started/installation.html.
+```bash
+pip install paddlenlp -i https://pypi.org/simple
+```
 
 ## Experiments
 We report accuracy on test_public.json of 9 FewCLUE datasets.
