@@ -1,8 +1,6 @@
 from paddlefsl.task_sampler import TaskSet
 import paddlefsl.utils as utils
 import pickle as pkl
-import tqdm
-import cv2
 import numpy as np
 import random
 from . import CVDataset
@@ -55,20 +53,20 @@ class TieredImageNet(CVDataset):
 
     """
     tar_url = 'https://drive.google.com/file/d/1fQ6lI5pCnOEt9MHWdqFN1cdSU2SbMKzx/view'
-    tar_name = 'tiered-imagenet.tar'
-    tar_md5 = 'e07e811b9f29362d159a9edd0d838c62'
+    tar_name = 'tiered-imagenet.tar.xz'
+    tar_md5 = 'a8a22d60d2d6d2bde6697d3a24389264'
     image_file = {'train': 'train_images_png.pkl',
                   'valid': 'val_images_png.pkl',
                   'test': 'test_images_png.pkl'}
-    image_md5 = {'train': 'e1a48fcfa1c8b3a0b402a19ba892adfb',
-                 'valid': '6162949244106b348e24264057f5b66e',
-                 'test': '4d9b27d03460a3b2c525c249655ae501'}
+    image_md5 = {'train': '0fcfb86f4423c40bc6799b9ebe8f3510',
+                 'valid': 'ca9f51a0106ca864a4a759233c4deb89',
+                 'test': '608ee004b81796ece2da6e5bb949ccaa'}
     label_file = {'train': 'train_labels.pkl',
                   'valid': 'val_labels.pkl',
                   'test': 'test_labels.pkl'}
     label_md5 = {'train': '608ee004b81796ece2da6e5bb949ccaa',
                  'valid': '755f959b068510cfc1abfde713cc734c',
-                 'test': 'f4a4636f7c27be7094a8f0d0aea576d7'}
+                 'test': '04543459f62dc3532cb20047b1282997'}
 
     def __init__(self,
                  mode,
@@ -114,8 +112,8 @@ class TieredImageNet(CVDataset):
                 utils.check_file_exist(self.root, self.label_file[self.mode], self.label_md5[self.mode]):
             print("Using downloaded and verified tiered-imagenet files.")
         elif utils.check_file_exist(self.root + '/..', self.tar_name, self.tar_md5):
-            print("Using downloaded and verified .tar file. Decompressing...")
-            utils.decompress(self.root + '/../' + self.tar_name, self.root + '/..')
+            print("Using downloaded and verified .tar.xz file. Decompressing...")
+            utils.decompress(self.root + '/../' + self.tar_name, self.root)
             print("Decompress finished.")
         else:
             error_info = "Data files not found. Please download our tiered-ImageNet file manually from\n" \
@@ -127,11 +125,7 @@ class TieredImageNet(CVDataset):
         image_file = self.root + '/' + self.image_file[self.mode]
         label_file = self.root + '/' + self.label_file[self.mode]
         with open(image_file, 'rb') as f:
-            image_data, image_list = pkl.load(f), []
-            for item in tqdm.tqdm(image_data, desc='decompress'):
-                image = cv2.imdecode(item, cv2.IMREAD_COLOR)
-                image = np.transpose(image, [2, 0, 1])
-                image_list.append(image)
+            image_list = pkl.load(f)
         with open(label_file, 'rb') as f:
             # full_label: Dict['label_specific': -, 'label_general': -, 'label_specific_str': -, 'label_general_str': -]
             full_label = pkl.load(f, encoding='bytes')

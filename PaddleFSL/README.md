@@ -62,7 +62,7 @@ We provide implementations of several high level algorithms in different few sho
 
 ## Contributors
 
-PaddleFSL is maintained by Yaqing Wang, Zijing Zhao and [Xin Tian](https://github.com/tianxin1860). 
+PaddleFSL is maintained by Yaqing Wang, [Zijing Zhao](https://github.com/JeremyZhao1998) and [Xin Tian](https://github.com/tianxin1860). 
 
 Please feel free to open an issue or [contact us](mailto:wangyaqing01@baidu.com) for feedbacks or advices. Thanks!
 

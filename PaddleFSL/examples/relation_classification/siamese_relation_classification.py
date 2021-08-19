@@ -8,93 +8,6 @@ from paddlefsl.model_zoo import siamese
 paddle.set_device('gpu:1')
 
 
-""" ---------------------------------------------------------------------------------
-# Config: Siamese, Few-Rel, Conv1D, 5 Ways, 1 Shot
-max_len = 128
-embedding_dim = 50
-init_vector = backbones.GloVeRC(embedding_dim=embedding_dim)
-TRAIN_DATASET = datasets.FewRel(mode='train', max_len=max_len, vector_initializer=init_vector)
-VALID_DATASET = datasets.FewRel(mode='valid', max_len=max_len, vector_initializer=init_vector)
-TEST_DATASET = datasets.FewRel(mode='valid', max_len=max_len, vector_initializer=init_vector)
-WAYS = 5
-SHOTS = 1
-QUERY_NUM = 5
-position_emb = backbones.RCPositionEmbedding(max_len=max_len, embedding_dim=embedding_dim)
-conv1d = backbones.RCConv1D(max_len=max_len, embedding_size=position_emb.embedding_size, hidden_size=500)
-norm = paddle.nn.Sequential(paddle.nn.LayerNorm(normalized_shape=conv1d.hidden_size), paddle.nn.Dropout(0.2))
-MODEL = paddle.nn.Sequential(position_emb, conv1d, norm)
-MODEL._full_name = 'glove50_cnn'
-LR = 0.001
-OPTIMIZER = paddle.optimizer.Adam(learning_rate=LR, parameters=MODEL.parameters())
-EPOCHS = 50
-TEST_EPOCHS = 10
-EPISODES = 1000
-REPORT_EPOCH = 1
-LR_STEP_EPOCH = None
-SAVE_MODEL_EPOCH = 10
-SAVE_MODEL_ROOT = '~/trained_models'
-TEST_PARAM_FILE = 'epoch50.params'
-----------------------------------------------------------------------------------"""
-
-
-""" ---------------------------------------------------------------------------------
-# Config: Siamese, Few-Rel, Conv1D, 5 Ways, 5 Shots
-max_len = 128
-embedding_dim = 50
-init_vector = backbones.GloVeRC(embedding_dim=embedding_dim)
-TRAIN_DATASET = datasets.FewRel(mode='train', max_len=max_len, vector_initializer=init_vector)
-VALID_DATASET = datasets.FewRel(mode='valid', max_len=max_len, vector_initializer=init_vector)
-TEST_DATASET = datasets.FewRel(mode='valid', max_len=max_len, vector_initializer=init_vector)
-WAYS = 5
-SHOTS = 5
-QUERY_NUM = 5
-position_emb = backbones.RCPositionEmbedding(max_len=max_len, embedding_dim=embedding_dim)
-conv1d = backbones.RCConv1D(max_len=max_len, embedding_size=position_emb.embedding_size, hidden_size=500)
-norm = paddle.nn.Sequential(paddle.nn.LayerNorm(normalized_shape=conv1d.hidden_size), paddle.nn.Dropout(0.2))
-MODEL = paddle.nn.Sequential(position_emb, conv1d, norm)
-MODEL._full_name = 'glove50_cnn'
-LR = 0.001
-OPTIMIZER = paddle.optimizer.Adam(learning_rate=LR, parameters=MODEL.parameters())
-EPOCHS = 50
-TEST_EPOCHS = 10
-EPISODES = 1000
-REPORT_EPOCH = 1
-LR_STEP_EPOCH = None
-SAVE_MODEL_EPOCH = 10
-SAVE_MODEL_ROOT = '~/trained_models'
-TEST_PARAM_FILE = 'epoch50.params'
-----------------------------------------------------------------------------------"""
-
-
-""" ---------------------------------------------------------------------------------
-# Config: Siamese, Few-Rel, Conv1D, 10 Ways, 1 Shot
-max_len = 128
-embedding_dim = 50
-init_vector = backbones.GloVeRC(embedding_dim=embedding_dim)
-TRAIN_DATASET = datasets.FewRel(mode='train', max_len=max_len, vector_initializer=init_vector)
-VALID_DATASET = datasets.FewRel(mode='valid', max_len=max_len, vector_initializer=init_vector)
-TEST_DATASET = datasets.FewRel(mode='valid', max_len=max_len, vector_initializer=init_vector)
-WAYS = 10
-SHOTS = 1
-QUERY_NUM = 5
-position_emb = backbones.RCPositionEmbedding(max_len=max_len, embedding_dim=embedding_dim)
-conv1d = backbones.RCConv1D(max_len=max_len, embedding_size=position_emb.embedding_size, hidden_size=500)
-norm = paddle.nn.Sequential(paddle.nn.LayerNorm(normalized_shape=conv1d.hidden_size), paddle.nn.Dropout(0.2))
-MODEL = paddle.nn.Sequential(position_emb, conv1d, norm)
-MODEL._full_name = 'glove50_cnn'
-LR = 0.001
-OPTIMIZER = paddle.optimizer.Adam(learning_rate=LR, parameters=MODEL.parameters())
-EPOCHS = 50
-TEST_EPOCHS = 10
-EPISODES = 1000
-REPORT_EPOCH = 1
-LR_STEP_EPOCH = None
-SAVE_MODEL_EPOCH = 10
-SAVE_MODEL_ROOT = '~/trained_models'
-TEST_PARAM_FILE = 'epoch50.params'
-----------------------------------------------------------------------------------"""
-
-
 # """ ---------------------------------------------------------------------------------
 # Config: Siamese, Few-Rel, Conv1D, 10 Ways, 1 Shot
 max_len = 128
@@ -144,16 +57,15 @@ def main():
     print(train_dir)
     state_dict = paddle.load(train_dir + '/' + TEST_PARAM_FILE)
     MODEL.load_dict(state_dict)
-    for i in range(10):
-        siamese.meta_testing(
-            model=MODEL,
-            test_dataset=TEST_DATASET,
-            epochs=TEST_EPOCHS,
-            episodes=EPISODES,
-            ways=WAYS,
-            shots=SHOTS,
-            query_num=QUERY_NUM
-        )
+    siamese.meta_testing(
+        model=MODEL,
+        test_dataset=TEST_DATASET,
+        epochs=TEST_EPOCHS,
+        episodes=EPISODES,
+        ways=WAYS,
+        shots=SHOTS,
+        query_num=QUERY_NUM
+    )
 
 
 if __name__ == '__main__':

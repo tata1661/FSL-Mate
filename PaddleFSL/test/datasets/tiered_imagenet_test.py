@@ -1,6 +1,6 @@
 from paddlefsl.datasets import TieredImageNet
 
-validation_set = TieredImageNet(mode='valid', root='~/.cache/paddle/dataset')
+validation_set = TieredImageNet(mode='valid')
 
 
 def get_item_test():

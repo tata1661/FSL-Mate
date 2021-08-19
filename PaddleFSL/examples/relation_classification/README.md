@@ -4,6 +4,8 @@ For relation classification tasks, we currently provide implementation of two al
 
 The performance is evaluated on [FewRel1.0](https://github.com/thunlp/FewRel), which is the benchmark dataset for few-shot relation classification.
 
+For all the setting, configurations and hyper-parameters of every task, please see [PaddleFSL-Tasks](https://github.com/JeremyZhao1998/PaddleFSL-Tasks).
+
 ## ProtoNet
 
 Prototypical Networks for Few-shot Learning. ([ProtoNet](https://arxiv.org/pdf/1703.05175.pdf))

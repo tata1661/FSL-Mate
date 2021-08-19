@@ -2,6 +2,8 @@
 
 For image classification tasks, we currently provide implementation of four algorithms: MAML, ANIL, ProtoNet and RelationNet.
 
+For all the setting, configurations and hyper-parameters of every task, please see [PaddleFSL-Tasks](https://github.com/JeremyZhao1998/PaddleFSL-Tasks).
+
 ## MAML
 
 Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks ([MAML](https://arxiv.org/pdf/1703.03400.pdf)).
@@ -50,39 +52,35 @@ Currently we only support first order approximate version of ANIL, because paddl
 
 Prototypical Networks for Few-shot Learning ([ProtoNet](https://arxiv.org/pdf/1703.05175.pdf)).
 
-|     Dataset     | Model | Ways | Shots | Original paper |                        Other reports                         |     Ours     |
-| :-------------: | :---: | :--: | :---: | :------------: | :----------------------------------------------------------: | :----------: |
-|    Omniglot     | Conv  |  5   |   1   |      98.8      | 98.5 ± 0.2<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 98.27 ± 0.13 |
-|    Omniglot     | Conv  |  5   |   5   |      99.7      | 99.5 ± 0.1<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 99.37 ± 0.05 |
-|  Mini-ImageNet  | Conv  |  5   |   1   |  49.42 ± 0.78  |      49.1<br/>([learn2learn](http://learn2learn.net/))       | 48.85 ± 0.42 |
-|  Mini-ImageNet  | Conv  |  5   |   5   |  68.20 ± 0.66  |      66.5<br/>([learn2learn](http://learn2learn.net/))       | 66.87 ± 0.25 |
-|     CifarFS     | Conv  |  5   |   1   |       --       | 55.5 ± 0.7<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 55.49 ± 0.21 |
-|     CifarFS     | Conv  |  5   |   5   |       --       | 72.0 ± 0.6<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 72.10 ± 0.13 |
-|      FC100      | Conv  |  5   |   1   |       --       |                              --                              | 35.90 ± 0.24 |
-|      FC100      | Conv  |  5   |   5   |       --       | 51.1 ± 0.2<br/>([TADAM](https://arxiv.org/pdf/1805.10123.pdf)﻿) | 49.26 ± 0.25 |
-|      CubFS      | Conv  |  5   |   1   |       --       | 50.46 ± 0.88<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 51.31 ± 0.48 |
-|      CubFS      | Conv  |  5   |   5   |       --       | 76.39 ± 0.64<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 70.14 ± 0.19 |
-| Tiered-ImageNet | Conv  |  5   |   1   |       --       | 46.52 ± 0.32<br/>([FewShotSSL](https://arxiv.org/pdf/1803.00676.pdf)﻿) |              |
-| Tiered-ImageNet | Conv  |  5   |   5   |       --       | 66.15 ± 0.34<br/>([FewShotSSL](https://arxiv.org/pdf/1803.00676.pdf)) |              |
+|    Dataset    | Model | Ways | Shots | Original paper |                        Other reports                         |     Ours     |
+| :-----------: | :---: | :--: | :---: | :------------: | :----------------------------------------------------------: | :----------: |
+|   Omniglot    | Conv  |  5   |   1   |      98.8      | 98.5 ± 0.2<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 98.27 ± 0.13 |
+|   Omniglot    | Conv  |  5   |   5   |      99.7      | 99.5 ± 0.1<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 99.37 ± 0.05 |
+| Mini-ImageNet | Conv  |  5   |   1   |  49.42 ± 0.78  |      49.1<br/>([learn2learn](http://learn2learn.net/))       | 48.85 ± 0.42 |
+| Mini-ImageNet | Conv  |  5   |   5   |  68.20 ± 0.66  |      66.5<br/>([learn2learn](http://learn2learn.net/))       | 66.87 ± 0.25 |
+|    CifarFS    | Conv  |  5   |   1   |       --       | 55.5 ± 0.7<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 55.49 ± 0.21 |
+|    CifarFS    | Conv  |  5   |   5   |       --       | 72.0 ± 0.6<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 72.10 ± 0.13 |
+|     FC100     | Conv  |  5   |   1   |       --       |                              --                              | 35.90 ± 0.24 |
+|     FC100     | Conv  |  5   |   5   |       --       | 51.1 ± 0.2<br/>([TADAM](https://arxiv.org/pdf/1805.10123.pdf)﻿) | 49.26 ± 0.25 |
+|     CubFS     | Conv  |  5   |   1   |       --       | 50.46 ± 0.88<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 51.31 ± 0.48 |
+|     CubFS     | Conv  |  5   |   5   |       --       | 76.39 ± 0.64<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 70.14 ± 0.19 |
 
 ## RelationNet
 
 Learning to Compare: Relation Network for Few-Shot Learning ([RelationNet](https://arxiv.org/pdf/1711.06025v2.pdf)).
 
-|     Dataset     | Model | Ways | Shots | Original paper |                        Other reports                         |     Ours     |
-| :-------------: | :---: | :--: | :---: | :------------: | :----------------------------------------------------------: | :----------: |
-|    Omniglot     | Conv  |  5   |   1   |   99.6 ± 0.2   |                              --                              | 98.02 ± 0.09 |
-|    Omniglot     | Conv  |  5   |   5   |   99.8 ± 0.1   |                              --                              | 99.25 ± 0.05 |
-|  Mini-ImageNet  | Conv  |  5   |   1   |  50.44 ± 0.82  | 50.4 ± 0.8<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 50.18 ± 0.46 |
-|  Mini-ImageNet  | Conv  |  5   |   5   |  65.32 ± 0.70  | 65.3 ± 0.7<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 65.34 ± 0.41 |
-|     CifarFS     | Conv  |  5   |   1   |       --       | 55.0 ± 1.0<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 55.84 ± 0.37 |
-|     CifarFS     | Conv  |  5   |   5   |       --       | 69.3 ± 0.8<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 69.57 ± 0.30 |
-|      FC100      | Conv  |  5   |   1   |       --       |                              --                              | 35.80 ± 0.18 |
-|      FC100      | Conv  |  5   |   5   |       --       |                              --                              | 47.80 ± 0.24 |
-|      CubFS      | Conv  |  5   |   1   |       --       | 62.34 ± 0.94<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 57.40 ± 0.36 |
-|      CubFS      | Conv  |  5   |   5   |       --       | 77.84 ± 0.68<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) |              |
-| Tiered-ImageNet | Conv  |  5   |   1   |       --       |                              --                              |              |
-| Tiered-ImageNet | Conv  |  5   |   5   |       --       |                              --                              |              |
+|    Dataset    | Model | Ways | Shots | Original paper |                        Other reports                         |     Ours     |
+| :-----------: | :---: | :--: | :---: | :------------: | :----------------------------------------------------------: | :----------: |
+|   Omniglot    | Conv  |  5   |   1   |   99.6 ± 0.2   |                              --                              | 98.02 ± 0.09 |
+|   Omniglot    | Conv  |  5   |   5   |   99.8 ± 0.1   |                              --                              | 99.25 ± 0.05 |
+| Mini-ImageNet | Conv  |  5   |   1   |  50.44 ± 0.82  | 50.4 ± 0.8<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 50.18 ± 0.46 |
+| Mini-ImageNet | Conv  |  5   |   5   |  65.32 ± 0.70  | 65.3 ± 0.7<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 65.34 ± 0.41 |
+|    CifarFS    | Conv  |  5   |   1   |       --       | 55.0 ± 1.0<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 55.84 ± 0.37 |
+|    CifarFS    | Conv  |  5   |   5   |       --       | 69.3 ± 0.8<br/>([R2D2](https://arxiv.org/pdf/1805.08136.pdf)) | 69.57 ± 0.30 |
+|     FC100     | Conv  |  5   |   1   |       --       |                              --                              | 35.80 ± 0.18 |
+|     FC100     | Conv  |  5   |   5   |       --       |                              --                              | 47.80 ± 0.24 |
+|     CubFS     | Conv  |  5   |   1   |       --       | 62.34 ± 0.94<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 57.40 ± 0.36 |
+|     CubFS     | Conv  |  5   |   5   |       --       | 77.84 ± 0.68<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 72.09 ± 0.31 |
 
 
 
