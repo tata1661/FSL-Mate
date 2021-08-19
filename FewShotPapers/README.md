@@ -123,7 +123,7 @@ Please cite our paper if you find it helpful.
 
 1. **LaSO: Label-set operations networks for multi-label few-shot learning,** in CVPR, 2019.
 *A. Alfassy, L. Karlinsky, A. Aides, J. Shtok, S. Harary, R. Feris, R. Giryes, and A. M. Bronstein.*
-[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Douze_Low-Shot_Learning_With_CVPR_2018_paper.pdf)
+[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Alfassy_LaSO_Label-Set_Operations_Networks_for_Multi-Label_Few-Shot_Learning_CVPR_2019_paper.pdf)
 [code](https://github.com/leokarlin/LaSO)
 
 1. **Image deformation meta-networks for one-shot learning,** in CVPR, 2019.
@@ -179,6 +179,10 @@ Please cite our paper if you find it helpful.
 1. **Parameterless transductive feature re-representation for few-shot learning,** in ICML, 2021.
 *W. Cui, and Y. Guo;.*
 [paper](http://proceedings.mlr.press/v139/cui21a/cui21a.pdf)
+
+1. **Learning intact features by erasing-inpainting for few-shot classification,** in AAAI, 2021.
+*J. Li, Z. Wang, and X. H.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17021/16828)
 
 ## [Model](#content)
 
@@ -536,6 +540,14 @@ Please cite our paper if you find it helpful.
 [paper](http://proceedings.mlr.press/v139/lee21d/lee21d.pdf)
 [code](https://github.com/movinghoon/ESFR)
 
+1. **Learning a few-shot embedding model with contrastive learning,** in AAAI, 2021.
+*C. Liu, L. Zhang, C. Xu, S. Yang, Y. Fu, J. Li, and C. Wan.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17047/16854)
+
+1. **Looking wider for better adaptive representation in few-shot learning,** in AAAI, 2021.
+*J. Zhao, Y. Yang, X. Lin, J. Yang, and L. H.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17311/17118)
+
 ### Learning with External Memory
 
 1. **Meta-learning with memory-augmented neural networks,** in ICML, 2016.
@@ -684,6 +696,10 @@ and L. Van Gool.*
 *M. Wistuba, and J. Grabocka.*
 [paper](https://openreview.net/pdf?id=bJxgv5C3sYc)
 
+1. **Modeling the probabilistic distribution of unlabeled data for one-shot medical image segmentation,** in AAAI, 2021.
+*Y. Ding, X. Yu, and Y. Yan.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16212/16019)
+[code](https://github.com/dyh127/Modeling-the-Probabilistic-Distribution-of-Unlabeled-Data)
 
 
 ## [Algorithm](#content)
@@ -798,6 +814,18 @@ and L. Van Gool.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Prototype_Completion_With_Primitive_Knowledge_for_Few-Shot_Learning_CVPR_2021_paper.pdf)
 [code](https://github.com/zhangbq-research/Prototype_Completion_for_FSL)
 
+1. **Partial is better than all: Revisiting fine-tuning strategy for few-shot learning,** in AAAI, 2021.
+*Z. Shen, Z. Liu, J. Qin, M. Savvides, and K. Chen.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17155/16962)
+
+1. **PTN: A poisson transfer network for semi-supervised few-shot learning,** in AAAI, 2021.
+*H. Huang, J. Zhang, J. Zhang, Q. Wu, and C. X.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16252/16059)
+
+1. **Making pre-trained language models better few-shot learners,** in ACL, 2021.
+*T. Gaoy, A. Fischz, and D. Chen.*
+[paper](https://aclanthology.org/2021.acl-long.295.pdf)
+[code](https://github.com/princeton-nlp/LM-BFF)
 
 ### Refining Meta-learned Parameters
 
@@ -969,6 +997,9 @@ and L. Van Gool.*
 [paper](http://proceedings.mlr.press/v139/ni21a/ni21a.pdf)
 [code](https://github.com/RenkunNi/MetaAug)
 
+1. **Task cooperation for semi-supervised few-shot learning,** in AAAI, 2021.
+*H. Ye, X. Li, and D. Zha.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17277/17084)
 
 ### Learning Search Steps
 
@@ -1362,6 +1393,35 @@ and L. Van Gool.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Baek_What_if_We_Only_Use_Real_Datasets_for_Scene_Text_CVPR_2021_paper.pdf)
 [code](https://github.com/ku21fan/STR-Fewer-Labels)
 
+1. **Few-shot font generation with localized style representations and factorization,** in AAAI, 2021.
+*S. Park, S. Chun, J. Cha, B. Lee, and H. Shi.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16340/16147)
+[code](https://github.com/clovaai/lffont)
+
+1. **Attributes-guided and pure-visual attention alignment for few-shot recognition,** in AAAI, 2021.
+*S. Huang, M. Zhang, Y. Kang, and D. Wan.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16957/16764)
+[code](https://github.com/bighuang624/AGAM)
+
+1. **One-shot face reenactment using appearance adaptive normalization,** in AAAI, 2021.
+*G. Yao, Y. Yuan, T. Shao, S. Li, S. Liu, Y. Liu, M. Wang, and K. Zho.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16427/16234)
+
+1. **Fl-MSRE: A few-shot learning based approach to multimodal social relation extraction,** in AAAI, 2021.
+*H. Wan, M. Zhang, J. Du, Z. Huang, Y. Yang, and J. Z. Pa.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17639/17446)
+[code](https://github.com/sysulic/FL-MSRE)
+
+1. **StarNet: Towards weakly supervised few-shot object detection,** in AAAI, 2021.
+*L. Karlinsky, J. Shtok, A. Alfassy, M. Lichtenstein, S. Harary, E. Schwartz, S. Doveh, P. Sattigeri, R. Feris, A. Bronstein, and R. Girye.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16268/16075)
+[code](https://github.com/leokarlin/StarNet)
+
+1. **Progressive one-shot human parsing,** in AAAI, 2021.
+*H. He, J. Zhang, B. Thuraisingham, and D. Ta.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16243/16050)
+[code](https://github.com/Charleshhy/One-shot-Human-Parsing)
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -1526,6 +1586,150 @@ and L. Van Gool.*
 [paper](http://proceedings.mlr.press/v139/zhu21d/zhu21d.pdf)
 [code](https://github.com/CLAW-Lab/ToM)
 
+1. **Graph-evolving meta-learning for low-resource medical dialogue generation,** in AAAI, 2021.
+*S. Lin, P. Zhou, X. Liang, J. Tang, R. Zhao, Z. Chen, and L. Li.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17577/17384)
+
+1. **KEML: A knowledge-enriched meta-learning framework for lexical relation classification,** in AAAI, 2021.
+*C. Wang, M. Qiu, J. Huang, and X. H.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17640/17447)
+
+1. **Few-shot learning for multi-label intent detection,** in AAAI, 2021.
+*Y. Hou, Y. Lai, Y. Wu, W. Che, and T. Li.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17541/17348)
+[code](https://github.com/AtmaHou/FewShotMultiLabel)
+
+1. **SALNet: Semi-supervised few-shot text classification with attention-based lexicon construction,** in AAAI, 2021.
+*J. Lee, S. Ko, and Y. Ha.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17558/17365)
+
+1. **Learning from my friends: Few-shot personalized conversation systems via social networks,** in AAAI, 2021.
+*Z. Tian, W. Bi, Z. Zhang, D. Lee, Y. Song, and N. L. Zhan.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17638/17445)
+[code](https://github.com/tianzhiliang/FewShotPersonaConvData)
+
+1. **Relative and absolute location embedding for few-shot node classification on graph,** in AAAI, 2021.
+*Z. Liu, Y. Fang, C. Liu, and S. Ho.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16551/16358)
+
+1. **Few-shot question answering by pretraining span selection,** in ACL, 2021.
+*O. Ram, Y. Kirstain, J. Berant, A. Globerson, and O. Lev.*
+[paper](https://aclanthology.org/2021.acl-long.239.pdf)
+[code](https://github.com/oriram/splinter)
+
+1. **A closer look at few-shot crosslingual transfer: The choice of shots matters,** in ACL, 2021.
+*M. Zhao1, Y. Zhu, E. Shareghi, I. Vulic, R. Reichart, A. Korhonen, and H. Schutz.*
+[paper](https://aclanthology.org/2021.acl-long.447.pdf)
+[code](https://github.com/fsxlt)
+
+1. **Learning from miscellaneous other-classwords for few-shot named entity recognition,** in ACL, 2021.
+*M. Tong, ShuaiWang, B. Xu, Y. Cao, M. Liu, L. Hou, and J. L.*
+[paper](https://aclanthology.org/2021.acl-long.487.pdf)
+[code](https://github.com/shuaiwa16/OtherClassNER.git)
+
+1. **Distinct label representations for few-shot text classification,** in ACL, 2021.
+*S. Ohashi, J. Takayama, T. Kajiwara, and Y. Aras.*
+[paper](https://aclanthology.org/2021.acl-short.105.pdf)
+[code](https://github.com/21335732529sky/difference_extractor)
+
+1. **Few-shot knowledge graph-to-text generation with pretrained language models,** in ACL, 2021.
+*J. Li, T. Tang, W. X. Zhao, Z. Wei, N. J. Yuan, and J. We.*
+[paper](https://aclanthology.org/2021.findings-acl.136.pdf)
+[code](https://github.com/RUCAIBox/Few-Shot-KG2Text)
+
+1. **Adaptive knowledge-enhanced bayesian meta-learning for few-shot event detection,** in ACL, 2021.
+*S. Shen, T. Wu, G. Qi, Y. Li, G. Haffari, and S. B.*
+[paper](https://aclanthology.org/2021.findings-acl.214.pdf)
+
+1. **Meta-learning adversarial domain adaptation network for few-shot text classification,** in ACL, 2021.
+*C. Han, Z. Fan, D. Zhang, M. Qiu, M. Gao, and A. Zho.*
+[paper](https://aclanthology.org/2021.findings-acl.145.pdf)
+[code](https://github.com/hccngu/MLADA)
+
+1. **Entity concept-enhanced few-shot relation extraction,** in ACL, 2021.
+*S. Yang, Y. Zhang, G. Niu, Q. Zhao, and S. P.*
+[paper](https://aclanthology.org/2021.acl-short.124.pdf)
+[code](https://github.com/LittleGuoKe/ConceptFERE)
+
+1. **On training instance selection for few-shot neural text generation,** in ACL, 2021.
+*E. Chang, X. Shen, H. Yeh, and V. Dember.*
+[paper](https://aclanthology.org/2021.acl-short.2.pdf)
+[code](https://gitlab.com/erniecyc/few-selector)
+
+1. **Few-shot event detection with prototypical amortized conditional random field,** in ACL, 2021.
+*X. Cong, S. Cui, B. Yu, T. Liu, W. Yubin, and B. Wan.*
+[paper](https://aclanthology.org/2021.findings-acl.3.pdf)
+[code](http://github.com/congxin95/PA-CRF)
+
+1. **Unsupervised neural machine translation for low-resource domains via meta-learning,** in ACL, 2021.
+*C. Park, Y. Tae, T. Kim, S. Yang, M. A. Khan, L. Park, and J. Cho.*
+[paper](https://aclanthology.org/2021.acl-long.225.pdf)
+[code](https://github.com/papago-lab/MetaGUMT)
+
+1. **Meta-learning with variational semantic memory for word sense disambiguation,** in ACL, 2021.
+*Y. Du, N. Holla, X. Zhen, C. Snoek, and E. Shutov.*
+[paper](https://aclanthology.org/2021.acl-long.409.pdf)
+[code](https://github.com/YDU-uva/VSM_WSD)
+
+1. **Bi-granularity contrastive learning for post-training in few-shot scene,** in ACL, 2021.
+*R. Luo, G. Huang, and X. Qua.*
+[paper](https://aclanthology.org/2021.findings-acl.151.pdf)
+
+1. **Don’t miss the labels: Label-semantic augmented meta-learner for few-shot text classification,** in ACL, 2021.
+*Q. Luo, L. Liu, and Y. L. a. W. Zhan.*
+[paper](https://aclanthology.org/2021.findings-acl.245.pdf)
+[code](https://github.com/luoqiaoyang/ACL2021-LaSAML)
+
+1. **Multi-label few-shot learning for aspect category detection,** in ACL, 2021.
+*M. Hu, S. Z. H. Guo, C. Xue, H. Gao, T. Gao, R. Cheng, and Z. S.*
+[paper](https://aclanthology.org/2021.acl-long.495.pdf)
+
+1. **TextSETTR: Few-shot text style extraction and tunable targeted restyling,** in ACL, 2021.
+*P. Rileya, N. Constantb, M. Guob, G. Kumarc, D. Uthusb, and Z. Parekh.*
+[paper](https://aclanthology.org/2021.acl-long.293.pdf)
+
+1. **Few-shot text ranking with meta adapted synthetic weak supervision,** in ACL, 2021.
+*S. Sun, Y. Qian, Z. Liu, C. Xiong, K. Zhang, J. Bao, Z. Liu, and P. Bennet.*
+[paper](https://aclanthology.org/2021.acl-long.390.pdf)
+[code](https://github.com/thunlp/MetaAdaptRank)
+
+1. **Learning to bridge metric spaces: Few-shot joint learning of intent detection and slot filling,** in ACL, 2021.
+*Y. Hou, Y. Lai, C. Chen, W. Che, and T. Li.*
+[paper](https://aclanthology.org/2021.findings-acl.282.pdf)
+[code](https://github.com/AtmaHou/FewShotJoint)
+
+1. **UserAdapter: Few-shot user learning in sentiment analysis,** in ACL, 2021.
+*W. Zhong, D. Tang, J. Wang, J. Yin, and N. Dua.*
+[paper](https://aclanthology.org/2021.findings-acl.129.pdf)
+
+1. **PROTAUGMENT: Intent detection meta-learning through unsupervised diverse paraphrasing,** in ACL, 2021.
+*T. Dopierre, C. Gravier, and W. Logerai.*
+[paper](https://aclanthology.org/2021.acl-long.191.pdf)
+[code](https://github.com/tdopierre/ProtAugment)
+
+1. **Frustratingly simple few-shot slot tagging,** in ACL, 2021.
+*J. Ma, Z. Yan, C. Li, and Y. Zhan.*
+[paper](https://aclanthology.org/2021.findings-acl.88.pdf)
+
+1. **Few-shot upsampling for protest size detection,** in ACL, 2021.
+*A. Halterman, and B. J. Radfor.*
+[paper](https://aclanthology.org/2021.findings-acl.325.pdf)
+[code](https://github.com/benradford/few-shot-upsampling-for-protest-size-detection)
+
+1. **Minimax and Neyman–Pearson meta-learning for outlier languages,** in ACL, 2021.
+*E. M. Ponti, R. Aralikatte, D. Shrivastava, S. Reddy, and A. Søgaar.*
+[paper](https://aclanthology.org/2021.findings-acl.106.pdf)
+[code](https://github.com/rahular/robust-maml)
+
+1. **AUGNLG: Few-shot natural language generation using self-trained data augmentation,** in ACL, 2021.
+*X. Xu, G. Wang, Y. Kim, and S. Le.*
+[paper](https://aclanthology.org/2021.acl-long.95.pdf)
+[code](https://github.com/XinnuoXu/AugNLG)
+
+1. **Reordering examples helps during priming-based few-shot learning,** in ACL, 2021.
+*S. Kumar, and P. Talukda.*
+[paper](https://aclanthology.org/2021.findings-acl.395.pdf)
+[code](https://github.com/SawanKumar28/pero)
 
 ### Acoustic Signal Processing
 
@@ -1655,10 +1859,10 @@ and L. Van Gool.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3463054)
 [code](https://github.com/laiviet/ed-fsl)
 
-1. **A large-scale benchmark for few-shot program induction and synthesis,** in ICML, 2021.
-*F. Alet, J. Lopez-Contreras, J. Koppel, M. Nye, A. Solar-Lezama, T. Lozano-Perez, L. Kaelbling, and J. Tenenbaum.*
-[paper](http://proceedings.mlr.press/v139/alet21a/alet21a.pdf)
-[code](https://github.com/javierlc2000/progres)
+1. **Progressive network grafting for few-shot knowledge distillation,** in AAAI, 2021.
+*C. Shen, X. Wang, Y. Yin, J. Song, S. Luo, and M. Son.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16356/16163)
+[code](https://github.com/zju-vipa/NetGraft)
 
 
 ## [Theories](#content)
@@ -1730,6 +1934,15 @@ and L. Van Gool.*
 [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610579.pdf)
 [code](https://github.com/facebookresearch/fewshotDatasetDesign)
 
+1. **A large-scale benchmark for few-shot program induction and synthesis,** in ICML, 2021.
+*F. Alet, J. Lopez-Contreras, J. Koppel, M. Nye, A. Solar-Lezama, T. Lozano-Perez, L. Kaelbling, and J. Tenenbaum.*
+[paper](http://proceedings.mlr.press/v139/alet21a/alet21a.pdf)
+[code](https://github.com/javierlc2000/progres)
+
+1. **FEW-NERD: A few-shot named entity recognition dataset,** in ACL, 2021.
+*N. Ding, G. Xu, Y. Chen, XiaobinWang, X. Han, P. Xie, H. Zheng, and Z. Li.*
+[paper](https://aclanthology.org/2021.acl-long.248.pdf)
+[code](https://ningding97.github.io/fewnerd/)
 
 ## [Few-shot Learning and Zero-shot Learning](#content)
 
@@ -1798,6 +2011,10 @@ and L. Van Gool.*
 1. **Learning graphs for knowledge transfer with limited labels,** in CVPR, 2021.
 *P. Ghosh, N. Saini, L. S. Davis, and A. Shrivastava.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghosh_Learning_Graphs_for_Knowledge_Transfer_With_Limited_Labels_CVPR_2021_paper.pdf)
+
+1. **Enhancing zero-shot and few-shot stance detection with commonsense knowledge graph,** in ACL, 2021.
+*R. Liu, Z. Lin, Y. Tan, and W. Wan.*
+[paper](https://aclanthology.org/2021.findings-acl.278.pdf)
 
 ## [Variants of Few-shot Learning](#content)
 
@@ -1902,6 +2119,22 @@ and L. Van Gool.*
 [paper](http://proceedings.mlr.press/v139/fisch21a/fisch21a.pdf)
 [code](https://github.com/ajfisch/few-shot-cp)
 
+1. **Few-shot lifelong learning,** in AAAI, 2021.
+*P. Mazumder, P. Singh, and P. Ra.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16334/16141)
+
+1. **Few-shot class-incremental learning via relation knowledge distillation,** in AAAI, 2021.
+*S. Dong, X. Hong, X. Tao, X. Chang, X. Wei, and Y. Gon.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16213/16020)
+
+1. **Tailoring embedding function to heterogeneous few-shot tasks by global and local feature adaptors,** in AAAI, 2021.
+*S. Lu, H. Ye, and D. Zha.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17063/16870)
+
+1. **Few-shot one-class classification via meta-learning,** in AAAI, 2021.
+*A. Frikha, D. Krompass, H. Koepken, and V. Tres.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16913/16720)
+[code](https://github.com/AhmedFrikha/Few-Shot-One-Class-Classification-via-Meta-Learning)
 
 ## [Software Library](#content)
 
