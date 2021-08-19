@@ -5,7 +5,6 @@ This repository contains few-shot learning (FSL) papers mentioned in our FSL sur
 For convenience, we also include public implementations of respective authors.
 
 We will update this paper list to include new FSL papers periodically. 
-The current version is updated on 2021.02.04.
 
 ## Citation 
 
