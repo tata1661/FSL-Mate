@@ -1,7 +1,7 @@
 from paddlefsl.datasets import FewRel
-from paddlefsl.backbones import GloVeRC
+from paddlefsl.backbones import RCInitVector
 
-init_vector = GloVeRC()
+init_vector = RCInitVector()
 
 train_dataset = FewRel(mode='train', max_len=100, vector_initializer=init_vector)
 valid_dataset = FewRel(mode='valid', backend='text')
