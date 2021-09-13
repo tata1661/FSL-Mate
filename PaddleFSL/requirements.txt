@@ -1,4 +1,4 @@
 numpy~=1.19.2
 requests~=2.24.0
-pillow==8.2.0
+pillow>=8.3.2
 tqdm~=4.27.0
