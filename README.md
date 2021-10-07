@@ -37,7 +37,7 @@ Please cite our [paper](https://dl.acm.org/doi/10.1145/3386252?cid=99659542534) 
 ```
 
 ## Contact
-We welcom advices and feedbacks for FSL-Mate. Please feel free to open an issue or contact [Yaqing Wang](mailto:wangyaqing01@baidu.com).
+We welcome advices and feedbacks for FSL-Mate. Please feel free to open an issue or contact [Yaqing Wang](mailto:wangyaqing01@baidu.com).
 
 
 
