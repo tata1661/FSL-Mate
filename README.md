@@ -13,6 +13,8 @@ In particular, FSL-Mate currently contains
 We are endeavored to constantly update FSL-Mate. Hopefully, it can make FSL easier. 
 
 ### News!
+- [11/21] Add FSL papers published in ICCV 2021, EMNLP 2021 and NeurIPS 2021.
+
 - [08/21] Add FSL papers published in AAAI 2021, ICML 2021, SIGIR 2021, ACL-IJCNLP 2021, KDD 2021, and IJCAI 2021.
 
 - [08/21] PaddleFSL now supports image classification, relation classification and FewClue tasks.
