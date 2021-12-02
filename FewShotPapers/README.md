@@ -587,6 +587,10 @@ Please cite our paper if you find it helpful.
 *S. Lu, H. Ye, and D.-C. Zhan.*
 [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17063/16870)
 
+1. **Knowledge guided metric learning for few-shot text classification,** in NAACL-HLT, 2021.
+*D. Sui, Y. Chen, B. Mao, D. Qiu, K. Liu, and J. Zhao.*
+[paper](https://aclanthology.org/2021.naacl-main.261.pdf)
+
 1. **Mixture-based feature space learning for few-shot image classification,** in ICCV, 2021.
 *A. Afrasiyabi, J. Lalonde, and C. Gagné.*
 [paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Afrasiyabi_Mixture-Based_Feature_Space_Learning_for_Few-Shot_Image_Classification_ICCV_2021_paper.pdf)
@@ -931,11 +935,6 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2021.acl-long.295.pdf)
 [code](https://github.com/princeton-nlp/LM-BFF)
 
-1. **Few-shot knowledge graph-to-text generation with pretrained language models,** in Findings of ACL: ACL-IJCNLP, 2021.
-*J. Li, T. Tang, W. X. Zhao, Z. Wei, N. J. Yuan, and J.-R. Wen.*
-[paper](https://aclanthology.org/2021.findings-acl.136.pdf)
-[code](https://github.com/RUCAIBox/Few-Shot-KG2Text)
-
 1. **Self-supervised network evolution for few-shot classification,** in IJCAI, 2021.
 *X. Tang, Z. Teng, B. Zhang, and J. Fan.*
 [paper](https://www.ijcai.org/proceedings/2021/0419.pdf)
@@ -948,6 +947,11 @@ and L. Van Gool.*
 1. **Language models are few-shot learners,** in NeurIPS, 2020.
 *T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhariwal, A. Neelakantan, P. Shyam, G. Sastry, A. Askell, S. Agarwal, A. Herbert-Voss, G. Krueger, T. Henighan, R. Child, A. Ramesh, D. Ziegler, J. Wu, C. Winter, C. Hesse, M. Chen, E. Sigler, M. Litwin, S. Gray, B. Chess, J. Clark, C. Berner, S. McCandlish, A. Radford, I. Sutskever, and D. Amodei.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
+
+1. **It's not just size that matters: Small language models are also few-shot learners,** in NAACL-HLT, 2021.
+*T. Schick, and H. Schütze.*
+[paper](https://aclanthology.org/2021.naacl-main.185.pdf)
+[code](https://github.com/timoschick/pet)
 
 1. **Self-training improves pre-training for few-shot learning in task-oriented dialog systems,** in EMNLP, 2021.
 *F. Mi, W. Zhou, L. Kong, F. Cai, M. Huang, and B. Faltings.*
@@ -1225,6 +1229,15 @@ and L. Van Gool.*
 *H. Wang, and Z.-H. Deng.*
 [paper](https://www.ijcai.org/proceedings/2021/0149.pdf)
 [code](https://github.com/Haoqing-Wang/CDFSL-ATA)
+
+1. **DReCa: A general task augmentation strategy for few-shot natural language inference,** in NAACL-HLT, 2021.
+*S. Murty, T. Hashimoto, and C. D. Manning.*
+[paper](https://aclanthology.org/2021.naacl-main.88.pdf)
+
+1. **MetaXL: Meta representation transformation for low-resource cross-lingual learning,** in NAACL-HLT, 2021.
+*M. Xia, G. Zheng, S. Mukherjee, M. Shokouhi, G. Neubig, and A. H. Awadallah.*
+[paper](https://aclanthology.org/2021.naacl-main.42.pdf)
+[code](https://github.com/microsoft/MetaXL)
 
 1. **Meta-learning with task-adaptive loss function for few-shot learning,** in ICCV, 2021.
 *S. Baik, J. Choi, H. Kim, D. Cho, J. Min, and K. M. Lee.*
@@ -2050,15 +2063,6 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2021.acl-short.105.pdf)
 [code](https://github.com/21335732529sky/difference_extractor)
 
-1. **Adaptive knowledge-enhanced bayesian meta-learning for few-shot event detection,** in Findings of ACL: ACL-IJCNLP, 2021.
-*S. Shen, T. Wu, G. Qi, Y. Li, G. Haffari, and S. Bi.*
-[paper](https://aclanthology.org/2021.findings-acl.214.pdf)
-
-1. **Meta-learning adversarial domain adaptation network for few-shot text classification,** in Findings of ACL: ACL-IJCNLP, 2021.
-*C. Han, Z. Fan, D. Zhang, M. Qiu, M. Gao, and A. Zhou.*
-[paper](https://aclanthology.org/2021.findings-acl.145.pdf)
-[code](https://github.com/hccngu/MLADA)
-
 1. **Entity concept-enhanced few-shot relation extraction,** in ACL-IJCNLP, 2021.
 *S. Yang, Y. Zhang, G. Niu, Q. Zhao, and S. Pu.*
 [paper](https://aclanthology.org/2021.acl-short.124.pdf)
@@ -2069,11 +2073,6 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2021.acl-short.2.pdf)
 [code](https://gitlab.com/erniecyc/few-selector)
 
-1. **Few-shot event detection with prototypical amortized conditional random field,** in Findings of ACL: ACL-IJCNLP, 2021.
-*X. Cong, S. Cui, B. Yu, T. Liu, W. Yubin, and B. Wang.*
-[paper](https://aclanthology.org/2021.findings-acl.3.pdf)
-[code](http://github.com/congxin95/PA-CRF)
-
 1. **Unsupervised neural machine translation for low-resource domains via meta-learning,** in ACL-IJCNLP, 2021.
 *C. Park, Y. Tae, T. Kim, S. Yang, M. A. Khan, L. Park, and J. Choo.*
 [paper](https://aclanthology.org/2021.acl-long.225.pdf)
@@ -2083,15 +2082,6 @@ and L. Van Gool.*
 *Y. Du, N. Holla, X. Zhen, C. Snoek, and E. Shutova.*
 [paper](https://aclanthology.org/2021.acl-long.409.pdf)
 [code](https://github.com/YDU-uva/VSM_WSD)
-
-1. **Bi-granularity contrastive learning for post-training in few-shot scene,** in Findings of ACL: ACL-IJCNLP, 2021.
-*R. Luo, G. Huang, and X. Quan.*
-[paper](https://aclanthology.org/2021.findings-acl.151.pdf)
-
-1. **Don’t miss the labels: Label-semantic augmented meta-learner for few-shot text classification,** in Findings of ACL: ACL-IJCNLP, 2021.
-*Q. Luo, L. Liu, and Y. Lin and. W. Zhang.*
-[paper](https://aclanthology.org/2021.findings-acl.245.pdf)
-[code](https://github.com/luoqiaoyang/ACL2021-LaSAML)
 
 1. **Multi-label few-shot learning for aspect category detection,** in ACL-IJCNLP, 2021.
 *M. Hu, S. Z. H. Guo, C. Xue, H. Gao, T. Gao, R. Cheng, and Z. Su.*
@@ -2106,43 +2096,15 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2021.acl-long.390.pdf)
 [code](https://github.com/thunlp/MetaAdaptRank)
 
-1. **Learning to bridge metric spaces: Few-shot joint learning of intent detection and slot filling,** in Findings of ACL: ACL-IJCNLP, 2021.
-*Y. Hou, Y. Lai, C. Chen, W. Che, and T. Liu.*
-[paper](https://aclanthology.org/2021.findings-acl.282.pdf)
-[code](https://github.com/AtmaHou/FewShotJoint)
-
-1. **UserAdapter: Few-shot user learning in sentiment analysis,** in Findings of ACL: ACL-IJCNLP, 2021.
-*W. Zhong, D. Tang, J. Wang, J. Yin, and N. Duan.*
-[paper](https://aclanthology.org/2021.findings-acl.129.pdf)
-
 1. **PROTAUGMENT: Intent detection meta-learning through unsupervised diverse paraphrasing,** in ACL-IJCNLP, 2021.
 *T. Dopierre, C. Gravier, and W. Logerais.*
 [paper](https://aclanthology.org/2021.acl-long.191.pdf)
 [code](https://github.com/tdopierre/ProtAugment)
 
-1. **Frustratingly simple few-shot slot tagging,** in Findings of ACL: ACL-IJCNLP, 2021.
-*J. Ma, Z. Yan, C. Li, and Y. Zhang.*
-[paper](https://aclanthology.org/2021.findings-acl.88.pdf)
-
-1. **Few-shot upsampling for protest size detection,** in Findings of ACL: ACL-IJCNLP, 2021.
-*A. Halterman, and B. J. Radford.*
-[paper](https://aclanthology.org/2021.findings-acl.325.pdf)
-[code](https://github.com/benradford/few-shot-upsampling-for-protest-size-detection)
-
-1. **Minimax and Neyman–Pearson meta-learning for outlier languages,** in Findings of ACL: ACL-IJCNLP, 2021.
-*E. M. Ponti, R. Aralikatte, D. Shrivastava, S. Reddy, and A. Søgaard.*
-[paper](https://aclanthology.org/2021.findings-acl.106.pdf)
-[code](https://github.com/rahular/robust-maml)
-
 1. **AUGNLG: Few-shot natural language generation using self-trained data augmentation,** in ACL-IJCNLP, 2021.
 *X. Xu, G. Wang, Y.-B. Kim, and S. Lee.*
 [paper](https://aclanthology.org/2021.acl-long.95.pdf)
 [code](https://github.com/XinnuoXu/AugNLG)
-
-1. **Reordering examples helps during priming-based few-shot learning,** in Findings of ACL: ACL-IJCNLP, 2021.
-*S. Kumar, and P. Talukdar.*
-[paper](https://aclanthology.org/2021.findings-acl.395.pdf)
-[code](https://github.com/SawanKumar28/pero)
 
 1. **Meta self-training for few-shot neural sequence labeling,** in KDD, 2021.
 *Y. Wang, S. Mukherjee, H. Chu, Y. Tu, M. Wu, J. Gao, and A. H. Awadallah.*
@@ -2153,6 +2115,28 @@ and L. Van Gool.*
 *J. Zhang, J. Zhu, Y. Yang, W. Shi, C. Zhang, and H. Wang.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3467438)
 [code](https://github.com/imJiawen/KEFDA)
+
+1. **Few-shot text classification with triplet networks, data augmentation, and curriculum learning,** in NAACL-HLT, 2021.
+*J. Wei, C. Huang, S. Vosoughi, Y. Cheng, and S. Xu.*
+[paper](https://aclanthology.org/2021.naacl-main.434.pdf)
+[code](https://github.com/jasonwei20/triplet-loss)
+
+1. **Few-shot intent classification and slot filling with retrieved examples,** in NAACL-HLT, 2021.
+*D. Yu, L. He, Y. Zhang, X. Du, P. Pasupat, and Q. Li.*
+[paper](https://aclanthology.org/2021.naacl-main.59.pdf)
+
+1. **Non-parametric few-shot learning for word sense disambiguation,** in NAACL-HLT, 2021.
+*H. Chen, M. Xia, and D. Chen.*
+[paper](https://aclanthology.org/2021.naacl-main.142.pdf)
+[code](https://github.com/princeton-nlp/metric-wsd)
+
+1. **Towards few-shot fact-checking via perplexity,** in NAACL-HLT, 2021.
+*N. Lee, Y. Bang, A. Madotto, and P. Fung.*
+[paper](https://aclanthology.org/2021.naacl-main.158.pdf)
+
+1. **ConVEx: Data-efficient and few-shot slot labeling,** in NAACL-HLT, 2021.
+*M. Henderson, and I. Vulic.*
+[paper](https://aclanthology.org/2021.naacl-main.264.pdf)
 
 1. **Few-shot text generation with natural language instructions,** in EMNLP, 2021.
 *T. Schick, and H. Schütze.*
@@ -2331,6 +2315,27 @@ and L. Van Gool.*
 *Z. Wang, Y. Wang, Y. Lin, E. Delord, and L. Khan.*
 [paper](https://dl.acm.org/doi/10.1145/3366423.3380153)
 
+1. **Few-shot graph learning for molecular property prediction,** in TheWebConf, 2021.
+*Z. Guo, C. Zhang, W. Yu, J. Herr, O. Wiest, M. Jiang, and N. V. Chawla.*
+[paper](https://doi.org/10.1145/3442381.3450112)
+[code](https://github.com/zhichunguo/Meta-MGNN)
+
+1. **Taxonomy-aware learning for few-shot event detection,** in TheWebConf, 2021.
+*J. Zheng, F. Cai, W. Chen, W. Lei, and H. Chen.*
+[paper](https://doi.org/10.1145/3442381.344994)
+
+1. **Learning from graph propagation via ordinal distillation for one-shot automated essay scoring,** in TheWebConf, 2021.
+*Z. Jiang, M. Liu, Y. Yin, H. Yu, Z. Cheng, and Q. Gu.*
+[paper](https://doi.org/10.1145/3442381.3450017)
+
+1. **Few-shot network anomaly detection via cross-network meta-learning,** in TheWebConf, 2021.
+*K. Ding, Q. Zhou, H. Tong, and H. Liu.*
+[paper](https://doi.org/10.1145/3442381.3449922)
+
+1. **Few-shot knowledge validation using rules,** in TheWebConf, 2021.
+*M. Loster, D. Mottin, P. Papotti, J. Ehmüller, B. Feldmann, and F. Naumann.*
+[paper](https://doi.org/10.1145/3442381.3450040)
+
 1. **Graph learning regularization and transfer learning for few-shot event detection,** in SIGIR, 2021.
 *V. D. Lai, M. V. Nguyen, T. H. Nguyen, and F. Dernoncourt.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3463054)
@@ -2357,6 +2362,7 @@ and L. Van Gool.*
 1. **Property-aware relation networks for few-shot molecular property prediction,** in NeurIPS, 2021.
 *Y. Wang, A. Abuduweili, Q. Yao, and D. Dou.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/91bc333f6967019ac47b49ca0f2fa757-Paper.pdf)
+[code](https://github.com/tata1661/PAR-NeurIPS21)
 
 1. **Few-shot data-driven algorithms for low rank approximation,** in NeurIPS, 2021.
 *P. Indyk, T. Wagner, and D. Woodruff.*
@@ -2373,6 +2379,7 @@ and L. Van Gool.*
 1. **Learning to learn dense Gaussian processes for few-shot learning,** in NeurIPS, 2021.
 *Z. Wang, Z. Miao, X. Zhen, and Q. Qiu.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/6e2713a6efee97bacb63e52c54f0ada0-Paper.pdf)
+
 
 
 ## [Theories](#content)
@@ -2482,9 +2489,9 @@ and L. Van Gool.*
 *P. Ghosh, N. Saini, L. S. Davis, and A. Shrivastava.*
 [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghosh_Learning_Graphs_for_Knowledge_Transfer_With_Limited_Labels_CVPR_2021_paper.pdf)
 
-1. **Enhancing zero-shot and few-shot stance detection with commonsense knowledge graph,** in Findings of ACL: ACL-IJCNLP, 2021.
-*R. Liu, Z. Lin, Y. Tan, and W. Wang.*
-[paper](https://aclanthology.org/2021.findings-acl.278.pdf)
+1. **Improving zero and few-shot abstractive summarization with intermediate fine-tuning and data augmentation,** in NAACL-HLT, 2021.
+*A. R. Fabbri, S. Han, H. Li, H. Li, M. Ghazvininejad, S. R. Joty, D. R. Radev, and Y. Mehdad.*
+[paper](https://aclanthology.org/2021.naacl-main.57.pdf)
 
 1. **Label verbalization and entailment for effective zero and few-shot relation extraction,** in EMNLP, 2021.
 *O. Sainz, O. L. d. Lacalle, G. Labaka, A. Barrena, and E. Agirre.*
@@ -2618,6 +2625,10 @@ and L. Van Gool.*
 *Q. Li, B. He, and D. Song.*
 [paper](https://www.ijcai.org/proceedings/2021/0205.pdf)
 [code](https://github.com/QinbinLi/FedK)
+
+1. **Incremental few-shot text classification with multi-round new classes: Formulation, dataset and system,** in NAACL-HLT, 2021.
+*C. Xia, W. Yin, Y. Feng, and P. S. Yu.*
+[paper](https://aclanthology.org/2021.naacl-main.106.pdf)
 
 1. **Continual few-shot learning for text classification,** in EMNLP, 2021.
 *R. Pasunuru, V. Stoyanov, and M. Bansal.*
