@@ -115,7 +115,7 @@ dmypy.json
 .pyre/
 
 # pycharm
-.DS_Store
+*/.DS_Store
 .idea/
 FETCH_HEAD
 
