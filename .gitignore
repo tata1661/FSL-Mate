@@ -116,6 +116,7 @@ dmypy.json
 
 # pycharm
 */.DS_Store
+**/__pycache__/
 .idea/
 FETCH_HEAD
 
