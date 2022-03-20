@@ -25,4 +25,4 @@ We report accuracy on test_public.json of 9 FewCLUE datasets.
 
 - [1] Liu, Xiao, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, and Jie Tang. “GPT Understands, Too.” ArXiv:2103.10385 [Cs], March 18, 2021. http://arxiv.org/abs/2103.10385.
 - [2] Wang, Sinong, Han Fang, Madian Khabsa, Hanzi Mao, and Hao Ma. “Entailment as Few-Shot Learner.” ArXiv:2104.14690 [Cs], April 29, 2021. http://arxiv.org/abs/2104.14690.
-- [3] Wang, S., Fang, H., Khabsa, M., Mao, H., and Ma, H., “Entailment as Few-Shot Learner”, ArXiv:2001.07676 [Cs], 2021. https://arxiv.org/abs/2001.0767
+- [3] Timo Schick,and Hinrich Schütze, “Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference”, ArXiv:2001.07676 [Cs], 2021. https://arxiv.org/abs/2001.07676
