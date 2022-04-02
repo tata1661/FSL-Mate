@@ -1,30 +1,39 @@
 # Relation Classification Tasks
 
-For relation classification tasks, we currently provide implementation of two algorithms: ProtoNet and Siamese.
+Here, we provide examples of applying PaddleFSL to few-shot relation classification tasks. 
 
-The performance is evaluated on [FewRel1.0](https://github.com/thunlp/FewRel), which is the benchmark dataset for few-shot relation classification.
+## Datasets
 
-For all the setting, configurations and hyper-parameters of every task, please see [PaddleFSL-Tasks](https://github.com/JeremyZhao1998/PaddleFSL-Tasks).
+We evaluate the performance on FewRel (1.0 version), which can be accessed as described in  [raw_data/README.md](../../raw_data/README.md).
 
-## ProtoNet
+## Results
 
-Prototypical Networks for Few-shot Learning. ([ProtoNet](https://arxiv.org/pdf/1703.05175.pdf))
+We provide results of using ProtoNet [1] and Siamese [2] below. 
+The exact model configuration and pretrained models can be downloaded from [here](https://drive.google.com/file/d/1Prig4u1gHZT7wA7UxJ5qaXUMeDaweXKA/view?usp=sharing), which can reproduce these results.
 
-|  Dataset  | Word embedding | Model  | Ways | Shots | Original paper |                        Other reports                         |     Ours     |
+
+### [ProtoNet](https://papers.nips.cc/paper/6996-prototypical-networks-for-few-shot-learning.pdf)
+
+|  Dataset  | Word embedding | Model  | Way  | Shot  | Original paper |                        Other reports                         |     Ours     |
 | :-------: | :------------: | :----: | :--: | :---: | :------------: | :----------------------------------------------------------: | :----------: |
-| FewRel1.0 |    GloVe 50    | Conv1D |  5   |   1   |       --       | 69.20 ± 0.20([FewRel1.0](https://aclanthology.org/D18-1514.pdf)) | 70.18 ± 0.35 |
-| FewRel1.0 |    GloVe 50    | Conv1D |  5   |   5   |       --       | 84.79 ± 0.16([FewRel1.0](https://aclanthology.org/D18-1514.pdf)) | 83.13 ± 0.42 |
-| FewRel1.0 |    GloVe 50    | Conv1D |  10  |   1   |       --       | 56.44 ± 0.22([FewRel1.0](https://aclanthology.org/D18-1514.pdf)) | 56.81 ± 0.15 |
-| FewRel1.0 |    GloVe 50    | Conv1D |  10  |   5   |       --       | 75.55 ± 0.19([FewRel1.0](https://aclanthology.org/D18-1514.pdf)) | 71.76 ± 0.31 |
+| FewRel    |GloVE(dimension=50)|  CNN   |  5   |   1   |       --       | 69.20 ± 0.20([FewRel1.0](https://aclanthology.org/D18-1514.pdf)) | 70.18 ± 0.35 |
+| FewRel    |GloVE(dimension=50)|  CNN   |  5   |   5   |       --       | 84.79 ± 0.16([FewRel1.0](https://aclanthology.org/D18-1514.pdf)) | 83.13 ± 0.42 |
+| FewRel    |GloVE(dimension=50)|  CNN   |  10  |   1   |       --       | 56.44 ± 0.22([FewRel1.0](https://aclanthology.org/D18-1514.pdf)) | 56.81 ± 0.15 |
+| FewRel    |GloVE(dimension=50)|  CNN   |  10  |   5   |       --       | 75.55 ± 0.19([FewRel1.0](https://aclanthology.org/D18-1514.pdf)) | 71.76 ± 0.31 |
 
-## Siamese
+### [Siamese](http://www.cs.toronto.edu/~gkoch/files/msc-thesis.pdf)
 
-Siamese Nerual Network for One Shot Image Recognation. ([Siamese](http://www.cs.toronto.edu/~gkoch/files/msc-thesis.pdf))
+|  Dataset  | Word embedding    |  Model | Way  | Shot  | Original paper |     Ours     |
+| :-------: | :---------------: | :----: | :--: | :---: | :------------: | :----------: |
+| FewRel    |GloVE(dimension=50)|  CNN   |  5   |   1   |       --       | 72.07 ± 0.38 |
+| FewRel    |GloVE(dimension=50)|  CNN   |  5   |   5   |       --       | 80.05 ± 0.28 |
+| FewRel    |GloVE(dimension=50)|  CNN   |  10  |   1   |       --       | 59.73 ± 0.25 |
+| FewRel    |GloVE(dimension=50)|  CNN   |  10  |   5   |       --       | 69.41 ± 0.20 |
 
-|  Dataset  | Word embedding | Model  | Ways | Shots | Original paper |     Ours     |
-| :-------: | :------------: | :----: | :--: | :---: | :------------: | :----------: |
-| FewRel1.0 |    GloVe 50    | Conv1D |  5   |   1   |       --       | 72.07 ± 0.38 |
-| FewRel1.0 |    GloVe 50    | Conv1D |  5   |   5   |       --       | 80.05 ± 0.28 |
-| FewRel1.0 |    GloVe 50    | Conv1D |  10  |   1   |       --       | 59.73 ± 0.25 |
-| FewRel1.0 |    GloVe 50    | Conv1D |  10  |   5   |       --       | 69.41 ± 0.20 |
+## References
 
+1. *Prototypical networks for few-shot learning,* in NeurIPS, 2017.
+J. Snell, K. Swersky, and R. S. Zemel.
+
+1. *Siamese neural networks for one-shot image recognition,* ICML deep learning workshop, 2015.
+G. Koch, R. Zemel, and R. Salakhutdinov.

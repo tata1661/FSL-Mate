@@ -1,51 +1,45 @@
-# PaddleFSL raw data
+# Raw Data
 
-Raw data directory of the PaddleFSL(Paddle Few Shot Learning)
+PaddleFSL has been evaluated on the following few-shot benchmark datasets. 
 
-We provide the following datasets which are commly used in few-shot learning, as well as the pre-processing in paddlefsl.dataset:
+Users can download the datasets from the URLs provided below, put the dataset into the respective folder (default folder used by PaddleFSL is [raw_data](../raw_data/)), pre-process the data using scripts in [paddlefsl.dataset](../paddlefsl/datasets/), and 
+run the example scripts in [examples](../examples/). 
 
-### Computer vision, image classification task datasets:
+## Computer Vision Datasets
 
-- **Omniglot** ([B. M. Lake et al., 2015](http://www.sciencemag.org/content/350/6266/1332.short)), which is downloaded from
+- **Omniglot** ([B. M. Lake et al., 2015](http://www.sciencemag.org/content/350/6266/1332.short)), which can be
+downloaded from [link](https://github.com/brendenlake/omniglot/raw/master/python/).
 
-   (https://github.com/brendenlake/omniglot/raw/master/python/)
+- **Mini-ImageNet** ([O. Vinyals et al., 2016](https://arxiv.org/abs/1606.04080)), which can be
+downloaded from [link](https://drive.google.com/file/d/1LLUjwSUpWGSWizl3JZxd08V30_dIaRBx/view).
 
-- **Mini-ImageNet** ([O. Vinyals et al., 2016](https://arxiv.org/abs/1606.04080)), which is downloaded from 
+- **Tiered-ImageNet** ([M. Ren et al., 2018](https://arxiv.org/abs/1803.00676)), which can be
+downloaded from [link](https://drive.google.com/file/d/1fQ6lI5pCnOEt9MHWdqFN1cdSU2SbMKzx/view).
 
-  (https://drive.google.com/file/d/1LLUjwSUpWGSWizl3JZxd08V30_dIaRBx/view)
+- **CIFAR-FS** ([L. Bertinetto et al., 2018](https://arxiv.org/abs/1805.08136)), which can be
+downloaded from [link](https://drive.google.com/file/d/1nN1u2ZeD0L90uG5Y_Ml6uQR6z-o6aBLL/view).
 
-- **Tiered-ImageNet** ([M. Ren et al., 2018](https://arxiv.org/abs/1803.00676)), which is downloaded from
+- **FC100** ([B. N. Oreshkin et al., 2018](https://arxiv.org/abs/1805.10123)), which can be
+downloaded from [link](https://drive.google.com/file/d/18SPp-RLOL-nxxoHtkU8-n8OspDjMfhAH/view). 
 
-  (https://drive.google.com/file/d/1fQ6lI5pCnOEt9MHWdqFN1cdSU2SbMKzx/view)
+- **CUB** ([W.-Y. Chen et al., 2019](https://arxiv.org/abs/1904.04232)), which can be
+downloaded from [link](https://drive.google.com/file/d/1EiKOk6LAqlYwDJzUQRDUjGMsvUGBT1U8/view).
 
-- **CIFAR-FS** ([L. Bertinetto et al., 2018](https://arxiv.org/abs/1805.08136)), which is downloaded from 
+## Natural Language Processing Datasets
 
-  (https://drive.google.com/file/d/1nN1u2ZeD0L90uG5Y_Ml6uQR6z-o6aBLL/view)
+- **FewRel** ([X. Han et al., 2018](https://aclanthology.org/D18-1514.pdf)), which can be
+downloaded from [link](https://github.com/thunlp/FewRel/tree/master/data).
 
-- **FC100** ([B. N. Oreshkin et al., 2018](https://arxiv.org/abs/1805.10123)), which is downloaded from 
+- **FewGLUE** ([T. Schick et al., 2021](https://arxiv.org/abs/2001.07676)), which can be
+downloaded from [link](https://github.com/THUDM/P-tuning/tree/main/FewGLUE_32dev).
 
-  (https://drive.google.com/file/d/18SPp-RLOL-nxxoHtkU8-n8OspDjMfhAH/view)
 
-- **CUB** ([W.-Y. Chen et al., 2019](https://arxiv.org/abs/1904.04232)) , which is downloaded from 
+- **FewCLUE** ([L. Xu et al., 2021](https://arxiv.org/abs/2107.07498)), which can be
+downloaded from [link](https://github.com/CLUEbenchmark/FewCLUE/tree/main/datasets) or directly imported from paddlenlp.datasets. 
 
-  (https://drive.google.com/file/d/1EiKOk6LAqlYwDJzUQRDUjGMsvUGBT1U8/view)
+## Bioinformatics Datasets
 
-Natural language processing, relation classification task datasets:
-
-- **FewRel1.0** ([Xu Han et al., 2018](https://aclanthology.org/D18-1514.pdf)), which is downloaded from
-
-  (https://github.com/thunlp/FewRel/tree/master/data)
-
-We use the train / val / test splits as mentioned in the respective papers. Note there is no specific split for Omniglot, thus we use random train / val / test splits.
-
-Omniglot dataset and FewRel dataset can be automatically downloaded from github, while the ohters exceed the file limit, thus please download them from the website above and put them into the respective folder. Default folder used by paddlefsl is `<path to>/PaddleFSL/raw_data` .
-
-### Usage:
-
-```python
-# Place mini-imagenet.tar.gz into this directory(<path to>/PaddleFSL/raw_data) or any path that you set.
-train_dataset = paddlefsl.datasets.MiniImageNet(mode='train')
-task = train_dataset.sample_task_set(ways=5, shots=5)
-task.support_data  # numpy array of the images.
-```
-
+- **Tox21, SIDER, MUV and ToxCast**
+are provided by **MoleculeNet** ([Z. Wu et al., 2018](https://pubs.rsc.org/en/content/articlepdf/2018/sc/c7sc02664a)), which can be
+downloaded from [link](https://drive.google.com/file/d/1K3c4iCFHEKUuDVSGBtBYr8EOegvIJulO/view).
+Once downloaded, please unzip the file and put the resultant four folders corresponding to the four dataset into `<path to>/PaddleFSL/raw_data`.

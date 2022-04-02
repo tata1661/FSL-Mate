@@ -1,3 +1,17 @@
+# Copyright 2021 PaddleFSL Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import paddle
 import paddlefsl
 from paddlefsl.model_zoo import relationnet
@@ -29,36 +43,29 @@ SAVE_MODEL_ROOT = '~/trained_models'
 TEST_PARAM_FILE = 'epoch30'
 
 
-def main():
-    train_dir = relationnet.meta_training(train_dataset=TRAIN_DATASET,
-                                          valid_dataset=VALID_DATASET,
-                                          embedding_model=EMBEDDING_MODEL,
-                                          relation_model=RELATION_MODEL,
-                                          lr=LR,
-                                          optimizer=OPTIMIZER,
-                                          epochs=EPOCHS,
-                                          episodes=EPISODES,
-                                          ways=WAYS,
-                                          shots=SHOTS,
-                                          query_num=QUERY_NUM,
-                                          report_epoch=REPORT_EPOCH,
-                                          lr_step_epoch=LR_STEP_EPOCH,
-                                          save_model_epoch=SAVE_MODEL_EPOCH,
-                                          save_model_root=SAVE_MODEL_ROOT)
-    print(train_dir)
-    state_dict = paddle.load(train_dir + '/' + TEST_PARAM_FILE + '_embedding.params')
-    EMBEDDING_MODEL.load_dict(state_dict)
-    state_dict = paddle.load(train_dir + '/' + TEST_PARAM_FILE + '_relation.params')
-    RELATION_MODEL.load_dict(state_dict)
-    relationnet.meta_testing(embedding_model=EMBEDDING_MODEL,
-                             relation_model=RELATION_MODEL,
-                             test_dataset=TEST_DATASET,
-                             epochs=TEST_EPOCHS,
-                             episodes=EPISODES,
-                             ways=WAYS,
-                             shots=SHOTS,
-                             query_num=QUERY_NUM)
 
 
-if __name__ == '__main__':
-    main()
+train_dir, EMBEDDING_MODEL, RELATION_MODEL = relationnet.meta_training(train_dataset=TRAIN_DATASET,
+                                                                       valid_dataset=VALID_DATASET,
+                                                                       embedding_model=EMBEDDING_MODEL,
+                                                                       relation_model=RELATION_MODEL,
+                                                                       lr=LR,
+                                                                       optimizer=OPTIMIZER,
+                                                                       epochs=EPOCHS,
+                                                                       episodes=EPISODES,
+                                                                       ways=WAYS,
+                                                                       shots=SHOTS,
+                                                                       query_num=QUERY_NUM,
+                                                                       report_epoch=REPORT_EPOCH,
+                                                                       lr_step_epoch=LR_STEP_EPOCH,
+                                                                       save_model_epoch=SAVE_MODEL_EPOCH,
+                                                                       save_model_root=SAVE_MODEL_ROOT)
+print(train_dir)
+relationnet.meta_testing(embedding_model=EMBEDDING_MODEL,
+                         relation_model=RELATION_MODEL,
+                         test_dataset=TEST_DATASET,
+                         epochs=TEST_EPOCHS,
+                         episodes=EPISODES,
+                         ways=WAYS,
+                         shots=SHOTS,
+                         query_num=QUERY_NUM)

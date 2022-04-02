@@ -1,21 +1,29 @@
 # PaddleFSL
-This repository contains PaddleFSL, which is a python library for few-shot learning (FSL) building on top of PaddlePaddle2.0.
+[![PyPI version](https://badge.fury.io/py/paddlefsl.svg)](https://pypi.org/project/paddlefsl/)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-blue)](https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL/CONTRIBUTING.md)
+[![License Apache-2.0](https://img.shields.io/github/license/tata1661/FSL-Mate/paddlefsl?color=purple)](https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL/LICENSE)
 
-PaddleFSL provides low-level utilities and unified interface to create new algorithms for FSL, together with high-quality implementations of existing FSL algorithms and standardized benchmarks. 
+PaddleFSL is a Python library for few-shot learning (FSL) built upon PaddlePaddle 2.0.
+- Provide various 
+FSL solutions which are applicable to diverse applications. 
+- Contain detailed 
+annotations and tutorial examples, such that users can easily develop and compare different FSL solutions. 
+- Can be easily deployed on various training platforms. 
 
-<p align="center"><img src="art-paddlefsl.png" alt="logo" width="800px" /></p>
+![](https://github.com/tata1661/FSL-Mate/blob/master/PaddleFSL/art-paddlefsl.png)
 
 ## Overview
 
-- **examples**: using examples of the package, especially high level algorithms including configurations of each task.
-- **paddlefsl**: the package code.
-  - paddlefsl.backbones: backbones such as MLP, convolutional networks and ResNet.
-  - paddlefsl.datasets: class of datasets commenly used in meta-learning.
-  - paddlefsl.model_zoo: high-level algorithms in meta-learning.
-  - paddlefsl.task_sampler: taskset for splitting specific task of N ways, K shots and Q query points.
-  - paddlefsl.utils: Environment and utilities for meta-reinforcement learning.
-- **raw_data**: the directory to place the raw data files.
-- **test**: unit testing files of the subpackages, functions and classes.
+- **paddlefsl**: The proposed package for FSL.
+  - **paddlefsl.backbones**: It provides representation learning models to extract sample representation, such as CNN, GNN and PLM.
+  - **paddlefsl.datasets**: It provides publicly accessible benchmark few-shot datasets of diverse application scenarios, such as Omniglot, FewRel, FewGLUE and Tox21.
+  - **paddlefsl.model_zoo**: It provides classical FSL models which particularly deal with the lack of labeled data, such as ProtoNet, MAML and PET.
+  - **paddlefsl.task_sampler**: It provides APIs to split datasets into the typical N-way K-shot tasks.
+  - **paddlefsl.utils**: It provides auxiliary APIs of PaddleFSL. 
+- **examples**: It provides examples of applying PaddleFSL to diverse application scenarios, such as computer vision tasks, natural language tasks and bioinformatics tasks.
+- **raw_data**: It provides guides to download and place the raw data files.
+- **test**: It provides unit test files of functions and classes.
+
 
 ## Installation
 
@@ -49,20 +57,18 @@ Finally, check whether the installation is successful.
 python
 >>> import paddlefsl
 >>> paddlefsl.__version__
-'1.0.0'
+'1.1.0'
 ```
 
-## Datasets
 
-We provide several few shot learning datasets and custom dataset interface. Dataset usages please see raw_data/README.md
+## Contributing
 
-## Few Shot Tasks and High level algorithms
 
-We provide implementations of several high level algorithms in different few shot tasks. Please see examples/README.md
+PaddleFSL is mainly contributed by W Group led by [Yaqing Wang](https://cse.hkust.edu.hk/~ywangcy/). The full list of PaddleFSL contributors is [here](../CONTRIBUTING.md).
 
-## Contributors
 
-PaddleFSL is maintained by Yaqing Wang, [Zijing Zhao](https://github.com/JeremyZhao1998) and [Xin Tian](https://github.com/tianxin1860). 
+We also welcome and appreciate community contribution to improve PaddleFSL, such as introducing new datasets, models and algorithms, designing new features and fixing bugs. 
+The codes can be contributed via pull requests and code review. 
+Please also feel free to open an issue for feedbacks or advices. 
 
-Please feel free to open an issue or [contact us](mailto:wangyaqing01@baidu.com) for feedbacks or advices. Thanks!
 

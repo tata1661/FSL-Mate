@@ -208,6 +208,11 @@ Please cite our paper if you find it helpful.
 *A. Islam, C.-F. Chen, R. Panda, L. Karlinsky, R. Feris, and R. Radke.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/1d6408264d31d453d556c60fe7d0459e-Paper.pdf)
 
+1. **Towards better understanding and better generalization of low-shot classification in histology images with contrastive learning,** in ICLR, 2022.
+*J. Yang, H. Chen, J. Yan, X. Chen, and J. Yao.*
+[paper](https://openreview.net/pdf?id=kQ2SOflIOVC)
+[code](https://github.com/TencentAILabHealthcare/Few-shot-WSI)
+
 ## [Model](#content)
 
 ### Multitask Learning
@@ -246,7 +251,7 @@ Please cite our paper if you find it helpful.
 [paper](https://www.aclweb.org/anthology/C18-1041.pdf)
 
 1. **Boosting few-shot visual learning with self-supervision,** in ICCV, 2019.
-*S. Gidaris, A. Bursuc, N. Komodakis, P. Pérez, and M. Cord*
+*S. Gidaris, A. Bursuc, N. Komodakis, P. Pérez, and M. Cord.*
 [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gidaris_Boosting_Few-Shot_Visual_Learning_With_Self-Supervision_ICCV_2019_paper.pdf)
 
 1. **When does self-supervision improve few-shot learning?,** in ECCV, 2020.
@@ -274,7 +279,7 @@ Please cite our paper if you find it helpful.
 [paper](http://www.cs.ucf.edu/~mtappen/pubs/cvpr10_oneshot.pdf)
 
 1. **Siamese neural networks for one-shot image recognition,** ICML deep learning workshop, 2015.
-*G. Koch, R. Zemel, and R. Salakhutdinov*
+*G. Koch, R. Zemel, and R. Salakhutdinov.*
 [paper](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
 
 1. **Matching networks for one shot learning,** in NeurIPS, 2016.
@@ -617,6 +622,10 @@ Please cite our paper if you find it helpful.
 *S. Laenen, and L. Bertinetto.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/cdfa4c42f465a5a66871587c69fcfa34-Paper.pdf)
 
+1. **Few-shot learning as cluster-induced voronoi diagrams: A geometric approach,** in ICLR, 2022.
+*C. Ma, Z. Huang, M. Gao, and J. Xu.*
+[paper](https://openreview.net/pdf?id=6kCiVaoQdx9)
+[code](https://github.com/horsepurve/DeepVoro)
 
 ### Learning with External Memory
 
@@ -677,6 +686,16 @@ Please cite our paper if you find it helpful.
 *X. Liu, X. Tian, S. Lin, Y. Qu, L. Ma, W. Yuan, Z. Zhang, and Y. Xie.*
 [paper](https://www.ijcai.org/proceedings/2021/0123.pdf)
 
+1. **Prototype memory and attention mechanisms for few shot image generation,** in ICLR, 2022.
+*T. Li, Z. Li, A. Luo, H. Rockwell, A. B. Farimani, and T. S. Lee.*
+[paper](https://openreview.net/pdf?id=lY0-7bj0Vfz)
+[code](https://github.com/Crazy-Jack/MoCA_release)
+
+1. **Hierarchical variational memory for few-shot learning across domains,** in ICLR, 2022.
+*Y. Du, X. Zhen, L. Shao, and C. G. M. Snoek.*
+[paper](https://openreview.net/pdf?id=i3RI65sR7N)
+[code](https://github.com/YDU-uva/HierMemory)
+
 
 ### Generative Modeling
 
@@ -730,7 +749,7 @@ and L. Van Gool.*
 [paper](https://openreview.net/forum?id=HkxStoC5F7)
 
 1. **Variational prototyping-encoder: One-shot learning with prototypical images,** in CVPR, 2019.
-*J. Kim, T.-H. Oh, S. Lee, F. Pan, and I. S. Kweon*
+*J. Kim, T.-H. Oh, S. Lee, F. Pan, and I. S. Kweon.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Variational_Prototyping-Encoder_One-Shot_Learning_With_Prototypical_Images_CVPR_2019_paper.pdf)
 [code](https://github.com/mibastro/VPE)
 
@@ -836,15 +855,15 @@ and L. Van Gool.*
 [paper](https://www.aclweb.org/anthology/N19-1319.pdf)
 
 1. **Low shot box correction for weakly supervised object detection,** in IJCAI, 2019.
-*T. Pan, B. Wang, G. Ding, J. Han, and J. Yong*
+*T. Pan, B. Wang, G. Ding, J. Han, and J. Yong.*
 [paper](https://www.ijcai.org/Proceedings/2019/0125.pdf)
 
 1. **Diversity with cooperation: Ensemble methods for few-shot classification,** in ICCV, 2019.
-*N. Dvornik, C. Schmid, and J. Mairal*
+*N. Dvornik, C. Schmid, and J. Mairal.*
 [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dvornik_Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf)
 
 1. **Few-shot image recognition with knowledge transfer,** in ICCV, 2019.
-*Z. Peng, Z. Li, J. Zhang, Y. Li, G.-J. Qi, and J. Tang*
+*Z. Peng, Z. Li, J. Zhang, Y. Li, G.-J. Qi, and J. Tang.*
 [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Few-Shot_Image_Recognition_With_Knowledge_Transfer_ICCV_2019_paper.pdf)
 
 1. **Generating classification weights with gnn denoising autoencoders for few-shot learning,** in CVPR, 2019.
@@ -853,19 +872,19 @@ and L. Van Gool.*
 [code](https://github.com/gidariss/wDAE_GNN_FewShot)
 
 1. **Dense classification and implanting for few-shot learning,** in CVPR, 2019.
-*Y. Lifchitz, Y. Avrithis, S. Picard, and A. Bursuc*
+*Y. Lifchitz, Y. Avrithis, S. Picard, and A. Bursuc.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lifchitz_Dense_Classification_and_Implanting_for_Few-Shot_Learning_CVPR_2019_paper.pdf)
 
 1. **Few-shot adaptive faster R-CNN,** in CVPR, 2019.
-*T. Wang, X. Zhang, L. Yuan, and J. Feng*
+*T. Wang, X. Zhang, L. Yuan, and J. Feng.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Few-Shot_Adaptive_Faster_R-CNN_CVPR_2019_paper.pdf)
 
 1. **TransMatch: A transfer-learning scheme for semi-supervised few-shot learning,** in CVPR, 2020.
-*Z. Yu, L. Chen, Z. Cheng, and J. Luo*
+*Z. Yu, L. Chen, Z. Cheng, and J. Luo.*
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_TransMatch_A_Transfer-Learning_Scheme_for_Semi-Supervised_Few-Shot_Learning_CVPR_2020_paper.pdf)
 
 1. **Learning to select base classes for few-shot classification,** in CVPR, 2020.
-*L. Zhou, P. Cui, X. Jia, S. Yang, and Q. Tian*
+*L. Zhou, P. Cui, X. Jia, S. Yang, and Q. Tian.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_Learning_to_Select_Base_Classes_for_Few-Shot_Classification_CVPR_2020_paper.pdf)
 
 1. **Few-shot NLG with pre-trained language model,** in ACL, 2020.
@@ -1046,6 +1065,22 @@ and L. Van Gool.*
 *H. Chi, F. Liu, W. Yang, L. Lan, T. Liu, B. Han, W. Cheung, and J. Kwok.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/af5d5ef24881f3c3049a7b9bfe74d58b-Paper.pdf)
 
+1. **Task affinity with maximum bipartite matching in few-shot learning,** in ICLR, 2022.
+*C. P. Le, J. Dong, M. Soltani, and V. Tarokh.*
+[paper](https://openreview.net/pdf?id=u2GZOiUTbt)
+
+1. **Differentiable prompt makes pre-trained language models better few-shot learners,** in ICLR, 2022.
+*N. Zhang, L. Li, X. Chen, S. Deng, Z. Bi, C. Tan, F. Huang, and H. Chen.*
+[paper](https://openreview.net/pdf?id=ek9a0qIafW)
+[code](https://github.com/zjunlp/DART)
+
+1. **ConFeSS: A framework for single source cross-domain few-shot learning,** in ICLR, 2022.
+*D. Das, S. Yun, and F. Porikli.*
+[paper](https://openreview.net/pdf?id=zRJu6mU2BaE)
+
+1. **Switch to generalize: Domain-switch learning for cross-domain few-shot classification,** in ICLR, 2022.
+*Z. Hu, Y. Sun, and Y. Yang.*
+[paper](https://openreview.net/pdf?id=H-iABMvzIc)
 
 ### Refining Meta-learned Parameters
 
@@ -1280,6 +1315,28 @@ and L. Van Gool.*
 1. **The role of global labels in few-shot classification and how to infer them,** in NeurIPS, 2021.
 *R. Wang, M. Pontil, and C. Ciliberto.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/e3b6fb0fd4df098162eede3313c54a8d-Paper.pdf)
+
+1. **How to train your MAML to excel in few-shot classification,** in ICLR, 2022.
+*H. Ye, and W. Chao.*
+[paper](https://openreview.net/pdf?id=49h_IkpJtaE)
+[code](https://github.com/Han-Jia/UNICORN-MAML)
+
+1. **Meta-learning with fewer tasks through task interpolation,** in ICLR, 2022.
+*H. Yao, L. Zhang, and C. Finn.*
+[paper](https://openreview.net/pdf?id=ajXWF7bVR8d)
+[code](https://github.com/huaxiuyao/MLTI)
+
+1. **Continuous-time meta-learning with forward mode differentiation,** in ICLR, 2022.
+*T. Deleu, D. Kanaa, L. Feng, G. Kerg, Y. Bengio, G. Lajoie, and P. Bacon.*
+[paper](https://openreview.net/pdf?id=57PipS27Km)
+
+1. **Bootstrapped meta-learning,** in ICLR, 2022.
+*S. Flennerhag, Y. Schroecker, T. Zahavy, H. v. Hasselt, D. Silver, and S. Singh.*
+[paper](https://openreview.net/pdf?id=b-ny3x071E5)
+
+1. **Learning prototype-oriented set representations for meta-learning,** in ICLR, 2022.
+*D. d. Guo, L. Tian, M. Zhang, M. Zhou, and H. Zha.*
+[paper](https://openreview.net/pdf?id=WH6u2SvlLp4)
 
 ### Learning Search Steps
 
@@ -1867,6 +1924,16 @@ and L. Van Gool.*
 *A. Sinha, J. Song, C. Meng, and S. Ermon.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/682e0e796084e163c5ca053dd8573b0c-Paper.pdf)
 
+1. **Few-shot backdoor attacks on visual object tracking,** in ICLR, 2022.
+*Y. Li, H. Zhong, X. Ma, Y. Jiang, and S. Xia.*
+[paper](https://openreview.net/pdf?id=qSV5CuSaK_a)
+[code](https://github.com/HXZhong1997/FSBA)
+
+1. **Temporal alignment prediction for supervised representation learning and few-shot sequence classification,** in ICLR, 2022.
+*B. Su, and J. Wen.*
+[paper](https://openreview.net/pdf?id=p3DKPQ7uaAi)
+[code](https://github.com/BingSu12/TAP)
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -1912,6 +1979,11 @@ and L. Van Gool.*
 1. **Demonstration-conditioned reinforcement learning for few-shot imitation,** in ICML, 2021.
 *C. R. Dance, J. Perez, and T. Cachet.*
 [paper](http://proceedings.mlr.press/v139/dance21a/dance21a.pdf)
+
+1. **Hierarchical few-shot imitation with skill transition models,** in ICLR, 2022.
+*K. Hakhamaneshi, R. Zhao, A. Zhan, P. Abbeel, and M. Laskin.*
+[paper](https://openreview.net/pdf?id=xKZ4K0lTj_)
+
 
 ### Natural Language Processing
 
@@ -2420,6 +2492,16 @@ and L. Van Gool.*
 *A. Farid, and A. Majumdar.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/1102a326d5f7c9e04fc3c89d0ede88c9-Paper.pdf)
 
+1. **Unraveling model-agnostic meta-learning via the adaptation learning rate,** in ICLR, 2022.
+*Y. Zou, F. Liu, and Q. Li.*
+[paper](https://openreview.net/pdf?id=3rULBvOJ8D2)
+
+1. **On the importance of firth bias reduction in few-shot classification,** in ICLR, 2022.
+*S. Ghaffari, E. Saleh, D. Forsyth, and Y. Wang.*
+[paper](https://openreview.net/pdf?id=DNRADop4ksB)
+[code](https://github.com/ehsansaleh/firth_bias_reduction)
+
+
 
 ## [Few-shot Learning and Zero-shot Learning](#content)
 
@@ -2535,6 +2617,11 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2021.emnlp-main.622.pdf)
 [code](https://github.com/facebookresearch/Zero-Shot-DST)
 
+1. **Finetuned language models are zero-shot learners,** in ICLR, 2022.
+*J. Wei, M. Bosma, V. Zhao, K. Guu, A. W. Yu, B. Lester, N. Du, A. M. Dai, and Q. V. Le.*
+[paper](https://openreview.net/pdf?id=gEZrGCozdqR)
+[code](https://github.com/google-research/flan)
+
 
 ## [Variants of Few-shot Learning](#content)
 
@@ -2552,7 +2639,7 @@ and L. Van Gool.*
 [code](https://github.com/renmengye/inc-few-shot-attractor-public)
 
 1. **Bidirectional one-shot unsupervised domain mapping,** in ICCV, 2019.
-*T. Cohen, and L. Wolf*
+*T. Cohen, and L. Wolf.*
 [paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cohen_Bidirectional_One-Shot_Unsupervised_Domain_Mapping_ICCV_2019_paper.pdf)
 
 1. **XtarNet: Learning to extract task-adaptive representation for incremental few-shot learning,** in ICML, 2020.
@@ -2561,7 +2648,7 @@ and L. Van Gool.*
 [code](https://github.com/EdwinKim3069/XtarNet)
 
 1. **Few-shot class-incremental learning,** in CVPR, 2020.
-*X. Tao, X. Hong, X. Chang, S. Dong, X. Wei, and Y. Gong*
+*X. Tao, X. Hong, X. Chang, S. Dong, X. Wei, and Y. Gong.*
 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tao_Few-Shot_Class-Incremental_Learning_CVPR_2020_paper.pdf)
 
 1. **Wandering within a world: Online contextualized few-shot learning,** in ICLR, 2021.
@@ -2673,6 +2760,20 @@ and L. Van Gool.*
 *Q. Zhang, J. Fang, Z. Meng, S. Liang, and E. Yilmaz.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/cdd0500dc0ef6682fa6ec6d2e6b577c4-Paper.pdf)
 
+1. **LFPT5: A unified framework for lifelong few-shot language learning based on prompt tuning of T5,** in ICLR, 2022.
+*C. Qin, and S. Joty.*
+[paper](https://openreview.net/pdf?id=HCRVf71PMF)
+[code](https://github.com/qcwthu/Lifelong-Fewshot-Language-Learning)
+
+1. **Subspace regularizers for few-shot class incremental learning,** in ICLR, 2022.
+*A. F. Akyürek, E. Akyürek, D. Wijaya, and J. Andreas.*
+[paper](https://openreview.net/pdf?id=boJy41J-tnQ)
+[code](https://github.com/feyzaakyurek/subspace-reg)
+
+1. **Meta discovery: Learning to discover novel classes given very limited data,** in ICLR, 2022.
+*H. Chi, F. Liu, W. Yang, L. Lan, T. Liu, B. Han, G. Niu, M. Zhou, and M. Sugiyama.*
+[paper](https://openreview.net/pdf?id=MEpKGLsY8f)
+
 ## [Datasets/Benchmarks](#content)
 
 1. **FewRel: A large-scale supervised few-shot relation classification dataset with state-of-the-art evaluation,** in EMNLP, 2018.
@@ -2749,17 +2850,19 @@ and L. Van Gool.*
 
 ## [Software Library](#content)
 
-1. **Torchmeta,** a library for few-shot learning & meta-learning baselines written in *PyTorch*.
+1. **PaddleFSL,** a library for few-shot learning written in *PaddlePaddle*.
+[link](https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL)
+
+1. **Torchmeta,** a library for few-shot learning & meta-learning written in *PyTorch*.
 [link](https://github.com/tristandeleu/pytorch-meta#torchmeta)
 
-1. **learn2learn,** a library for meta-learning baselines written in *PyTorch*.
+1. **learn2learn,** a library for meta-learning written in *PyTorch*.
 [link](https://github.com/learnables/learn2learn)
 
-1. **keras-fsl,** a library for few-shot learning baselines written in *Tensorflow*.
+1. **keras-fsl,** a library for few-shot learning written in *Tensorflow*.
 [link](https://github.com/few-shot-learning/Keras-FewShotLearning)
 
-1. **PaddleFSL,** a library for few-shot learning baselines written in *PaddlePaddle*.
-[link](https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL)
+
 
 
 
