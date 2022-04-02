@@ -1,7 +1,7 @@
 # PaddleFSL
 [![PyPI version](https://badge.fury.io/py/paddlefsl.svg)](https://pypi.org/project/paddlefsl/)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-blue)](https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL/CONTRIBUTING.md)
-[![License Apache-2.0](https://img.shields.io/github/license/tata1661/FSL-Mate/paddlefsl?color=purple)](https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-purple.svg)](https://opensource.org/licenses/Apache-2.0)
 
 PaddleFSL is a Python library for few-shot learning (FSL) built upon PaddlePaddle 2.0.
 - Provide various 
