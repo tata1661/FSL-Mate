@@ -14,7 +14,7 @@
 
 import paddle
 import paddlefsl.datasets as datasets
-from paddlefsl.backbones import RCPositionEmbedding, GloVeRC, RCConv1D
+from paddlefsl.backbones import RCPositionEmbedding, RCInitVector, RCConv1D
 from paddlefsl.model_zoo import siamese
 
 
@@ -26,7 +26,7 @@ paddle.set_device('gpu:1')
 # Config: Siamese, Few-Rel, Conv1D, 10 Ways, 1 Shot
 max_len = 128
 embedding_dim = 50
-init_vector = GloVeRC(embedding_dim=embedding_dim)
+init_vector = RCInitVector(corpus='glove-wiki', embedding_dim=embedding_dim)
 TRAIN_DATASET = datasets.FewRel(mode='train', max_len=max_len, vector_initializer=init_vector)
 VALID_DATASET = datasets.FewRel(mode='valid', max_len=max_len, vector_initializer=init_vector)
 TEST_DATASET = datasets.FewRel(mode='valid', max_len=max_len, vector_initializer=init_vector)

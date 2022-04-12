@@ -60,6 +60,18 @@ python
 '1.1.0'
 ```
 
+## Cite Us
+
+Please cite our [paper](https://cse.hkust.edu.hk/~ywangcy/aux_file/PaddleFSL-2022.pdf) if you find PaddleFSL useful.
+```
+@misc{shen2022paddlefsl,
+  title={PaddleFSL: A General Few-Shot Learning Toolbox in Python},
+  author={Shen, Zhenqian and Wang, Yaqing and Xiong, Haoyi and Tian, Xin and Chen, Zeyu and Yao, Quanming and Dou, Dejing},
+  year={2022},
+  url={https://cse.hkust.edu.hk/~ywangcy/aux_file/PaddleFSL-2022.pdf},
+  note={Available at: https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL}
+}
+```
 
 ## Contributing
 
