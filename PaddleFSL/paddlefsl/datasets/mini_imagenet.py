@@ -1,44 +1,12 @@
-from ast import Raise
-from collections import defaultdict
-import os
-from typing import Union
-from PIL.Image import Image
-import numpy as np
-import pickle as pkl
-import random
-from paddle.vision import image_load
-from paddle.vision.transforms import resize
-
-import pandas as pd
 from . import CVDataset
 from paddlefsl.task_sampler import TaskSet
 import paddlefsl.utils as utils
+from PIL import Image
+import numpy as np
+import pickle as pkl
+import random
 
 __all__ = ['MiniImageNet']
-
-
-def _read_image_data(file: str, backend: str = 'pil'):
-    """read the image data to numpy array
-
-    Args:
-        file (str): the path of the image file.
-        backend (str, optional): the backend of image reader, which can be cv2/pil/None. Defaults to 'pil'.
-
-    Raises:
-        ValueError: the invalid data type.
-
-    Returns:
-        numpy.ndarray: the image data.
-    """
-    data: Union[Image, np.ndarray] = image_load(file, backend)
-    if isinstance(data, np.ndarray):
-        return data
-    elif isinstance(data, Image):
-        np_data = np.array(data.getdata())
-        np_data = np_data.reshape(data.width, data.height, 3)
-        return np_data
-    else:
-        raise ValueError('not supported backend: {}'.format(backend))
 
 
 class MiniImageNet(CVDataset):
@@ -101,93 +69,21 @@ class MiniImageNet(CVDataset):
     file_md5 = {'train': '069993a77e65a83bbf8f8de4c9dcca68',
                 'valid': 'f87ddf9b5211920dd73520274371eb6a',
                 'test': '12158d649fd08945294de4ad38cda81d'}
-    local_file_name = {
-        'train': 'train.csv',
-        'valid': 'val.csv',
-        'test': 'test.csv'
-    }
 
     def __init__(self,
                  mode,
                  root=None,
                  transform=None,
-                 backend='numpy'
-                 ):
-        
+                 backend='numpy'):
         # Set self.mode, self.root, self.transform and self.backend in parent class
         super(MiniImageNet, self).__init__('mini-imagenet', mode, root, None, transform, backend)
 
-        # 1. check data type
-        if self._check_flat_data(root):
-            self._gen_processed_file(root)
-
-            # clear the md5 for file checking
-            self.file_md5[mode] = None
-
-        # 2. Check exist and download the data file
+        # Check exist and download the data file
         self._check_files()
-
-        # 3. Load data from pkl file
+        # Load data from pkl file
         # image_data: np.ndarray of shape (image_num, 3, 84, 84)
         # class_dict: Dict[str(class label): List[index of image in image_data]]
         self._image_data, self._class_dict = self._load_data()
-
-    def _check_flat_data(self, image_root_dir: str):
-        """check the data of mini-imagenet is the flat data structure:
-            ./train.csv
-            ./val.csv
-            ./test.csv
-            ./images/
-                01.jpg
-                02.jpg
-                ...
-
-            this structure of mini-imagenet data can be from `miniimagenet` data of aistudio.
-        """
-        if not os.path.exists(image_root_dir):
-            return False
-
-        # 1. check if there are train.cvs, val.csv, test.csv file which contains the metadata
-        if not os.path.exists(os.path.join(image_root_dir, self.local_file_name[self.mode])):
-            return False
-
-        # 2. check if there are images/ folder which contains the images
-        images_dir = os.path.join(image_root_dir, 'images')
-        return os.path.exists(images_dir)
-
-    def _gen_processed_file(self, image_root_dir: str):
-        """the image data dir which contains the train/val/test.csv and images/ folder
-
-        Args:
-            image_root_dir (str): the directory which contains the train/val/test.csv 
-                and images/ folder, eg: /home/aistudio/data/data105646/mini-imagenet-sxc/
-        """
-        # 1. check the generated pickle file is exist
-
-        # self.root = root + 'mini-imagenet'
-        pickle_file = os.path.join(self.root, self.file_name[self.mode])
-        if os.path.exists(pickle_file):
-            return
-        
-        # 2. generate the pickle file based on the data in the train/val/test.csv
-        image_data, class_dict = [], defaultdict(list)
-
-        csv_file = os.path.join(image_root_dir, self.local_file_name[self.mode])
-        for row_index, row in pd.read_csv(csv_file).iterrows():
-            file_path = os.path.join(image_root_dir, 'images', row['filename'])
-            image: np.ndarray = _read_image_data(file=file_path, backend=self.backend)
-
-            if image.shape != [84, 84, 3]:
-                image = resize(image, size=[84, 84])
-
-            image_data.append(image)
-            class_dict[row['label']].append(row_index)
-
-        image_data = np.array(image_data)
-
-        # 3. save the pickle file
-        with open(pickle_file, 'wb') as f:
-            pkl.dump(dict(image_data=image_data, class_dict=class_dict), f)
 
     def __getitem__(self, idx):
         image = self._image_data[idx]
@@ -240,3 +136,4 @@ class MiniImageNet(CVDataset):
             image_data = np.transpose(image_data, [0, 3, 1, 2])
             class_dict = data['class_dict']
         return image_data, class_dict
+
