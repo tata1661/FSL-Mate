@@ -12,14 +12,14 @@ In particular, FSL-Mate currently contains
 
 We are endeavored to constantly update FSL-Mate. Hopefully, it can make FSL easier. 
 
-### News!
-- [11/21] Add FSL papers published in ICCV 2021, EMNLP 2021 and NeurIPS 2021.
+## News🔥 
 
-- [08/21] Add FSL papers published in AAAI 2021, ICML 2021, SIGIR 2021, ACL-IJCNLP 2021, KDD 2021, and IJCAI 2021.
+- [2022-04-02] PaddleFSL v1.0.1 is officially released! It now supports bioinformatics applications and diverse few-shot natural language understanding (FewNLU) tasks. Take a look at [here](PaddleFSL/README.md)!
 
-- [08/21] PaddleFSL now supports image classification, relation classification and FewClue tasks.
+- [2022-03-31] Add FSL papers published in ICLR 2022.
 
-  
+- [2022-03-08] FSL-Mate collaborates with [PaddlePaddle Hackathon](https://www.paddlepaddle.org.cn/PaddlePaddleHackathon-2022-3) and offer three missions to community users: 
+[91. Add random search](https://github.com/tata1661/FSL-Mate/issues/19), [92. Add TPE hyperparameter search](https://github.com/tata1661/FSL-Mate/issues/18), and [93. Reorganize MAML and ANIL](https://github.com/tata1661/FSL-Mate/issues/17). Solutions which complete the missions and pass the evaluation will obtain case prizes: 1000 yuan for mission 91, 5000 yuan for mission 92, and 10000 yuan for mission 93. Come and join the Hackathon [here](https://github.com/PaddlePaddle/Paddle/issues/40234)!
 
 
 ## Cite Us
@@ -39,7 +39,7 @@ Please cite our [paper](https://dl.acm.org/doi/10.1145/3386252?cid=99659542534) 
 ```
 
 ## Contact
-We welcome advices and feedbacks for FSL-Mate. Please feel free to open an issue or contact [Yaqing Wang](mailto:wangyaqing01@baidu.com).
+We welcome advices and feedbacks for FSL-Mate. Please feel free to open an issue or contact [Yaqing Wang](mailto:wangyaqing01@baidu.com). 
 
 
 

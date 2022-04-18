@@ -1,4 +1,4 @@
-# Copyright (c) 2020 PaddlePaddle Authors. All Rights Reserved.
+# Copyright 2021 PaddleFSL Authors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,29 +11,31 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 import os
 import setuptools
 import sys
-import paddlefsl
 
-long_description = "Few-shot learning(FSL) software tools and examples, building on top of PaddlePaddle2.0."
-
-with open("requirements.txt") as fin:
-    REQUIRED_PACKAGES = fin.read()
+with open("README.md", "r") as fin:
+    long_description = fin.read()
 
 setuptools.setup(
     name="paddlefsl",
-    version=paddlefsl.__version__,
-    author="wangyaqing",
+    version='1.1.0',
+    author="PaddleFSL authors",
     author_email="wangyaqing01@baidu.com",
-    description=long_description,
+    description="PaddleFSL is a Python library for few-shot learning",
     long_description=long_description,
-    long_description_content_type="text/plain",
-    url="https://github.com/tata1661/FSL-Mate",
+    long_description_content_type="text/markdown",
+    url="https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL",
     packages=setuptools.find_packages(
         where='.', exclude=('examples*', 'tests*')),
-    setup_requires=['cython', 'numpy'],
-    install_requires=REQUIRED_PACKAGES,
+    setup_requires=['cython'],
+    install_requires=[
+    'numpy',
+    'requests',
+    'tqdm'
+    ],
     python_requires='>=3.6',
     classifiers=[
         'Programming Language :: Python :: 3',
@@ -43,4 +45,5 @@ setuptools.setup(
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
     ],
-    license='Apache 2.0')
+    license='Apache 2.0',
+    keywords=["few-shot-learning", "one-shot-learning", "meta-learning", "paddlepaddle","deep-learning"])

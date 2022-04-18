@@ -1,3 +1,17 @@
+# Copyright 2021 PaddleFSL Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import paddle
 import paddlefsl
 from paddlefsl.model_zoo import maml
@@ -27,34 +41,28 @@ SAVE_MODEL_ROOT = '~/trained_models'
 TEST_PARAM_FILE = 'iteration60000.params'
 
 
-def main():
-    train_dir = maml.meta_training(train_dataset=TRAIN_DATASET,
-                                   valid_dataset=VALID_DATASET,
-                                   ways=WAYS,
-                                   shots=SHOTS,
-                                   model=MODEL,
-                                   meta_lr=META_LR,
-                                   inner_lr=INNER_LR,
-                                   iterations=ITERATIONS,
-                                   meta_batch_size=META_BATCH_SIZE,
-                                   inner_adapt_steps=TRAIN_INNER_ADAPT_STEPS,
-                                   approximate=APPROXIMATE,
-                                   report_iter=REPORT_ITER,
-                                   save_model_iter=SAVE_MODEL_ITER,
-                                   save_model_root=SAVE_MODEL_ROOT)
-    print(train_dir)
-    state_dict = paddle.load(train_dir + '/' + TEST_PARAM_FILE)
-    MODEL.load_dict(state_dict)
-    maml.meta_testing(model=MODEL,
-                      test_dataset=TEST_DATASET,
-                      test_epoch=TEST_EPOCH,
-                      test_batch_size=META_BATCH_SIZE,
-                      ways=WAYS,
-                      shots=SHOTS,
-                      inner_lr=INNER_LR,
-                      inner_adapt_steps=TEST_INNER_ADAPT_STEPS,
-                      approximate=APPROXIMATE)
+train_dir, MODEL = maml.meta_training(train_dataset=TRAIN_DATASET,
+                                      valid_dataset=VALID_DATASET,
+                                      ways=WAYS,
+                                      shots=SHOTS,
+                                      model=MODEL,
+                                      meta_lr=META_LR,
+                                      inner_lr=INNER_LR,
+                                      iterations=ITERATIONS,
+                                      meta_batch_size=META_BATCH_SIZE,
+                                      inner_adapt_steps=TRAIN_INNER_ADAPT_STEPS,
+                                      approximate=APPROXIMATE,
+                                      report_iter=REPORT_ITER,
+                                      save_model_iter=SAVE_MODEL_ITER,
+                                      save_model_root=SAVE_MODEL_ROOT)
+print(train_dir)
+maml.meta_testing(model=MODEL,
+                  test_dataset=TEST_DATASET,
+                  test_epoch=TEST_EPOCH,
+                  test_batch_size=META_BATCH_SIZE,
+                  ways=WAYS,
+                  shots=SHOTS,
+                  inner_lr=INNER_LR,
+                  inner_adapt_steps=TEST_INNER_ADAPT_STEPS,
+                  approximate=APPROXIMATE)
 
-
-if __name__ == '__main__':
-    main()
