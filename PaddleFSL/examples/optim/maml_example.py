@@ -1,5 +1,6 @@
 """MAML example for optimization"""
 from __future__ import annotations
+from numpy import place
 
 import paddle
 from paddle import dtype, nn
@@ -7,20 +8,21 @@ from paddle.optimizer import Optimizer, Adam
 from paddle.nn import Layer
 from tap import Tap
 from tqdm import tqdm, trange
+import warnings
 
 import paddlefsl
 from paddlefsl import utils
 from paddlefsl.datasets.cv_dataset import CVDataset
 from paddlefsl.metaopt.base_learner import BaseLearner
 from paddlefsl.metaopt.maml import MAMLLearner
-
+from paddle.metric.metrics import Accuracy
 
 class Config(Tap):
     """Alernative for Argument Parse"""
     n_way: int = 5
     k_shot: int = 1
-    meta_lr: float = 0.002
-    inner_lr: float = 0.03
+    meta_lr: float = 0.02
+    inner_lr: float = 0.002
     epochs: int = 60000                 # also named as iterations
     test_epoch: int = 10
 
@@ -47,7 +49,7 @@ class ContextData:
     def __init__(self) -> None:
         self.train_epoch = 0
         self.epoch = 0
-        
+
         self.train_loss = 0
         self.train_acc = 0
 
@@ -60,7 +62,7 @@ class Trainer:
     def __init__(
         self,
         config: Config,
-        
+
         train_dataset: CVDataset,
         dev_dataset: CVDataset,
         test_dataset: CVDataset,
@@ -76,13 +78,22 @@ class Trainer:
         self.dev_dataset = dev_dataset
         self.test_dataset = test_dataset
 
-        self.model = model
+        self.model = model.to(self.config.place())
         self.criterion = criterion
         self.learner = learner
 
         self.train_bar = tqdm(total=self.config.epochs, desc='Train Progress')
-
         self.context = ContextData()
+
+        self.metric = Accuracy()
+
+        self._set_device()
+        warnings.filterwarnings("ignore")
+
+    def _set_device(self):
+        paddle.device.set_device(self.config.device)
+        if paddle.distributed.get_world_size() > 1:
+            paddle.distributed.init_parallel_env()
 
     def on_train_epoch_end(self):
         """handle the end of one epoch"""
@@ -93,24 +104,28 @@ class Trainer:
         bar_info = f'Epoch: {self.context.epoch}/{self.config.epochs} \t train-loss: {self.context.train_loss}  \t\t train-acc: {self.context.train_acc}'
         self.train_bar.set_description(bar_info)
 
-        if self.context.epoch % self.config.do_eval_step == 0:
-            self.eval(self.dev_dataset)
+        # if self.context.epoch % self.config.do_eval_step == 0:
+        #     self.eval(self.dev_dataset)
 
     def train_epoch(self):
         """train one epoch"""
         self.learner.clear_grad()
-        
+        self.context.train_loss = 0
+
+        self.metric.reset()
+
         for _ in range(self.config.meta_batch_size):
             task = self.train_dataset.sample_task_set(
                 ways=self.config.n_way,
                 shots=self.config.k_shot
             )
-            model = self.learner.new_cloned_model()
-            support_set, support_set_labels = paddle.to_tensor(task.support_data, dtype=paddle.float32), paddle.to_tensor(task.support_labels, dtype=paddle.int64)
-            query_set, query_set_labels = paddle.to_tensor(task.query_data, dtype=paddle.float32), paddle.to_tensor(task.query_labels, dtype=paddle.int64)
+
+            model = self.learner.clone()
+            # model.to(device=self.config.place())
+            support_set, support_set_labels = paddle.to_tensor(task.support_data, dtype=paddle.float32, place=self.config.place()), paddle.to_tensor(task.support_labels, dtype=paddle.int64, place=self.config.place())
+            query_set, query_set_labels = paddle.to_tensor(task.query_data, dtype=paddle.float32, place=self.config.place()), paddle.to_tensor(task.query_labels, dtype=paddle.int64, place=self.config.place())
 
             # handle the fast adaption in few dataset
-
             for _ in range(self.config.train_inner_adapt_steps):
                 logits = model(support_set)
                 loss = self.criterion(logits, support_set_labels)
@@ -121,8 +136,14 @@ class Trainer:
             loss = self.criterion(logits, query_set_labels)
             loss.backward()
             self.learner.step()
-            
+
             self.context.train_loss += loss.detach().cpu().numpy().item()
+
+            self.metric.update(
+                self.metric.compute(logits, query_set_labels)
+            )
+
+        self.context.train_acc = self.metric.accumulate()
 
     def eval(self, dataset: CVDataset):
         """evaluate the model on the dataset"""
@@ -164,6 +185,7 @@ class Trainer:
 if __name__ == '__main__':
 
     config = Config().parse_args(known_only=True)
+    config.device = 'cpu'
     # Config: MAML, Mini-ImageNet, Conv, 5 Ways, 1 Shot
     train_dataset = paddlefsl.datasets.MiniImageNet(mode='train')
     valid_dataset = paddlefsl.datasets.MiniImageNet(mode='valid')
