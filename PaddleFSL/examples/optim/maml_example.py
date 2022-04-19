@@ -1,23 +1,22 @@
 """MAML example for optimization"""
 from __future__ import annotations
 from typing import Tuple
-from numpy import place, tensordot
+import warnings
 
 import paddle
-from paddle import dtype, nn
-from paddle.optimizer import Optimizer, Adam
+from paddle import nn
+from paddle.optimizer import Adam
 from paddle.nn import Layer
+from paddle.metric.metrics import Accuracy
 from tap import Tap
-from tqdm import tqdm, trange
-import warnings
+from tqdm import tqdm
 from tabulate import tabulate
 
 import paddlefsl
-from paddlefsl import utils
 from paddlefsl.datasets.cv_dataset import CVDataset
 from paddlefsl.metaopt.base_learner import BaseLearner
 from paddlefsl.metaopt.maml import MAMLLearner
-from paddle.metric.metrics import Accuracy
+
 
 class Config(Tap):
     """Alernative for Argument Parse"""
@@ -45,8 +44,6 @@ class Config(Tap):
     def place(self): 
         """get the default device place for tensor"""
         return paddle.fluid.CUDAPlace(0) if self.device == 'gpu' else paddle.fluid.CPUPlace()
-
-BatchData = Tuple[Tensor, Tensor, Tensor, Tensor]
 
 class ContextData:
     """context data to store the training and testing results"""
@@ -80,8 +77,8 @@ class Trainer:
         self.train_dataset = train_dataset
         self.dev_dataset = dev_dataset
         self.test_dataset = test_dataset
-
-        self.model = model.to(self.config.place())
+        
+        self.model = model
         self.criterion = criterion
         self.learner = MAMLLearner(
             self.model,
@@ -93,7 +90,7 @@ class Trainer:
         self.context = ContextData()
 
         self.metric = Accuracy()
-        self.optimizer = Adam(self.model.parameters(), lr=self.config.meta_lr)
+        self.optimizer = Adam(parameters=self.model.parameters(), learning_rate=self.config.meta_lr)
 
         self._set_device()
         warnings.filterwarnings("ignore")
@@ -125,8 +122,8 @@ class Trainer:
         Returns:
             Tuples[Tensor, Tensor]: the loss and acc of the inner loop
         """
-        support_set, support_set_labels = paddle.to_tensor(task.support_data, dtype=paddle.float32, place=self.config.place()), paddle.to_tensor(task.support_labels, dtype=paddle.int64, place=self.config.place())
-        query_set, query_set_labels = paddle.to_tensor(task.query_data, dtype=paddle.float32, place=self.config.place()), paddle.to_tensor(task.query_labels, dtype=paddle.int64, place=self.config.place())
+        support_set, support_set_labels = paddle.to_tensor(task.support_data, dtype='float32'), paddle.to_tensor(task.support_labels, dtype='int64')
+        query_set, query_set_labels = paddle.to_tensor(task.query_data, dtype='float32'), paddle.to_tensor(task.query_labels, dtype='int64')
 
         # handle the fast adaption in few dataset
         for _ in range(self.config.train_inner_adapt_steps):
@@ -138,6 +135,7 @@ class Trainer:
         logits = learner(query_set)
         val_loss = self.criterion(logits, query_set_labels)
         val_acc = self.metric.compute(logits, query_set_labels)
+        val_acc = self.metric.update(val_acc)
         return val_loss, val_acc
 
     def train_epoch(self):
@@ -149,6 +147,7 @@ class Trainer:
         train_loss, train_acc = 0, 0
         val_loss, val_acc = 0, 0
 
+        self.metric.reset()
         self.optimizer.clear_grad()
         for _ in range(self.config.meta_batch_size):
             task = self.train_dataset.sample_task_set(
@@ -160,8 +159,9 @@ class Trainer:
             
             # inner loop
             inner_loss, inner_acc = self.fast_adapt(task, learner)
-            train_loss += inner_loss
+            train_loss += inner_loss.detach().clone().cpu().numpy().item()
             train_acc += inner_acc
+
             inner_loss.backward()
 
             # outer loop
@@ -170,7 +170,7 @@ class Trainer:
                 shots=self.config.k_shot
             )
             outer_loss, outer_acc = self.fast_adapt(task, learner)
-            val_loss += outer_loss
+            val_loss += outer_loss.detach().clone().cpu().numpy().item()
             val_acc += outer_acc
         
         self.context.train_loss, self.context.train_acc = train_loss / self.config.meta_batch_size, train_acc / self.config.meta_batch_size
@@ -196,7 +196,7 @@ class Trainer:
                 learner = learner.clone()
                 task = dataset.sample_task_set(ways=self.config.n_way, shots=self.config.k_shot)
                 inner_loss, inner_acc = self.fast_adapt(task, learner)
-                test_loss += inner_loss
+                test_loss += inner_loss.detach().clone().cpu().numpy().item()
                 test_acc += inner_acc
             
             test_acc = test_acc / self.config.test_batch_size
@@ -210,16 +210,17 @@ class Trainer:
 
     def train(self):
         """handle the main train"""
-        for _ in range(self.config.epochs):
+        for epoch in range(self.config.epochs):
             self.train_epoch()
             self.on_train_epoch_end()
-            self.eval(self.test_dataset, self.learner)
+            if (epoch + 1) % 100 == 0:
+                self.eval(self.test_dataset, self.learner)
 
 
 if __name__ == '__main__':
 
     config = Config().parse_args(known_only=True)
-    config.device = 'cpu'
+    config.device = 'gpu'
     # Config: MAML, Mini-ImageNet, Conv, 5 Ways, 1 Shot
     train_dataset = paddlefsl.datasets.MiniImageNet(mode='train')
     valid_dataset = paddlefsl.datasets.MiniImageNet(mode='valid')
@@ -230,7 +231,7 @@ if __name__ == '__main__':
         learning_rate=config.meta_lr,
         parameters=model.parameters(),
     )
-    learner = MAMLLearner(model, optimizer, learning_rate=config.inner_lr, approximate=config.approximate)
+    learner = MAMLLearner(model,learning_rate=config.inner_lr, approximate=config.approximate)
     criterion = nn.CrossEntropyLoss()
 
     trainer = Trainer(
