@@ -1,6 +1,7 @@
 """MAML example for optimization"""
 from __future__ import annotations
-from numpy import place
+from typing import Tuple
+from numpy import place, tensordot
 
 import paddle
 from paddle import dtype, nn
@@ -9,6 +10,7 @@ from paddle.nn import Layer
 from tap import Tap
 from tqdm import tqdm, trange
 import warnings
+from tabulate import tabulate
 
 import paddlefsl
 from paddlefsl import utils
@@ -27,8 +29,9 @@ class Config(Tap):
     test_epoch: int = 10
 
     meta_batch_size: int = 32
+    test_batch_size: int = 10
+    
     train_inner_adapt_steps: int = 5
-    test_inner_adapt_steps: int = 10
 
     approximate: bool = True
 
@@ -43,6 +46,7 @@ class Config(Tap):
         """get the default device place for tensor"""
         return paddle.fluid.CUDAPlace(0) if self.device == 'gpu' else paddle.fluid.CPUPlace()
 
+BatchData = Tuple[Tensor, Tensor, Tensor, Tensor]
 
 class ContextData:
     """context data to store the training and testing results"""
@@ -68,7 +72,6 @@ class Trainer:
         test_dataset: CVDataset,
 
         model: Layer,
-        learner: BaseLearner,
         criterion: Layer,
 
     ) -> None:
@@ -80,12 +83,17 @@ class Trainer:
 
         self.model = model.to(self.config.place())
         self.criterion = criterion
-        self.learner = learner
+        self.learner = MAMLLearner(
+            self.model,
+            learning_rate=self.config.meta_lr,
+            approximate=self.config.approximate
+        )
 
         self.train_bar = tqdm(total=self.config.epochs, desc='Train Progress')
         self.context = ContextData()
 
         self.metric = Accuracy()
+        self.optimizer = Adam(self.model.parameters(), lr=self.config.meta_lr)
 
         self._set_device()
         warnings.filterwarnings("ignore")
@@ -107,79 +115,105 @@ class Trainer:
         # if self.context.epoch % self.config.do_eval_step == 0:
         #     self.eval(self.dev_dataset)
 
+    def fast_adapt(self, task, learner: BaseLearner):
+        """make inner loop fast adaption based on the task
+
+        Args:
+            task (_type_): which contains the support_set & query_set data
+            learner (BaseLearner): the meta optimization algriothm, which contains the model
+
+        Returns:
+            Tuples[Tensor, Tensor]: the loss and acc of the inner loop
+        """
+        support_set, support_set_labels = paddle.to_tensor(task.support_data, dtype=paddle.float32, place=self.config.place()), paddle.to_tensor(task.support_labels, dtype=paddle.int64, place=self.config.place())
+        query_set, query_set_labels = paddle.to_tensor(task.query_data, dtype=paddle.float32, place=self.config.place()), paddle.to_tensor(task.query_labels, dtype=paddle.int64, place=self.config.place())
+
+        # handle the fast adaption in few dataset
+        for _ in range(self.config.train_inner_adapt_steps):
+            logits = learner(support_set)
+            loss = self.criterion(logits, support_set_labels)
+            learner.adapt(loss)
+
+        # evaluate the model on query set data
+        logits = learner(query_set)
+        val_loss = self.criterion(logits, query_set_labels)
+        val_acc = self.metric.compute(logits, query_set_labels)
+        return val_loss, val_acc
+
     def train_epoch(self):
         """train one epoch"""
-        self.learner.clear_grad()
         self.context.train_loss = 0
 
         self.metric.reset()
+        
+        train_loss, train_acc = 0, 0
+        val_loss, val_acc = 0, 0
 
+        self.optimizer.clear_grad()
         for _ in range(self.config.meta_batch_size):
             task = self.train_dataset.sample_task_set(
                 ways=self.config.n_way,
                 shots=self.config.k_shot
             )
 
-            model = self.learner.clone()
-            # model.to(device=self.config.place())
-            support_set, support_set_labels = paddle.to_tensor(task.support_data, dtype=paddle.float32, place=self.config.place()), paddle.to_tensor(task.support_labels, dtype=paddle.int64, place=self.config.place())
-            query_set, query_set_labels = paddle.to_tensor(task.query_data, dtype=paddle.float32, place=self.config.place()), paddle.to_tensor(task.query_labels, dtype=paddle.int64, place=self.config.place())
+            learner = self.learner.clone()
+            
+            # inner loop
+            inner_loss, inner_acc = self.fast_adapt(task, learner)
+            train_loss += inner_loss
+            train_acc += inner_acc
+            inner_loss.backward()
 
-            # handle the fast adaption in few dataset
-            for _ in range(self.config.train_inner_adapt_steps):
-                logits = model(support_set)
-                loss = self.criterion(logits, support_set_labels)
-                self.learner.adapt(loss)    # accumulate the gradients
-
-            # evaluate the model on query set data
-            logits = model(query_set)
-            loss = self.criterion(logits, query_set_labels)
-            loss.backward()
-            self.learner.step()
-
-            self.context.train_loss += loss.detach().cpu().numpy().item()
-
-            self.metric.update(
-                self.metric.compute(logits, query_set_labels)
+            # outer loop
+            task = self.dev_dataset.sample_task_set(
+                ways=self.config.n_way,
+                shots=self.config.k_shot
             )
+            outer_loss, outer_acc = self.fast_adapt(task, learner)
+            val_loss += outer_loss
+            val_acc += outer_acc
+        
+        self.context.train_loss, self.context.train_acc = train_loss / self.config.meta_batch_size, train_acc / self.config.meta_batch_size
+        self.context.dev_loss, self.context.dev_acc = val_loss / self.config.meta_batch_size, val_acc / self.config.meta_batch_size
+        self.optimizer.step()
 
-        self.context.train_acc = self.metric.accumulate()
+    def eval(self, dataset: CVDataset, learner: BaseLearner):
+        """eval the model on the dataset
 
-    def eval(self, dataset: CVDataset):
-        """evaluate the model on the dataset"""
-        self.learner.eval()
-        self.model.eval()
+        Args:
+            dataset (CVDataset): the dataset to evaluate
+            learner (BaseLearner): the learner to evaluate the model
+        """
 
         self.context.dev_loss = 0
         self.context.dev_acc = 0
 
-        for _ in range(self.config.test_inner_adapt_steps):
-            task = dataset.sample_task_set(
-                ways=self.config.n_way,
-                shots=self.config.k_shot
+        eval_bar = tqdm(total=self.config.test_epoch, desc='Dev Bar')
+        all_metric = []
+        for _ in range(self.config.test_epoch):
+            test_loss, test_acc = 0, 0
+            for _ in range(self.config.test_batch_size):
+                learner = learner.clone()
+                task = dataset.sample_task_set(ways=self.config.n_way, shots=self.config.k_shot)
+                inner_loss, inner_acc = self.fast_adapt(task, learner)
+                test_loss += inner_loss
+                test_acc += inner_acc
+            
+            test_acc = test_acc / self.config.test_batch_size
+            test_loss = test_loss / self.config.test_batch_size
+            eval_bar.update()
+            eval_bar.set_description(
+                f'\tloss {test_loss:.6f}\t\tacc {test_acc:.6f}'
             )
-            support_set, support_set_labels = paddle.to_tensor(task.support_data, dtype=paddle.float32), paddle.to_tensor(task.support_labels, dtype=paddle.int64)
-            query_set, query_set_labels = paddle.to_tensor(task.query_data, dtype=paddle.float32), paddle.to_tensor(task.query_labels, dtype=paddle.int64)
-
-            logits = self.model(support_set)
-            loss = self.criterion(logits, support_set_labels)
-            self.context.dev_loss += loss.numpy()
-
-            logits = self.model(query_set)
-            acc = paddle.fluid.layers.accuracy(input=logits, label=query_set_labels)
-            self.context.dev_acc += acc.numpy()
-
-        self.context.dev_loss /= self.config.test_inner_adapt_steps
-        self.context.dev_acc /= self.config.test_inner_adapt_steps
-
-        self.learner.train()
-        self.model.train()
+            all_metric.append([test_loss, test_acc])
+        print(tabulate(all_metric, ['loss', 'acc'], tablefmt="grid"))
 
     def train(self):
         """handle the main train"""
         for _ in range(self.config.epochs):
             self.train_epoch()
             self.on_train_epoch_end()
+            self.eval(self.test_dataset, self.learner)
 
 
 if __name__ == '__main__':
@@ -205,7 +239,6 @@ if __name__ == '__main__':
         dev_dataset=valid_dataset,
         test_dataset=test_dataset,
         model=model,
-        learner=learner,
         criterion=criterion
     )
     trainer.train()
