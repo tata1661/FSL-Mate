@@ -150,4 +150,3 @@ class MiniImageNet(CVDataset):
             image_data = np.transpose(image_data, [0, 3, 1, 2])
             class_dict = data['class_dict']
         return image_data, class_dict
-
