@@ -1,15 +1,14 @@
 """ANIL Meta Learner"""
 from __future__ import annotations
 
-import paddle
 from paddle.nn import Layer
-from paddle.optimizer import Optimizer
 
-from paddlefsl.utils import gradient_descent
-from .base_learner import BaseLearner
+from paddlefsl.utils.manual_gradient_descent import manual_gradient_descent
+from paddlefsl.utils.clone_model import clone_model
+from paddlefsl.metaopt.base_learner import BaseLearner
 
 
-class ANILearner(BaseLearner):
+class ANILLearner(BaseLearner):
     """ANIL Meta Learner"""
     def __init__(self, feature_model: Layer, head_layer: Layer, learning_rate: float, approximate: bool = True) -> None:
         """The constructor of ANILearner
@@ -23,25 +22,35 @@ class ANILearner(BaseLearner):
         self.learning_rate = learning_rate
         self.approximate = approximate
 
-    def clone(self) -> ANILearner:
+    def clone(self) -> ANILLearner:
         """get the cloned model and keep the computation gragh
 
         Returns:
             ANILearner: the cloned model
         """
         cloned_head_layer = clone_model(self.module)
-
-        return ANILearner(
+        return ANILLearner(
             feature_model=self.feature_model,
             head_layer=cloned_head_layer,
             learning_rate=self.learning_rate,
             approximate=self.approximate
         )
 
-    def adapt(self, train_loss) -> None:
-        gradient_descent(
+    def adapt(self, loss) -> None:
+        """adapt the gradient descent to the module based on the loss
+
+        Args:
+            loss (Tensor): the loss of head layer
+        """
+        manual_gradient_descent(
             model=self.module,
             lr=self.learning_rate,
-            loss=train_loss,
+            loss=loss,
             approximate=self.approximate
         )
+    
+    def forward(self, inputs):
+        """forward the feature model and the head layer"""
+        y = self.feature_model(inputs)
+        y = self.module(y)
+        return y

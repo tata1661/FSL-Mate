@@ -1,13 +1,11 @@
 """MAML Meta Learner"""
 from __future__ import annotations
 
-import paddle
 from paddle.nn import Layer
-from paddle.optimizer import Optimizer
 
-from paddlefsl.utils import gradient_descent
-from .base_learner import BaseLearner
-from ..utils.model import clone_model
+from paddlefsl.utils.manual_gradient_descent import manual_gradient_descent
+from paddlefsl.metaopt.base_learner import BaseLearner
+from paddlefsl.utils.clone_model import clone_model
 
 
 class MAMLLearner(BaseLearner):
@@ -19,7 +17,7 @@ class MAMLLearner(BaseLearner):
             module (Layer): the model to be trained
             optimizer (Optimizer): the optimizer to be used
         """
-        super().__init__(self, module)
+        super().__init__(module)
 
         self.learning_rate = learning_rate
         self.approximate = approximate
@@ -44,7 +42,7 @@ class MAMLLearner(BaseLearner):
         Args:
             loss (Tensor): _description_
         """
-        gradient_descent(
+        manual_gradient_descent(
             self.module,
             lr=self.learning_rate,
             loss=loss,
