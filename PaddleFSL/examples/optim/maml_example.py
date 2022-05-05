@@ -80,11 +80,12 @@ if __name__ == '__main__':
 
     config = Config().parse_args(known_only=True)
     config.device = 'gpu'
-    # config.dataset = 'omniglot'
-    # config.dataset = 'miniimagenet'
-    # config.dataset = 'cifarfs'
-    # config.dataset = 'fc100'
-    config.dataset = 'cub'
+    if not config.dataset:
+        # config.dataset = 'omniglot'
+        # config.dataset = 'miniimagenet'
+        config.dataset = 'cifarfs'
+        # config.dataset = 'fc100'
+        # config.dataset = 'cub'
 
     config.tracking_uri = os.environ.get('TRACKING_URI', None)
     config.experiment_id = os.environ.get('EXPERIMENT_ID', None)

@@ -107,11 +107,11 @@ if __name__ == '__main__':
 
     config = Config().parse_args(known_only=True)
     config.device = 'gpu'
-    config.k_shot = 5
+    config.k_shot = 1
 
     # config.dataset = 'omniglot'
-    # config.dataset = 'miniimagenet'
-    config.dataset = 'cifarfs'
+    config.dataset = 'miniimagenet'
+    # config.dataset = 'cifarfs'
     # config.dataset = 'fc100'
     # config.dataset = 'cub'
 
