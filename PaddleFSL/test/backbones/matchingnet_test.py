@@ -1,4 +1,4 @@
-# Copyright 2021 PaddleFSL Authors
+# Copyright 2022 PaddleFSL Authors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,11 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .mlp import LinearBlock, MLP
-from .conv import ConvBlock, Conv, RCConv1D
-from .relationnet import ConvEmbedModel, ConvRelationModel
-from .rc_init_vector import RCInitVector
-from .rc_position_embedding import RCPositionEmbedding
-from .gin import GIN
-from .matchingnet import MatchingNet
+import paddle
+from paddlefsl.backbones import MatchingNet
 
+
+def MatchingNet_test():
+    train_input = paddle.ones(shape=(5 * (16 + 1), 1600), dtype='float32')  # 5: 5 ways
+    model = MatchingNet(5, 1, 16, feat_dim=1600)
+    print(model(train_input))   # Tensor of shape [80, 5]
+
+
+if __name__ == '__main__':
+    MatchingNet_test()
