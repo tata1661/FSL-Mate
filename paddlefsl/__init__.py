@@ -21,4 +21,6 @@ from . import model_zoo
 from . import task_sampler
 from . import utils
 
-__version__ = '1.1.0'
+from .version import VERSION
+
+__version__ = VERSION

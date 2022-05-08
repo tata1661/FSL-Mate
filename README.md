@@ -1,4 +1,4 @@
-<p align="center"><img src="logo-fsl-mate.png" alt="logo" width="400px" /></p>
+<p align="center"><img src="assets/images/logo-fsl-mate.png" alt="logo" width="400px" /></p>
 
 
 ---

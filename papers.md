@@ -2862,7 +2862,3 @@ and L. Van Gool.*
 1. **keras-fsl,** a library for few-shot learning written in *Tensorflow*.
 [link](https://github.com/few-shot-learning/Keras-FewShotLearning)
 
-
-
-
-

@@ -1,0 +1,3 @@
+include LICENSE README.md VERSION
+recursive-include paddlefsl *.py
+recursive-exclude test *
