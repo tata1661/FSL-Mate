@@ -115,7 +115,7 @@ dmypy.json
 .pyre/
 
 # pycharm
-*/.DS_Store
+*.DS_Store
 **/__pycache__/
 .idea/
 FETCH_HEAD
@@ -123,3 +123,4 @@ FETCH_HEAD
 # vscode
 .vscode
 *.DS_Store
+PaddleFSL/raw_data/
