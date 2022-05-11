@@ -10,7 +10,7 @@ We evaluate the performance on 5 benchmark datasets, including Omniglot, *mini*I
 
 ## Results
 
-We provide results of using MAML [1], ANIL [2], ProtoNet [3] and RelationNet [4] below. The exact model configuration and pretrained models can be downloaded from [here](https://drive.google.com/file/d/1pmCI-8cwLsadG6JOcubufrQ2d4zpK9B-/view?usp=sharing), which can reproduce these results.
+We provide results of using MAML [1], ANIL [2], ProtoNet [3], RelationNet [4] and MatchingNet [5] below. The exact model configuration and pretrained models can be downloaded from [here](https://drive.google.com/file/d/1pmCI-8cwLsadG6JOcubufrQ2d4zpK9B-/view?usp=sharing), which can reproduce these results.
 
 ### [MAML](http://proceedings.mlr.press/v70/finn17a/finn17a.pdf?source=post_page---------------------------)
 
@@ -80,6 +80,13 @@ We provide results of using MAML [1], ANIL [2], ProtoNet [3] and RelationNet [4]
 |     CUB   |  CNN  |  5   |   1   |       --       | 62.34 ± 0.94<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 57.40 ± 0.36 |
 |     CUB   |  CNN  |  5   |   5   |       --       | 77.84 ± 0.68<br/>([CloseLookFS](https://arxiv.org/pdf/1904.04232.pdf)) | 72.09 ± 0.31 |
 
+### [MatchingNet](https://proceedings.neurips.cc/paper/2016/file/90e1357833654983612fb05e3ec9148c-Paper.pdf)
+
+|    Dataset    | Backbone  | Way  | Shot  | Original paper |    Other reports     |     Ours     |
+| :-----------: | :---: | :--: | :---: | :------------: | :---: | :----------: |
+|*mini*ImageNet |  CNN  |  5   |   1   |      46.6      |  --   | 48.10 ± 0.81 |
+|*mini*ImageNet |  CNN  |  5   |   5   |      60.0      |  --   | 61.24 ± 0.73 |
+
 
 ## References
 
@@ -94,3 +101,6 @@ J. Snell, K. Swersky, and R. S. Zemel.
 
 1. *Learning to compare: Relation network for few-shot learning,* in CVPR, 2018.
 F. Sung, Y. Yang, L. Zhang, T. Xiang, P. H. Torr, and T. M. Hospedales.
+   
+1. *Matching Networks for One Shot Learning,* in NeurIPS, 2016.
+V. Oriol, B. Charles, L. Timothy, K. Koray, and W. Daan.

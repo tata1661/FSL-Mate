@@ -18,3 +18,4 @@ from . import protonet
 from . import relationnet
 from . import maml_mol
 from . import par
+from . import matchingnet

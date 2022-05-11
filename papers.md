@@ -2259,6 +2259,11 @@ and L. Van Gool.*
 *R. Wang, X. Su, S. Long, X. Dai, S. Huang, and J. Chen.*
 [paper](https://aclanthology.org/2021.emnlp-main.679.pdf)
 
+1. **Ontology-enhanced prompt-tuning for few-shot learning.,** in TheWebConf, 2022.
+*H. Ye, N. Zhang, S. Deng, X. Chen, H. Chen, F. Xiong, X. Chen, and H. Chen.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511921)
+
+
 ### Acoustic Signal Processing
 
 1. **One-shot learning of generative speech concepts,** in CogSci, 2014. 
@@ -2334,6 +2339,19 @@ and L. Van Gool.*
 1. **Preference-adaptive meta-learning for cold-start recommendation,** in IJCAI, 2021.
 *L. Wang, B. Jin, Z. Huang, H. Zhao, D. Lian, Q. Liu, and E. Chen.*
 [paper](https://www.ijcai.org/proceedings/2021/0222.pdf)
+
+1. **Meta-learning helps personalized product search.,** in TheWebConf, 2022.
+*B. Wu, Z. Meng, Q. Zhang, and S. Liang.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512036)
+
+1. **Alleviating cold-start problem in CTR prediction with a variational embedding learning framework.,** in TheWebConf, 2022.
+*X. Xu, C. Yang, Q. Yu, Z. Fang, J. Wang, C. Fan, Y. He, C. Peng, Z. Lin, and J. Shao.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512048)
+
+1. **PNMTA: A pretrained network modulation and task adaptation approach for user cold-start recommendation.,** in TheWebConf, 2022.
+*H. Pang, F. Giunchiglia, X. Li, R. Guan, and X. Feng.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511963)
+
 
 ### Others
 
@@ -2452,7 +2470,9 @@ and L. Van Gool.*
 *Z. Wang, Z. Miao, X. Zhen, and Q. Qiu.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/6e2713a6efee97bacb63e52c54f0ada0-Paper.pdf)
 
-
+1. **A meta-learning based stress category detection framework on social media.,** in TheWebConf, 2022.
+*X. Wang, L. Cao, H. Zhang, L. Feng, Y. Ding, and N. Li.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512013)
 
 ## [Theories](#content)
 
@@ -2622,6 +2642,11 @@ and L. Van Gool.*
 [paper](https://openreview.net/pdf?id=gEZrGCozdqR)
 [code](https://github.com/google-research/flan)
 
+1. **Zero-shot stance detection via contrastive learning.,** in TheWebConf, 2022.
+*B. Liang, Z. Chen, L. Gui, Y. He, M. Yang, and R. Xu.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511994)
+[code](https://github.com/HITSZ-HLT/PT-HCL)
+
 
 ## [Variants of Few-shot Learning](#content)
 
@@ -2773,6 +2798,10 @@ and L. Van Gool.*
 1. **Meta discovery: Learning to discover novel classes given very limited data,** in ICLR, 2022.
 *H. Chi, F. Liu, W. Yang, L. Lan, T. Liu, B. Han, G. Niu, M. Zhou, and M. Sugiyama.*
 [paper](https://openreview.net/pdf?id=MEpKGLsY8f)
+
+1. **Topological transduction for hybrid few-shot learning.,** in TheWebConf, 2022.
+*J. Chen, and A. Zhang.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512033)
 
 ## [Datasets/Benchmarks](#content)
 
