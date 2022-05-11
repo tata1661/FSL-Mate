@@ -1,14 +1,13 @@
 <p align="center"><img src="assets/images/logo-fsl-mate.png" alt="logo" width="400px" /></p>
 
-
 ---
 
 **FSL-Mate** is a collection of resources for few-shot learning (FSL).  
 
 In particular, FSL-Mate currently contains
 
-- [**FewShotPapers**](https://github.com/tata1661/FSL-Mate/tree/master/FewShotPapers): a paper list which tracks the research advances on FSL
-- [**PaddleFSL**](https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL): a PaddlePaddle-based python library for FSL 
+- [**FewShot Papers**](./papers.md): a paper list which tracks the research advances on FSL
+- [**Paddle FSL**](./paddlefsl/): a PaddlePaddle-based python library for FSL 
 
 We are endeavored to constantly update FSL-Mate. Hopefully, it can make FSL easier. 
 
