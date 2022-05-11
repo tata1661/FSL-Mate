@@ -16,3 +16,4 @@ minversion = "6.0"
 testpaths = [
     "test",
 ]
+pythonpath='./PaddleFSL'
