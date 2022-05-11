@@ -6,8 +6,8 @@
 
 In particular, FSL-Mate currently contains
 
-- [**FewShot Papers**](./papers.md): a paper list which tracks the research advances on FSL
-- [**Paddle FSL**](./paddlefsl/): a PaddlePaddle-based python library for FSL 
+- [**FewShot Papers**](./FewShotPapers/README.md): a paper list which tracks the research advances on FSL
+- [**Paddle FSL**](./PaddleFSL/paddlefsl/): a PaddlePaddle-based python library for FSL 
 
 We are endeavored to constantly update FSL-Mate. Hopefully, it can make FSL easier. 
 
