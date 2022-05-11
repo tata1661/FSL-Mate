@@ -1,4 +1,4 @@
-# Copyright 2021 PaddleFSL Authors
+# Copyright 2022 PaddleFSL Authors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,11 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from . import maml
-from . import anil
-from . import protonet
-from . import relationnet
-from . import maml_mol
-from . import par
-from . import matchingnet
-from . import baseline
+import paddle
+from paddlefsl.backbones import distLinear
+
+
+def distLinear_test():
+    train_input = paddle.ones(shape=(25, 1024), dtype='float32')  # 5: 5 ways
+    classifier = distLinear(indim=1024, outdim=64)
+    print(classifier(train_input))  # Tensor of shape [25, 64]
+
+
+if __name__ == '__main__':
+    distLinear_test()
+
