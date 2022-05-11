@@ -12,33 +12,46 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import os
+from typing import List
 import setuptools
-import sys
 
-with open("README.md", "r") as fin:
-    long_description = fin.read()
+
+def read_long_description() -> str:
+    """read long description from README.md"""
+    with open('README.md', encoding='utf-8') as readme_file:
+        description = readme_file.read()
+    return description
+
+
+def read_version() -> str:
+    """read version from VERSION"""
+    with open('VERSION', encoding='utf-8') as version_file:
+        version = version_file.read().strip()
+    return version
+
+
+def read_require_packages() -> List[str]:
+    """read_require_packages from requirements.txt"""
+    with open('requirements.txt', encoding='utf-8') as req_file:
+        req_packages: List[str] = req_file.read().splitlines()
+    return req_packages
+
 
 setuptools.setup(
     name="paddlefsl",
-    version='1.1.0',
-    author="PaddleFSL authors",
+    version=read_version(),
+    author="tata1661 <YaQing Wang>",
     author_email="wangyaqing01@baidu.com",
     description="PaddleFSL is a Python library for few-shot learning",
-    long_description=long_description,
+    long_description=read_long_description(),
     long_description_content_type="text/markdown",
     url="https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL",
     packages=setuptools.find_packages(
         where='.', exclude=('examples*', 'tests*')),
     setup_requires=['cython'],
-    install_requires=[
-    'numpy',
-    'requests',
-    'tqdm'
-    ],
+    install_requires=read_require_packages(),
     python_requires='>=3.6',
     classifiers=[
-        'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
@@ -46,4 +59,5 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ],
     license='Apache 2.0',
-    keywords=["few-shot-learning", "one-shot-learning", "meta-learning", "paddlepaddle","deep-learning"])
+    keywords=["few-shot-learning", "one-shot-learning", "meta-learning", "paddlepaddle","deep-learning"]
+)
