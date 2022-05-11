@@ -14,9 +14,9 @@ We are endeavored to constantly update FSL-Mate. Hopefully, it can make FSL easi
 
 ## News🔥 
 
-- [2022-04-02] PaddleFSL v1.0.1 is officially released! It now supports bioinformatics applications and diverse few-shot natural language understanding (FewNLU) tasks. Take a look at [here](PaddleFSL/README.md)!
+- [2022-05-10] Add FSL papers published in TheWebConf (previously known as WWW) 2022.
 
-- [2022-03-31] Add FSL papers published in ICLR 2022.
+- [2022-04-02] PaddleFSL v1.0.1 is officially released! It now supports bioinformatics applications and diverse few-shot natural language understanding (FewNLU) tasks. Take a look at [here](PaddleFSL/README.md)!
 
 - [2022-03-08] FSL-Mate collaborates with [PaddlePaddle Hackathon](https://www.paddlepaddle.org.cn/PaddlePaddleHackathon-2022-3) and offer three missions to community users: 
 [91. Add random search](https://github.com/tata1661/FSL-Mate/issues/19), [92. Add TPE hyperparameter search](https://github.com/tata1661/FSL-Mate/issues/18), and [93. Reorganize MAML and ANIL](https://github.com/tata1661/FSL-Mate/issues/17). Solutions which complete the missions and pass the evaluation will obtain case prizes: 1000 yuan for mission 91, 5000 yuan for mission 92, and 10000 yuan for mission 93. Come and join the Hackathon [here](https://github.com/PaddlePaddle/Paddle/issues/40234)!
