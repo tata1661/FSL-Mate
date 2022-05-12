@@ -19,4 +19,5 @@ from .rc_init_vector import RCInitVector
 from .rc_position_embedding import RCPositionEmbedding
 from .gin import GIN
 from .matchingnet import MatchingNet
+from .baselinepp import Baselinepp
 

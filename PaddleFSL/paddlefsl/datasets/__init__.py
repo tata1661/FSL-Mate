@@ -24,3 +24,7 @@ from .nlp_dataset import NLPDataset
 from .few_rel import FewRel
 
 from .mol_dataset import MoleculeDataset, load_dataset
+
+from .mini_imagenet_noresize import MiniImageNetNoreseize
+
+
