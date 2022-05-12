@@ -14,14 +14,20 @@
 
 import paddle
 import paddlefsl.utils as utils
+from paddlefsl.model_zoo import protonet
 import numpy as np
 from tqdm import tqdm
 
 
-def _get_prediction(baseline_score, support_labels):
-    acc = utils.classification_acc(baseline_score, support_labels)
-    query_labels = paddle.squeeze(support_labels, axis=1)
-    loss = paddle.nn.functional.cross_entropy(baseline_score, query_labels.cast('int64'))
+def _get_prediction(prototypes, query_embeddings, query_labels):
+    shape = (query_embeddings.shape[0], prototypes.shape[0], prototypes.shape[1])
+    prototypes = paddle.expand(prototypes, shape=shape)
+    query_embeddings = paddle.unsqueeze(query_embeddings, axis=1)
+    query_embeddings = paddle.broadcast_to(query_embeddings, shape=shape)
+    output = - paddle.mean((prototypes - query_embeddings) ** 2, axis=-1)
+    loss = paddle.nn.functional.cross_entropy(output, query_labels.cast('int64'))
+    loss = paddle.mean(loss, axis=0)
+    acc = utils.classification_acc(paddle.nn.functional.softmax(output), query_labels.cast('int64'))
     return loss, acc
 
 
@@ -101,9 +107,10 @@ def meta_training(train_dataset,
             # Get training prediction loss and accuracy
             model.train()
             classifier.train()
-            support_embeddings = model(task.support_data)
-            baseline_score = classifier(support_embeddings)
-            loss, acc = _get_prediction(baseline_score, task.support_labels)
+            support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
+            support_score, query_score = classifier(support_embeddings), classifier(query_embeddings)
+            prototypes = protonet.get_prototypes(support_score, task.support_labels, ways, shots)
+            loss, acc = _get_prediction(prototypes, query_score, task.query_labels)
             train_loss += loss.numpy()[0]
             train_acc += acc
             # Update model
@@ -115,9 +122,10 @@ def meta_training(train_dataset,
                 classifier.eval()
                 task = valid_dataset.sample_task_set(ways=ways, shots=shots, query_num=query_num)
                 task.transfer_backend('tensor')
-                support_embeddings = model(task.support_data)
-                baseline_score = classifier(support_embeddings)
-                loss, acc = _get_prediction(baseline_score, task.support_labels)
+                support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
+                support_score, query_score = classifier(support_embeddings), classifier(query_embeddings)
+                prototypes = protonet.get_prototypes(support_score, task.support_labels, ways, shots)
+                loss, acc = _get_prediction(prototypes, query_score, task.query_labels)
                 valid_loss += loss.numpy()[0]
                 valid_acc += acc
         # Average the accumulation through batches
@@ -140,8 +148,9 @@ def meta_training(train_dataset,
 def meta_testing(test_dataset,
                  model,
                  classifier,
-                 epochs=10,
-                 episodes=1000,
+                 optimizer=None,
+                 epochs=100,
+                 episodes=600,
                  ways=5,
                  shots=5,
                  query_num=15):
@@ -153,8 +162,9 @@ def meta_testing(test_dataset,
         test_dataset(paddlefsl.vision.dataset.FewShotDataset): Dataset for meta-testing.
         model(paddle.nn.Layer): Embedding model of the baseline under training.
         classifier(paddle.nn.Layer): classifier of the baseline.
-        epochs(int, optional): Testing epochs/iterations. Default 10.
-        episodes(int): Testing episodes per epoch. Default 1000.
+        optimizer(paddle.optimizer, optional): Optimizer. Default None. If None, the function will use momentum.
+        epochs(int, optional): Testing epochs/iterations. Default 100.
+        episodes(int): Testing episodes per epoch. Default 600.
         ways(int, optional): Number of classes in a task, default 5.
         shots(int, optional): Number of training samples per class, default 5.
         query_num(int, optional): Number of query points per class, default 15.
@@ -165,16 +175,18 @@ def meta_testing(test_dataset,
     """
     module_info = utils.get_info_str('baseline', test_dataset, 'conv', str(ways) + 'ways', str(shots) + 'shots')
     loss_list, acc_list = [], []
-    model.eval()
-    classifier.eval()
     for epoch in range(epochs):
         test_loss, test_acc = 0.0, 0.0
         for _ in range(episodes):
+            optimizer.clear_grad()
             task = test_dataset.sample_task_set(ways=ways, shots=shots, query_num=query_num)
             task.transfer_backend('tensor')
-            support_embeddings = model(task.support_data)
-            baseline_score = classifier(support_embeddings)
-            loss, acc = _get_prediction(baseline_score, task.support_labels)
+            support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
+            support_score, query_score = classifier(support_embeddings), classifier(query_embeddings)
+            prototypes = protonet.get_prototypes(support_score, task.support_labels, ways, shots)
+            loss, acc = _get_prediction(prototypes, query_score, task.query_labels)
+            loss.backward()
+            optimizer.step()
             test_loss += loss.numpy()[0]
             test_acc += acc
         loss_list.append(test_loss / episodes)

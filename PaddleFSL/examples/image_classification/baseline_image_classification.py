@@ -25,15 +25,15 @@ VALID_DATASET = paddlefsl.datasets.MiniImageNet(mode='valid')
 TEST_DATASET = paddlefsl.datasets.MiniImageNet(mode='test')
 WAYS = 5
 SHOTS = 5
-QUERY_NUM = 15
+QUERY_NUM = 16
 NUM_CLASS = 200
 MODEL = paddlefsl.backbones.Conv(input_size=(3, 84, 84), output_size=WAYS, conv_channels=[64, 64, 64, 64])
 MODEL.output = paddle.nn.Flatten()
 CLASSIFIER = paddlefsl.backbones.distLinear(MODEL.feature_size, NUM_CLASS)
 LR = paddle.optimizer.lr.ExponentialDecay(learning_rate=0.001, gamma=0.5)
-OPTIMIZER = paddle.optimizer.Adam(learning_rate=LR, parameters=MODEL.parameters())
+OPTIMIZER = paddle.optimizer.Adam(learning_rate=LR,
+                                  parameters=MODEL.parameters() + CLASSIFIER.parameters())
 EPOCHS = 100
-TEST_EPOCHS = 10
 EPISODES = 1000
 REPORT_EPOCH = 1
 LR_STEP_EPOCH = 10
@@ -57,9 +57,18 @@ train_dir, MODEL, CLASSIFIER = baseline.meta_training(train_dataset=TRAIN_DATASE
                                                       save_model_epoch=SAVE_MODEL_EPOCH,
                                                       save_model_root=SAVE_MODEL_ROOT)
 print(train_dir)
+
+TEST_EPOCHS = 100
+EPISODES = 600
+CLASSIFIER_TEST = paddlefsl.backbones.distLinear(MODEL.feature_size, WAYS)
+OPTIMIZER = paddle.optimizer.Momentum(learning_rate=0.01,
+                                      momentum=0.9,
+                                      parameters=CLASSIFIER_TEST.parameters(),
+                                      weight_decay=0.001)
 baseline.meta_testing(model=MODEL,
-                      classifier=CLASSIFIER,
+                      classifier=CLASSIFIER_TEST,
                       test_dataset=TEST_DATASET,
+                      optimizer=OPTIMIZER,
                       epochs=TEST_EPOCHS,
                       episodes=EPISODES,
                       ways=WAYS,
