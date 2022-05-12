@@ -1,0 +1,6 @@
+paddlepaddle
+loguru
+tqdm
+numpy
+typed-argument-parser
+paddlenlp

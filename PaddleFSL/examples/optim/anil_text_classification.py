@@ -8,8 +8,8 @@ import paddlefsl
 from paddlefsl.metaopt.anil import ANILLearner
 from paddlenlp.transformers.ernie.modeling import ErnieModel
 from paddlenlp.transformers.ernie.tokenizer import ErnieTokenizer
+from examples.optim.tools.meta_trainer import Config, Trainer, load_datasets
 
-from examples.optim.meta_trainer import Config, Trainer, load_datasets
 
 class SequenceClassifier(nn.Layer):
     """Sequence Classifier"""

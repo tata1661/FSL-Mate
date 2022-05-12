@@ -7,8 +7,7 @@ from paddle.optimizer import Adam
 
 import paddlefsl
 from paddlefsl.metaopt.maml import MAMLLearner
-from examples.optim.meta_trainer import Config, Trainer, load_datasets
-
+from examples.optim.tools.meta_trainer import Config, Trainer, load_datasets
 
 
 def init_models(config: Config):
