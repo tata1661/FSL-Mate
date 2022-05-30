@@ -66,7 +66,7 @@ class RCPositionEmbedding(nn.Layer):
         if rc_vector.shape[-1] != self.embedding_dim + 2:
             raise ValueError('Embedding dimension not match. Please check whether'
                              'embedding_dimension + 2 == rc_vector.shape[-1]')
-        head_position_vector = paddle.to_tensor(rc_vector[:, :, -1], dtype='int64')
+        head_position_vector = paddle.to_tensor(rc_vector[:, :, -2], dtype='int64')
         head_embedding = self.head_position_embedding(head_position_vector)
         tail_position_vector = paddle.to_tensor(rc_vector[:, :, -1], dtype='int64')
         tail_embedding = self.head_position_embedding(tail_position_vector)
