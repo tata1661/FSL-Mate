@@ -47,11 +47,13 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/tata1661/FSL-Mate/tree/master/PaddleFSL",
     packages=setuptools.find_packages(
-        where='PaddleFSL'
+        where='PaddleFSL',
+        exclude=('examples',)
     ),
     package_dir={'': 'PaddleFSL'},
     setup_requires=['cython'],
     install_requires=read_require_packages(),
+    ext_package='examples',
     python_requires='>=3.6',
     classifiers=[
         'Programming Language :: Python :: 3.6',
