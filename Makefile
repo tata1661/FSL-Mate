@@ -10,7 +10,7 @@ all : clean lint
 
 .PHONY: clean
 clean:
-	rm -fr dist/* .pytype
+	rm -fr dist/* .pytype ./build/ dist/
 
 .PHONY: lint
 lint: pylint pycodestyle flake8 mypy
@@ -95,6 +95,7 @@ check-python-version:
 
 .PHONY: dist
 dist:
+	make clean
 	python3 setup.py sdist bdist_wheel
 
 .PHONY: publish
