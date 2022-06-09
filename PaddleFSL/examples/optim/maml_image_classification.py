@@ -86,9 +86,6 @@ if __name__ == '__main__':
         # config.dataset = 'fc100'
         # config.dataset = 'cub'
 
-    config.tracking_uri = os.environ.get('TRACKING_URI', None)
-    config.experiment_id = os.environ.get('EXPERIMENT_ID', None)
-
     train_dataset, valid_dataset, test_dataset = load_datasets(config.dataset)
     model = init_models(config)
 

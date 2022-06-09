@@ -1,8 +1,6 @@
 """MAML example for optimization"""
 from __future__ import annotations
-import os
 from typing import Optional, Tuple
-import warnings
 from loguru import logger
 
 import paddle
@@ -12,8 +10,6 @@ from paddle.nn import Layer
 from paddle.metric.metrics import Accuracy
 from tap import Tap
 from tqdm import tqdm
-from mlflow.tracking import MlflowClient
-from mlflow import set_tag
 import numpy as np
 
 import paddlefsl
@@ -93,10 +89,6 @@ class Config(Tap):
 
     device: str = 'cpu'
 
-    tracking_uri: str = ''
-    experiment_id: str = '0'
-    run_id: str = '<run_id>'
-
     def place(self):
         """get the default device place for tensor"""
         return paddle.fluid.CUDAPlace(0) if self.device == 'gpu' else paddle.fluid.CPUPlace()
@@ -168,28 +160,6 @@ class Trainer:
         self.optimizer = optimizer
 
         self._set_device()
-        warnings.filterwarnings("ignore")
-
-        if self.config.tracking_uri:
-            self.client = MlflowClient(tracking_uri=self.config.tracking_uri)
-            
-            run = self.client.create_run(self.config.experiment_id)
-            self.config.run_id = run.info.run_id
-
-            for key, value in self.config.as_dict().items():
-                self.client.log_param(
-                    self.config.run_id,
-                    key=key,
-                    value=value
-                )
-
-            self.client.log_param(self.config.run_id, 'learner', value=self.learner.__class__.__name__)
-            set_tag("mlflow.runName", self.learner.__class__.__name__)
-
-        learner_name = learner.__class__.__name__
-        file_name = f'{config.dataset}-{learner_name}-{config.run_id}.log'
-        logger.add(os.path.join('logs', file_name))
-        logger.info(self.config)
 
     def _set_device(self):
         paddle.device.set_device(self.config.device)
@@ -204,10 +174,6 @@ class Trainer:
 
         bar_info = f'Epoch: {self.context.epoch}/{self.config.epochs} \t train-loss: {self.context.train_loss}  \t\t train-acc: {self.context.train_acc}'
         self.train_bar.set_description(bar_info)
-
-        if self.config.tracking_uri:
-            self.client.log_metric(self.config.run_id, key='train-loss', value=self.context.train_loss)
-            self.client.log_metric(self.config.run_id, key='train-acc', value=self.context.train_acc)
 
     def compute_loss(self, input_data, labels, learner: BaseLearner):
         """compute the loss based on the input_data and labels"""
@@ -307,11 +273,6 @@ class Trainer:
         logger.success(f'mean-loss: {mean_loss:.6f}, std-loss: {std_loss:.6f}')
         logger.success(f'mean-acc: {mean_acc:.6f}, std-acc: {std_acc:.6f}')
         logger.success('================================================')
-        if self.config.tracking_uri:
-            self.client.log_metric(self.config.run_id, f'{mode}-mean-loss', mean_loss)
-            self.client.log_metric(self.config.run_id, f'{mode}-std-loss', std_loss)
-            self.client.log_metric(self.config.run_id, f'{mode}-mean-acc', mean_acc)
-            self.client.log_metric(self.config.run_id, f'{mode}-std-acc', std_acc)
 
     def train(self):
         """handle the main train"""
@@ -321,5 +282,4 @@ class Trainer:
             if epoch % self.config.do_eval_step == 0:
                 self.eval(self.dev_dataset, self.learner, 'eval')
 
-            if epoch % self.config.do_test_step ==0:
-                self.eval(self.test_dataset, self.learner, 'test')
+        self.eval(self.test_dataset, self.learner, 'test')

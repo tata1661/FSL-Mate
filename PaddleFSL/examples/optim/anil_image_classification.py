@@ -6,7 +6,7 @@ from paddle import nn
 from paddle.optimizer import Adam
 import paddlefsl
 from paddlefsl.metaopt.anil import ANILLearner
-from examples.optim.meta_trainer import Config, Trainer, load_datasets
+from examples.optim.tools.meta_trainer import Config, Trainer, load_datasets
 
 
 def init_models(config: Config):
@@ -106,7 +106,7 @@ def init_models(config: Config):
 if __name__ == '__main__':
 
     config = Config().parse_args(known_only=True)
-    config.device = 'gpu'
+    config.device = 'cpu'
     config.k_shot = 1
 
     # config.dataset = 'omniglot'
@@ -114,9 +114,6 @@ if __name__ == '__main__':
     # config.dataset = 'cifarfs'
     # config.dataset = 'fc100'
     # config.dataset = 'cub'
-
-    config.tracking_uri = os.environ.get('TRACKING_URI', None)
-    config.experiment_id = os.environ.get('EXPERIMENT_ID', None)
 
     # Config: ANIL, Omniglot, Conv, 5 Ways, 1 Shot
     train_dataset, valid_dataset, test_dataset = load_datasets(config.dataset)
