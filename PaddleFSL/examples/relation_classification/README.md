@@ -30,6 +30,13 @@ The exact model configuration and pretrained models can be downloaded from [here
 | FewRel    |GloVE(dimension=50)|  CNN   |  10  |   1   |       --       | 59.73 ± 0.25 |
 | FewRel    |GloVE(dimension=50)|  CNN   |  10  |   5   |       --       | 69.41 ± 0.20 |
 
+### [GNN](https://arxiv.org/pdf/1711.04043.pdf)
+
+|  Dataset  | Word embedding    |  Model | Way  | Shot  | Original paper |     Ours     |
+| :-------: | :---------------: | :----: | :--: | :---: | :------------: | :----------: |
+| FewRel    |GloVE(dimension=50)|  CNN   |  5   |   1   |  66.2 ± 0.75   | 67.2 ± 0.60 |
+| FewRel    |GloVE(dimension=50)|  CNN   |  5   |   5   |  81.3 ± 0.62   | 82.1 ± 0.48 |
+
 ## References
 
 1. *Prototypical networks for few-shot learning,* in NeurIPS, 2017.
@@ -37,3 +44,6 @@ J. Snell, K. Swersky, and R. S. Zemel.
 
 1. *Siamese neural networks for one-shot image recognition,* ICML deep learning workshop, 2015.
 G. Koch, R. Zemel, and R. Salakhutdinov.
+   
+1. *Few-Shot Learning with Graph Neural Networks,* in ICLR, 2018.
+V. Garcia and J. Bruna.

@@ -94,6 +94,12 @@ We provide results of using MAML [1], ANIL [2], ProtoNet [3], RelationNet [4], M
 |*mini*ImageNet |  CNN  |  5   |   1   |      48.24 ± 0.75      |  --   | 48.26 ± 0.71 |
 |*mini*ImageNet |  CNN  |  5   |   5   |      66.43 ± 0.63     |  --   | 66.51 ± 0.64 |
 
+### [GNN](https://arxiv.org/pdf/1711.04043.pdf)
+
+|    Dataset    | Backbone | Way  | Shot  | Original paper |  Other reports  |     Ours     |
+| :-----------: |  :---:   | :--: | :---: | :------------: |     :---:       | :----------: |
+|*mini*ImageNet |    CNN   |  5   |   1   |  50.3 ± 0.36   |       --        | 50.3 ± 0.66  |
+|*mini*ImageNet |    CNN   |  5   |   5   |  66.4 ± 0.63   |       --        | 66.5 ± 0.53  |
 
 ## References
 
@@ -114,3 +120,6 @@ V. Oriol, B. Charles, L. Timothy, K. Koray, and W. Daan.
    
 1. *A Closer Look at Few-shot Classification,* in ICLR, 2019.
 W. Chen, Y. Liu, Z. Kira, Y. F. Wang, J. Huang.
+   
+1. *Few-Shot Learning with Graph Neural Networks,* in ICLR, 2018.
+V. Garcia and J. Bruna.
