@@ -20,3 +20,4 @@ from . import maml_mol
 from . import par
 from . import matchingnet
 from . import baseline
+from . import gnn
