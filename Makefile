@@ -70,7 +70,6 @@ test:
 
 .PHONY: dist
 dist:
-	make clean
 	python3 setup.py sdist bdist_wheel
 
 .PHONY: publish

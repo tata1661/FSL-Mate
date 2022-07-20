@@ -27,10 +27,7 @@ def clone_model_test():
         loss = loss_fn(predict, train_label)
         loss.backward()
         opt.step()
-    print(model(test_data))  # Tensor of shape [1, 2]
+
+    assert model(test_data).shape == [1, 2] 
     model_cloned = utils.clone_model(model)
-    print(model_cloned(test_data))  # Tensor of shape [1, 2]
-
-
-if __name__ == '__main__':
-    clone_model_test()
+    assert model_cloned(test_data).shape == [1, 2] 
