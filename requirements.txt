@@ -1,3 +1,7 @@
 paddlepaddle
 pgl
 numpy
+tqdm
+rdkit-pypi
+paddlehelix
+paddlenlp
