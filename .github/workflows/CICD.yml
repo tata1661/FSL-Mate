@@ -56,8 +56,8 @@ jobs:
       - name: Is A Publish Branch
         if: steps.check-branch.outputs.match == 'true'
         env:
-          TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          TWINE_USERNAME: wangyaqing01
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
         run: |
           make deploy-version
           python setup.py sdist bdist_wheel
