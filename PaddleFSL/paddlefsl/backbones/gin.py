@@ -15,12 +15,6 @@
 import paddle
 import paddle.nn as nn
 from paddlefsl.utils.module import is_valid_module
-
-# if is_valid_module("pahelix"):
-#     raise ImportError(
-#         f"can't import pahelix package, you can refer to "
-#     )
-
 from pahelix.model_zoo.pretrain_gnns_model import PretrainGNNModel
 
 class All_Embedding(nn.Layer):
