@@ -17,7 +17,7 @@ import paddlefsl
 from paddlefsl.model_zoo import pet
 
 # Set computing device
-paddle.set_device('gpu:0')
+# paddle.set_device('gpu:1')
 
 
 TASK_NAME = 'cb'
@@ -47,6 +47,7 @@ def main():
                                                                  warmup_proportion = WARMUP_PROPORTION,
                                                                  weight_decay = WEIGHT_DECAY,
                                                                  epochs = EPOCHS,
+                                                                 device=-1,
                                                                  seed = SEED,
                                                                  pattern_id = PATTERN_ID)
 

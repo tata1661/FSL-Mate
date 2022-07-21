@@ -20,12 +20,13 @@ import string
 from abc import ABC, abstractmethod
 from collections import defaultdict
 from typing import Tuple, List, Union, Dict
+import logging
 
-from transformers import PreTrainedTokenizer, GPT2Tokenizer
-from paddlefsl.datasets.data_glue.utils import InputExample, get_verbalization_ids
+from paddlenlp.transformers import PretrainedTokenizer, GPTTokenizer
+from paddlefsl.datasets.fewnlu.data_glue.utils import InputExample, get_verbalization_ids
 import paddle
-import log
-logger = log.get_logger('root')
+
+logger = logging.getLogger('root')
 
 FilledPattern = Tuple[List[Union[str, Tuple[str, bool]]], List[Union[str, Tuple[str, bool]]]]
 
@@ -92,7 +93,7 @@ class PVP(ABC):
 
     def convert(self, parts, block_flag):
         tokenizer = self.wrapper.tokenizer
-        kwargs = {'add_prefix_space': True} if isinstance(tokenizer, GPT2Tokenizer) else {}
+        kwargs = {'add_prefix_space': True} if isinstance(tokenizer, GPTTokenizer) else {}
         new_parts = []
         count = 0
         for x, f in zip(parts, block_flag):
@@ -123,7 +124,7 @@ class PVP(ABC):
         tokenizer = self.wrapper.tokenizer  # type: PreTrainedTokenizer
         parts_a, parts_b, block_flag_a, block_flag_b = self.get_parts(example)
 
-        kwargs = {'add_prefix_space': True} if isinstance(tokenizer, GPT2Tokenizer) else {}
+        kwargs = {'add_prefix_space': True} if isinstance(tokenizer, GPTTokenizer) else {}
 
         parts_a = self.convert(parts_a, block_flag_a)
 

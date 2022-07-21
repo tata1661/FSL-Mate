@@ -1,0 +1,68 @@
+name: CICD 
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        make install
+    - name: Test
+      run: make test
+
+  pack:
+    name: Pack
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install setuptools wheel twine
+          make install
+      - name: Pack Testing
+        run: |
+          make dist
+          echo "To be add: pack testing"
+
+  deploy:
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/heads/v'))
+    name: Deploy
+    needs: [build, pack]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install setuptools wheel twine
+          make install
+
+      - name: Is A Publish Branch
+        if: steps.check-branch.outputs.match == 'true'
+        env:
+          TWINE_USERNAME: wangyaqing01
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: |
+          make deploy-version
+          python setup.py sdist bdist_wheel
+          twine upload --skip-existing dist/*
+
+      - name: Is Not A Publish Branch
+        if: steps.check-branch.outputs.match != 'true'
+        run: echo 'Not A Publish Branch'

@@ -14,6 +14,7 @@
 
 import paddle
 import paddle.nn as nn
+from paddlefsl.utils.module import is_valid_module
 from pahelix.model_zoo.pretrain_gnns_model import PretrainGNNModel
 
 class All_Embedding(nn.Layer):

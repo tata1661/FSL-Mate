@@ -213,6 +213,20 @@ Please cite our paper if you find it helpful.
 [paper](https://openreview.net/pdf?id=kQ2SOflIOVC)
 [code](https://github.com/TencentAILabHealthcare/Few-shot-WSI)
 
+1. **FlipDA: Effective and robust data augmentation for few-shot learning,** in ACL, 2022.
+*J. Zhou, Y. Zheng, J. Tang, L. Jian, and Z. Yang.*
+[paper](https://aclanthology.org/2022.acl-long.592.pdf)
+[code](https://github.com/zhouj8553/flipda)
+
+1. **PromDA: Prompt-based data augmentation for low-resource NLU tasks,** in ACL, 2022.
+*Y. Wang, C. Xu, Q. Sun, H. Hu, C. Tao, X. Geng, and D. Jiang.*
+[paper](https://aclanthology.org/2022.acl-long.292.pdf)
+[code](https://github.com/garyyufei/promda)
+
+1. **N-shot learning for augmenting task-oriented dialogue state tracking,** in Findings of ACL, 2022.
+*I. T. Aksu, Z. Liu, M. Kan, and N. F. Chen.*
+[paper](https://aclanthology.org/2022.findings-acl.131.pdf)
+
 ## [Model](#content)
 
 ### Multitask Learning
@@ -626,6 +640,11 @@ Please cite our paper if you find it helpful.
 *C. Ma, Z. Huang, M. Gao, and J. Xu.*
 [paper](https://openreview.net/pdf?id=6kCiVaoQdx9)
 [code](https://github.com/horsepurve/DeepVoro)
+
+1. **Few-shot learning with siamese networks and label tuning,** in ACL, 2022.
+*T. Müller, G. Pérez-Torró, and M. Franco-Salvador.*
+[paper](https://aclanthology.org/2022.acl-long.584.pdf)
+[code](https://github.com/symanto-research/few-shot-learning-label-tuning)
 
 ### Learning with External Memory
 
@@ -1081,6 +1100,86 @@ and L. Van Gool.*
 1. **Switch to generalize: Domain-switch learning for cross-domain few-shot classification,** in ICLR, 2022.
 *Z. Hu, Y. Sun, and Y. Yang.*
 [paper](https://openreview.net/pdf?id=H-iABMvzIc)
+
+1. **LM-BFF-MS: Improving few-shot fine-tuning of language models based on multiple soft demonstration memory,** in ACL, 2022.
+*E. Park, D. H. Jeon, S. Kim, I. Kang, and S. Na.*
+[paper](https://aclanthology.org/2022.acl-short.34.pdf)
+[code](https://github.com/judepark96/lm-bff-ms)
+
+1. **Meta-learning via language model in-context tuning,** in ACL, 2022.
+*Y. Chen, R. Zhong, S. Zha, G. Karypis, and H. He.*
+[paper](https://aclanthology.org/2022.acl-long.53.pdf)
+[code](https://github.com/yandachen/in-context-tuning)
+
+1. **Few-shot tabular data enrichment using fine-tuned transformer architectures,** in ACL, 2022.
+*A. Harari, and G. Katz.*
+[paper](https://aclanthology.org/2022.acl-long.111.pdf)
+
+1. **Noisy channel language model prompting for few-shot text classification,** in ACL, 2022.
+*S. Min, M. Lewis, H. Hajishirzi, and L. Zettlemoyer.*
+[paper](https://aclanthology.org/2022.acl-long.365.pdf)
+[code](https://github.com/shmsw25/Channel-LM-Prompting)
+
+1. **Prompt for extraction? PAIE: Prompting argument interaction for event argument extraction,** in ACL, 2022.
+*Y. Ma, Z. Wang, Y. Cao, M. Li, M. Chen, K. Wang, and J. Shao.*
+[paper](https://aclanthology.org/2022.acl-long.466.pdf)
+[code](https://github.com/mayubo2333/paie)
+
+1. **Are prompt-based models clueless?,** in ACL, 2022.
+*P. Kavumba, R. Takahashi, and Y. Oda.*
+[paper](https://aclanthology.org/2022.acl-long.166.pdf)
+
+1. **Prototypical verbalizer for prompt-based few-shot tuning,** in ACL, 2022.
+*G. Cui, S. Hu, N. Ding, L. Huang, and Z. Liu.*
+[paper](https://aclanthology.org/2022.acl-long.483.pdf)
+[code](https://github.com/thunlp/OpenPrompt)
+
+1. **Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity,** in ACL, 2022.
+*Y. Lu, M. Bartolo, A. Moore, S. Riedel, and P. Stenetorp.*
+[paper](https://aclanthology.org/2022.acl-long.556.pdf)
+
+1. **PPT: Pre-trained prompt tuning for few-shot learning,** in ACL, 2022.
+*Y. Gu, X. Han, Z. Liu, and M. Huang.*
+[paper](https://aclanthology.org/2022.acl-long.576.pdf)
+[code](https://github.com/thu-coai/ppt)
+
+1. **ASCM: An answer space clustered prompting method without answer engineering,** in Findings of ACL, 2022.
+*Z. Wang, Y. Yang, Z. Xi, B. Ma, L. Wang, R. Dong, and A. Anwar.*
+[paper](https://aclanthology.org/2022.findings-acl.193.pdf)
+[code](https://github.com/miaomiao1215/ascm)
+
+1. **Exploiting language model prompts using similarity measures: A case study on the word-in-context task,** in ACL, 2022.
+*M. Tabasi, K. Rezaee, and M. T. Pilehvar.*
+[paper](https://aclanthology.org/2022.acl-short.36.pdf)
+
+1. **P-Tuning: Prompt tuning can be comparable to fine-tuning across scales and tasks,** in ACL, 2022.
+*X. Liu, K. Ji, Y. Fu, W. Tam, Z. Du, Z. Yang, and J. Tang.*
+[paper](https://aclanthology.org/2022.acl-short.8.pdf)
+
+1. **Cutting down on prompts and parameters: Simple few-shot learning with language models,** in Findings of ACL, 2022.
+*R. L. L. IV, I. Balazevic, E. Wallace, F. Petroni, S. Singh, and S. Riedel.*
+[paper](https://aclanthology.org/2022.findings-acl.222.pdf)
+[code](https://github.com/ucinlp/null-prompts)
+
+1. **Prompt-free and efficient few-shot learning with language models,** in ACL, 2022.
+*R. K. Mahabadi, L. Zettlemoyer, J. Henderson, L. Mathias, M. Saeidi, V. Stoyanov, and M. Yazdani.*
+[paper](https://aclanthology.org/2022.acl-long.254.pdf)
+[code](https://github.com/facebookresearch/perfect)
+
+1. **Pre-training to match for unified low-shot relation extraction,** in ACL, 2022.
+*F. Liu, H. Lin, X. Han, B. Cao, and L. Sun.*
+[paper](https://aclanthology.org/2022.acl-long.397.pdf)
+[code](https://github.com/fc-liu/mcmn)
+
+1. **Dual context-guided continuous prompt tuning for few-shot learning,** in Findings of ACL, 2022.
+*J. Zhou, L. Tian, H. Yu, Z. Xiao, H. Su, and J. Zhou.*
+[paper](https://aclanthology.org/2022.findings-acl.8.pdf)
+
+1. **Cluster & tune: Boost cold start performance in text classification,** in ACL, 2022.
+*E. Shnarch, A. Gera, A. Halfon, L. Dankin, L. Choshen, R. Aharonov, and N. Slonim.*
+[paper](https://aclanthology.org/2022.acl-long.526.pdf)
+[code](https://github.com/ibm/intermediate-training-using-clustering)
+
 
 ### Refining Meta-learned Parameters
 
@@ -2263,6 +2362,104 @@ and L. Van Gool.*
 *H. Ye, N. Zhang, S. Deng, X. Chen, H. Chen, F. Xiong, X. Chen, and H. Chen.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511921)
 
+1. **EICO: Improving few-shot text classification via explicit and implicit consistency regularization,** in Findings of ACL, 2022.
+*L. Zhao, and C. Yao.*
+[paper](https://aclanthology.org/2022.findings-acl.283.pdf)
+
+1. **Dialogue summaries as dialogue states (DS2), template-guided summarization for few-shot dialogue state tracking,** in Findings of ACL, 2022.
+*J. Shin, H. Yu, H. Moon, A. Madotto, and J. Park.*
+[paper](https://aclanthology.org/2022.findings-acl.302.pdf)
+[code](https://github.com/jshin49/ds2)
+
+1. **A few-shot semantic parser for wizard-of-oz dialogues with the precise thingtalk representation,** in Findings of ACL, 2022.
+*G. Campagna, S. J. Semnani, R. Kearns, L. J. K. Sato, S. Xu, and M. S. Lam.*
+[paper](https://aclanthology.org/2022.findings-acl.317.pdf)
+
+1. **Multi-stage prompting for knowledgeable dialogue generation,** in Findings of ACL, 2022.
+*Z. Liu, M. Patwary, R. Prenger, S. Prabhumoye, W. Ping, M. Shoeybi, and B. Catanzaro.*
+[paper](https://aclanthology.org/2022.findings-acl.104.pdf)
+[code](https://github.com/NVIDIA/Megatron-LM)
+
+1. **Few-shot named entity recognition with self-describing networks,** in ACL, 2022.
+*J. Chen, Q. Liu, H. Lin, X. Han, and L. Sun.*
+[paper](https://aclanthology.org/2022.acl-long.392.pdf)
+[code](https://github.com/chen700564/sdnet)
+
+1. **CLIP models are few-shot learners: Empirical studies on VQA and visual entailment,** in ACL, 2022.
+*H. Song, L. Dong, W. Zhang, T. Liu, and F. Wei.*
+[paper](https://aclanthology.org/2022.acl-long.421.pdf)
+
+1. **CONTaiNER: Few-shot named entity recognition via contrastive learning,** in ACL, 2022.
+*S. S. S. Das, A. Katiyar, R. J. Passonneau, and R. Zhang.*
+[paper](https://aclanthology.org/2022.acl-long.439.pdf)
+[code](https://github.com/psunlpgroup/container)
+
+1. **Few-shot controllable style transfer for low-resource multilingual settings,** in ACL, 2022.
+*K. Krishna, D. Nathani, X. Garcia, B. Samanta, and P. Talukdar.*
+[paper](https://aclanthology.org/2022.acl-long.514.pdf)
+
+1. **Label semantic aware pre-training for few-shot text classification,** in ACL, 2022.
+*A. Mueller, J. Krone, S. Romeo, S. Mansour, E. Mansimov, Y. Zhang, and D. Roth.*
+[paper](https://aclanthology.org/2022.acl-long.570.pdf)
+
+1. **Inverse is better! Fast and accurate prompt for few-shot slot tagging,** in Findings of ACL, 2022.
+*Y. Hou, C. Chen, X. Luo, B. Li, and W. Che.*
+[paper](https://aclanthology.org/2022.findings-acl.53.pdf)
+
+1. **Label semantics for few shot named entity recognition,** in Findings of ACL, 2022.
+*J. Ma, M. Ballesteros, S. Doss, R. Anubhai, S. Mallya, Y. Al-Onaizan, and D. Roth.*
+[paper](https://aclanthology.org/2022.findings-acl.155.pdf)
+
+1. **Hierarchical recurrent aggregative generation for few-shot NLG,** in Findings of ACL, 2022.
+*G. Zhou, G. Lampouras, and I. Iacobacci.*
+[paper](https://aclanthology.org/2022.findings-acl.170.pdf)
+
+1. **Towards few-shot entity recognition in document images: A label-aware sequence-to-sequence framework,** in Findings of ACL, 2022.
+*Z. Wang, and J. Shang.*
+[paper](https://aclanthology.org/2022.findings-acl.329.pdf)
+
+1. **A good prompt is worth millions of parameters: Low-resource prompt-based learning for vision-language models,** in ACL, 2022.
+*W. Jin, Y. Cheng, Y. Shen, W. Chen, and X. Ren.*
+[paper](https://aclanthology.org/2022.acl-long.197.pdf)
+[code](https://github.com/woojeongjin/fewvlm)
+
+1. **Generated knowledge prompting for commonsense reasoning,** in ACL, 2022.
+*J. Liu, A. Liu, X. Lu, S. Welleck, P. West, R. L. Bras, Y. Choi, and H. Hajishirzi.*
+[paper](https://aclanthology.org/2022.acl-long.225.pdf)
+[code](https://github.com/liujch1998/gkp)
+
+1. **End-to-end modeling via information tree for one-shot natural language spatial video grounding,** in ACL, 2022.
+*M. Li, T. Wang, H. Zhang, S. Zhang, Z. Zhao, J. Miao, W. Zhang, W. Tan, J. Wang, P. Wang, S. Pu, and F. Wu.*
+[paper](https://aclanthology.org/2022.acl-long.596.pdf)
+
+1. **Leveraging task transferability to meta-learning for clinical section classification with limited data,** in ACL, 2022.
+*Z. Chen, J. Kim, R. Bhakta, and M. Y. Sir.*
+[paper](https://aclanthology.org/2022.acl-long.461.pdf)
+
+1. **Improving meta-learning for low-resource text classification and generation via memory imitation,** in ACL, 2022.
+*Y. Zhao, Z. Tian, H. Yao, Y. Zheng, D. Lee, Y. Song, J. Sun, and N. L. Zhang.*
+[paper](https://aclanthology.org/2022.acl-long.44.pdf)
+
+1. **A simple yet effective relation information guided approach for few-shot relation extraction,** in Findings of ACL, 2022.
+*Y. Liu, J. Hu, X. Wan, and T. Chang.*
+[paper](https://aclanthology.org/2022.findings-acl.62.pdf)
+[code](https://github.com/lylylylylyly/simplefsre)
+
+1. **Decomposed meta-learning for few-shot named entity recognition,** in Findings of ACL, 2022.
+*T. Ma, H. Jiang, Q. Wu, T. Zhao, and C. Lin.*
+[paper](https://aclanthology.org/2022.findings-acl.124.pdf)
+[code](https://github.com/microsoft/vert-papers)
+
+1. **Meta-learning for fast cross-lingual adaptation in dependency parsing,** in ACL, 2022.
+*A. Langedijk, V. Dankers, P. Lippe, S. Bos, B. C. Guevara, H. Yannakoudakis, and E. Shutova.*
+[paper](https://aclanthology.org/2022.acl-long.582.pdf)
+[code](https://github.com/annaproxy/udify-metalearning)
+
+1. **Enhancing cross-lingual natural language inference by prompt-learning from cross-lingual templates,** in ACL, 2022.
+*K. Qi, H. Wan, J. Du, and H. Chen.*
+[paper](https://aclanthology.org/2022.acl-long.134.pdf)
+[code](https://github.com/qikunxun/pct)
+
 
 ### Acoustic Signal Processing
 
@@ -2647,6 +2844,20 @@ and L. Van Gool.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511994)
 [code](https://github.com/HITSZ-HLT/PT-HCL)
 
+1. **Reframing instructional prompts to GPTk's language,** in Findings of ACL, 2022.
+*D. Khashabi, C. Baral, Y. Choi, and H. Hajishirzi.*
+[paper](https://aclanthology.org/2022.findings-acl.50.pdf)
+
+1. **JointCL: A joint contrastive learning framework for zero-shot stance detection,** in ACL, 2022.
+*B. Liang, Q. Zhu, X. Li, M. Yang, L. Gui, Y. He, and R. Xu.*
+[paper](https://aclanthology.org/2022.acl-long.7.pdf)
+[code](https://github.com/hitsz-hlt/jointcl)
+
+1. **Knowledgeable prompt-tuning: Incorporating knowledge into prompt verbalizer for text classification,** in ACL, 2022.
+*S. Hu, N. Ding, H. Wang, Z. Liu, J. Wang, J. Li, W. Wu, and M. Sun.*
+[paper](https://aclanthology.org/2022.acl-long.158.pdf)
+[code](https://github.com/thunlp/knowledgeableprompttuning)
+
 
 ## [Variants of Few-shot Learning](#content)
 
@@ -2803,6 +3014,15 @@ and L. Van Gool.*
 *J. Chen, and A. Zhang.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512033)
 
+1. **Continual few-shot relation learning via embedding space regularization and data augmentation,** in ACL, 2022.
+*C. Qin, and S. Joty.*
+[paper](https://aclanthology.org/2022.acl-long.198.pdf)
+[code](https://github.com/qcwthu/continual_fewshot_relation_learning)
+
+1. **Few-shot class-incremental learning for named entity recognition,** in ACL, 2022.
+*R. Wang, T. Yu, H. Zhao, S. Kim, S. Mitra, R. Zhang, and R. Henao.*
+[paper](https://aclanthology.org/2022.acl-long.43.pdf)
+
 ## [Datasets/Benchmarks](#content)
 
 1. **FewRel: A large-scale supervised few-shot relation classification dataset with state-of-the-art evaluation,** in EMNLP, 2018.
@@ -2876,6 +3096,11 @@ and L. Van Gool.*
 1. **Realistic evaluation of transductive few-shot learning,** in NeurIPS, 2021.
 *O. Veilleux, M. Boudiaf, P. Piantanida, and I. B. Ayed.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/4d7a968bb636e25818ff2a3941db08c1-Paper.pdf)
+
+1. **FewNLU: Benchmarking state-of-the-art methods for few-shot natural language understanding,** in ACL, 2022.
+*Y. Zheng, J. Zhou, Y. Qian, M. Ding, C. Liao, L. Jian, R. Salakhutdinov, J. Tang, S. Ruder, and Z. Yang.*
+[paper](https://aclanthology.org/2022.acl-long.38.pdf)
+[code](https://github.com/THUDM/FewNLU)
 
 ## [Software Library](#content)
 

@@ -13,7 +13,7 @@
 # limitations under the License.
 
 from abc import ABC, abstractmethod
-from paddlefsl.datasets.data_glue.utils import InputFeatures, InputExample
+from paddlefsl.datasets.fewnlu.data_glue.utils import InputFeatures, InputExample
 from paddlefsl.datasets.data_glue.task_pvps import PVP, PVPS
 
 
