@@ -25,7 +25,7 @@ from collections import defaultdict, Counter
 from typing import List, Dict, Callable
 import logging
 
-from paddlefsl.datasets.data_glue.utils import InputExample
+from paddlefsl.datasets.fewnlu.data_glue.utils import InputExample
 
 
 logger = logging.getLogger('root')

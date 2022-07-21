@@ -23,10 +23,10 @@ from typing import Tuple, List, Union, Dict
 import logging
 
 from transformers import PreTrainedTokenizer, GPT2Tokenizer
-from paddlefsl.datasets.data_glue.utils import InputExample, get_verbalization_ids
+from paddlefsl.datasets.fewnlu.data_glue.utils import InputExample, get_verbalization_ids
 import paddle
 
-logger = log.getLogger('root')
+logger = logging.getLogger('root')
 
 FilledPattern = Tuple[List[Union[str, Tuple[str, bool]]], List[Union[str, Tuple[str, bool]]]]
 

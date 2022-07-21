@@ -5,3 +5,4 @@ tqdm
 rdkit-pypi
 paddlehelix
 paddlenlp
+transformers
