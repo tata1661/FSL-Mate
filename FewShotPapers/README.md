@@ -227,6 +227,15 @@ Please cite our paper if you find it helpful.
 *I. T. Aksu, Z. Liu, M. Kan, and N. F. Chen.*
 [paper](https://aclanthology.org/2022.findings-acl.131.pdf)
 
+1. **Generating representative samples for few-shot classification,** in CVPR, 2022.
+*J. Xu, and H. Le.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Generating_Representative_Samples_for_Few-Shot_Classification_CVPR_2022_paper.pdf)
+[code](https://github.com/cvlab-stonybrook/)
+
+1. **Semi-supervised few-shot learning via multi-factor clustering,** in CVPR, 2022.
+*J. Ling, L. Liao, M. Yang, and J. Shuai.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ling_Semi-Supervised_Few-Shot_Learning_via_Multi-Factor_Clustering_CVPR_2022_paper.pdf)
+
 ## [Model](#content)
 
 ### Multitask Learning
@@ -646,6 +655,37 @@ Please cite our paper if you find it helpful.
 [paper](https://aclanthology.org/2022.acl-long.584.pdf)
 [code](https://github.com/symanto-research/few-shot-learning-label-tuning)
 
+1. **Learning to affiliate: Mutual centralized learning for few-shot classification,** in CVPR, 2022.
+*Y. Liu, W. Zhang, C. Xiang, T. Zheng, D. Cai, and X. He.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_To_Affiliate_Mutual_Centralized_Learning_for_Few-Shot_Classification_CVPR_2022_paper.pdf)
+
+1. **Matching feature sets for few-shot image classification,** in CVPR, 2022.
+*A. Afrasiyabi, H. Larochelle, J. Lalonde, and C. Gagné.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Afrasiyabi_Matching_Feature_Sets_for_Few-Shot_Image_Classification_CVPR_2022_paper.pdf)
+[code](https://lvsn.github.io/SetFeat/)
+
+1. **Joint distribution matters: Deep Brownian distance covariance for few-shot classification,** in CVPR, 2022.
+*J. Xie, F. Long, J. Lv, Q. Wang, and P. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Xie_Joint_Distribution_Matters_Deep_Brownian_Distance_Covariance_for_Few-Shot_Classification_CVPR_2022_paper.pdf)
+
+1. **CAD: Co-adapting discriminative features for improved few-shot classification,** in CVPR, 2022.
+*P. Chikontwe, S. Kim, and S. H. Park.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Chikontwe_CAD_Co-Adapting_Discriminative_Features_for_Improved_Few-Shot_Classification_CVPR_2022_paper.pdf)
+
+1. **Ranking distance calibration for cross-domain few-shot learning,** in CVPR, 2022.
+*P. Li, S. Gong, C. Wang, and Y. Fu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Ranking_Distance_Calibration_for_Cross-Domain_Few-Shot_Learning_CVPR_2022_paper.pdf)
+
+1. **EASE: Unsupervised discriminant subspace learning for transductive few-shot learning,** in CVPR, 2022.
+*H. Zhu, and P. Koniusz.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_EASE_Unsupervised_Discriminant_Subspace_Learning_for_Transductive_Few-Shot_Learning_CVPR_2022_paper.pdf)
+[code](https://github.com/allenhaozhu/EASE)
+
+1. **Cross-domain few-shot learning with task-specific adapters,** in CVPR, 2022.
+*W. Li, X. Liu, and H. Bilen.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Cross-Domain_Few-Shot_Learning_With_Task-Specific_Adapters_CVPR_2022_paper.pdf)
+[code](https://github.com/VICO-UoE/URL)
+
 ### Learning with External Memory
 
 1. **Meta-learning with memory-augmented neural networks,** in ICML, 2016.
@@ -715,6 +755,9 @@ Please cite our paper if you find it helpful.
 [paper](https://openreview.net/pdf?id=i3RI65sR7N)
 [code](https://github.com/YDU-uva/HierMemory)
 
+1. **Remember the difference: Cross-domain few-shot semantic segmentation via meta-memory transfer,** in CVPR, 2022.
+*W. Wang, L. Duan, Y. Wang, Q. En, J. Fan, and Z. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Remember_the_Difference_Cross-Domain_Few-Shot_Semantic_Segmentation_via_Meta-Memory_Transfer_CVPR_2022_paper.pdf)
 
 ### Generative Modeling
 
@@ -822,6 +865,15 @@ and L. Van Gool.*
 1. **Reinforced few-shot acquisition function learning for Bayesian optimization,** in NeurIPS, 2021.
 *B. Hsieh, P. Hsieh, and X. Liu.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/3fab5890d8113d0b5a4178201dc842ad-Paper.pdf)
+
+1. **GanOrCon: Are generative models useful for few-shot segmentation?,** in CVPR, 2022.
+*O. Saha, Z. Cheng, and S. Maji.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Saha_GanOrCon_Are_Generative_Models_Useful_for_Few-Shot_Segmentation_CVPR_2022_paper.pdf)
+
+1. **Few shot generative model adaption via relaxed spatial structural alignment,** in CVPR, 2022.
+*J. Xiao, L. Li, C. Wang, Z. Zha, and Q. Huang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Xiao_Few_Shot_Generative_Model_Adaption_via_Relaxed_Spatial_Structural_Alignment_CVPR_2022_paper.pdf)
+
 
 
 ## [Algorithm](#content)
@@ -1180,6 +1232,12 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2022.acl-long.526.pdf)
 [code](https://github.com/ibm/intermediate-training-using-clustering)
 
+1. **Pushing the limits of simple pipelines for few-shot learning: External data and fine-tuning make a difference,** in CVPR, 2022.
+*S. X. Hu, D. Li, J. Stühmer, M. Kim, and T. M. Hospedales.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Pushing_the_Limits_of_Simple_Pipelines_for_Few-Shot_Learning_External_CVPR_2022_paper.pdf)
+[code](https://hushell.github.io/pmf/)
+
+
 
 ### Refining Meta-learned Parameters
 
@@ -1436,6 +1494,21 @@ and L. Van Gool.*
 1. **Learning prototype-oriented set representations for meta-learning,** in ICLR, 2022.
 *D. d. Guo, L. Tian, M. Zhang, M. Zhou, and H. Zha.*
 [paper](https://openreview.net/pdf?id=WH6u2SvlLp4)
+
+1. **Dynamic kernel selection for improved generalization and memory efficiency in meta-learning,** in CVPR, 2022.
+*A. Chavan, R. Tiwari, U. Bamba, and D. K. Gupta.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Chavan_Dynamic_Kernel_Selection_for_Improved_Generalization_and_Memory_Efficiency_in_CVPR_2022_paper.pdf)
+[code](https://github.com/transmuteAI/MetaDOCK)
+
+1. **What matters for meta-learning vision regression tasks?,** in CVPR, 2022.
+*N. Gao, H. Ziesche, N. A. Vien, M. Volpp, and G. Neumann.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Gao_What_Matters_for_Meta-Learning_Vision_Regression_Tasks_CVPR_2022_paper.pdf)
+[code](https://github.com/boschresearch/what-matters-for-meta-learning)
+
+1. **Multidimensional belief quantification for label-efficient meta-learning,** in CVPR, 2022.
+*D. S. Pandey, and Q. Yu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Pandey_Multidimensional_Belief_Quantification_for_Label-Efficient_Meta-Learning_CVPR_2022_paper.pdf)
+
 
 ### Learning Search Steps
 
@@ -2032,6 +2105,133 @@ and L. Van Gool.*
 *B. Su, and J. Wen.*
 [paper](https://openreview.net/pdf?id=p3DKPQ7uaAi)
 [code](https://github.com/BingSu12/TAP)
+
+1. **Learning non-target knowledge for few-shot semantic segmentation,** in CVPR, 2022.
+*Y. Liu, N. Liu, Q. Cao, X. Yao, J. Han, and L. Shao.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Learning_Non-Target_Knowledge_for_Few-Shot_Semantic_Segmentation_CVPR_2022_paper.pdf)
+
+1. **Learning what not to segment: A new perspective on few-shot segmentation,** in CVPR, 2022.
+*C. Lang, G. Cheng, B. Tu, and J. Han.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Lang_Learning_What_Not_To_Segment_A_New_Perspective_on_Few-Shot_CVPR_2022_paper.pdf)
+[code](https://github.com/chunbolang/BAM)
+
+1. **Few-shot keypoint detection with uncertainty learning for unseen species,** in CVPR, 2022.
+*C. Lu, and P. Koniusz.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Lu_Few-Shot_Keypoint_Detection_With_Uncertainty_Learning_for_Unseen_Species_CVPR_2022_paper.pdf)
+
+1. **XMP-Font: Self-supervised cross-modality pre-training for few-shot font generation,** in CVPR, 2022.
+*W. Liu, F. Liu, F. Ding, Q. He, and Z. Yi.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_XMP-Font_Self-Supervised_Cross-Modality_Pre-Training_for_Few-Shot_Font_Generation_CVPR_2022_paper.pdf)
+
+1. **Spatio-temporal relation modeling for few-shot action recognition,** in CVPR, 2022.
+*A. Thatipelli, S. Narayan, S. Khan, R. M. Anwer, F. S. Khan, and B. Ghanem.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Thatipelli_Spatio-Temporal_Relation_Modeling_for_Few-Shot_Action_Recognition_CVPR_2022_paper.pdf)
+[code](https://github.com/Anirudh257/strm)
+
+1. **Attribute group editing for reliable few-shot image generation,** in CVPR, 2022.
+*G. Ding, X. Han, S. Wang, S. Wu, X. Jin, D. Tu, and Q. Huang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_Attribute_Group_Editing_for_Reliable_Few-Shot_Image_Generation_CVPR_2022_paper.pdf)
+[code](https://github.com/UniBester/AGE)
+
+1. **Few-shot backdoor defense using Shapley estimation,** in CVPR, 2022.
+*J. Guan, Z. Tu, R. He, and D. Tao.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Guan_Few-Shot_Backdoor_Defense_Using_Shapley_Estimation_CVPR_2022_paper.pdf)
+
+1. **Hybrid relation guided set matching for few-shot action recognition,** in CVPR, 2022.
+*X. Wang, S. Zhang, Z. Qing, M. Tang, Z. Zuo, C. Gao, R. Jin, and N. Sang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Hybrid_Relation_Guided_Set_Matching_for_Few-Shot_Action_Recognition_CVPR_2022_paper.pdf)
+[code](https://hyrsm-cvpr2022.github.io/)
+
+1. **Label, verify, correct: A simple few shot object detection method,** in CVPR, 2022.
+*P. Kaul, W. Xie, and A. Zisserman.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kaul_Label_Verify_Correct_A_Simple_Few_Shot_Object_Detection_Method_CVPR_2022_paper.pdf)
+
+1. **InfoNeRF: Ray entropy minimization for few-shot neural volume rendering,** in CVPR, 2022.
+*M. Kim, S. Seo, and B. Han.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_InfoNeRF_Ray_Entropy_Minimization_for_Few-Shot_Neural_Volume_Rendering_CVPR_2022_paper.pdf)
+
+1. **A closer look at few-shot image generation,** in CVPR, 2022.
+*Y. Zhao, H. Ding, H. Huang, and N. Cheung.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_A_Closer_Look_at_Few-Shot_Image_Generation_CVPR_2022_paper.pdf)
+[code](https://github.com/mseitzer/pytorch-fid)
+
+1. **Motion-modulated temporal fragment alignment network for few-shot action recognition,** in CVPR, 2022.
+*J. Wu, T. Zhang, Z. Zhang, F. Wu, and Y. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Motion-Modulated_Temporal_Fragment_Alignment_Network_for_Few-Shot_Action_Recognition_CVPR_2022_paper.pdf)
+
+1. **Kernelized few-shot object detection with efficient integral aggregation,** in CVPR, 2022.
+*S. Zhang, L. Wang, N. Murray, and P. Koniusz.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Kernelized_Few-Shot_Object_Detection_With_Efficient_Integral_Aggregation_CVPR_2022_paper.pdf)
+[code](https://github.com/ZS123-lang/KFSOD)
+
+1. **FS6D: Few-shot 6D pose estimation of novel objects,** in CVPR, 2022.
+*Y. He, Y. Wang, H. Fan, J. Sun, and Q. Chen.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/He_FS6D_Few-Shot_6D_Pose_Estimation_of_Novel_Objects_CVPR_2022_paper.pdf)
+
+1. **Look closer to supervise better: One-shot font generation via component-based discriminator,** in CVPR, 2022.
+*Y. Kong, C. Luo, W. Ma, Q. Zhu, S. Zhu, N. Yuan, and L. Jin.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kong_Look_Closer_To_Supervise_Better_One-Shot_Font_Generation_via_Component-Based_CVPR_2022_paper.pdf)
+
+1. **Generalized few-shot semantic segmentation,** in CVPR, 2022.
+*Z. Tian, X. Lai, L. Jiang, S. Liu, M. Shu, H. Zhao, and J. Jia.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Tian_Generalized_Few-Shot_Semantic_Segmentation_CVPR_2022_paper.pdf)
+[code](https://github.com/dvlab-research/GFS-Seg)
+
+1. **Which images to label for few-shot medical landmark detection?,** in CVPR, 2022.
+*Q. Quan, Q. Yao, J. Li, and S. K. Zhou.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Quan_Which_Images_To_Label_for_Few-Shot_Medical_Landmark_Detection_CVPR_2022_paper.pdf)
+
+1. **Dynamic prototype convolution network for few-shot semantic segmentation,** in CVPR, 2022.
+*J. Liu, Y. Bao, G. Xie, H. Xiong, J. Sonke, and E. Gavves.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Dynamic_Prototype_Convolution_Network_for_Few-Shot_Semantic_Segmentation_CVPR_2022_paper.pdf)
+
+1. **OSOP: A multi-stage one shot object pose estimation framework,** in CVPR, 2022.
+*I. Shugurov, F. Li, B. Busam, and S. Ilic.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Shugurov_OSOP_A_Multi-Stage_One_Shot_Object_Pose_Estimation_Framework_CVPR_2022_paper.pdf)
+
+1. **Semantic-aligned fusion transformer for one-shot object detection,** in CVPR, 2022.
+*Y. Zhao, X. Guo, and Y. Lu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_Semantic-Aligned_Fusion_Transformer_for_One-Shot_Object_Detection_CVPR_2022_paper.pdf)
+
+1. **OnePose: One-shot object pose estimation without CAD models,** in CVPR, 2022.
+*J. Sun, Z. Wang, S. Zhang, X. He, H. Zhao, G. Zhang, and X. Zhou.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_OnePose_One-Shot_Object_Pose_Estimation_Without_CAD_Models_CVPR_2022_paper.pdf)
+[code](https://zju3dv.github.io/onepose/)
+
+1. **Few-shot object detection with fully cross-transformer,** in CVPR, 2022.
+*G. Han, J. Ma, S. Huang, L. Chen, and S. Chang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Han_Few-Shot_Object_Detection_With_Fully_Cross-Transformer_CVPR_2022_paper.pdf)
+
+1. **Learning to memorize feature hallucination for one-shot image generation,** in CVPR, 2022.
+*Y. Xie, Y. Fu, Y. Tai, Y. Cao, J. Zhu, and C. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Xie_Learning_To_Memorize_Feature_Hallucination_for_One-Shot_Image_Generation_CVPR_2022_paper.pdf)
+
+1. **Few-shot font generation by learning fine-grained local styles,** in CVPR, 2022.
+*L. Tang, Y. Cai, J. Liu, Z. Hong, M. Gong, M. Fan, J. Han, J. Liu, E. Ding, and J. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Tang_Few-Shot_Font_Generation_by_Learning_Fine-Grained_Local_Styles_CVPR_2022_paper.pdf)
+
+1. **Balanced and hierarchical relation learning for one-shot object detection,** in CVPR, 2022.
+*H. Yang, S. Cai, H. Sheng, B. Deng, J. Huang, X. Hua, Y. Tang, and Y. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Balanced_and_Hierarchical_Relation_Learning_for_One-Shot_Object_Detection_CVPR_2022_paper.pdf)
+
+1. **Few-shot head swapping in the wild,** in CVPR, 2022.
+*C. Shu, H. Wu, H. Zhou, J. Liu, Z. Hong, C. Ding, J. Han, J. Liu, E. Ding, and J. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Shu_Few-Shot_Head_Swapping_in_the_Wild_CVPR_2022_paper.pdf)
+
+1. **Integrative few-shot learning for classification and segmentation,** in CVPR, 2022.
+*D. Kang, and M. Cho.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kang_Integrative_Few-Shot_Learning_for_Classification_and_Segmentation_CVPR_2022_paper.pdf)
+
+1. **Attribute surrogates learning and spectral tokens pooling in transformers for few-shot learning,** in CVPR, 2022.
+*Y. He, W. Liang, D. Zhao, H. Zhou, W. Ge, Y. Yu, and W. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Attribute_Surrogates_Learning_and_Spectral_Tokens_Pooling_in_Transformers_for_CVPR_2022_paper.pdf)
+[code](https://github.com/StomachCold/HCTransformers)
+
+1. **Task discrepancy maximization for fine-grained few-shot classification,** in CVPR, 2022.
+*S. Lee, W. Moon, and J. Heo.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Task_Discrepancy_Maximization_for_Fine-Grained_Few-Shot_Classification_CVPR_2022_paper.pdf)
+
+
 
 ### Robotics
 
@@ -2718,7 +2918,9 @@ and L. Van Gool.*
 [paper](https://openreview.net/pdf?id=DNRADop4ksB)
 [code](https://github.com/ehsansaleh/firth_bias_reduction)
 
-
+1. **Global convergence of MAML and theory-inspired neural architecture search for few-shot learning,** in CVPR, 2022.
+*H. Wang, Y. Wang, R. Sun, and B. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Global_Convergence_of_MAML_and_Theory-Inspired_Neural_Architecture_Search_for_CVPR_2022_paper.pdf)
 
 ## [Few-shot Learning and Zero-shot Learning](#content)
 
@@ -2857,6 +3059,10 @@ and L. Van Gool.*
 *S. Hu, N. Ding, H. Wang, Z. Liu, J. Wang, J. Li, W. Wu, and M. Sun.*
 [paper](https://aclanthology.org/2022.acl-long.158.pdf)
 [code](https://github.com/thunlp/knowledgeableprompttuning)
+
+1. **Uni-Perceiver: Pre-training unified architecture for generic perception for zero-shot and few-shot tasks,** in CVPR, 2022.
+*X. Zhu, J. Zhu, H. Li, X. Wu, H. Li, X. Wang, and J. Dai.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Uni-Perceiver_Pre-Training_Unified_Architecture_for_Generic_Perception_for_Zero-Shot_and_CVPR_2022_paper.pdf)
 
 
 ## [Variants of Few-shot Learning](#content)
@@ -3023,6 +3229,49 @@ and L. Van Gool.*
 *R. Wang, T. Yu, H. Zhao, S. Kim, S. Mitra, R. Zhang, and R. Henao.*
 [paper](https://aclanthology.org/2022.acl-long.43.pdf)
 
+1. **Task-adaptive negative envision for few-shot open-set recognition,** in CVPR, 2022.
+*S. Huang, J. Ma, G. Han, and S. Chang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Huang_Task-Adaptive_Negative_Envision_for_Few-Shot_Open-Set_Recognition_CVPR_2022_paper.pdf)
+[code](https://github.com/shiyuanh/TANE)
+
+1. **Forward compatible few-shot class-incremental learning,** in CVPR, 2022.
+*D. Zhou, F. Wang, H. Ye, L. Ma, S. Pu, and D. Zhan.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_Forward_Compatible_Few-Shot_Class-Incremental_Learning_CVPR_2022_paper.pdf)
+[code](https://github.com/zhoudw-zdw/CVPR22-Fact)
+
+1. **Sylph: A hypernetwork framework for incremental few-shot object detection,** in CVPR, 2022.
+*L. Yin, J. M. Perez-Rua, and K. J. Liang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yin_Sylph_A_Hypernetwork_Framework_for_Incremental_Few-Shot_Object_Detection_CVPR_2022_paper.pdf)
+
+1. **Constrained few-shot class-incremental learning,** in CVPR, 2022.
+*M. Hersche, G. Karunaratne, G. Cherubini, L. Benini, A. Sebastian, and A. Rahimi.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Hersche_Constrained_Few-Shot_Class-Incremental_Learning_CVPR_2022_paper.pdf)
+
+1. **iFS-RCNN: An incremental few-shot instance segmenter,** in CVPR, 2022.
+*K. Nguyen, and S. Todorovic.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Nguyen_iFS-RCNN_An_Incremental_Few-Shot_Instance_Segmenter_CVPR_2022_paper.pdf)
+
+1. **MetaFSCIL: A meta-learning approach for few-shot class incremental learning,** in CVPR, 2022.
+*Z. Chi, L. Gu, H. Liu, Y. Wang, Y. Yu, and J. Tang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Chi_MetaFSCIL_A_Meta-Learning_Approach_for_Few-Shot_Class_Incremental_Learning_CVPR_2022_paper.pdf)
+
+1. **Few-shot incremental learning for label-to-image translation,** in CVPR, 2022.
+*P. Chen, Y. Zhang, Z. Li, and L. Sun.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Few-Shot_Incremental_Learning_for_Label-to-Image_Translation_CVPR_2022_paper.pdf)
+
+1. **Revisiting learnable affines for batch norm in few-shot transfer learning,** in CVPR, 2022.
+*M. Yazdanpanah, A. A. Rahman, M. Chaudhary, C. Desrosiers, M. Havaei, E. Belilovsky, and S. E. Kahou.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yazdanpanah_Revisiting_Learnable_Affines_for_Batch_Norm_in_Few-Shot_Transfer_Learning_CVPR_2022_paper.pdf)
+
+1. **Few-shot learning with noisy labels,** in CVPR, 2022.
+*K. J. Liang, S. B. Rangrej, V. Petrovic, and T. Hassner.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Liang_Few-Shot_Learning_With_Noisy_Labels_CVPR_2022_paper.pdf)
+
+1. **Improving adversarially robust few-shot image classification with generalizable representations,** in CVPR, 2022.
+*J. Dong, Y. Wang, J. Lai, and X. Xie.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Dong_Improving_Adversarially_Robust_Few-Shot_Image_Classification_With_Generalizable_Representations_CVPR_2022_paper.pdf)
+
+
 ## [Datasets/Benchmarks](#content)
 
 1. **FewRel: A large-scale supervised few-shot relation classification dataset with state-of-the-art evaluation,** in EMNLP, 2018.
@@ -3101,6 +3350,11 @@ and L. Van Gool.*
 *Y. Zheng, J. Zhou, Y. Qian, M. Ding, C. Liao, L. Jian, R. Salakhutdinov, J. Tang, S. Ruder, and Z. Yang.*
 [paper](https://aclanthology.org/2022.acl-long.38.pdf)
 [code](https://github.com/THUDM/FewNLU)
+
+1. **Bongard-HOI: Benchmarking few-shot visual reasoning for human-object interactions,** in CVPR, 2022.
+*H. Jiang, X. Ma, W. Nie, Z. Yu, Y. Zhu, and A. Anandkumar.*
+[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_Bongard-HOI_Benchmarking_Few-Shot_Visual_Reasoning_for_Human-Object_Interactions_CVPR_2022_paper.pdf)
+[code](https://github.com/nvlabs/Bongard-HOI)
 
 ## [Software Library](#content)
 
