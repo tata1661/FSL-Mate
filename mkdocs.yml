@@ -1,0 +1,62 @@
+site_name: Paddle FewShot Learning Toolkit 
+repo_url: https://github.com/tata1661/FSL-Mate
+repo_name: FSL-Mate
+site_description: 'a collection of resources for few-shot learning '
+copyright: '@paddlefsl'
+nav:
+  - 介绍: 'index.md'
+  - 快速开始:
+    - 小样本自然语言理解: 'tutorials/nlu.md' 
+    - 小样本图片分类: 'tutorials/image.md' 
+    - 小样本关系抽取: 'tutorials/relation.md' 
+    - 小样本分子属性预测: 'tutorials/molecular.md' 
+  - 使用指南:
+    - Prototypical Net: 'how-to/proto-net.md' 
+    - Matching Net: 'how-to/matching-net.md' 
+    - Relation Net: 'how-to/relation.md' 
+    - ANIL: 'how-to/anil.md' 
+    - MAML: 'how-to/maml.md' 
+    - 数据集: 'how-to/dataset.md' 
+  - 模块详解:
+    - 介绍: 'references/index.md'
+    - API文档:
+      - 'paddlefsl.backbones': 'api/backbones.md'
+      - 'paddlefsl.datasets': 'api/datasets.md'
+      - 'paddlefsl.metaopt': 'api/metaopt.md'
+      - 'paddlefsl.model_zoo': 'api/model_zoo.md'
+      - 'paddlefsl.task_sampler': 'api/task_sampler.md'
+      - 'paddlefsl.utils': 'api/utils.md'
+  - FAQ:
+    - '基础常见问题': 'faq/common.md'
+
+theme:
+  name: material
+  logo: images/logo-fsl-mate.png
+  # favicon: img/favicon.ico
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      baselevel: 2
+
+google_analytics:
+  - G-1TDFTF2BYD
+  - auto
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          selection:
+            filters:
+              - "!^_"  # exlude all members starting with _
+              - "^__init__$"  # but always include __init__ modules and methods
+          rendering:
+            show_root_heading: yes
+            show_root_full_path: false
+            members_order: source
+            heading_level: 2
+      watch:
+        - ./PaddleFSL
