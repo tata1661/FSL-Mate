@@ -874,6 +874,11 @@ and L. Van Gool.*
 *J. Xiao, L. Li, C. Wang, Z. Zha, and Q. Huang.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Xiao_Few_Shot_Generative_Model_Adaption_via_Relaxed_Spatial_Structural_Alignment_CVPR_2022_paper.pdf)
 
+1. **SCHA-VAE: Hierarchical context aggregation for few-shot generation,** in ICML, 2022.
+*G. Giannone, and O. Winther.*
+[paper](https://proceedings.mlr.press/v162/giannone22a/giannone22a.pdf)
+[code](https://github.com/georgosgeorgos/hierarchical-few-shot-generative-models)
+
 
 
 ## [Algorithm](#content)
@@ -1237,7 +1242,10 @@ and L. Van Gool.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Pushing_the_Limits_of_Simple_Pipelines_for_Few-Shot_Learning_External_CVPR_2022_paper.pdf)
 [code](https://hushell.github.io/pmf/)
 
-
+1. **HyperTransformer: Model generation for supervised and semi-supervised few-shot learning,** in ICML, 2022.
+*A. Zhmoginov, M. Sandler, and M. Vladymyrov.*
+[paper](https://proceedings.mlr.press/v162/zhmoginov22a/zhmoginov22a.pdf)
+[code](https://github.com/google-research/google-research/tree/master/hypertransformer)
 
 ### Refining Meta-learned Parameters
 
@@ -1509,6 +1517,41 @@ and L. Van Gool.*
 *D. S. Pandey, and Q. Yu.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Pandey_Multidimensional_Belief_Quantification_for_Label-Efficient_Meta-Learning_CVPR_2022_paper.pdf)
 
+1. **Few-shot node classification on attributed networks with graph meta-learning,** in SIGIR, 2022.
+*Y. Liu, M. Li, X. Li, F. Giunchiglia, X. Feng, and R. Guan.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3477495.3531978)
+
+1. **The role of deconfounding in meta-learning,** in ICML, 2022.
+*Y. Jiang, Z. Chen, K. Kuang, L. Yuan, X. Ye, Z. Wang, F. Wu, and Y. Wei.*
+[paper](https://proceedings.mlr.press/v162/jiang22a/jiang22a.pdf)
+
+1. **Stochastic deep networks with linear competing units for model-agnostic meta-learning,** in ICML, 2022.
+*K. Kalais, and S. Chatzis.*
+[paper](https://proceedings.mlr.press/v162/kalais22a/kalais22a.pdf)
+[code](https://github.com/Kkalais/StochLWTA-ML)
+
+1. **Efficient variance reduction for meta-learning,** in ICML, 2022.
+*H. Yang, and J. T. Kwok.*
+[paper](https://proceedings.mlr.press/v162/yang22g/yang22g.pdf)
+
+1. **Subspace learning for effective meta-learning,** in ICML, 2022.
+*W. Jiang, J. Kwok, and Y. Zhang.*
+[paper](https://proceedings.mlr.press/v162/jiang22b/jiang22b.pdf)
+
+1. **Robust meta-learning with sampling noise and label noise via Eigen-Reptile,** in ICML, 2022.
+*D. Chen, L. Wu, S. Tang, X. Yun, B. Long, and Y. Zhuang.*
+[paper](https://proceedings.mlr.press/v162/chen22aa/chen22aa.pdf)
+[code](https://github.com/Anfeather/Eigen-Reptile)
+
+1. **Attentional meta-learners for few-shot polythetic classification,** in ICML, 2022.
+*B. J. Day, R. V. Torné, N. Simidjievski, and P. Lió.*
+[paper](https://proceedings.mlr.press/v162/day22a/day22a.pdf)
+[code](https://github.com/rvinas/polythetic_metalearning)
+
+1. **PLATINUM: Semi-supervised model agnostic meta-learning using submodular mutual information,** in ICML, 2022.
+*C. Li, S. Kothawade, F. Chen, and R. K. Iyer.*
+[paper](https://proceedings.mlr.press/v162/li22k/li22k.pdf)
+[code](https://github.com/Hugo101/PLATINUM)
 
 ### Learning Search Steps
 
@@ -2231,6 +2274,9 @@ and L. Van Gool.*
 *S. Lee, W. Moon, and J. Heo.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Task_Discrepancy_Maximization_for_Fine-Grained_Few-Shot_Classification_CVPR_2022_paper.pdf)
 
+1. **Channel importance matters in few-shot image classification,** in ICML, 2022.
+*X. Luo, J. Xu, and Z. Xu.*
+[paper](https://proceedings.mlr.press/v162/luo22c/luo22c.pdf)
 
 
 ### Robotics
@@ -2282,6 +2328,12 @@ and L. Van Gool.*
 1. **Hierarchical few-shot imitation with skill transition models,** in ICLR, 2022.
 *K. Hakhamaneshi, R. Zhao, A. Zhan, P. Abbeel, and M. Laskin.*
 [paper](https://openreview.net/pdf?id=xKZ4K0lTj_)
+
+1. **Prompting decision transformer for few-shot policy generalization,** in ICML, 2022.
+*M. Xu, Y. Shen, S. Zhang, Y. Lu, D. Zhao, J. B. Tenenbaum, and C. Gan.*
+[paper](https://proceedings.mlr.press/v162/xu22g/xu22g.pdf)
+[code](https://github.com/mxu34/prompt-dt)
+
 
 
 ### Natural Language Processing
@@ -2660,6 +2712,156 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2022.acl-long.134.pdf)
 [code](https://github.com/qikunxun/pct)
 
+1. **Few-shot stance detection via target-aware prompt distillation,** in SIGIR, 2022.
+*Y. Jiang, J. Gao, H. Shen, and X. Cheng.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3477495.3531979)
+[code](https://github.com/jyjulyseven/TAPD)
+
+1. **Relation-guided few-shot relational triple extraction,** in SIGIR, 2022.
+*X. Cong, J. Sheng, S. Cui, B. Yu, T. Liu, and B. Wang.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3477495.3531831)
+
+1. **Curriculum contrastive context denoising for few-shot conversational dense retrieval,** in SIGIR, 2022.
+*K. Mao, Z. Dou, and H. Qian.*
+[paper](https://dl.acm.org/doi/10.1145/3477495.3531961)
+[code](https://github.com/kyriemao/COTED)
+
+1. **Few-shot subgoal planning with language models,** in NAACL, 2022.
+*L. Logeswaran, Y. Fu, M. Lee, and H. Lee.*
+[paper](https://aclanthology.org/2022.naacl-main.402.pdf)
+
+1. **Template-free prompt tuning for few-shot NER,** in NAACL, 2022.
+*R. Ma, X. Zhou, T. Gui, Y. Tan, L. Li, Q. Zhang, and X. Huang.*
+[paper](https://aclanthology.org/2022.naacl-main.420.pdf)
+[code](https://github.com/rtmaww/EntLM/)
+
+1. **Few-shot document-level relation extraction,** in NAACL, 2022.
+*N. Popovic, and M. Färber.*
+[paper](https://aclanthology.org/2022.naacl-main.421.pdf)
+[code](https://github.com/nicpopovic/FREDo)
+
+1. **An enhanced span-based decomposition method for few-shot sequence labeling,** in NAACL, 2022.
+*P. Wang, R. Xu, T. Liu, Q. Zhou, Y. Cao, B. Chang, and Z. Sui.*
+[paper](https://aclanthology.org/2022.naacl-main.369.pdf)
+[code](https://github.com/Wangpeiyi9979/ESD)
+
+1. **Automatic multi-label prompting: Simple and interpretable few-shot classification,** in NAACL, 2022.
+*H. Wang, C. Xu, and J. McAuley.*
+[paper](https://aclanthology.org/2022.naacl-main.401.pdf)
+[code](https://github.com/HanNight/AMuLaP)
+
+1. **On the effect of pretraining corpora on in-context few-shot learning by a large-scale language model,** in NAACL, 2022.
+*S. Shin, S.-W. Lee, H. Ahn, S. Kim, H. Kim, B. Kim, K. Cho, G. Lee, W. Park, J.-W. Ha, and N. Sung.*
+[paper](https://aclanthology.org/2022.naacl-main.380.pdf)
+
+1. **MGIMN: Multi-grained interactive matching network for few-shot text classification,** in NAACL, 2022.
+*J. Zhang, M. Maimaiti, G. Xing, Y. Zheng, and J. Zhang.*
+[paper](https://aclanthology.org/2022.naacl-main.141.pdf)
+
+1. **On the economics of multilingual few-shot learning: Modeling the cost-performance trade-offs of machine translated and manual data,** in NAACL, 2022.
+*K. Ahuja, M. Choudhury, and S. Dandapat.*
+[paper](https://aclanthology.org/2022.naacl-main.98.pdf)
+[code](https://github.com/kabirahuja2431/PerformanceFunctionAnalysis)
+
+1. **OmniTab: Pretraining with natural and synthetic data for few-shot table-based question answering,** in NAACL, 2022.
+*Z. Jiang, Y. Mao, P. He, G. Neubig, and W. Chen.*
+[paper](https://aclanthology.org/2022.naacl-main.68.pdf)
+[code](https://github.com/jzbjyb/OmniTab)
+
+1. **Fine-tuning pre-trained language models for few-shot intent detection: Supervised pre-training and isotropization,** in NAACL, 2022.
+*H. Zhang, H. Liang, Y. Zhang, L.-M. Zhan, X.-M. Wu, X. Lu, and A. Y. Lam.*
+[paper](https://aclanthology.org/2022.naacl-main.39.pdf)
+[code](https://github.com/fanolabs/isoIntentBert-main)
+
+1. **Embedding hallucination for few-shot language fine-tuning,** in NAACL, 2022.
+*Y. Jian, C. Gao, and S. Vosoughi.*
+[paper](https://aclanthology.org/2022.naacl-main.404.pdf)
+[code](https://github.com/yiren-jian/EmbedHalluc)
+
+1. **Few-shot semantic parsing with language models trained on code,** in NAACL, 2022.
+*R. Shin, and B. V. Durme.*
+[paper](https://aclanthology.org/2022.naacl-main.396.pdf)
+
+1. **LEA: Meta knowledge-driven self-attentive document embedding for few-shot text classification,** in NAACL, 2022.
+*S. Hong, and T. Y. Jang.*
+[paper](https://aclanthology.org/2022.naacl-main.7.pdf)
+
+1. **Contrastive learning for prompt-based few-shot language learners,** in NAACL, 2022.
+*Y. Jian, C. Gao, and S. Vosoughi.*
+[paper](https://aclanthology.org/2022.naacl-main.408.pdf)
+[code](https://github.com/yiren-jian/LM-SupCon)
+
+1. **Learn from relation information: Towards prototype representation rectification for few-shot relation extraction,** in NAACL, 2022.
+*Y. Liu, J. Hu, X. Wan, and T.-H. Chang.*
+[paper](https://aclanthology.org/2022.findings-naacl.139.pdf)
+[code](https://github.com/lylylylylyly/PRM-FSRE)
+
+1. **Efficient few-shot fine-tuning for opinion summarization,** in NAACL, 2022.
+*A. Brazinskas, R. Nallapati, M. Bansal, and M. Dreyer.*
+[paper](https://aclanthology.org/2022.findings-naacl.113.pdf)
+[code](https://github.com/amazon-research/adasum)
+
+1. **Improving few-shot image classification using machine- and user-generated natural language descriptions,** in NAACL, 2022.
+*K. Nishida, K. Nishida, and S. Nishioka.*
+[paper](https://aclanthology.org/2022.findings-naacl.106.pdf)
+
+1. **RGL: A simple yet effective relation graph augmented prompt-based tuning approach for few-shot learning,** in NAACL, 2022.
+*Y. Wang, X. Tian, H. Xiong, Y. Li, Z. Chen, S. Guo, and D. Dou.*
+[paper](https://aclanthology.org/2022.findings-naacl.81.pdf)
+[code](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/RGL)
+
+1. **“Diversity and uncertainty in moderation” are the key to data selection for multilingual few-shot transfer,** in NAACL, 2022.
+*S. Kumar, S. Dandapat, and M. Choudhury.*
+[paper](https://aclanthology.org/2022.findings-naacl.78.pdf)
+
+1. **A generative language model for few-shot aspect-based sentiment analysis,** in NAACL, 2022.
+*E. Hosseini-Asl, W. Liu, and C. Xiong.*
+[paper](https://aclanthology.org/2022.findings-naacl.58.pdf)
+[code](https://github.com/salesforce/fewshot_absa)
+
+1. **Improving few-shot relation classiﬁcation by prototypical representation learning with deﬁnition text,** in NAACL, 2022.
+*L. Zhenzhen, Y. Zhang, J.-Y. Nie, and D. Li.*
+[paper](https://aclanthology.org/2022.findings-naacl.34.pdf)
+
+1. **Few-shot self-rationalization with natural language prompts,** in NAACL, 2022.
+*A. Marasovic, I. Beltagy, D. Downey, and M. E. Peters.*
+[paper](https://aclanthology.org/2022.findings-naacl.31.pdf)
+[code](https://github.com/allenai/feb)
+
+1. **How to translate your samples and choose your shots? Analyzing translate-train & few-shot cross-lingual transfer,** in NAACL, 2022.
+*I. Jundi, and G. Lapesa.*
+[paper](https://aclanthology.org/2022.findings-naacl.11.pdf)
+[code](https://github.com/imanjundi/cross-lingual-transfer)
+
+1. **SEQZERO: Few-shot compositional semantic parsing with sequential prompts and zero-shot models,** in NAACL, 2022.
+*J. Yang, H. Jiang, Q. Yin, D. Zhang, B. Yin, and D. Yang.*
+[paper](https://aclanthology.org/2022.findings-naacl.5.pdf)
+[code](https://github.com/amzn/SeqZero)
+
+1. **LMTurk: Few-shot learners as crowdsourcing workers in a language-model-as-a-service framework,** in NAACL, 2022.
+*M. Zhao, F. Mi, Y. Wang, M. Li, X. Jiang, Q. Liu, and H. Schuetze.*
+[paper](https://aclanthology.org/2022.findings-naacl.51.pdf)
+[code](https://github.com/lmturk)
+
+1. **LiST: Lite prompted self-training makes efficient few-shot learners,** in NAACL, 2022.
+*Y. Wang, S. Mukherjee, X. Liu, J. Gao, A. H. Awadallah, and J. Gao.*
+[paper](https://aclanthology.org/2022.findings-naacl.174.pdf)
+[code](https://github.com/microsoft/LiST)
+
+1. **Improving in-context few-shot learning via self-supervised training,** in NAACL, 2022.
+*M. Chen, J. Du, R. Pasunuru, T. Mihaylov, S. Iyer, V. Stoyanov, and Z. Kozareva.*
+[paper](https://aclanthology.org/2022.naacl-main.260.pdf)
+
+1. **Por qué não utiliser alla språk? mixed training with gradient optimization in few-shot cross-lingual transfer,** in NAACL, 2022.
+*H. Xu, and K. Murray.*
+[paper](https://aclanthology.org/2022.findings-naacl.157.pdf)
+[code](https://github.com/fe1ixxu/Mixed-Gradient-Few-Shot)
+
+1. **On the effectiveness of sentence encoding for intent detection meta-learning,** in NAACL, 2022.
+*T. Ma, Q. Wu, Z. Yu, T. Zhao, and C.-Y. Lin.*
+[paper](https://aclanthology.org/2022.naacl-main.279.pdf)
+[code](https://github.com/microsoft/KC/tree/main/papers/IDML)
+
 
 ### Acoustic Signal Processing
 
@@ -2748,6 +2950,7 @@ and L. Van Gool.*
 1. **PNMTA: A pretrained network modulation and task adaptation approach for user cold-start recommendation.,** in TheWebConf, 2022.
 *H. Pang, F. Giunchiglia, X. Li, R. Guan, and X. Feng.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511963)
+
 
 
 ### Others
@@ -2870,6 +3073,16 @@ and L. Van Gool.*
 1. **A meta-learning based stress category detection framework on social media.,** in TheWebConf, 2022.
 *X. Wang, L. Cao, H. Zhang, L. Feng, Y. Ding, and N. Li.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512013)
+
+1. **Recognizing medical search query intent by few-shot learning,** in SIGIR, 2022.
+*Y. Wang, S. Wang, L. Yanyan, and D. Dou.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3477495.3531789)
+[code](https://github.com/tata1661/MEDIC-SIGIR22)
+
+1. **MetaCare++: Meta-learning with hierarchical subtyping for cold-start diagnosis prediction in healthcare data,** in SIGIR, 2022.
+*Y. Tan, C. Yang, X. Wei, C. Chen, W. Liu, L. Li, and J. Z. a. X. Zheng.*
+[paper](https://dl.acm.org/doi/10.1145/3477495.3532020)
+
 
 ## [Theories](#content)
 
@@ -3063,6 +3276,25 @@ and L. Van Gool.*
 1. **Uni-Perceiver: Pre-training unified architecture for generic perception for zero-shot and few-shot tasks,** in CVPR, 2022.
 *X. Zhu, J. Zhu, H. Li, X. Wu, H. Li, X. Wang, and J. Dai.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhu_Uni-Perceiver_Pre-Training_Unified_Architecture_for_Generic_Perception_for_Zero-Shot_and_CVPR_2022_paper.pdf)
+
+1. **Enhancing zero-shot stance detection via targeted background knowledge,** in SIGIR, 2022.
+*Q. Zhu, B. Liang, J. Sun, J. Du, and L. Z. a. X. Ruifeng.*
+[paper](https://dl.acm.org/doi/10.1145/3477495.3531807)
+
+1. **Textual entailment for event argument extraction: Zero- and few-shot with multi-source learning,** in NAACL, 2022.
+*O. Sainz, I. Gonzalez-Dios, O. L. d. Lacalle, B. Min, and E. Agirre.*
+[paper](https://aclanthology.org/2022.findings-naacl.187.pdf)
+[code](https://github.com/osainz59/Ask2Transformers)
+
+1. **Extreme zero-shot learning for extreme text classification,** in NAACL, 2022.
+*Y. Xiong, W.-C. Chang, C.-J. Hsieh, H.-F. Yu, and I. S. Dhillon.*
+[paper](https://aclanthology.org/2022.naacl-main.399.pdf)
+[code](https://github.com/amzn/pecos/tree/mainline/examples/MACLR)
+
+1. **Domain-oriented prefix-tuning: Towards efficient and generalizable fine-tuning for zero-shot dialogue summarization,** in NAACL, 2022.
+*L. Zhao, F. Zheng, W. Zeng, K. He, W. Xu, H. Jiang, W. Wu, and Y. Wu.*
+[paper](https://aclanthology.org/2022.naacl-main.357.pdf)
+[code](https://github.com/Zeng-WH/DOP-Tuning)
 
 
 ## [Variants of Few-shot Learning](#content)
