@@ -14,6 +14,7 @@ We are endeavored to constantly update FSL-Mate. Hopefully, it can make FSL easi
 
 ## News🔥 
 
+- [2022-10-17] Add FSL papers published in KDD and IJCAI 2022.
 - [2022-08-22] Add FSL papers published in ICML, SIGIR and NAACL 2022.
 
 

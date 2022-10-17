@@ -236,6 +236,11 @@ Please cite our paper if you find it helpful.
 *J. Ling, L. Liao, M. Yang, and J. Shuai.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ling_Semi-Supervised_Few-Shot_Learning_via_Multi-Factor_Clustering_CVPR_2022_paper.pdf)
 
+1. **Information augmentation for few-shot node classification,** in IJCAI, 2022.
+*Z. Wu, P. Zhou, G. Wen, Y. Wan, J. Ma, D. Cheng, and X. Zhu.*
+[paper](https://www.ijcai.org/proceedings/2022/0500.pdf)
+
+
 ## [Model](#content)
 
 ### Multitask Learning
@@ -685,6 +690,14 @@ Please cite our paper if you find it helpful.
 *W. Li, X. Liu, and H. Bilen.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Cross-Domain_Few-Shot_Learning_With_Task-Specific_Adapters_CVPR_2022_paper.pdf)
 [code](https://github.com/VICO-UoE/URL)
+
+1. **Hyperbolic knowledge transfer with class hierarchy for few-shot learning,** in IJCAI, 2022.
+*B. Zhang, H. Jiang, S. Feng, X. Li, Y. Ye, and R. Ye.*
+[paper](https://www.ijcai.org/proceedings/2022/0517.pdf)
+
+1. **Better embedding and more shots for few-shot learning,** in IJCAI, 2022.
+*Z. Chi, Z. Wang, M. Yang, W. Guo, and X. Xu.*
+[paper](https://www.ijcai.org/proceedings/2022/0398.pdf)
 
 ### Learning with External Memory
 
@@ -1553,6 +1566,19 @@ and L. Van Gool.*
 [paper](https://proceedings.mlr.press/v162/li22k/li22k.pdf)
 [code](https://github.com/Hugo101/PLATINUM)
 
+1. **Finding meta winning ticket to train your MAML,** in KDD, 2022.
+*D. Gao, Y. Xie, Z. Zhou, Z. Wang, Y. Li, and B. Ding.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539467)
+
+1. **p-Meta: Towards on-device deep model adaptation,** in KDD, 2022.
+*Z. Qu, Z. Zhou, Y. Tong, and L. Thiele.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539293)
+
+1. **FAITH: Few-shot graph classification with hierarchical task graphs,** in IJCAI, 2022.
+*S. Wang, Y. Dong, X. Huang, C. Chen, and J. Li.*
+[paper](https://www.ijcai.org/proceedings/2022/0317.pdf)
+[code](https://github.com/SongW-SW/FAITH)
+
 ### Learning Search Steps
 
 1. **Optimization as a model for few-shot learning,** in ICLR, 2017.
@@ -2278,6 +2304,32 @@ and L. Van Gool.*
 *X. Luo, J. Xu, and Z. Xu.*
 [paper](https://proceedings.mlr.press/v162/luo22c/luo22c.pdf)
 
+1. **Long-short term cross-transformer in compressed domain for few-shot video classification,** in IJCAI, 2022.
+*W. Luo, Y. Liu, B. Li, W. Hu, Y. Miao, and Y. Li.*
+[paper](https://www.ijcai.org/proceedings/2022/0174.pdf)
+
+1. **HifiHead: One-shot high fidelity neural head synthesis with 3D control,** in IJCAI, 2022.
+*F. Zhu, J. Zhu, W. Chu, Y. Tai, Z. Xie, X. Huang, and C. Wang.*
+[paper](https://www.ijcai.org/proceedings/2022/0244.pdf)
+[code](https://github.com/TencentYoutuResearch/HeadSynthesis-HifHea)
+
+1. **Iterative few-shot semantic segmentation from image label text,** in IJCAI, 2022.
+*H. Wang, L. Liu, W. Zhang, J. Zhang, Z. Gan, Y. Wang, C. Wang, and H. Wang.*
+[paper](https://www.ijcai.org/proceedings/2022/0193.pdf)
+[code](https://github.com/Whileherham/IMR-HSNet)
+
+1. **Beyond the prototype: Divide-and-conquer proxies for few-shot segmentation,** in IJCAI, 2022.
+*C. Lang, B. Tu, G. Cheng, and J. Han.*
+[paper](https://www.ijcai.org/proceedings/2022/0143.pdf)
+[code](https://github.com/chunbolang/DCP)
+
+1. **CATrans: Context and affinity transformer for few-shot segmentation,** in IJCAI, 2022.
+*S. Zhang, T. Wu, S. Wu, and G. Guo.*
+[paper](https://www.ijcai.org/proceedings/2022/0231.pdf)
+
+1. **Masked feature generation network for few-shot learning,** in IJCAI, 2022.
+*Y. Yu, D. Zhang, and Z. Ji.*
+[paper](https://www.ijcai.org/proceedings/2022/0513.pdf)
 
 ### Robotics
 
@@ -2862,6 +2914,33 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2022.naacl-main.279.pdf)
 [code](https://github.com/microsoft/KC/tree/main/papers/IDML)
 
+1. **Few-shot fine-grained entity typing with automatic label interpretation and instance generation,** in KDD, 2022.
+*J. Huang, Y. Meng, and J. Han.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539443)
+[code](https://github.com/teapot123/Fine-Grained-Entity-Typing)
+
+1. **Label-enhanced prototypical network with contrastive learning for multi-label few-shot aspect category detection,** in KDD, 2022.
+*H. Liu, F. Zhang, X. Zhang, S. Zhao, J. Sun, H. Yu, and X. Zhang.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539340)
+
+1. **Task-adaptive few-shot node classification,** in KDD, 2022.
+*S. Wang, K. Ding, C. Zhang, C. Chen, and J. Li.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539265)
+[code](https://github.com/SongW-SW/TENT)
+
+1. **Diversity features enhanced prototypical network for few-shot intent detection,** in IJCAI, 2022.
+*F. Yang, X. Zhou, Y. Wang, A. Atawulla, and R. Bi.*
+[paper](https://www.ijcai.org/proceedings/2022/0617.pdf)
+
+1. **Function-words adaptively enhanced attention networks for few-shot inverse relation classification,** in IJCAI, 2022.
+*C. Dou, S. Wu, X. Zhang, Z. Feng, and K. Wang.*
+[paper](https://www.ijcai.org/proceedings/2022/0407.pdf)
+[code](https://github.com/DOU123321/FAEA-FSRC)
+
+1. **Curriculum-based self-training makes better few-shot learners for data-to-text generation,** in IJCAI, 2022.
+*P. Ke, H. Ji, Z. Yang, Y. Huang, J. Feng, X. Zhu, and M. Huang.*
+[paper](https://www.ijcai.org/proceedings/2022/0580.pdf)
+[code](https://github.com/kepei1106/CBST)
 
 ### Acoustic Signal Processing
 
@@ -3083,6 +3162,20 @@ and L. Van Gool.*
 *Y. Tan, C. Yang, X. Wei, C. Chen, W. Liu, L. Li, and J. Z. a. X. Zheng.*
 [paper](https://dl.acm.org/doi/10.1145/3477495.3532020)
 
+1. **Spatio-temporal graph few-shot learning with cross-city knowledge transfer,** in KDD, 2022.
+*B. Lu, X. Gan, W. Zhang, H. Yao, L. Fu, and X. Wang.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539281)
+[code](https://github.com/RobinLu1209/ST-GFSL)
+
+1. **Few-shot learning for trajectory-based mobile game cheating detection,** in KDD, 2022.
+*Y. Su, D. Yao, X. Chu, W. Li, J. Bi, S. Zhao, R. Wu, S. Zhang, J. Tao, and H. Deng.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539157)
+[code](https://github.com/super1225/cheating-detection)
+
+1. **Improving few-shot text-to-SQL with meta self-training via column specificity,** in IJCAI, 2022.
+*X. Guo, Y. Chen, G. Qi, T. Wu, and H. Xu.*
+[paper](https://www.ijcai.org/proceedings/2022/0576.pdf)
+[code](https://github.com/ygxw0909/MST-SQL)
 
 ## [Theories](#content)
 
@@ -3503,6 +3596,22 @@ and L. Van Gool.*
 *J. Dong, Y. Wang, J. Lai, and X. Xie.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Dong_Improving_Adversarially_Robust_Few-Shot_Image_Classification_With_Generalizable_Representations_CVPR_2022_paper.pdf)
 
+1. **Geometer: Graph few-shot class-incremental learning via prototype representation,** in KDD, 2022.
+*B. Lu, X. Gan, L. Yang, W. Zhang, L. Fu, and X. Wang.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539280)
+[code](https://github.com/RobinLu1209/Geometer)
+
+1. **Few-shot heterogeneous graph learning via cross-domain knowledge transfer,** in KDD, 2022.
+*Q. Zhang, X. Wu, Q. Yang, C. Zhang, and X. Zhang.*
+[paper](https://dl.acm.org/doi/10.1145/3534678.3539431)
+
+1. **Few-shot adaptation of pre-trained networks for domain shift,** in IJCAI, 2022.
+*W. Zhang, L. Shen, W. Zhang, and C.-S. Foo.*
+[paper](https://www.ijcai.org/proceedings/2022/0232.pdf)
+
+1. **MemREIN: Rein the domain shift for cross-domain few-shot learning,** in IJCAI, 2022.
+*Y. Xu, L. Wang, Y. Wang, C. Qin, Y. Zhang, and Y. FU.*
+[paper](https://www.ijcai.org/proceedings/2022/0505.pdf)
 
 ## [Datasets/Benchmarks](#content)
 
