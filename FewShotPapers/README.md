@@ -40,6 +40,7 @@ Please cite our paper if you find it helpful.
     1. [Computer Vision](#Computer-Vision)
     1. [Robotics](#Robotics)
     1. [Natural Language Processing](#Natural-Language-Processing)
+    1. [Knowledge Graph](#Knowledge-Graph)
     1. [Acoustic Signal Processing](#Acoustic-Signal-Processing)
     1. [Recommendation](#Recommendation)
     1. [Others](#others)
@@ -240,6 +241,53 @@ Please cite our paper if you find it helpful.
 *Z. Wu, P. Zhou, G. Wen, Y. Wan, J. Ma, D. Cheng, and X. Zhu.*
 [paper](https://www.ijcai.org/proceedings/2022/0500.pdf)
 
+1. **Improving task-specific generalization in few-shot learning via adaptive vicinal risk minimization,** in NeurIPS, 2022.
+*L.-K. Huang, and Y. Wei.*
+[paper](https://openreview.net/pdf?id=fHUBa3gQno)
+
+1. **An embarrassingly simple approach to semi-supervised few-shot learning,** in NeurIPS, 2022.
+*X.-S. Wei, H.-Y. Xu, F. Zhang, Y. Peng, and W. Zhou.*
+[paper](https://openreview.net/pdf?id=-3Pg7QNIF1S)
+
+1. **FeLMi : Few shot learning with hard mixup,** in NeurIPS, 2022.
+*A. Roy, A. Shah, K. Shah, P. Dhar, A. Cherian, and R. Chellappa.*
+[paper](https://openreview.net/pdf?id=xpdaDM_B4D)
+[code](https://github.com/aniket004/Felmi)
+
+1. **Understanding cross-domain few-shot learning based on domain similarity and few-shot difficulty,** in NeurIPS, 2022.
+*J. Oh, S. Kim, N. Ho, J.-H. Kim, H. Song, and S.-Y. Yun.*
+[paper](https://openreview.net/pdf?id=rH-X09cB50f)
+[code](https://github.com/sungnyun/understanding-cdfsl)
+
+1. **Label hallucination for few-shot classification,** in AAAI, 2022.
+*Y. Jian, and L. Torresani.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20659/20418)
+[code](https://github.com/yiren-jian/LabelHalluc)
+
+1. **STUNT: Few-shot tabular learning with self-generated tasks from unlabeled tables,** in ICLR, 2023.
+*J. Nam, J. Tack, K. Lee, H. Lee, and J. Shin.*
+[paper](https://openreview.net/pdf?id=_xlsjehDvlY)
+[code](https://github.com/jaehyun513/STUNT)
+
+1. **Unsupervised meta-learning via few-shot pseudo-supervised contrastive learning,** in ICLR, 2023.
+*H. Jang, H. Lee, and J. Shin.*
+[paper](https://openreview.net/pdf?id=TdTGGj7fYYJ)
+[code](https://github.com/alinlab/PsCo)
+
+1. **Progressive mix-up for few-shot supervised multi-source domain transfer,** in ICLR, 2023.
+*R. Zhu, R. Zhu, X. Yu, and S. Li.*
+[paper](https://openreview.net/pdf?id=H7M_5K5qKJV)
+[code](https://github.com/ronghangzhu/P-Mixup)
+
+1. **Cross-level distillation and feature denoising for cross-domain few-shot classification,** in ICLR, 2023.
+*H. ZHENG, R. Wang, J. Liu, and A. Kanezaki.*
+[paper](https://openreview.net/pdf?id=Kn-HA8DFik)
+[code](https://gitee.com/mindspore/models/tree/master/research/cv/CLDFD)
+
+1. **Tuning language models as training data generators for augmentation-enhanced few-shot learning,** in ICML, 2023.
+*Y. Meng, M. Michalski, J. Huang, Y. Zhang, T. F. Abdelzaher, and J. Han.*
+[paper](http://proceedings.mlr.press/v202/meng23b/meng23b.pdf)
+[code](https://github.com/yumeng5/FewGen)
 
 ## [Model](#content)
 
@@ -295,6 +343,9 @@ Please cite our paper if you find it helpful.
 [paper](http://proceedings.mlr.press/v139/wang21ad/wang21ad.pdf)
 [code](https://github.com/AI-secure/multi-task-learning)
 
+1. **Task-level self-supervision for cross-domain few-shot learning,** in AAAI, 2022.
+*W. Yuan, Z. Zhang, C. Wang, H. Song, Y. Xie, and L. Ma.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20230/19989)
 
 ### Embedding/Metric Learning
 
@@ -399,6 +450,11 @@ Please cite our paper if you find it helpful.
 1. **Cross attention network for few-shot classification,** in NeurIPS, 2019.
 *R. Hou, H. Chang, B. Ma, S. Shan, and X. Chen.*
 [paper](https://papers.nips.cc/paper/8655-cross-attention-network-for-few-shot-classification.pdf)
+
+1. **Fast and Flexible Multi-Task Classification Using Conditional Neural Adaptive Processes,** in NeurIPS, 2019.
+*J. Requeima, J. Gordon, J. Bronskill, S. Nowozin, and R. E. Turner.*
+[paper](https://proceedings.neurips.cc/paper/2019/file/1138d90ef0a0848a542e57d1595f58ea-Paper.pdf)
+[code](https://github.com/cambridge-mlg/cnaps)
 
 1. **Hybrid attention-based prototypical networks for noisy few-shot relation classification,** in AAAI, 2019.
 *T. Gao, X. Han, Z. Liu, and M. Sun.*
@@ -699,6 +755,67 @@ Please cite our paper if you find it helpful.
 *Z. Chi, Z. Wang, M. Yang, W. Guo, and X. Xu.*
 [paper](https://www.ijcai.org/proceedings/2022/0398.pdf)
 
+1. **A closer look at prototype classifier for few-shot image classification,** in NeurIPS, 2022.
+*M. Hou, and I. Sato.*
+[paper](https://openreview.net/pdf?id=U_hOegGGglw)
+
+1. **Rethinking generalization in few-shot classification,** in NeurIPS, 2022.
+*M. Hiller, R. Ma, M. Harandi, and T. Drummond.*
+[paper](https://openreview.net/pdf?id=p_g2nHlMus)
+[code](https://github.com/mrkshllr/FewTURE)
+
+1. **DMN4: Few-shot learning via discriminative mutual nearest neighbor neural network,** in AAAI, 2022.
+*Y. Liu, T. Zheng, J. Song, D. Cai, and X. He.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20076/19835)
+
+1. **Hybrid graph neural networks for few-shot learning,** in AAAI, 2022.
+*T. Yu, S. He, Y.-Z. Song, and T. Xiang.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20226/19985)
+[code](https://github.com/TianyuanYu/HGNN)
+
+1. **Adaptive poincaré point to set distance for few-shot classification,** in AAAI, 2022.
+*R. Ma, P. Fang, T. Drummond, and M. Harandi.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20087/19846)
+
+1. **Hubs and hyperspheres: Reducing hubness and improving transductive few-shot learning with hyperspherical embeddings,** in CVPR, 2023.
+*D. J. Trosten, R. Chakraborty, S. Løkse, K. K. Wickstrøm, R. Jenssen, and M. C. Kampffmeyer.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Trosten_Hubs_and_Hyperspheres_Reducing_Hubness_and_Improving_Transductive_Few-Shot_Learning_CVPR_2023_paper.pdf)
+[code](https://github.com/uitml/noHub)
+
+1. **Revisiting prototypical network for cross domain few-shot learning,** in CVPR, 2023.
+*F. Zhou, P. Wang, L. Zhang, W. Wei, and Y. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Revisiting_Prototypical_Network_for_Cross_Domain_Few-Shot_Learning_CVPR_2023_paper.pdf)
+[code](https://github.com/NWPUZhoufei/LDP-Net)
+
+1. **Transductive few-shot learning with prototype-based label propagation by iterative graph refinement,** in CVPR, 2023.
+*H. Zhu, and P. Koniusz.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Transductive_Few-Shot_Learning_With_Prototype-Based_Label_Propagation_by_Iterative_Graph_CVPR_2023_paper.pdf)
+[code](https://github.com/allenhaozhu/protoLP)
+
+1. **Few-shot classification via ensemble learning with multi-order statistics,** in IJCAI, 2023.
+*S. Yang, F. Liu, D. Chen, and J. Zhou.*
+[paper](https://www.ijcai.org/proceedings/2023/0181.pdf)
+
+1. **Few-sample feature selection via feature manifold learning,** in ICML, 2023.
+*D. Cohen, T. Shnitzer, Y. Kluger, and R. Talmon.*
+[paper](https://proceedings.mlr.press/v202/cohen23b/cohen23b.pdf)
+[code](https://github.com/DavidCohen2/ManiFeSt)
+
+1. **Interval bound interpolation for few-shot learning with few tasks,** in ICML, 2023.
+*S. Datta, S. S. Mullick, A. Chakrabarty, and S. Das.*
+[paper](https://proceedings.mlr.press/v202/datta23a/datta23a.pdf)
+[code](https://github.com/SankhaSubhra/maml-ibp-ibi)
+
+1. **A closer look at few-shot classification again,** in ICML, 2023.
+*X. Luo, H. Wu, J. Zhang, L. Gao, J. Xu, and J. Song.*
+[paper](https://proceedings.mlr.press/v202/luo23e/luo23e.pdf)
+[code](https://github.com/Frankluox/CloserLookAgainFewShot)
+
+1. **TART: Improved few-shot text classification using task-adaptive reference transformation,** in ACL, 2023.
+*S. Lei, X. Zhang, J. He, F. Chen, and C.-T. Lu.*
+[paper](https://aclanthology.org/2023.acl-long.617.pdf)
+[code](https://github.com/slei109/TART)
+
 ### Learning with External Memory
 
 1. **Meta-learning with memory-augmented neural networks,** in ICML, 2016.
@@ -771,6 +888,12 @@ Please cite our paper if you find it helpful.
 1. **Remember the difference: Cross-domain few-shot semantic segmentation via meta-memory transfer,** in CVPR, 2022.
 *W. Wang, L. Duan, Y. Wang, Q. En, J. Fan, and Z. Zhang.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Remember_the_Difference_Cross-Domain_Few-Shot_Semantic_Segmentation_via_Meta-Memory_Transfer_CVPR_2022_paper.pdf)
+
+1. **Consistent prototype learning for few-shot continual relation extraction,** in ACL, 2023.
+*X. Chen, H. Wu, and X. Shi.*
+[paper](https://aclanthology.org/2023.acl-long.409.pdf)
+[code](https://github.com/XiudiChen/ConPL)
+
 
 ### Generative Modeling
 
@@ -892,7 +1015,39 @@ and L. Van Gool.*
 [paper](https://proceedings.mlr.press/v162/giannone22a/giannone22a.pdf)
 [code](https://github.com/georgosgeorgos/hierarchical-few-shot-generative-models)
 
+1. **Diversity vs. Recognizability: Human-like generalization in one-shot generative models,** in NeurIPS, 2022.
+*V. Boutin, L. Singhal, X. Thomas, and T. Serre.*
+[paper](https://openreview.net/pdf?id=DVfZKXSFW5m)
+[code](https://github.com/serre-lab/diversity_vs_recognizability)
 
+1. **Generalized one-shot domain adaptation of generative adversarial networks,** in NeurIPS, 2022.
+*Z. Zhang, Y. Liu, C. Han, T. Guo, T. Yao, and T. Mei.*
+[paper](https://openreview.net/pdf?id=mfxq7BrMfga)
+[code](https://github.com/zhangzc21/Generalized-One-shot-GAN-Adaptation)
+
+1. **Towards diverse and faithful one-shot adaption of generative adversarial networks,** in NeurIPS, 2022.
+*Y. Zhang, m. Yao, Y. Wei, Z. Ji, J. Bai, and W. Zuo.*
+[paper](https://openreview.net/pdf?id=IXoHxXIGpyV)
+[code](https://github.com/YBYBZhang/DiFa)
+
+1. **Few-shot cross-domain image generation via inference-time latent-code learning,** in ICLR, 2023.
+*A. K. Mondal, P. Tiwary, P. Singla, and P. AP.*
+[paper](https://openreview.net/pdf?id=sCYXJr3QJM8)
+[code](https://github.com/arnabkmondal/GenDA)
+
+1. **Adaptive IMLE for few-shot pretraining-free generative modelling,** in ICML, 2023.
+*M. Aghabozorgi, S. Peng, and K. Li.*
+[paper](https://proceedings.mlr.press/v202/aghabozorgi23a/aghabozorgi23a.pdf)
+[code](https://github.com/mehranagh20/AdaIMLE)
+
+1. **Diversity-enhancing generative network for few-shot hypothesis adaptation,** in ICML, 2023.
+*R. Dong, F. Liu, H. Chi, T. Liu, M. Gong, G. Niu, M. Sugiyama, and B. Han.*
+[paper](https://proceedings.mlr.press/v202/dong23d/dong23d.pdf)
+
+1. **MetaModulation: Learning variational feature hierarchies for few-shot learning with fewer tasks,** in ICML, 2023.
+*W. Sun, Y. Du, X. Zhen, F. Wang, L. Wang, and C. G. M. Snoek.*
+[paper](https://proceedings.mlr.press/v202/sun23b/sun23b.pdf)
+[code](https://github.com/lmsdss/MetaModulation)
 
 ## [Algorithm](#content)
 
@@ -1002,10 +1157,6 @@ and L. Van Gool.*
 1. **Graph few-shot learning via knowledge transfer,** in AAAI, 2020.
 *H. Yao, C. Zhang, Y. Wei, M. Jiang, S. Wang, J. Huang, N. V. Chawla, and Z. Li.*
 [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6142)
-
-1. **Knowledge graph transfer network for few-shot recognition,** in AAAI, 2020.
-*R. Chen, T. Chen, X. Hui, H. Wu, G. Li, and L. Lin.*
-[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6630)
 
 1. **Context-Transformer: Tackling object confusion for few-shot detection,** in AAAI, 2020.
 *Z. Yang, Y. Wang, X. Chen, J. Liu, and Y. Qiao.*
@@ -1260,6 +1411,136 @@ and L. Van Gool.*
 [paper](https://proceedings.mlr.press/v162/zhmoginov22a/zhmoginov22a.pdf)
 [code](https://github.com/google-research/google-research/tree/master/hypertransformer)
 
+1. **Prompting ELECTRA: Few-shot learning with discriminative pre-trained models,** in EMNLP, 2022.
+*M. Xia, M. Artetxe, J. Du, D. Chen, and V. Stoyanov.*
+[paper](https://aclanthology.org/2022.emnlp-main.780.pdf)
+[code](https://github.com/facebookresearch/ELECTRA-Fewshot-Learning)
+
+1. **Continual training of language models for few-shot learning,** in EMNLP, 2022.
+*Z. Ke, H. Lin, Y. Shao, H. Xu, L. Shu, and B. Liu.*
+[paper](https://aclanthology.org/2022.emnlp-main.695.pdf)
+[code](https://github.com/UIC-Liu-Lab/CPT)
+
+1. **GPS: Genetic prompt search for efficient few-shot learning,** in EMNLP, 2022.
+*H. Xu, Y. Chen, Y. Du, N. Shao, Y. Wang, H. Li, and Z. Yang.*
+[paper](https://aclanthology.org/2022.emnlp-main.559.pdf)
+[code](https://github.com/hwxu20/GPS)
+
+1. **On measuring the intrinsic few-shot hardness of datasets,** in EMNLP, 2022.
+*X. Zhao, S. Murty, and C. D. Manning.*
+[paper](https://aclanthology.org/2022.emnlp-main.262.pdf)
+[code](https://github.com/colinzhaoust/intrinsic_fewshot_hardness)
+
+1. **AMAL: Meta knowledge-driven few-shot adapter learning,** in EMNLP, 2022.
+*S. K. Hong, and T. Y. Jang.*
+[paper](https://aclanthology.org/2022.emnlp-main.709.pdf)
+
+1. **Flamingo: A visual language model for few-shot learning,** in NeurIPS, 2022.
+*J.-B. Alayrac, J. Donahue, P. Luc, A. Miech, I. Barr, Y. Hasson, K. Lenc, A. Mensch, K. Millican, M. Reynolds, R. Ring, E. Rutherford, S. Cabi, T. Han, Z. Gong, S. Samangooei, M. Monteiro, J. Menick, S. Borgeaud, A. Brock, A. Nematzadeh, S. Sharifzadeh, M. Binkowski, R. Barreira, O. Vinyals, A. Zisserman, and K. Simonyan.*
+[paper](https://openreview.net/pdf?id=EbMuimAbPbs)
+
+1. **Language models with image descriptors are strong few-shot video-language learners,** in NeurIPS, 2022.
+*Z. Wang, M. Li, R. Xu, L. Zhou, J. Lei, X. Lin, S. Wang, Z. Yang, C. Zhu, D. Hoiem, S.-F. Chang, M. Bansal, and H. Ji.*
+[paper](https://openreview.net/pdf?id=_LceCyuVcH)
+[code](https://github.com/MikeWangWZHL/VidIL)
+
+1. **Singular value fine-tuning: Few-shot segmentation requires few-parameters fine-tuning,** in NeurIPS, 2022.
+*Y. Sun, Q. Chen, X. He, J. Wang, H. Feng, J. Han, E. Ding, J. Cheng, Z. Li, and J. Wang.*
+[paper](https://openreview.net/pdf?id=LEqYZz7cZOI)
+[code](https://github.com/syp2ysy/SVF)
+
+1. **Few-shot parameter-efficient fine-tuning is better and cheaper than in-context learning,** in NeurIPS, 2022.
+*H. Liu, D. Tam, M. Mohammed, J. Mohta, T. Huang, M. Bansal, and C. Raffel.*
+[paper](https://openreview.net/pdf?id=rBCvMG-JsPd)
+[code](https://github.com/r-three/t-few)
+
+1. **Powering finetuning in few-shot learning: Domain-agnostic bias reduction with selected sampling,** in AAAI, 2022.
+*R. Tao, H. Zhang, Y. Zheng, and M. Savvides.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20823/20582)
+
+1. **SELECTION-INFERENCE: Exploiting large language models for interpretable logical reasoning,** in ICLR, 2023.
+*A. Creswell, M. Shannahan, and I. Higgins.*
+[paper](https://arxiv.org/pdf/2205.09712.pdf)
+
+1. **Revisit finetuning strategy for few-shot learning to transfer the emdeddings,** in ICLR, 2023.
+*H. Wang, T. Yue, X. Ye, Z. He, B. Li, and Y. Li.*
+[paper](https://openreview.net/pdf?id=tXc-riXhmx)
+[code](https://github.com/whzyf951620/ LinearProbingFinetuningFirthBias)
+
+1. **Model ensemble instead of prompt fusion: A sample-specific knowledge transfer method for few-shot prompt tuning,** in ICLR, 2023.
+*X. PENG, C. Xing, P. K. Choubey, C.-S. Wu, and C. Xiong.*
+[paper](https://openreview.net/pdf?id=p0yrSRbN5Bu)
+
+1. **Bidirectional language models are also few-shot learners,** in ICLR, 2023.
+*A. Patel, B. Li, M. S. Rasooli, N. Constant, C. Raffel, and C. Callison-Burch.*
+[paper](https://openreview.net/pdf?id=wCFB37bzud4)
+
+1. **Prototypical calibration for few-shot learning of language models,** in ICLR, 2023.
+*Z. Han, Y. Hao, L. Dong, Y. Sun, and F. Wei.*
+[paper](https://openreview.net/pdf?id=nUsP9lFADUF)
+[code](https://github.com/zhixhan/ProCa)
+
+1. **Prompt, generate, then cache: Cascade of foundation models makes strong few-shot learners,** in CVPR, 2023.
+*R. Zhang, X. Hu, B. Li, S. Huang, H. Deng, Y. Qiao, P. Gao, and H. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Prompt_Generate_Then_Cache_Cascade_of_Foundation_Models_Makes_Strong_CVPR_2023_paper.pdf)
+[code](https://github.com/ZrrSkywalker/CaFo)
+
+1. **Supervised masked knowledge distillation for few-shot transformers,** in CVPR, 2023.
+*H. Lin, G. Han, J. Ma, S. Huang, X. Lin, and S.-F. Chang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Supervised_Masked_Knowledge_Distillation_for_Few-Shot_Transformers_CVPR_2023_paper.pdf)
+[code](https://github.com/HL-hanlin/SMKD)
+
+1. **Boosting transductive few-shot fine-tuning with margin-based uncertainty weighting and probability regularization,** in CVPR, 2023.
+*R. Tao, H. Chen, and M. Savvides.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tao_Boosting_Transductive_Few-Shot_Fine-Tuning_With_Margin-Based_Uncertainty_Weighting_and_Probability_CVPR_2023_paper.pdf)
+
+1. **Hint-Aug: Drawing hints from foundation vision transformers towards boosted few-shot parameter-efficient tuning,** in CVPR, 2023.
+*Z. Yu, S. Wu, Y. Fu, S. Zhang, and Y. C. Lin.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Hint-Aug_Drawing_Hints_From_Foundation_Vision_Transformers_Towards_Boosted_Few-Shot_CVPR_2023_paper.pdf)
+[code](https://github.com/GATECH-EIC/Hint-Aug)
+
+1. **ProD: Prompting-to-disentangle domain knowledge for cross-domain few-shot image classification,** in CVPR, 2023.
+*T. Ma, Y. Sun, Z. Yang, and Y. Yang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ma_ProD_Prompting-To-Disentangle_Domain_Knowledge_for_Cross-Domain_Few-Shot_Image_Classification_CVPR_2023_paper.pdf)
+
+1. **Few-shot learning with visual distribution calibration and cross-modal distribution alignment,** in CVPR, 2023.
+*R. Wang, H. Zheng, X. Duan, J. Liu, Y. Lu, T. Wang, S. Xu, and B. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Few-Shot_Learning_With_Visual_Distribution_Calibration_and_Cross-Modal_Distribution_Alignment_CVPR_2023_paper.pdf)
+[code](https://gitee.com/mindspore/models/tree/master/research/cv)
+
+1. **MetricPrompt: Prompting model as a relevance metric for few-shot text classification,** in KDD, 2023.
+*H. Dong, W. Zhang, and W. Che.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599430)
+[code](https://github.com/Dousia/MetricPrompt)
+
+1. **Efficient training of language models using few-shot learning,** in ICML, 2023.
+*S. J. Reddi, S. Miryoosefi, S. Karp, S. Krishnan, S. Kale, S. Kim, and S. Kumar.*
+[paper](https://proceedings.mlr.press/v202/j-reddi23a/j-reddi23a.pdf)
+
+1. **Multitask pre-training of modular prompt for chinese few-shot learning,** in ACL, 2023.
+*T. Sun, Z. He, Q. Zhu, X. Qiu, and X. Huang.*
+[paper](https://aclanthology.org/2023.acl-long.625.pdf)
+[code](https://github.com/Hzfinfdu/MPMP)
+
+1. **Cold-start data selection for better few-shot language model fine-tuning: A prompt-based uncertainty propagation approach,** in ACL, 2023.
+*Y. Yu, R. Zhang, R. Xu, J. Zhang, J. Shen, and C. Zhang.*
+[paper](https://aclanthology.org/2023.acl-long.141.pdf)
+[code](https://github.com/yueyu1030/Patron)
+
+1. **Instruction induction: From few examples to natural language task descriptions,** in ACL, 2023.
+*O. Honovich, U. Shaham, S. R. Bowman, and O. Levy.*
+[paper](https://aclanthology.org/2023.acl-long.108.pdf)
+[code](https://github.com/orhonovich/instruction-induction)
+
+1. **Few-shot adaptation works with unpredictable data,** in ACL, 2023.
+*J. S. Chan, M. Pieler, J. Jao, J. Scheurer, and E. Perez.*
+[paper](https://aclanthology.org/2023.acl-long.102.pdf)
+
+1. **Hierarchical verbalizer for few-shot hierarchical text classification,** in ACL, 2023.
+*K. Ji, Y. Lian, J. Gao, and B. Wang.*
+[paper](https://aclanthology.org/2023.acl-long.164.pdf)
+[code](https://github.com/1KE-JI/HierVerb)
+
 ### Refining Meta-learned Parameters
 
 1. **Model-agnostic meta-learning for fast adaptation of deep networks,** in ICML, 2017.
@@ -1302,14 +1583,6 @@ and L. Van Gool.*
 *A. A. Rusu, D. Rao, J. Sygnowski, O. Vinyals, R. Pascanu, S. Osindero, and R. Hadsell.* 
 [paper](https://openreview.net/forum?id=BJgklhAcK7)
 [code](https://github.com/deepmind/leo)
-
-1. **Meta relational learning for few-shot link prediction in knowledge graphs,** in EMNLP-IJCNLP, 2019.
-*M. Chen, W. Zhang, W. Zhang, Q. Chen, and H. Chen.*
-[paper](https://www.aclweb.org/anthology/D19-1431.pdf)
-
-1. **Adapting meta knowledge graph information for multi-hop reasoning over few-shot relations,** in EMNLP-IJCNLP, 2019.
-*X. Lv, Y. Gu, X. Han, L. Hou, J. Li, and Z. Liu.*
-[paper](https://www.aclweb.org/anthology/D19-1334.pdf)
 
 1. **LGM-Net: Learning to generate matching networks for few-shot learning,** in ICML, 2019.
 *H. Li, W. Dong, X. Mei, C. Ma, F. Huang, and B.-G. Hu.*
@@ -1578,6 +1851,64 @@ and L. Van Gool.*
 *S. Wang, Y. Dong, X. Huang, C. Chen, and J. Li.*
 [paper](https://www.ijcai.org/proceedings/2022/0317.pdf)
 [code](https://github.com/SongW-SW/FAITH)
+
+1. **Meta-learning fast weight language models,** in EMNLP, 2022.
+*K. Clark, K. Guu, M.-W. Chang, P. Pasupat, G. Hinton, and M. Norouzi.*
+[paper](https://aclanthology.org/2022.emnlp-main.661.pdf)
+
+1. **Understanding benign overfitting in gradient-based meta learning,** in NeurIPS, 2022.
+*L. Chen, S. Lu, and T. Chen.*
+[paper](https://openreview.net/pdf?id=oW4Zz0zlbFF)
+
+1. **Meta-learning with self-improving momentum target,** in NeurIPS, 2022.
+*J. Tack, J. Park, H. Lee, J. Lee, and J. Shin.*
+[paper](https://github.com/jihoontack/SiMT)
+
+1. **Adversarial task up-sampling for meta-learning,** in NeurIPS, 2022.
+*Y. Wu, L.-K. Huang, and Y. Wei.*
+[paper](https://openreview.net/pdf?id=pFqgUJxXXz)
+
+1. **PAC prediction sets for meta-learning,** in NeurIPS, 2022.
+*S. Park, E. Dobriban, I. Lee, and O. Bastani.*
+[paper](https://openreview.net/pdf?id=s6ygs1UCOw1)
+
+1. **A contrastive rule for meta-learning,** in NeurIPS, 2022.
+*N. Zucchet, S. Schug, J. V. Oswald, D. Zhao, and J. Sacramento.*
+[paper](https://openreview.net/pdf?id=NIJFp_n4MXt)
+[code](https://github.com/smonsays/contrastive-meta-learning)
+
+1. **On enforcing better conditioned meta-learning for rapid few-shot adaptation,** in NeurIPS, 2022.
+*M. Hiller, M. Harandi, and T. Drummond.*
+[paper](https://openreview.net/pdf?id=G6cJsOOx2R3)
+
+1. **Conditional meta-learning of linear representations,** in NeurIPS, 2022.
+*G. Denevi, m. pontil, and C. Ciliberto.*
+[paper](https://openreview.net/pdf?id=0Uejkm1GB1U)
+
+1. **Meta-ticket: Finding optimal subnetworks for few-shot learning within randomly initialized neural networks,** in NeurIPS, 2022.
+*D. Chijiwa, S. Yamaguchi, A. Kumagai, and Y. Ida.*
+[paper](https://openreview.net/pdf?id=Cr4_3ptitj)
+[code](https://www.catalyzex.com/paper/arxiv:2205.15619/code)
+
+1. **MetaNODE: Prototype optimization as a neural ODE for few-shot learning,** in AAAI, 2022.
+*B. Zhang, X. Li, S. Feng, Y. Ye, and R. Ye.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20885/20644)
+
+1. **A nested bi-level optimization framework for robust few shot learning,** in AAAI, 2022.
+*K. Killamsetty, C. Li, C. Zhao, F. Chen, and R. K. Iyer.*
+[paper](https://arxiv.org/pdf/2011.06782.pdf)
+
+1. **Enhancing meta learning via multi-objective soft improvement functions,** in ICLR, 2023.
+*R. Yu, W. Chen, X. Wang, and J. Kwok.*
+[paper](https://openreview.net/pdf?id=hCmjBJeGXcu)
+
+1. **Understanding train-validation split in meta-learning with neural networks,** in ICLR, 2023.
+*X. Zuo, Z. Chen, H. Yao, Y. Cao, and Q. Gu.*
+[paper](https://openreview.net/pdf?id=JVlyfHEEm0k)
+
+1. **Bi-level meta-learning for few-shot domain generalization,** in CVPR, 2023.
+*X. Qin, X. Song, and S. Jiang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Qin_Bi-Level_Meta-Learning_for_Few-Shot_Domain_Generalization_CVPR_2023_paper.pdf)
 
 ### Learning Search Steps
 
@@ -2331,6 +2662,218 @@ and L. Van Gool.*
 *Y. Yu, D. Zhang, and Z. Ji.*
 [paper](https://www.ijcai.org/proceedings/2022/0513.pdf)
 
+1. **Decoupling classifier for boosting few-shot object detection and instance segmentation,** in NeurIPS, 2022.
+*B.-B. Gao, X. Chen, Z. Huang, C. Nie, J. Liu, J. Lai, G. JIANG, X. Wang, and C. Wang.*
+[paper](https://openreview.net/pdf?id=dVXO3Orjmxk)
+[code](https://csgaobb.github.io/Projects/DCFS)
+
+1. **Searching for better spatio-temporal alignment in few-shot action recognition,** in NeurIPS, 2022.
+*Y. Cao, X. Su, Q. Tang, S. You, X. Lu, and C. Xu.*
+[paper](https://openreview.net/pdf?id=IlYS1pLa9y)
+
+1. **Feature-proxy transformer for few-shot segmentation,** in NeurIPS, 2022.
+*J.-W. Zhang, Y. Sun, Y. Yang, and W. Chen.*
+[paper](https://openreview.net/pdf?id=hBaI5MY0CBz)
+[code](https://github.com/Jarvis73/FPTrans)
+
+1. **Intermediate prototype mining transformer for few-shot semantic segmentation,** in NeurIPS, 2022. 
+*Y. liu, N. Liu, X. Yao, J. Han,*
+[paper](https://openreview.net/pdf?id=NyAJzgHLAr)
+[code](https://github.com/LIUYUANWEI98/IPMT)
+
+1. **OnePose++: Keypoint-free one-shot object pose estimation without CAD models,** in NeurIPS, 2022.
+*X. He, J. Sun, Y. Wang, D. Huang, H. Bao, and X. Zhou.*
+[paper](https://openreview.net/pdf?id=BZ92dxDS3tO)
+[code](https://zju3dv.github.io/onepose_plus_plus/)
+
+1. **Mask matching transformer for few-shot segmentation,** in NeurIPS, 2022.
+*S. Jiao, G. Zhang, S. Navasardyan, L. Chen, Y. Zhao, Y. Wei, and H. Shi.*
+[paper](https://openreview.net/pdf?id=zt4xNo0lF8W)
+[code](https://github.com/Picsart-AI-Research/Mask-Matching-Transformer)
+
+1. **Learning dense object descriptors from multiple views for low-shot category generalization,** in NeurIPS, 2022.
+*S. Stojanov, N. A. Thai, Z. Huang, and J. M. Rehg.*
+[paper](https://openreview.net/pdf?id=KJemAi9fymT)
+[code](https://github.com/rehg-lab/dope_selfsup)
+
+1. **Pose adaptive dual mixup for few-shot single-view 3D reconstruction,** in AAAI, 2022.
+*T. Y. Cheng, H.-R. Yang, N. Trigoni, H.-T. Chen, and T.-L. Liu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/19920/19679)
+
+1. **Meta faster R-CNN: Towards accurate few-shot object detection with attentive feature alignment,** in AAAI, 2022.
+*G. Han, S. Huang, J. Ma, Y. He, and S.-F. Chang.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/19959/19718)
+[code](https://github.com/GuangxingHan/Meta-Faster-R-CNN)
+
+1. **TA2N: Two-stage action alignment network for few-shot action recognition,** in AAAI, 2022.
+*S. Li, H. Liu, R. Qian, Y. Li, J. See, M. Fei, X. Yu, and W. Lin.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20029/19788)
+
+1. **Learning from the target: Dual prototype network for few shot semantic segmentation,** in AAAI, 2022.
+*B. Mao, X. Zhang, L. Wang, Q. Zhang, S. Xiang, and C. Pan.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20090/19849)
+
+1. **OA-FSUI2IT: A novel few-shot cross domain object detection framework with object-aware few-shot unsupervised image-to-image translation,** in AAAI, 2022.
+*L. Zhao, Y. Meng, and L. Xu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20253)
+
+1. **When facial expression recognition meets few-shot learning: A joint and alternate learning framework,** in AAAI, 2022.
+*X. Zou, Y. Yan, J.-H. Xue, S. Chen, and H. Wang.*
+[paper](https://arxiv.org/abs/2201.06781)
+
+1. **Dual attention networks for few-shot fine-grained recognition,** in AAAI, 2022.
+*S.-L. Xu, F. Zhang, X.-S. Wei, and J. Wang.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20196)
+
+1. **Inferring prototypes for multi-label few-shot image classification with word vector guided attention,** in AAAI, 2022.
+*K. Yan, C. Zhang, J. Hou, P. Wang, Z. Bouraoui, S. Jameel, and S. Schockaert.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20205/19964)
+
+1. **Analogy-forming transformers for few-shot 3D parsing,** in ICLR, 2023.
+*N. Gkanatsios, M. Singh, Z. Fang, S. Tulsiani, and K. Fragkiadaki.*
+[paper](https://openreview.net/pdf?id=SRIQZTh0IK)
+[code](http://analogicalnets.github.io)
+
+1. **Suppressing the heterogeneity: A strong feature extractor for few-shot segmentation,** in ICLR, 2023.
+*Z. Hu, Y. Sun, and Y. Yang.*
+[paper](https://openreview.net/pdf?id=CGuvK3U09LH)
+
+1. **Universal few-shot learning of dense prediction tasks with visual token matching,** in ICLR, 2023.
+*D. Kim, J. Kim, S. Cho, C. Luo, and S. Hong.*
+[paper](https://openreview.net/pdf?id=88nT0j5jAn)
+[code](https://github.com/GitGyun/visual_token_matching)
+
+1. **Meta learning to bridge vision and language models for multimodal few-shot learning,** in ICLR, 2023.
+*I. Najdenkoska, X. Zhen, and M. Worring.*
+[paper](https://openreview.net/pdf?id=3oWo92cQyxL)
+[code](https://github.com/ivonajdenkoska/multimodal-meta-learn)
+
+1. **Few-shot semantic image synthesis with class affinity transfer,** in CVPR, 2023.
+*M. Careil, J. Verbeek, and S. Lathuilière.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Careil_Few-Shot_Semantic_Image_Synthesis_With_Class_Affinity_Transfer_CVPR_2023_paper.pdf)
+
+1. **Semantic prompt for few-shot image recognition,** in CVPR, 2023.
+*W. Chen, C. Si, Z. Zhang, L. Wang, Z. Wang, and T. Tan.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Semantic_Prompt_for_Few-Shot_Image_Recognition_CVPR_2023_paper.pdf)
+
+1. **ViewNet: A novel projection-based backbone with view pooling for few-shot point cloud classification,** in CVPR, 2023.
+*J. Chen, M. Yang, and S. Velipasalar.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_ViewNet_A_Novel_Projection-Based_Backbone_With_View_Pooling_for_Few-Shot_CVPR_2023_paper.pdf)
+
+1. **Meta-tuning loss functions and data augmentation for few-shot object detection,** in CVPR, 2023.
+*B. Demirel, O. B. Baran, and R. G. Cinbis.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Demirel_Meta-Tuning_Loss_Functions_and_Data_Augmentation_for_Few-Shot_Object_Detection_CVPR_2023_paper.pdf)
+
+1. **Few-shot geometry-aware keypoint localization,** in CVPR, 2023.
+*X. He, G. Bharaj, D. Ferman, H. Rhodin, and P. Garrido.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Few-Shot_Geometry-Aware_Keypoint_Localization_CVPR_2023_paper.pdf)
+[code](https://xingzhehe.github.io/FewShot3DKP/)
+
+1. **Rethinking few-shot medical segmentation: A vector quantization view,** in CVPR, 2023.
+*S. Huang, T. Xu, N. Shen, F. Mu, and J. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Rethinking_Few-Shot_Medical_Segmentation_A_Vector_Quantization_View_CVPR_2023_paper.pdf)
+
+1. **AsyFOD: An asymmetric adaptation paradigm for few-shot domain adaptive object detection,** in CVPR, 2023.
+*Y. Gao, K.-Y. Lin, J. Yan, Y. Wang, and W.-S. Zheng.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_AsyFOD_An_Asymmetric_Adaptation_Paradigm_for_Few-Shot_Domain_Adaptive_Object_CVPR_2023_paper.pdf)
+[code](https://github.com/Hlings/AsyFOD)
+
+1. **NIFF: Alleviating forgetting in generalized few-shot object detection via neural instance feature forging,** in CVPR, 2023.
+*K. Guirguis, J. Meier, G. Eskandar, M. Kayser, B. Yang, and J. Beyerer.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Guirguis_NIFF_Alleviating_Forgetting_in_Generalized_Few-Shot_Object_Detection_via_Neural_CVPR_2023_paper.pdf)
+
+1. **A strong baseline for generalized few-shot semantic segmentation,** in CVPR, 2023.
+*S. Hajimiri, M. Boudiaf, I. B. Ayed, and J. Dolz.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Hajimiri_A_Strong_Baseline_for_Generalized_Few-Shot_Semantic_Segmentation_CVPR_2023_paper.pdf)
+[code](https://github.com/sinahmr/DIaM)
+
+1. **StyleAdv: Meta style adversarial training for cross-domain few-shot learning,** in CVPR, 2023.
+*Y. Fu, Y. Xie, Y. Fu, and Y.-G. Jiang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Fu_StyleAdv_Meta_Style_Adversarial_Training_for_Cross-Domain_Few-Shot_Learning_CVPR_2023_paper.pdf)
+[code](https://github.com/lovelyqian/StyleAdv-CDFSL)
+
+1. **BlendFields: Few-shot example-driven facial modeling,** in CVPR, 2023.
+*K. Kania, S. J. Garbin, A. Tagliasacchi, V. Estellers, K. M. Yi, J. Valentin, T. Trzcinski, and M. Kowalski.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Kania_BlendFields_Few-Shot_Example-Driven_Facial_Modeling_CVPR_2023_paper.pdf)
+
+1. **Learning orthogonal prototypes for generalized few-shot semantic segmentation,** in CVPR, 2023.
+*S. Liu, Y. Zhang, Z. Qiu, H. Xie, Y. Zhang, and T. Yao.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Learning_Orthogonal_Prototypes_for_Generalized_Few-Shot_Semantic_Segmentation_CVPR_2023_paper.pdf)
+
+1. **DiGeo: Discriminative geometry-aware learning for generalized few-shot object detection,** in CVPR, 2023.
+*J. Ma, Y. Niu, J. Xu, S. Huang, G. Han, and S.-F. Chang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Ma_DiGeo_Discriminative_Geometry-Aware_Learning_for_Generalized_Few-Shot_Object_Detection_CVPR_2023_paper.pdf)
+[code](https://github.com/Phoenix-V/DiGeo)
+
+1. **Hierarchical dense correlation distillation for few-shot segmentation,** in CVPR, 2023.
+*B. Peng, Z. Tian, X. Wu, C. Wang, S. Liu, J. Su, and J. Jia.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_Hierarchical_Dense_Correlation_Distillation_for_Few-Shot_Segmentation_CVPR_2023_paper.pdf)
+[code](https://github.com/Pbihao/HDMNet)
+
+1. **Rethinking the correlation in few-shot segmentation: A buoys view,** in CVPR, 2023.
+*Y. Wang, R. Sun, and T. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Rethinking_the_Correlation_in_Few-Shot_Segmentation_A_Buoys_View_CVPR_2023_paper.pdf)
+
+1. **CF-Font: Content fusion for few-shot font generation,** in CVPR, 2023.
+*C. Wang, M. Zhou, T. Ge, Y. Jiang, H. Bao, and W. Xu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_CF-Font_Content_Fusion_for_Few-Shot_Font_Generation_CVPR_2023_paper.pdf)
+[code](https://github.com/wangchi95/CF-Font)
+
+1. **MoLo: Motion-augmented long-short contrastive learning for few-shot action recognition,** in CVPR, 2023.
+*X. Wang, S. Zhang, Z. Qing, C. Gao, Y. Zhang, D. Zhao, and N. Sang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf)
+[code](https://github.com/alibaba-mmai-research/MoLo)
+
+1. **Active exploration of multimodal complementarity for few-shot action recognition,** in CVPR, 2023.
+*Y. Wanyan, X. Yang, C. Chen, and C. Xu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wanyan_Active_Exploration_of_Multimodal_Complementarity_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf)
+
+1. **Generating features with increased crop-related diversity for few-shot object detection,** in CVPR, 2023.
+*J. Xu, H. Le, and D. Samaras.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Generating_Features_With_Increased_Crop-Related_Diversity_for_Few-Shot_Object_Detection_CVPR_2023_paper.pdf)
+
+1. **SMAE: Few-shot learning for HDR deghosting with saturation-aware masked autoencoders,** in CVPR, 2023.
+*Q. Yan, S. Zhang, W. Chen, H. Tang, Y. Zhu, J. Sun, L. V. Gool, and Y. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_SMAE_Few-Shot_Learning_for_HDR_Deghosting_With_Saturation-Aware_Masked_Autoencoders_CVPR_2023_paper.pdf)
+
+1. **MIANet: Aggregating unbiased instance and general information for few-shot semantic segmentation,** in CVPR, 2023.
+*Y. Yang, Q. Chen, Y. Feng, and T. Huang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_MIANet_Aggregating_Unbiased_Instance_and_General_Information_for_Few-Shot_Semantic_CVPR_2023_paper.pdf)
+[code](https://github.com/Aldrich2y/MIANet)
+
+1. **FreeNeRF: Improving few-shot neural rendering with free frequency regularization,** in CVPR, 2023.
+*J. Yang, M. Pavone, and Y. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_FreeNeRF_Improving_Few-Shot_Neural_Rendering_With_Free_Frequency_Regularization_CVPR_2023_paper.pdf)
+[code](https://github.com/Jiawei-Yang/FreeNeRF)
+
+1. **Exploring incompatible knowledge transfer in few-shot image generation,** in CVPR, 2023.
+*Y. Zhao, C. Du, M. Abdollahzadeh, T. Pang, M. Lin, S. Yan, and N.-M. Cheung.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Exploring_Incompatible_Knowledge_Transfer_in_Few-Shot_Image_Generation_CVPR_2023_paper.pdf)
+[code](https://github.com/yunqing-me/RICK)
+
+1. **Where is my spot? few-shot image generation via latent subspace optimization,** in CVPR, 2023.
+*C. Zheng, B. Liu, H. Zhang, X. Xu, and S. He.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Where_Is_My_Spot_Few-Shot_Image_Generation_via_Latent_Subspace_CVPR_2023_paper.pdf)
+[code](https://github.com/chansey0529/LSO)
+
+1. **Distilling self-supervised vision transformers for weakly-supervised few-shot classification & segmentation,** in CVPR, 2023.
+*D. Kang, P. Koniusz, M. Cho, and N. Murray.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Kang_Distilling_Self-Supervised_Vision_Transformers_for_Weakly-Supervised_Few-Shot_Classification__Segmentation_CVPR_2023_paper.pdf)
+
+1. **FGNet: Towards filling the intra-class and inter-class gaps for few-shot segmentation,** in IJCAI, 2023.
+*Y. Zhang, W. Yang, and S. Wang.*
+[paper](https://www.ijcai.org/proceedings/2023/0194.pdf)
+[code](https://github.com/YXZhang979/FGNet)
+
+1. **Clustered-patch element connection for few-shot learning,** in IJCAI, 2023.
+*J. Lai, S. Yang, J. Zhou, W. Wu, X. Chen, J. Liu, B.-B. Gao, and C. Wang.*
+[paper](https://www.ijcai.org/proceedings/2023/0110.pdf)
+
+1. **GeCoNeRF: Few-shot neural radiance fields via geometric consistency,** in ICML, 2023.
+*M. Kwak, J. Song, and S. Kim.*
+[paper](https://proceedings.mlr.press/v202/kwak23a/kwak23a.pdf)
+[code](https://github.com/KU-CVLAB/GeCoNeRF)
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -2386,6 +2929,15 @@ and L. Van Gool.*
 [paper](https://proceedings.mlr.press/v162/xu22g/xu22g.pdf)
 [code](https://github.com/mxu34/prompt-dt)
 
+1. **Stage conscious attention network (SCAN): A demonstration-conditioned policy for few-shot imitation,** in AAAI, 2022.
+*J.-F. Yeh, C.-M. Chung, H.-T. Su, Y.-T. Chen, and W. H. Hsu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20868/20627)
+
+1. **Online prototype alignment for few-shot policy transfer,** in ICML, 2023.
+*Q. Yi, R. Zhang, S. Peng, J. Guo, Y. Gao, K. Yuan, R. Chen, S. Lan, X. Hu, Z. Du, X. Zhang, Q. Guo, and Y. Chen.*
+[paper](https://proceedings.mlr.press/v202/yi23b/yi23b.pdf)
+[code](https://github.com/albertcity/OP)
+
 
 
 ### Natural Language Processing
@@ -2393,11 +2945,6 @@ and L. Van Gool.*
 1. **High-risk learning: Acquiring new word vectors from tiny data,** in EMNLP, 2017.
 *A. Herbelot and M. Baroni.*
 [paper](https://www.aclweb.org/anthology/D17-1030.pdf)
-
-1. **MetaEXP: Interactive explanation and exploration of large knowledge graphs,** in TheWebConf, 2018.
-*F. Behrens, S. Bischoff, P. Ladenburger, J. Rückin, L. Seidel, F. Stolp, M. Vaichenker, A. Ziegler, D. Mottin, F. Aghaei, E. Müller, M. Preusse, N. Müller, and M. Hunger.*
-[paper](https://meta-exp.github.io/resources/paper.pdf)
-[code](https://hpi.de/en/mueller/metaex)
 
 1. **Few-shot representation learning for out-of-vocabulary words,** in ACL, 2019.
 *Z. Hu, T. Chen, K.-W. Chang, and Y. Sun.*
@@ -2414,10 +2961,6 @@ and L. Van Gool.*
 1. **Meta-reinforced multi-domain state generator for dialogue systems,** in ACL, 2020.
 *Y. Huang, J. Feng, M. Hu, X. Wu, X. Du, and S. Ma.*
 [paper](https://www.aclweb.org/anthology/2020.acl-main.636.pdf)
-
-1. **Few-shot knowledge graph completion,** in AAAI, 2020.
-*C. Zhang, H. Yao, C. Huang, M. Jiang, Z. Li, and N. V. Chawla.*
-[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5698)
 
 1. **Universal natural language processing with limited annotations: Try few-shot textual entailment as a start,** in EMNLP, 2020.
 *W. Yin, N. F. Rajani, D. Radev, R. Socher, and C. Xiong.*
@@ -2439,11 +2982,6 @@ and L. Van Gool.*
 [paper](https://www.aclweb.org/anthology/2020.emnlp-main.337.pdf)
 [code](https://github.com/abrazinskas/FewSum)
 
-1. **Adaptive attentional network for few-shot knowledge graph completion,** in EMNLP, 2020.
-*J. Sheng, S. Guo, Z. Chen, J. Yue, L. Wang, T. Liu, and H. Xu.*
-[paper](https://www.aclweb.org/anthology/2020.emnlp-main.131.pdf)
-[code](https://github.com/JiaweiSheng/FAAN)
-
 1. **Few-shot complex knowledge base question answering via meta reinforcement learning,** in EMNLP, 2020.
 *Y. Hua, Y. Li, G. Haffari, G. Qi, and T. Wu.*
 [paper](https://www.aclweb.org/anthology/2020.emnlp-main.469.pdf)
@@ -2464,7 +3002,7 @@ and L. Van Gool.*
 [paper](https://proceedings.neurips.cc/paper/2020/file/0663a4ddceacb40b095eda264a85f15c-Paper.pdf)
 [code](https://github.com/JinheonBaek/GEN)
 
-1. **MetaNER: Named entity recognition with meta-learning,** in TheWebConf, 2020.
+1. **MetaNER: Named entity recognition with meta-learning,** in WWW, 2020.
 *J. Li, S. Shang, and L. Shao.*
 [paper](https://dl.acm.org/doi/10.1145/3366423.3380127)
 
@@ -2482,10 +3020,6 @@ and L. Van Gool.*
 *S. Yu, Z. Liu, C. Xiong, T. Feng, and Z. Liu.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3462856)
 [code](https://github.com/thunlp/ConvDR)
-
-1. **Relational learning with gated and attentive neighbor aggregator for few-shot knowledge graph completion,** in SIGIR, 2021.
-*G. Niu, Y. Li, C. Tang, R. Geng, J. Dai, Q. Liu, H. Wang, J. Sun, F. Huang, and L. Si.*
-[paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3462925)
 
 1. **Few-shot language coordination by modeling theory of mind,** in ICML, 2021.
 *H. Zhu, G. Neubig, and Y. Bisk.*
@@ -2662,7 +3196,7 @@ and L. Van Gool.*
 *R. Wang, X. Su, S. Long, X. Dai, S. Huang, and J. Chen.*
 [paper](https://aclanthology.org/2021.emnlp-main.679.pdf)
 
-1. **Ontology-enhanced prompt-tuning for few-shot learning.,** in TheWebConf, 2022.
+1. **Ontology-enhanced prompt-tuning for few-shot learning,** in WWW, 2022.
 *H. Ye, N. Zhang, S. Deng, X. Chen, H. Chen, F. Xiong, X. Chen, and H. Chen.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511921)
 
@@ -2885,11 +3419,6 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2022.findings-naacl.11.pdf)
 [code](https://github.com/imanjundi/cross-lingual-transfer)
 
-1. **SEQZERO: Few-shot compositional semantic parsing with sequential prompts and zero-shot models,** in NAACL, 2022.
-*J. Yang, H. Jiang, Q. Yin, D. Zhang, B. Yin, and D. Yang.*
-[paper](https://aclanthology.org/2022.findings-naacl.5.pdf)
-[code](https://github.com/amzn/SeqZero)
-
 1. **LMTurk: Few-shot learners as crowdsourcing workers in a language-model-as-a-service framework,** in NAACL, 2022.
 *M. Zhao, F. Mi, Y. Wang, M. Li, X. Jiang, Q. Liu, and H. Schuetze.*
 [paper](https://aclanthology.org/2022.findings-naacl.51.pdf)
@@ -2942,6 +3471,234 @@ and L. Van Gool.*
 [paper](https://www.ijcai.org/proceedings/2022/0580.pdf)
 [code](https://github.com/kepei1106/CBST)
 
+1. **Graph-based model generation for few-shot relation extraction,** in EMNLP, 2022.
+*W. Li, and T. Qian.*
+[paper](https://aclanthology.org/2022.emnlp-main.5.pdf)
+[code](https://github.com/NLPWM-WHU/GM_GEN)
+
+1. **Prompt-based meta-learning for few-shot text classification,** in EMNLP, 2022.
+*H. Zhang, X. Zhang, H. Huang, and L. Yu.*
+[paper](https://aclanthology.org/2022.emnlp-main.87.pdf)
+[code](https://github.com/MGHZHANG/PBML)
+
+1. **Language models of code are few-shot commonsense learners,** in EMNLP, 2022.
+*A. Madaan, S. Zhou, U. Alon, Y. Yang, and G. Neubig.*
+[paper](https://aclanthology.org/2022.emnlp-main.90.pdf)
+[code](https://github.com/reasoning-machines/CoCoGen)
+
+1. **Large language models are few-shot clinical information extractors,** in EMNLP, 2022.
+*M. Agrawal, S. Hegselmann, H. Lang, Y. Kim, and D. Sontag.*
+[paper](https://aclanthology.org/2022.emnlp-main.130.pdf)
+
+1. **ToKen: Task decomposition and knowledge infusion for few-shot hate speech detection,** in EMNLP, 2022.
+*B. AlKhamissi, F. Ladhak, S. Iyer, V. Stoyanov, Z. Kozareva, X. Li, P. Fung, L. Mathias, A. Celikyilmaz, and M. Diab.*
+[paper](https://aclanthology.org/2022.emnlp-main.136.pdf)
+
+1. **Exploiting domain-slot related keywords description for few-shot cross-domain dialogue state tracking,** in EMNLP, 2022.
+*Q. Gao, G. Dong, Y. Mou, L. Wang, C. Zeng, D. Guo, M. Sun, and W. Xu.*
+[paper](https://aclanthology.org/2022.emnlp-main.157.pdf)
+
+1. **KECP: Knowledge enhanced contrastive prompting for few-shot extractive question answering,** in EMNLP, 2022.
+*J. Wang, C. Wang, M. Qiu, Q. Shi, H. Wang, J. huang, and M. Gao.*
+[paper](https://aclanthology.org/2022.emnlp-main.206.pdf)
+[code](https://github.com/alibaba/EasyNLP)
+
+1. **SpanProto: A two-stage span-based prototypical network for few-shot named entity recognition,** in EMNLP, 2022.
+*J. Wang, C. Wang, C. Tan, M. Qiu, S. Huang, J. huang, and M. Gao.*
+[paper](https://aclanthology.org/2022.emnlp-main.227.pdf)
+[code](https://github.com/alibaba/EasyNLP)
+
+1. **Few-shot query-focused summarization with prefix-merging,** in EMNLP, 2022.
+*R. Yuan, Z. Wang, Z. Cao, and W. Li.*
+[paper](https://aclanthology.org/2022.emnlp-main.243.pdf)
+
+1. **Incorporating relevance feedback for information-seeking retrieval using few-shot document re-ranking,** in EMNLP, 2022.
+*T. Baumgartner, L. F. R. Ribeiro, N. Reimers, and I. Gurevych.*
+[paper](https://aclanthology.org/2022.emnlp-main.614.pdf)
+[code](https://github.com/UKPLab/incorporating-relevance)
+
+1. **Few-shot learning with multilingual generative language models,** in EMNLP, 2022.
+*X. V. Lin, T. Mihaylov, M. Artetxe, T. Wang, S. Chen, D. Simig, M. Ott, N. Goyal, S. Bhosale, J. Du, R. Pasunuru, S. Shleifer, P. S. Koura, V. Chaudhary, B. O'Horo, J. Wang, L. Zettlemoyer, Z. Kozareva, M. Diab, V. Stoyanov, and X. Li.*
+[paper](https://aclanthology.org/2022.emnlp-main.616.pdf)
+[code](https://github.com/facebookresearch/fairseq/tree/main/examples/xglm)
+
+1. **Don't stop fine-tuning: On training regimes for few-shot cross-lingual transfer with multilingual language models,** in EMNLP, 2022.
+*F. D. Schmidt, I. Vulic, and G. Glavas.*
+[paper](https://aclanthology.org/2022.emnlp-main.736.pdf)
+[code](https://github.com/fdschmidt93/fsxlt)
+
+1. **Better few-shot relation extraction with label prompt dropout,** in EMNLP, 2022.
+*P. Zhang, and W. Lu.*
+[paper](https://aclanthology.org/2022.emnlp-main.471.pdf)
+[code](https://github.com/jzhang38/LPD)
+
+1. **A dual prompt learning framework for few-shot dialogue state tracking,** in WWW, 2023.
+*Y. Yang, W. Lei, P. Huang, J. Cao, J. Li, and T.-S. Chua.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3543507.3583238)
+[code](https://github.com/YANG-Yuting/DPL)
+
+1. **MetaTroll: Few-shot detection of state-sponsored trolls with transformer adapters,** in WWW, 2023.
+*L. Tian, X. Zhang, and J. H. Lau.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3543507.3583417)
+[code](https://github.com/ltian678/metatroll-code.git)
+
+1. **ContrastNet: A contrastive learning framework for few-shot text classification,** in AAAI, 2022.
+*J. Chen, R. Zhang, Y. Mao, and J. Xu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21292)
+
+1. **Few-shot cross-lingual stance detection with sentiment-based pre-training,** in AAAI, 2022.
+*M. Hardalov, A. Arora, P. Nakov, and I. Augenstein.*
+[paper](https://github.com/checkstep/senti-stance)
+
+1. **ALP: Data augmentation using lexicalized PCFGs for few-shot text classification,** in AAAI, 2022.
+*H. H. Kim, D. Woo, S. J. Oh, J.-W. Cha, and Y.-S. Han.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21336/21085)
+
+1. **CINS: Comprehensive instruction for few-shot learning in task-oriented dialog systems,** in AAAI, 2022.
+*F. Mi, Y. Wang, and Y. Li.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21356/21105)
+
+1. **An empirical study of GPT-3 for few-shot knowledge-based VQA,** in AAAI, 2022.
+*Z. Yang, Z. Gan, J. Wang, X. Hu, Y. Lu, Z. Liu, and L. Wang.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20215/19974)
+
+1. **PROMPTAGATOR: Few-shot dense retrieval from 8 examples,** in ICLR, 2023.
+*Z. Dai, V. Y. Zhao, J. Ma, Y. Luan, J. Ni, J. Lu, A. Bakalov, K. Guu, K. Hall, and M.-W. Chang.*
+[paper](https://openreview.net/pdf?id=gmL46YMpu2J)
+
+1. **QAID: Question answering inspired few-shot intent detection,** in ICLR, 2023.
+*A. Yehudai, M. Vetzler, Y. Mass, K. Lazar, D. Cohen, and B. Carmeli.*
+[paper](https://openreview.net/pdf?id=gNI4_85Cyve)
+
+1. **CLUR: Uncertainty estimation for few-shot text classification with contrastive learning,** in KDD, 2023.
+*J. He, X. Zhang, S. Lei, A. Alhamadani, F. Chen, B. Xiao, and C.-T. Lu.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599276)
+[code](https://github.com/he159ok/CLUR_UncertaintyEst_FewShot_TextCls.)
+
+1. **Learning few-shot sample-set operations for noisy multi-label aspect category detection,** in IJCAI, 2023.
+*S. Zhao, W. Chen, and T. Wang.*
+[paper](https://www.ijcai.org/proceedings/2023/0589.pd)
+
+1. **Few-shot document-level event argument extraction,** in ACL, 2023.
+*X. Yang, Y. Lu, and L. R. Petzold.*
+[paper](https://aclanthology.org/2023.acl-long.446.pdf)
+[code](https://github.com/Xianjun-Yang/FewDocAE)
+
+1. **FLamE: Few-shot learning from natural language explanations,** in ACL, 2023.
+*Y. Zhou, Y. Zhang, and C. Tan.*
+[paper](https://aclanthology.org/2023.acl-long.372.pdf)
+
+1. **MetaAdapt: Domain adaptive few-shot misinformation detection via meta learning,** in ACL, 2023.
+*Z. Yue, H. Zeng, Y. Zhang, L. Shang, and D. Wang.*
+[paper](https://aclanthology.org/2023.acl-long.286.pdf)
+[code](https://github.com/Yueeeeeeee/MetaAdapt)
+
+1. **Code4Struct: Code generation for few-shot event structure prediction,** in ACL, 2023.
+*X. Wang, S. Li, and H. Ji.*
+[paper](https://aclanthology.org/2023.acl-long.202.pdf)
+[code](https://github.com/xingyaoww/code4struct.)
+
+1. **MANNER: A variational memory-augmented model for cross domain few-shot named entity recognition,** in ACL, 2023.
+*J. Fang, X. Wang, Z. Meng, P. Xie, F. Huang, and Y. Jiang.*
+[paper](https://aclanthology.org/2023.acl-long.234.pdf)
+[code](https://github.com/Alibaba-NLP/MANNER)
+
+1. **Dual class knowledge propagation network for multi-label few-shot intent detection,** in ACL, 2023.
+*F. Zhang, W. Chen, F. Ding, and T. Wang.*
+[paper](https://aclanthology.org/2023.acl-long.480.pdf)
+
+1. **Few-shot event detection: An empirical study and a unified view,** in ACL, 2023.
+*Y. Ma, Z. Wang, Y. Cao, and A. Sun.*
+[paper](https://aclanthology.org/2023.acl-long.628.pdf)
+[code](https://github.com/mayubo2333/fewshot_ED)
+
+1. **CodeIE: Large code generation models are better few-shot information extractors,** in ACL, 2023.
+*P. Li, T. Sun, Q. Tang, H. Yan, Y. Wu, X. Huang, and X. Qiu.*
+[paper](https://aclanthology.org/2023.acl-long.855.pdf)
+[code](https://github.com/artpli/CodeIE)
+
+1. **Few-shot data-to-text generation via unified representation and multi-source learning,** in ACL, 2023.
+*A. H. Li, M. Shang, E. Spiliopoulou, J. Ma, P. Ng, Z. Wang, B. Min, W. Y. Wang, K. R. McKeown, V. Castelli, D. Roth, and B. Xiang.*
+[paper](https://aclanthology.org/2023.acl-long.894.pdf)
+
+1. **Few-shot in-context learning on knowledge base question answering,** in ACL, 2023.
+*T. Li, X. Ma, A. Zhuang, Y. Gu, Y. Su, and W. Chen.*
+[paper](https://aclanthology.org/2023.acl-long.385.pdf)
+[code](https://github.com/ltl3A87/KB-BINDER)
+
+1. **Linguistic representations for fewer-shot relation extraction across domains,** in ACL, 2023.
+*S. Gururaja, R. Dutt, T. Liao, and C. P. Rosé.*
+[paper](https://aclanthology.org/2023.acl-long.414.pdf)
+[code](https://github.com/ShoRit/flow_graphs)
+
+1. **Few-shot reranking for multi-hop QA via language model prompting,** in ACL, 2023.
+*M. Khalifa, L. Logeswaran, M. Lee, H. Lee, and L. Wang.*
+[paper](https://aclanthology.org/2023.acl-long.885.pdf)
+[code](https://github.com/mukhal/PromptRank)
+
+
+
+### Knowledge Graph
+
+1. **MetaEXP: Interactive explanation and exploration of large knowledge graphs,** in WWW, 2018.
+*F. Behrens, S. Bischoff, P. Ladenburger, J. Rückin, L. Seidel, F. Stolp, M. Vaichenker, A. Ziegler, D. Mottin, F. Aghaei, E. Müller, M. Preusse, N. Müller, and M. Hunger.*
+[paper](https://meta-exp.github.io/resources/paper.pdf)
+[code](https://hpi.de/en/mueller/metaex)
+
+1. **Meta relational learning for few-shot link prediction in knowledge graphs,** in EMNLP-IJCNLP, 2019.
+*M. Chen, W. Zhang, W. Zhang, Q. Chen, and H. Chen.*
+[paper](https://www.aclweb.org/anthology/D19-1431.pdf)
+
+1. **Adapting meta knowledge graph information for multi-hop reasoning over few-shot relations,** in EMNLP-IJCNLP, 2019.
+*X. Lv, Y. Gu, X. Han, L. Hou, J. Li, and Z. Liu.*
+[paper](https://www.aclweb.org/anthology/D19-1334.pdf)
+
+1. **Knowledge graph transfer network for few-shot recognition,** in AAAI, 2020.
+*R. Chen, T. Chen, X. Hui, H. Wu, G. Li, and L. Lin.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/6630)
+
+
+1. **Few-shot knowledge graph completion,** in AAAI, 2020.
+*C. Zhang, H. Yao, C. Huang, M. Jiang, Z. Li, and N. V. Chawla.*
+[paper](https://aaai.org/ojs/index.php/AAAI/article/view/5698)
+
+1. **Adaptive attentional network for few-shot knowledge graph completion,** in EMNLP, 2020.
+*J. Sheng, S. Guo, Z. Chen, J. Yue, L. Wang, T. Liu, and H. Xu.*
+[paper](https://www.aclweb.org/anthology/2020.emnlp-main.131.pdf)
+[code](https://github.com/JiaweiSheng/FAAN)
+
+1. **Relational learning with gated and attentive neighbor aggregator for few-shot knowledge graph completion,** in SIGIR, 2021.
+*G. Niu, Y. Li, C. Tang, R. Geng, J. Dai, Q. Liu, H. Wang, J. Sun, F. Huang, and L. Si.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3462925)
+
+1. **Learning inter-entity-interaction for few-shot knowledge graph completion,** in EMNLP, 2022.
+*Y. Li, K. Yu, X. Huang, and Y. Zhang.*
+[paper](https://aclanthology.org/2022.emnlp-main.524.pdf)
+[code](https://github.com/cjlyl/FKGC-CIAN)
+
+1. **Meta-learning based knowledge extrapolation for temporal knowledge graph,** in WWW, 2023.
+*Z. Chen, C. Xu, F. Su, Z. Huang, and Y. Dou.*
+[paper](hhttps://dl.acm.org/doi/abs/10.1145/3543507.3583279)
+
+1. **Learning to sample and aggregate: Few-shot reasoning over temporal knowledge graphs,** in NeurIPS, 2022.
+*R. Wang, z. li, D. Sun, S. Liu, J. Li, B. Yin, and T. Abdelzaher.*
+[paper](https://openreview.net/pdf?id=1LmgISIDZJ)
+
+1. **Few-shot relational reasoning via connection subgraph pretraining,** in NeurIPS, 2022.
+*Q. Huang, H. Ren, and J. Leskovec.*
+[paper](https://openreview.net/pdf?id=LvW71lgly25)
+[code](https://github.com/snap-stanford/csr)
+
+1. **Hierarchical relational learning for few-shot knowledge graph completion,** in ICLR, 2023.
+*H. Wu, J. Yin, B. Rajaratnam, and J. Guo.*
+[paper](https://openreview.net/pdf?id=zlwBI2gQL3K)
+[code](https://github.com/alexhw15/HiRe)
+
+1. **The unreasonable effectiveness of few-shot learning for machine translation,** in ICML, 2023.
+*X. Garcia, Y. Bansal, C. Cherry, G. F. Foster, M. Krikun, M. Johnson, and O. Firat.*
+[paper](https://proceedings.mlr.press/v202/garcia23a/garcia23a.pdf)
+
+
 ### Acoustic Signal Processing
 
 1. **One-shot learning of generative speech concepts,** in CogSci, 2014. 
@@ -2976,6 +3733,17 @@ and L. Van Gool.*
 *S. Wang, L. Li, Y. Ding, C. Fan, and X. Yu.*
 [paper](https://www.ijcai.org/proceedings/2021/0152.pdf)
 
+1. **Few-shot low-resource knowledge graph completion with multi-view task representation generation,** in KDD, 2023.
+*S. Pei, Z. Kou, Q. Zhang, and X. Zhang.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599350)
+[code](https://github.com/scpei/FLow-MV)
+
+1. **Normalizing flow-based neural process for few-shot knowledge graph completion,** in SIGIR, 2023.
+*L. Luo, Y.-F. Li, G. Haffari, and S. Pan.*
+[paper](https://dl.acm.org/doi/10.1145/3539618.3591743)
+[code](https://github.com/RManLuo/NP-FKGC)
+
+
 ### Recommendation
 
 1. **A meta-learning perspective on cold-start recommendations for items,** in NeurIPS, 2017.
@@ -2992,7 +3760,7 @@ and L. Van Gool.*
 [paper](https://arxiv.org/pdf/1906.00391.pdf)
 [code](https://github.com/THUDM/ScenarioMeta)
 
-1. **Few-shot learning for new user recommendation in location-based social networks,** in TheWebConf, 2020.
+1. **Few-shot learning for new user recommendation in location-based social networks,** in WWW, 2020.
 *R. Li, X. Wu, X. Chen, and W. Wang.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3366423.3379994)
 
@@ -3006,7 +3774,7 @@ and L. Van Gool.*
 [paper](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6158&context=sis_research)
 [code](https://github.com/rootlu/MetaHIN)
 
-1. **MetaSelector: Meta-learning for recommendation with user-level adaptive model selection,** in TheWebConf, 2020.
+1. **MetaSelector: Meta-learning for recommendation with user-level adaptive model selection,** in WWW, 2020.
 *M. Luo, F. Chen, P. Cheng, Z. Dong, X. He, J. Feng, and Z. Li.*
 [paper](https://arxiv.org/pdf/2001.10378v1.pdf)
 
@@ -3018,19 +3786,76 @@ and L. Van Gool.*
 *L. Wang, B. Jin, Z. Huang, H. Zhao, D. Lian, Q. Liu, and E. Chen.*
 [paper](https://www.ijcai.org/proceedings/2021/0222.pdf)
 
-1. **Meta-learning helps personalized product search.,** in TheWebConf, 2022.
+1. **Meta-learning helps personalized product search,** in WWW, 2022.
 *B. Wu, Z. Meng, Q. Zhang, and S. Liang.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512036)
 
-1. **Alleviating cold-start problem in CTR prediction with a variational embedding learning framework.,** in TheWebConf, 2022.
+1. **Alleviating cold-start problem in CTR prediction with a variational embedding learning framework,** in WWW, 2022.
 *X. Xu, C. Yang, Q. Yu, Z. Fang, J. Wang, C. Fan, Y. He, C. Peng, Z. Lin, and J. Shao.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512048)
 
-1. **PNMTA: A pretrained network modulation and task adaptation approach for user cold-start recommendation.,** in TheWebConf, 2022.
+1. **PNMTA: A pretrained network modulation and task adaptation approach for user cold-start recommendation,** in WWW, 2022.
 *H. Pang, F. Giunchiglia, X. Li, R. Guan, and X. Feng.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511963)
 
+1. **Few-shot news recommendation via cross-lingual transfer,** in WWW, 2023.
+*T. Guo, L. Yu, B. Shihada, and X. Zhang.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3543507.3583383)
+[code](https://github.com/taichengguo/Few-shot-NewsRec)
 
+1. **ColdNAS: Search to modulate for user cold-start recommendation,** in WWW, 2023.
+*S. Wu, Y. Wang, Q. Jing, D. Dong, D. Dou, and Q. Yao.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3543507.3583344)
+[code](https://github.com/LARS-research/ColdNAS)
+
+1. **Contrastive collaborative filtering for cold-start item recommendation,** in WWW, 2023.
+*Z. Zhou, L. Zhang, and N. Yang.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3543507.3583383)
+[code](https://github.com/zzhin/CCFCRec)
+
+1. **Bootstrapping contrastive learning enhanced music cold-start matching,** in WWW, 2023.
+*X. Zhao, Y. Zhang, Q. Xiao, Y. Ren, and Y. Yang.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3543873.3584626)
+
+1. **A dynamic meta-learning model for time-sensitive cold-start recommendations,** in AAAI, 2022.
+*K. P. Neupane, E. Zheng, Y. Kong, and Q. Yu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20756/20515)
+
+1. **SMINet: State-aware multi-aspect interests representation network for cold-start users recommendation,** in AAAI, 2022.
+*W. Tao, Y. Li, L. Li, Z. Chen, H. Wen, P. Chen, T. Liang, and Q. Lu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20824)
+[code](https://github.com/wanjietao/Fliggy-SMINet-AAAI2022)
+
+1. **Multimodality helps unimodality: Cross-modal few-shot learning with multimodal models,** in CVPR, 2023.
+*Z. Lin, S. Yu, Z. Kuang, D. Pathak, and D. Ramanan.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Multimodality_Helps_Unimodality_Cross-Modal_Few-Shot_Learning_With_Multimodal_Models_CVPR_2023_paper.pdf)
+[code](https://github.com/linzhiqiu/cross_modal_adaptation)
+
+1. **M2EU: Meta learning for cold-start recommendation via enhancing user preference estimation,** in SIGIR, 2023.
+*Z. Wu, and X. Zhou.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3539618.3591719)
+[code](https://github.com/zhenchaowu/M2EU)
+
+1. **TAML: Time-aware meta learning for cold-start problem in news recommendation,** in SIGIR, 2023.
+*J. Li, Y. Zhang, X. Lin, X. Yang, G. Zhou, L. Li, H. Chen, and J. Zhou.*
+[paper](https://dl.acm.org/doi/10.1145/3539618.3592068)
+
+1. **Uncertainty-aware consistency learning for cold-start item recommendation,** in SIGIR, 2023.
+*T. Liu, C. Gao, Z. Wang, D. Li, J. Hao, D. Jin, and Y. Li.*
+[paper](https://dl.acm.org/doi/10.1145/3539618.3592078)
+
+1. **DCBT: A simple but effective way for unified warm and cold recommendation,** in SIGIR, 2023.
+*J. Yang, L. Zhang, Y. He, K. Ding, Z. Huan, X. Zhang, and L. Mo.*
+[paper](https://dl.acm.org/doi/10.1145/3539618.3591856)
+
+1. **A preference learning decoupling framework for user cold-start recommendation,** in SIGIR, 2023.
+*C. Wang, Y. Zhu, A. Sun, Z. Wang, and K. Wang.*
+[paper](https://dl.acm.org/doi/10.1145/3539618.3591627)
+
+1. **Aligning distillation for cold-start item recommendation,** in SIGIR, 2023.
+*F. Huang, Z. Wang, X. Huang, Y. Qian, Z. Li, and H. Chen.*
+[paper](https://dl.acm.org/doi/10.1145/3539618.3591732)
+[code](https://github.com/zfnWong/ALDI)
 
 ### Others
 
@@ -3055,7 +3880,7 @@ and L. Van Gool.*
 *T. Ma, and A. Zhang.*
 [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/3898/3776)
 
-1. **Learning from multiple cities: A meta-learning approach for spatial-temporal prediction,** in TheWebConf, 2019.
+1. **Learning from multiple cities: A meta-learning approach for spatial-temporal prediction,** in WWW, 2019.
 *H. Yao, Y. Liu, Y. Wei, X. Tang, and Z. Li.*
 [paper](https://arxiv.org/pdf/1901.08518.pdf)
 [code](https://github.com/huaxiuyao/MetaST)
@@ -3080,28 +3905,28 @@ and L. Van Gool.*
 *F. X. Han, D. Niu, H. Chen, W. Guo, S. Yan, and B. Long.*
 [paper](https://sites.ualberta.ca/~dniu/Homepage/Publications_files/fhan-KDD20.pdf)
 
-1. **Few-sample and adversarial representation learning for continual stream mining,** in TheWebConf, 2020.
+1. **Few-sample and adversarial representation learning for continual stream mining,** in WWW, 2020.
 *Z. Wang, Y. Wang, Y. Lin, E. Delord, and L. Khan.*
 [paper](https://dl.acm.org/doi/10.1145/3366423.3380153)
 
-1. **Few-shot graph learning for molecular property prediction,** in TheWebConf, 2021.
+1. **Few-shot graph learning for molecular property prediction,** in WWW, 2021.
 *Z. Guo, C. Zhang, W. Yu, J. Herr, O. Wiest, M. Jiang, and N. V. Chawla.*
 [paper](https://doi.org/10.1145/3442381.3450112)
 [code](https://github.com/zhichunguo/Meta-MGNN)
 
-1. **Taxonomy-aware learning for few-shot event detection,** in TheWebConf, 2021.
+1. **Taxonomy-aware learning for few-shot event detection,** in WWW, 2021.
 *J. Zheng, F. Cai, W. Chen, W. Lei, and H. Chen.*
 [paper](https://doi.org/10.1145/3442381.344994)
 
-1. **Learning from graph propagation via ordinal distillation for one-shot automated essay scoring,** in TheWebConf, 2021.
+1. **Learning from graph propagation via ordinal distillation for one-shot automated essay scoring,** in WWW, 2021.
 *Z. Jiang, M. Liu, Y. Yin, H. Yu, Z. Cheng, and Q. Gu.*
 [paper](https://doi.org/10.1145/3442381.3450017)
 
-1. **Few-shot network anomaly detection via cross-network meta-learning,** in TheWebConf, 2021.
+1. **Few-shot network anomaly detection via cross-network meta-learning,** in WWW, 2021.
 *K. Ding, Q. Zhou, H. Tong, and H. Liu.*
 [paper](https://doi.org/10.1145/3442381.3449922)
 
-1. **Few-shot knowledge validation using rules,** in TheWebConf, 2021.
+1. **Few-shot knowledge validation using rules,** in WWW, 2021.
 *M. Loster, D. Mottin, P. Papotti, J. Ehmüller, B. Feldmann, and F. Naumann.*
 [paper](https://doi.org/10.1145/3442381.3450040)
 
@@ -3149,7 +3974,7 @@ and L. Van Gool.*
 *Z. Wang, Z. Miao, X. Zhen, and Q. Qiu.*
 [paper](https://proceedings.neurips.cc/paper/2021/file/6e2713a6efee97bacb63e52c54f0ada0-Paper.pdf)
 
-1. **A meta-learning based stress category detection framework on social media.,** in TheWebConf, 2022.
+1. **A meta-learning based stress category detection framework on social media,** in WWW, 2022.
 *X. Wang, L. Cao, H. Zhang, L. Feng, Y. Ding, and N. Li.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512013)
 
@@ -3176,6 +4001,73 @@ and L. Van Gool.*
 *X. Guo, Y. Chen, G. Qi, T. Wu, and H. Xu.*
 [paper](https://www.ijcai.org/proceedings/2022/0576.pdf)
 [code](https://github.com/ygxw0909/MST-SQL)
+
+1. **Graph few-shot learning with task-specific structures,** in NeurIPS, 2022.
+*S. Wang, C. Chen, and J. Li.*
+[paper](https://openreview.net/pdf?id=3yO3MiSOkH4)
+[code](https://github.com/SongW-SW/GLITTER)
+
+1. **Meta-learning dynamics forecasting using task inference,** in NeurIPS, 2022.
+*R. Wang, R. Walters, and R. Yu.*
+[paper](https://openreview.net/pdf?id=BsSP7pZGFQO)
+[code](https://github.com/Rose-STL-Lab/Dynamic-Adaptation-Network)
+
+1. **Rapid model architecture adaption for meta-learning,** in NeurIPS, 2022.
+*Y. Zhao, X. Gao, I. Shumailov, N. Fusi, and R. D. Mullins.*
+[paper](https://openreview.net/pdf?id=Yq6g9xluV)
+
+1. **Cross-domain few-shot graph classification,** in AAAI, 2022.
+*and K. Hassani.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25615)
+
+1. **Meta propagation networks for graph few-shot semi-supervised learning,** in AAAI, 2022.
+*K. Ding, J. Wang, J. Caverlee, and H. Liu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20605/20364)
+[code](https://github.com/kaize0409/Meta-PN)
+
+1. **Pushing the limits of few-shot anomaly detection in industry vision: GraphCore,** in ICLR, 2023.
+*G. Xie, J. Wang, J. Liu, F. Zheng, and Y. Jin.*
+[paper](https://openreview.net/pdf?id=xzmqxHdZAwO)
+
+1. **Context-enriched molecule representations improve few-shot drug discovery,** in ICLR, 2023.
+*J. Schimunek, P. Seidl, L. Friedrich, D. Kuhn, F. Rippmann, S. Hochreiter, and G. Klambauer.*
+[paper](https://openreview.net/pdf?id=XrMWUuEevr)
+[code](https://github.com/ml-jku/MHNfs)
+
+1. **Sequential latent variable models for few-shot high-dimensional time-series forecasting,** in ICLR, 2023.
+*X. Jiang, R. Missel, Z. Li, and L. Wang.*
+[paper](https://openreview.net/pdf?id=7C9aRX2nBf2)
+[code](https://github.com/john-x-jiang/meta_ss)
+
+1. **Transfer NAS with meta-learned Bayesian surrogates,** in ICLR, 2023.
+*G. Shala, T. Elsken, F. Hutter, and J. Grabocka.*
+[paper](https://openreview.net/pdf?id=paGvsrl4Ntr)
+[code](https://github.com/TNAS-DCS/TNAS-DCS)
+
+1. **Few-shot domain adaptation for end-to-end communication,** in ICLR, 2023.
+*J. Raghuram, Y. Zeng, D. Garcia, R. Ruiz, S. Jha, J. Widmer, and S. Banerjee.*
+[paper](https://openreview.net/pdf?id=4F1gvduDeL)
+[code](https://github.com/jayaram-r/domain-adaptation-autoencoder)
+
+1. **Virtual node tuning for few-shot node classification,** in KDD, 2023.
+*Z. Tan, R. Guo, K. Ding, and H. Liu.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599541)
+
+1. **Contrastive meta-learning for few-shot node classification,** in KDD, 2023.
+*S. Wang, Z. Tan, H. Liu, and J. Li.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599288)
+[code](https://github.com/SongW-SW/COSMIC)
+
+1. **Task-equivariant graph few-shot learning,** in KDD, 2023.
+*S. Kim, J. Lee, N. Lee, W. Kim, S. Choi, and C. Park.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599515)
+[code](https://github.com/sung-won-kim/TEG)
+
+1. **Leveraging transferable knowledge concept graph embedding for cold-start cognitive diagnosis,** in SIGIR, 2023.
+*W. Gao, H. Wang, Q. Liu, F. Wang, X. Lin, L. Yue, Z. Zhang, R. Lv, and S. Wang.*
+[paper](https://dl.acm.org/doi/10.1145/3539618.3591774)
+[code](https://github.com/bigdata-ustc/TechCD)
+
 
 ## [Theories](#content)
 
@@ -3227,6 +4119,14 @@ and L. Van Gool.*
 1. **Global convergence of MAML and theory-inspired neural architecture search for few-shot learning,** in CVPR, 2022.
 *H. Wang, Y. Wang, R. Sun, and B. Li.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Global_Convergence_of_MAML_and_Theory-Inspired_Neural_Architecture_Search_for_CVPR_2022_paper.pdf)
+
+1. **Smoothed embeddings for certified few-shot learning,** in NeurIPS, 2022.
+*M. Pautov, O. Kuznetsova, N. Tursynbek, A. Petiushko, and I. Oseledets.*
+[paper](https://openreview.net/pdf?id=m2JJO3iEe_5)
+[code](https://github.com/koava36/certrob-fewshot)
+
+
+
 
 ## [Few-shot Learning and Zero-shot Learning](#content)
 
@@ -3300,6 +4200,11 @@ and L. Van Gool.*
 *A. R. Fabbri, S. Han, H. Li, H. Li, M. Ghazvininejad, S. R. Joty, D. R. Radev, and Y. Mehdad.*
 [paper](https://aclanthology.org/2021.naacl-main.57.pdf)
 
+1. **SEQZERO: Few-shot compositional semantic parsing with sequential prompts and zero-shot models,** in NAACL, 2022.
+*J. Yang, H. Jiang, Q. Yin, D. Zhang, B. Yin, and D. Yang.*
+[paper](https://aclanthology.org/2022.findings-naacl.5.pdf)
+[code](https://github.com/amzn/SeqZero)
+
 1. **Label verbalization and entailment for effective zero and few-shot relation extraction,** in EMNLP, 2021.
 *O. Sainz, O. L. d. Lacalle, G. Labaka, A. Barrena, and E. Agirre.*
 [paper](https://aclanthology.org/2021.emnlp-main.92.pdf)
@@ -3347,7 +4252,7 @@ and L. Van Gool.*
 [paper](https://openreview.net/pdf?id=gEZrGCozdqR)
 [code](https://github.com/google-research/flan)
 
-1. **Zero-shot stance detection via contrastive learning.,** in TheWebConf, 2022.
+1. **Zero-shot stance detection via contrastive learning,** in WWW, 2022.
 *B. Liang, Z. Chen, L. Gui, Y. He, M. Yang, and R. Xu.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511994)
 [code](https://github.com/HITSZ-HLT/PT-HCL)
@@ -3389,6 +4294,64 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2022.naacl-main.357.pdf)
 [code](https://github.com/Zeng-WH/DOP-Tuning)
 
+1. **Nearest neighbor zero-shot inference,** in EMNLP, 2022.
+*W. Shi, J. Michael, S. Gururangan, and L. Zettlemoyer.*
+[paper](https://aclanthology.org/2022.emnlp-main.214.pdf)
+[code](https://github.com/swj0419/kNN_prompt)
+
+1. **Continued pretraining for better zero- and few-shot promptability,** in EMNLP, 2022.
+*Z. Wu, R. L. L. IV, P. Walsh, A. Bhagia, D. Groeneveld, S. Singh, and I. Beltagy.*
+[paper](https://aclanthology.org/2022.emnlp-main.300.pdf)
+[code](https://github.com/allenai/better-promptability)
+
+1. **InstructDial: Improving zero and few-shot generalization in dialogue through instruction tuning,** in EMNLP, 2022.
+*P. Gupta, C. Jiao, Y.-T. Yeh, S. Mehri, M. Eskenazi, and J. P. Bigham.*
+[paper](https://aclanthology.org/2022.emnlp-main.33.pdf)
+[code](https://github.com/prakharguptaz/Instructdial)
+
+1. **Prompt-and-Rerank: A method for zero-shot and few-shot arbitrary textual style transfer with small language models,** in EMNLP, 2022.
+*M. Suzgun, L. Melas-Kyriazi, and D. Jurafsky.*
+[paper](https://aclanthology.org/2022.emnlp-main.141.pdf)
+[code](https://github.com/suzgunmirac/prompt-and-rerank)
+
+1. **Learning instructions with unlabeled data for zero-shot cross-task generalization,** in EMNLP, 2022.
+*Y. Gu, P. Ke, X. Zhu, and M. Huang.*
+[paper](https://aclanthology.org/2022.emnlp-main.105.pdf)
+[code](https://github.com/thu-coai/UDIT)
+
+1. **Zero-shot cross-lingual transfer of prompt-based tuning with a unified multilingual prompt,** in EMNLP, 2022.
+*L. Huang, S. Ma, D. Zhang, F. Wei, and H. Wang.*
+[paper](https://aclanthology.org/2022.emnlp-main.790.pdf)
+[code](https://github.com/mojave-pku/UniPrompt)
+
+1. **Finetune like you pretrain: Improved finetuning of zero-shot vision models,** in CVPR, 2023.
+*S. Goyal, A. Kumar, S. Garg, Z. Kolter, and A. Raghunathan.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Goyal_Finetune_Like_You_Pretrain_Improved_Finetuning_of_Zero-Shot_Vision_Models_CVPR_2023_paper.pdf)
+[code](https://github.com/locuslab/FLYP)
+
+1. **WinCLIP: Zero-/few-shot anomaly classification and segmentation,** in CVPR, 2023.
+*J. Jeong, Y. Zou, T. Kim, D. Zhang, A. Ravichandran, and O. Dabeer.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Jeong_WinCLIP_Zero-Few-Shot_Anomaly_Classification_and_Segmentation_CVPR_2023_paper.pdf)
+
+1. **SemSup-XC: Semantic supervision for zero and few-shot extreme classification,** in ICML, 2023.
+*P. Aggarwal, A. Deshpande, and K. R. Narasimhan.*
+[paper](https://proceedings.mlr.press/v202/aggarwal23a/aggarwal23a.pdf)
+[code](https://github.com/princeton-nlp/semsup-xc)
+
+1. **Zero- and few-shot event detection via prompt-based meta learning,** in ACL, 2023.
+*Z. Yue, H. Zeng, M. Lan, H. Ji, and D. Wang.*
+[paper](https://aclanthology.org/2023.acl-long.440.pdf)
+[code](https://github.com/Yueeeeeeee/MetaEvent)
+
+1. **HINT: Hypernetwork instruction tuning for efficient zero- and few-shot generalisation,** in ACL, 2023.
+*H. Ivison, A. Bhagia, Y. Wang, H. Hajishirzi, and M. E. Peters.*
+[paper](https://aclanthology.org/2023.acl-long.631.pdf)
+[code](https://github.com/allenai/hyper-task-descriptions)
+
+1. **What does the failure to reason with "respectively" in zero/few-shot settings tell us about language models? acl 2023,** in ACL, 2023.
+*R. Cui, S. Lee, D. Hershcovich, and A. Søgaard.*
+[paper](https://aclanthology.org/2023.acl-long.489.pdf)
+[code](https://github.com/ruixiangcui/WikiResNLI_NatResNLI)
 
 ## [Variants of Few-shot Learning](#content)
 
@@ -3541,7 +4504,7 @@ and L. Van Gool.*
 *H. Chi, F. Liu, W. Yang, L. Lan, T. Liu, B. Han, G. Niu, M. Zhou, and M. Sugiyama.*
 [paper](https://openreview.net/pdf?id=MEpKGLsY8f)
 
-1. **Topological transduction for hybrid few-shot learning.,** in TheWebConf, 2022.
+1. **Topological transduction for hybrid few-shot learning,** in WWW, 2022.
 *J. Chen, and A. Zhang.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512033)
 
@@ -3612,6 +4575,88 @@ and L. Van Gool.*
 1. **MemREIN: Rein the domain shift for cross-domain few-shot learning,** in IJCAI, 2022.
 *Y. Xu, L. Wang, Y. Wang, C. Qin, Y. Zhang, and Y. FU.*
 [paper](https://www.ijcai.org/proceedings/2022/0505.pdf)
+
+1. **Continual few-shot learning with transformer adaptation and knowledge regularization,** in WWW, 2023.
+*X. Wang, Y. Liu, J. Fan, W. Wen, H. Xue, and W. Zhu.*
+[paper](https://dl.acm.org/doi/abs/10.1145/3543507.3583262)
+
+1. **DENSE: Data-free one-shot federated learning,** in NeurIPS, 2022.
+*J. Zhang, C. Chen, B. Li, L. Lyu, S. Wu, S. Ding, C. Shen, and C. Wu.*
+[paper](https://openreview.net/pdf?id=QFQoxCFYEkA)
+
+1. **Towards practical few-shot query sets: Transductive minimum description length inference,** in NeurIPS, 2022.
+*S. T. Martin, M. Boudiaf, E. Chouzenoux, J.-C. Pesquet, and I. B. Ayed.*
+[paper](https://openreview.net/pdf?id=j9JL96S8Vl)
+[code](https://github.com/SegoleneMartin/PADDLE)
+
+1. **Task-level differentially private meta learning,** in NeurIPS, 2022.
+*X. Zhou, and R. Bassily.*
+[paper](https://openreview.net/pdf?id=FhyrZ92DcI9)
+[code](https://github.com/xyzhou055/MetaNSGD)
+
+1. **FiT: Parameter efficient few-shot transfer learning for personalized and federated image classification,** in ICLR, 2023.
+*A. Shysheya, J. F. Bronskill, M. Patacchiola, S. Nowozin, and R. E. Turner.*
+[paper](https://openreview.net/pdf?id=9aokcgBVIj1)
+[code](https://github.com/cambridge-mlg/fit)
+
+1. **Towards addressing label skews in one-shot federated learning,** in ICLR, 2023.
+*Y. Diao, Q. Li, and B. He.*
+[paper](https://openreview.net/pdf?id=rzrqh85f4Sc)
+[code](https://github.com/Xtra-Computing/FedOV)
+
+1. **Data-free one-shot federated learning under very high statistical heterogeneity,** in ICLR, 2023.
+*C. E. Heinbaugh, E. Luz-Ricca, and H. Shao.*
+[paper](https://openreview.net/pdf?id=_hb4vM3jspB)
+[code](https://github.com/ceh-2000/fed_cvae)
+
+1. **Contrastive meta-learning for partially observable few-shot learning,** in ICLR, 2023.
+*A. Jelley, A. Storkey, A. Antoniou, and S. Devlin.*
+[paper](https://openreview.net/pdf?id=6iVJOtr2zL2)
+[code](https://github.com/AdamJelley/POEM)
+
+1. **On the soft-subnetwork for few-shot class incremental learning,** in ICLR, 2023.
+*H. Kang, J. Yoon, S. R. H. Madjid, S. J. Hwang, and C. D. Yoo.*
+[paper](https://openreview.net/pdf?id=z57WK5lGeHd)
+[code](https://github.com/ihaeyong/ SoftNet-FSCIL)
+
+1. **Warping the space: Weight space rotation for class-incremental few-shot learning,** in ICLR, 2023.
+*D.-Y. Kim, D.-J. Han, J. Seo, and J. Moon.*
+[paper](https://openreview.net/pdf?id=kPLzOfPfA2l)
+[code](https://github.com/EdwinKim3069/WaRP-CIFSL)
+
+1. **Neural collapse inspired feature-classifier alignment for few-shot class-incremental learning,** in ICLR, 2023.
+*Y. Yang, H. Yuan, X. Li, Z. Lin, P. Torr, and D. Tao.*
+[paper](https://openreview.net/pdf?id=y5W8tpojhtJ)
+[code](https://github.com/NeuralCollapseApplications/FSCIL)
+
+1. **Learning with fantasy: Semantic-aware virtual contrastive constraint for few-shot class-incremental learning,** in CVPR, 2023.
+*Z. Song, Y. Zhao, Y. Shi, P. Peng, L. Yuan, and Y. Tian.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Learning_With_Fantasy_Semantic-Aware_Virtual_Contrastive_Constraint_for_Few-Shot_Class-Incremental_CVPR_2023_paper.pdf)
+[code](https://github.com/zysong0113/SAVC)
+
+1. **Few-shot class-incremental learning via class-aware bilateral distillation,** in CVPR, 2023.
+*L. Zhao, J. Lu, Y. Xu, Z. Cheng, D. Guo, Y. Niu, and X. Fang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Few-Shot_Class-Incremental_Learning_via_Class-Aware_Bilateral_Distillation_CVPR_2023_paper.pdf)
+[code](https://github.com/LinglanZhao/BiDistFSCIL)
+
+1. **GKEAL: Gaussian kernel embedded analytic learning for few-shot class incremental task,** in CVPR, 2023.
+*H. Zhuang, Z. Weng, R. He, Z. Lin, and Z. Zeng.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhuang_GKEAL_Gaussian_Kernel_Embedded_Analytic_Learning_for_Few-Shot_Class_Incremental_CVPR_2023_paper.pdf)
+
+1. **Glocal energy-based learning for few-shot open-set recognition,** in CVPR, 2023.
+*H. Wang, G. Pang, P. Wang, L. Zhang, W. Wei, and Y. Zhang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Glocal_Energy-Based_Learning_for_Few-Shot_Open-Set_Recognition_CVPR_2023_paper.pdf)
+[code](https://github.com/00why00/Glocal)
+
+1. **Open-set likelihood maximization for few-shot learning,** in CVPR, 2023.
+*M. Boudiaf, E. Bennequin, M. Tami, A. Toubhans, P. Piantanida, C. Hudelot, and I. B. Ayed.*
+[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Boudiaf_Open-Set_Likelihood_Maximization_for_Few-Shot_Learning_CVPR_2023_paper.pdf)
+[code](https://github.com/ebennequin/fewshot-open-set.)
+
+1. **Federated few-shot learning,** in KDD, 2023.
+*S. Wang, X. Fu, K. Ding, C. Chen, H. Chen, and J. Li.*
+[paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599347)
+[code](https://github.com/SongW-SW/F2L)
 
 ## [Datasets/Benchmarks](#content)
 
@@ -3696,6 +4741,21 @@ and L. Van Gool.*
 *H. Jiang, X. Ma, W. Nie, Z. Yu, Y. Zhu, and A. Anandkumar.*
 [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_Bongard-HOI_Benchmarking_Few-Shot_Visual_Reasoning_for_Human-Object_Interactions_CVPR_2022_paper.pdf)
 [code](https://github.com/nvlabs/Bongard-HOI)
+
+1. **Hard-Meta-Dataset++: Towards understanding few-shot performance on difficult tasks,** in ICLR, 2023.
+*S. Basu, M. Stanley, J. F. Bronskill, S. Feizi, and D. Massiceti.*
+[paper](https://openreview.net/pdf?id=wq0luyH3m4)
+
+1. **MEWL: Few-shot multimodal word learning with referential uncertainty,** in ICML, 2023.
+*G. Jiang, M. Xu, S. Xin, W. Liang, Y. Peng, C. Zhang, and Y. Zhu.*
+[paper](https://proceedings.mlr.press/v202/jiang23i/jiang23i.pdf)
+[code](https://github.com/jianggy/MEWL)
+
+1. **UNISUMM and SUMMZOO: Unified model and diverse benchmark for few-shot summarization,** in ACL, 2023.
+*Y. Chen, Y. Liu, R. Xu, Z. Yang, C. Zhu, M. Zeng, and Y. Zhang.*
+[paper](https://aclanthology.org/2023.acl-long.718.pdf)
+[code](https://github.com/microsoft/UniSumm)
+
 
 ## [Software Library](#content)
 
