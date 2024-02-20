@@ -36,7 +36,7 @@ First, install our required packages.
 git clone https://github.com/tata1661/FSL-Mate.git
 # Install requirements.
 cd FSL-Mate/PaddleFSL
-pip install -r requirements.txt
+python setup.py install
 ```
 
 Second, update environment variables.
