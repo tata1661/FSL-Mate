@@ -289,6 +289,12 @@ Please cite our paper if you find it helpful.
 *H. Zheng, Q. Zhong, L. Ding, Z. Tian, X. Niu, C. Wang, D. Li, and D. Tao.*
 [paper](https://aclanthology.org/2023.emnlp-main.555.pdf)
 
+1. **Effective data augmentation with diffusion models,** in ICLR, 2024.
+*B. Trabucco, K. Doherty, M. A. Gurinas, and R. Salakhutdinov.*
+[paper](https://openreview.net/attachment?id=ZWzUA9zeAg&name=pdf)
+[code](https://github.com/anonymous-da-fusion/da-fusion)
+
+
 ## [Model](#content)
 
 ### Multitask Learning
@@ -880,6 +886,12 @@ Please cite our paper if you find it helpful.
 *S. Meng, X. Hu, A. Liu, S. Li, F. Ma, Y. Yang, and L. Wen.*
 [paper](https://aclanthology.org/2023.emnlp-main.316.pdf)
 [code](https://github.com/THU-BPM/RAPL)
+
+1. **BECLR: Batch enhanced contrastive few-shot learning,** in ICLR, 2024.
+*S. Poulakakis-Daktylidis, and H. Jamali-Rad.*
+[paper](https://openreview.net/attachment?id=k9SVcrmXL8&name=pdf)
+[code](https://github.com/stypoumic/BECLR)
+
 
 ### Learning with External Memory
 
@@ -1738,6 +1750,36 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2023.emnlp-main.208.pdf)
 [code](https://github.com/UKPLab/AdaSent)
 
+1. **A hard-to-beat baseline for training-free CLIP-based adaptation,** in ICLR, 2024.
+*Z. Wang, J. Liang, L. Sheng, R. He, Z. Wang, and T. Tan.*
+[paper](https://openreview.net/attachment?id=Js5PJPHDyY&name=pdf)
+
+1. **Group preference optimization: Few-shot alignment of large language models,** in ICLR, 2024.
+*S. Zhao, J. Dang, and A. Grover.*
+[paper](https://openreview.net/attachment?id=DpFeMH4l8Q&name=pdf)
+
+1. **Consistency-guided prompt learning for vision-language models,** in ICLR, 2024.
+*S. Roy, and A. Etemad.*
+[paper](https://openreview.net/attachment?id=wsRXwlwx4w&name=pdf)
+[code](https://github.com/ShuvenduRoy/CoPrompt)
+
+1. **BayesPrompt: Prompting large-scale pre-trained language models on few-shot inference via debiased domain abstraction,** in ICLR, 2024.
+*J. Li, F. Song, Y. Jin, W. Qiang, C. Zheng, F. Sun, and H. Xiong.*
+[paper](https://openreview.net/attachment?id=DmD1wboID9&name=pdf)
+
+1. **Neural fine-tuning search for few-shot learning,** in ICLR, 2024.
+*P. Eustratiadis, Ł. Dudziak, D. Li, and T. Hospedales.*
+[paper](https://openreview.net/pdf?id=T7YV5UZKBc)
+
+1. **DePT: Decomposed prompt tuning for parameter-efficient fine-tuning,** in ICLR, 2024.
+*Z. Shi, and A. Lipani.*
+[paper](https://openreview.net/attachment?id=KjegfPGRde&name=pdf)
+[code](https://github.com/ZhengxiangShi/DePT)
+
+1. **Few-shot hybrid domain adaptation of image generator,** in ICLR, 2024.
+*H. Li, Y. Liu, L. Xia, Y. Lin, T. Zheng, Z. Yang, W. Wang, X. Zhong, X. Ren, and X. He.*
+[paper](https://openreview.net/attachment?id=FE2e8664Sl&name=pdf)
+
 
 ### Refining Meta-learned Parameters
 
@@ -2126,6 +2168,18 @@ and L. Van Gool.*
 *Y. Zhang, B. Li, S. Gao, and G. B. Giannakis.*
 [paper](https://ojs.aaai.org/index.php/AAAI/article/view/26337/26109)
 [code](https://github.com/zhangyilang/iBaML)
+
+1. **A hierarchical Bayesian model for few-shot meta learning,** in ICLR, 2024.
+*M. Kim, and T. Hospedales.*
+[paper](https://openreview.net/attachment?id=mQ72XRfYRZ&name=pdf)
+
+1. **First-order ANIL provably learns representations despite overparametrisation,** in ICLR, 2024.
+*O. K. Yüksel, E. Boursier, and N. Flammarion.*
+[paper](https://openreview.net/attachment?id=if2vRbS8Ew&name=pdf)
+
+1. **Meta-learning priors using unrolled proximal neural networks,** in ICLR, 2024.
+*Y. Zhang, and G. B. Giannakis.*
+[paper](https://openreview.net/attachment?id=b3Cu426njo&name=pdf)
 
 ### Learning Search Steps
 
@@ -3269,6 +3323,24 @@ and L. Van Gool.*
 *J. Wu, R. Wang, H. Zhao, R. Zhang, C. Lu, S. Li, and R. Henao.*
 [paper](https://ojs.aaai.org/index.php/AAAI/article/view/25597/25369)
 
+1. **Real3D-Portrait: One-shot realistic 3D talking portrait synthesis,** in ICLR, 2024.
+*Z. Ye, T. Zhong, Y. Ren, J. Yang, W. Li, J. Huang, Z. Jiang, J. He, R. Huang, J. Liu, C. Zhang, X. Yin, Z. MA, and Z. Zhao.*
+[paper](https://openreview.net/attachment?id=7ERQPyR2eb&name=pdf)
+[code](https://github.com/yerfor/Real3DPortrait)
+
+1. **Personalize segment anything model with one shot,** in ICLR, 2024.
+*R. Zhang, Z. Jiang, Z. Guo, S. Yan, J. Pan, H. Dong, Y. Qiao, P. Gao, and H. Li.*
+[paper](https://openreview.net/attachment?id=6Gzkhoc6YS&name=pdf)
+
+1. **Matcher: Segment anything with one shot using all-purpose feature matching,** in ICLR, 2024.
+*Y. Liu, M. Zhu, H. Li, H. Chen, X. Wang, and C. Shen.*
+[paper](https://openreview.net/attachment?id=yzRXdhk2he&name=pdf)
+
+1. **SparseDFF: Sparse-view feature distillation for one-shot dexterous manipulation,** in ICLR, 2024.
+*Q. Wang, H. Zhang, C. Deng, Y. You, H. Dong, Y. Zhu, and L. Guibas.*
+[paper](https://openreview.net/attachment?id=HHWlwxDeRn&name=pdf)
+
+
 ### Robotics
 
 1. **Towards one shot learning by imitation for humanoid robots,** in ICRA, 2010.
@@ -3341,6 +3413,10 @@ and L. Van Gool.*
 16. **Where2Explore: Few-shot affordance learning for unseen novel categories of articulated objects,** in NeurIPS, 2023.
 *C. Ning, R. Wu, H. Lu, K. Mo, and H. Dong.*
 [paper](https://openreview.net/attachment?id=QLllDwizVd&name=pdf)
+
+1. **Skill machines: Temporal logic skill composition in reinforcement learning,** in ICLR, 2024.
+*G. N. Tasse, D. Jarvis, S. James, and B. Rosman.*
+[paper](https://openreview.net/attachment?id=qiduMcw3CU&name=pdf)
 
 ### Natural Language Processing
 
@@ -4057,6 +4133,10 @@ and L. Van Gool.*
 [paper](https://aclanthology.org/2023.emnlp-main.430.pdf)
 [code](https://github.com/wang-weishi/Meta-APR)
 
+1. **Few-shot detection of machine-generated text using style representations,** in ICLR, 2024.
+*R. A. R. Soto, K. Koch, A. Khan, B. Y. Chen, M. Bishop, and N. Andrews.*
+[paper](https://openreview.net/attachment?id=cWiEN1plhJ&name=pdf)
+
 ### Knowledge Graph
 
 1. **MetaEXP: Interactive explanation and exploration of large knowledge graphs,** in WWW, 2018.
@@ -4572,6 +4652,15 @@ and L. Van Gool.*
 [paper](https://ojs.aaai.org/index.php/AAAI/article/view/25668/25440)
 [code](https://github.com/whaleloops/KEPT)
 
+1. **Enhancing small medical learners with privacy-preserving contextual prompting,** in ICLR, 2024.
+*X. Zhang, S. Li, X. Yang, C. Tian, Y. Qin, and L. R. Petzol.*
+[paper](https://openreview.net/attachment?id=ztpy1gsUpT&name=pdf)
+[code](https://github.com/XZhang97666/PrivacyBoost-SLM)
+
+1. **TEST: Text prototype aligned embedding to activate LLM's ability for time series,** in ICLR, 2024.
+*C. Sun, Y. Li, H. Li, and S. Hong.*
+[paper](https://openreview.net/attachment?id=Tuh4nZVb0g&name=pdf)
+
 ## [Theories](#content)
 
 1. **Learning to learn around a common mean,** in NeurIPS, 2018.
@@ -4628,7 +4717,10 @@ and L. Van Gool.*
 [paper](https://openreview.net/pdf?id=m2JJO3iEe_5)
 [code](https://github.com/koava36/certrob-fewshot)
 
-
+1. **Towards few-shot adaptation of foundation models via multitask finetuning,** in ICLR, 2024.
+*Z. Xu, Z. Shi, J. Wei, F. Mu, Y. Li, and Y. Liang.*
+[paper](https://openreview.net/attachment?id=1jbh2e0b2K&name=pdf)
+[code](https://github.com/OliverXUZY/Foudation-Model_Multitask)
 
 
 ## [Few-shot Learning and Zero-shot Learning](#content)
@@ -4884,6 +4976,26 @@ and L. Van Gool.*
 *L. Gao, D. Ghosh, and K. Gimpel.*
 [paper](https://aclanthology.org/2023.emnlp-main.853.pdf)
 [code](https://github.com/lingyugao/LabelDescTraining)
+
+1. **Gen-Z: Generative zero-shot text classification with contextualized label descriptions,** in ICLR, 2024.
+*S. Kumar, C. Y. Park, and Y. Tsvetkov.*
+[paper](https://openreview.net/attachment?id=rkplYfqUr0&name=pdf)
+
+1. **Evaluating the zero-shot robustness of instruction-tuned language models,** in ICLR, 2024.
+*J. Sun, C. Shaib, and B. C. Wallace.*
+[paper](https://openreview.net/attachment?id=g9diuvxN6D&name=pdf)
+
+1. **Boosting prompting mechanisms for zero-shot speech synthesis,** in ICLR, 2024.
+*Z. Jiang, J. Liu, Y. Ren, J. He, Z. Ye, S. Ji, Q. Yang, C. Zhang, P. Wei, C. Wang, X. Yin, Z. MA, and Z. Zhao.*
+[paper](https://openreview.net/attachment?id=mvMI3N4AvD&name=pdf)
+
+1. **Zero and few-shot semantic parsing with ambiguous inputs,** in ICLR, 2024.
+*E. Stengel-Eskin, K. Rawlins, and B. V. Durme.*
+[paper](https://openreview.net/attachment?id=qL9gogRepu&name=pdf)
+
+1. **Uni3D: Exploring unified 3D representation at scale,** in ICLR, 2024.
+*J. Zhou, J. Wang, B. Ma, Y.-S. Liu, T. Huang, and X. Wang.*
+[paper](https://openreview.net/attachment?id=wcaE4Dfgt8&name=pdf)
 
 ## [Variants of Few-shot Learning](#content)
 
@@ -5236,6 +5348,11 @@ and L. Van Gool.*
 *L. Yu, W. Yang, S. Huang, L. Wang, and M. Yang.*
 [paper](https://ojs.aaai.org/index.php/AAAI/article/view/26306/26078)
 
+1. **Enhancing one-shot federated learning through data and ensemble co-boosting,** in ICLR, 2024.
+*R. Dai, Y. Zhang, A. Li, T. Liu, X. Yang, and B. Han.*
+[paper](https://openreview.net/attachment?id=tm8s3696Ox&name=pdf)
+
+
 ## [Datasets/Benchmarks](#content)
 
 1. **FewRel: A large-scale supervised few-shot relation classification dataset with state-of-the-art evaluation,** in EMNLP, 2018.
@@ -5386,6 +5503,14 @@ and L. Van Gool.*
 *S. Xu, S. Liu, T. Culhane, E. Pertseva, M.-H. Wu, S. Semnani, and M. Lam.*
 [paper](https://aclanthology.org/2023.emnlp-main.353.pdf)
 [code](https://github.com/stanford-oval/wikidata-emnlp23)
+
+1. **MetaCoCo: A new few-shot classification benchmark with spurious correlation,** in ICLR, 2024.
+*M. Zhang, H. Li, F. Wu, and K. Kuang.*
+[paper](https://openreview.net/attachment?id=DiWRG9JTWZ&name=pdf)
+
+1. **Bongard-OpenWorld: Few-shot reasoning for free-form visual concepts in the real world,** in ICLR, 2024.
+*R. Wu, X. Ma, Q. Li, Z. Zhang, W. Wang, S.-C. Zhu, and Y. Wang.*
+[paper](https://openreview.net/attachment?id=hWS4MueyzC&name=pdf)
 
 ## [Software Library](#content)
 
