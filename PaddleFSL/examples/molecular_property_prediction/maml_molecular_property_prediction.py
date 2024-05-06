@@ -36,7 +36,7 @@ INNER_LR = 0.05
 EPOCHS = 1000
 EVAL_STEPS = 10
 SEED = 0
-SAVE_MODEL_ITER = 2000
+SAVE_MODEL_ITER = 1000
 # ----------------------------------------------------------------------------------"""
 args = get_args(root_dir = os.path.abspath(os.path.dirname(__file__)),
                 n_shot = SHOT,

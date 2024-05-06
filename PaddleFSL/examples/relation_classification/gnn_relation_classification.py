@@ -14,9 +14,10 @@
 
 import paddle
 import paddlefsl.datasets as datasets
-from paddlefsl.model_zoo import gnn
 import paddlefsl
+from paddlefsl.model_zoo import gnn
 from paddlefsl.backbones import RCPositionEmbedding, RCInitVector, RCConv1D
+
 
 # Set computing device
 paddle.set_device('gpu:0')

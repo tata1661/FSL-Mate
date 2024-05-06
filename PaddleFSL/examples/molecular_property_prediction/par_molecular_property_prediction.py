@@ -29,7 +29,7 @@ DATASET = 'tox21'
 TRAIN_DATASET = datasets.mol_dataset.load_dataset(dataset = DATASET, type = 'train')
 TEST_DATASET = datasets.mol_dataset.load_dataset(dataset = DATASET, type = 'test')
 SHOT = 10
-N_QUERY = 16
+N_QUERY = 20
 META_LR = 0.001
 WEIGHT_DECAY = 5e-5
 INNER_LR = 0.05

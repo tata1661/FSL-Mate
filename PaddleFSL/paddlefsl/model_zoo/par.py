@@ -103,7 +103,7 @@ def meta_training(args, model_0, optimizer, criterion, train_dataset, epoch):
         losses_eval.backward()
         optimizer.step()
 
-        print('Train Epoch:', epoch,', train update step:', k, ', loss_eval:', losses_eval.numpy()[0])
+        print('Train Epoch:', epoch,', train update step:', k, ', loss_eval:', losses_eval.numpy().item())
 
     return model_0
 

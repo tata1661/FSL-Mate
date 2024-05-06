@@ -111,7 +111,7 @@ def meta_training(train_dataset,
             support_score, query_score = classifier(support_embeddings), classifier(query_embeddings)
             prototypes = protonet.get_prototypes(support_score, task.support_labels, ways, shots)
             loss, acc = _get_prediction(prototypes, query_score, task.query_labels)
-            train_loss += loss.numpy()[0]
+            train_loss += loss.item()
             train_acc += acc
             # Update model
             loss.backward()
@@ -126,7 +126,7 @@ def meta_training(train_dataset,
                 support_score, query_score = classifier(support_embeddings), classifier(query_embeddings)
                 prototypes = protonet.get_prototypes(support_score, task.support_labels, ways, shots)
                 loss, acc = _get_prediction(prototypes, query_score, task.query_labels)
-                valid_loss += loss.numpy()[0]
+                valid_loss += loss.item()
                 valid_acc += acc
         # Average the accumulation through batches
         train_loss, train_acc = train_loss / episodes, train_acc / episodes
@@ -187,7 +187,7 @@ def meta_testing(test_dataset,
             loss, acc = _get_prediction(prototypes, query_score, task.query_labels)
             loss.backward()
             optimizer.step()
-            test_loss += loss.numpy()[0]
+            test_loss += loss.item()
             test_acc += acc
         loss_list.append(test_loss / episodes)
         acc_list.append(test_acc / episodes)

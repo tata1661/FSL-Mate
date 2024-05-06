@@ -145,7 +145,7 @@ def meta_training(train_dataset,
             support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
             prototypes = get_prototypes(support_embeddings, task.support_labels, ways, shots)
             loss, acc = _get_prediction(prototypes, query_embeddings, task.query_labels)
-            train_loss += loss.numpy()[0]
+            train_loss += loss.numpy().item()
             train_acc += acc
             # Update model
             loss.backward()
@@ -158,7 +158,7 @@ def meta_training(train_dataset,
                 support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
                 prototypes = get_prototypes(support_embeddings, task.support_labels, ways, shots)
                 loss, acc = _get_prediction(prototypes, query_embeddings, task.query_labels)
-                valid_loss += loss.numpy()[0]
+                valid_loss += loss.numpy().item()
                 valid_acc += acc
         # Average the accumulation through batches
         train_loss, train_acc = train_loss / episodes, train_acc / episodes
@@ -211,7 +211,7 @@ def meta_testing(test_dataset,
             support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
             prototypes = get_prototypes(support_embeddings, task.support_labels, ways, shots)
             loss, acc = _get_prediction(prototypes, query_embeddings, task.query_labels)
-            test_loss += loss.numpy()[0]
+            test_loss += loss.numpy().item()
             test_acc += acc
         loss_list.append(test_loss / episodes)
         acc_list.append(test_acc / episodes)

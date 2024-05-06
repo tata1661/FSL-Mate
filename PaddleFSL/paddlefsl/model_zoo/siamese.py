@@ -108,7 +108,7 @@ def meta_training(train_dataset,
             model.train()
             support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
             loss, acc = siamese_core(support_embeddings, query_embeddings, task.support_labels, task.query_labels, ways)
-            train_loss += loss.numpy()[0]
+            train_loss += loss.numpy().item()
             train_acc += acc
             # Update model
             loss.backward()
@@ -121,7 +121,7 @@ def meta_training(train_dataset,
                 support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
                 loss, acc = siamese_core(support_embeddings, query_embeddings,
                                          task.support_labels, task.query_labels, ways)
-                valid_loss += loss.numpy()[0]
+                valid_loss += loss.numpy().item()
                 valid_acc += acc
         # Learning rate decay
         if type(lr) is not float and (epoch + 1) % lr_step_epoch == 0:
@@ -171,7 +171,7 @@ def meta_testing(test_dataset,
             task.transfer_backend('tensor')
             support_embeddings, query_embeddings = model(task.support_data), model(task.query_data)
             loss, acc = siamese_core(support_embeddings, query_embeddings, task.support_labels, task.query_labels, ways)
-            test_loss += loss.numpy()[0]
+            test_loss += loss.numpy().item()
             test_acc += acc
         loss_list.append(test_loss / episodes)
         acc_list.append(test_acc / episodes)

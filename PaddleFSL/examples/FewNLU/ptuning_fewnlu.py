@@ -23,7 +23,7 @@ paddle.set_device('gpu:0')
 TASK_NAME = 'tnews'
 LANGUAGE = 'zh'
 MODEL_NAME = 'ernie-1.0'
-data_path = ''
+DATA_PATH = ''
 LEARNING_RATE = 1e-5
 EPOCHS = 10
 BATCH_SIZE = 16
@@ -47,7 +47,7 @@ def main():
                                                                  weight_decay = WEIGHT_DECAY,
                                                                  epochs = EPOCHS,
                                                                  seed = SEED)
-    state_dict = paddle.load(SAVE_DIR + 'model/model_state.pdparams')
+    state_dict = paddle.load('/DATA/renxin/FSL_all/FSL-Mate/PaddleFSL/checkpoint/model/' + 'model_state.pdparams')
     model.set_dict(state_dict)
 
     test_acc = ptuning.do_evaluate(  model=model,

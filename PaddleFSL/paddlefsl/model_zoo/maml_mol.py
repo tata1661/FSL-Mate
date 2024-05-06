@@ -101,7 +101,7 @@ def meta_training(args, model_0, optimizer, criterion, train_dataset, epoch):
         losses_eval.backward()
         optimizer.step()
 
-        print('Train Epoch:', epoch,', train update step:', k, ', loss_eval:', losses_eval.numpy()[0])
+        print('Train Epoch:', epoch,', train update step:', k, ', loss_eval:', losses_eval.numpy().item())
 
     return model_0
 
@@ -185,6 +185,8 @@ def adapt_gradient_descent(model, lr, loss, approximate=True):
     # Do gradient descent on parameters
     gradients = []
     if len(model.parameters()) != 0:
+        for p in model.parameters():
+            p.stop_gradient=False
         gradients = paddle.grad(loss,
                                 model.parameters(),
                                 retain_graph=not approximate,

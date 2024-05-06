@@ -58,6 +58,8 @@ def manual_gradient_descent(model, lr, loss, approximate=True, memo=None):
     # Do gradient descent on parameters
     gradients = []
     if len(model.parameters()) != 0:
+        for p in model.parameters():
+            p.stop_gradient=False
         gradients = paddle.grad(loss,
                                 model.parameters(),
                                 retain_graph=not approximate,

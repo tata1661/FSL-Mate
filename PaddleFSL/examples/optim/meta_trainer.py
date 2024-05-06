@@ -256,7 +256,7 @@ class Trainer:
         train_loss.backward()
         self.optimizer.step()
         self.scheduler.step()
-        self.context.train_loss, self.context.train_acc = train_loss.numpy()[0] / self.config.meta_batch_size, train_acc / self.config.meta_batch_size
+        self.context.train_loss, self.context.train_acc = train_loss.numpy().item() / self.config.meta_batch_size, train_acc / self.config.meta_batch_size
 
     def eval(self, dataset: CVDataset, learner: BaseLearner, mode: str = 'dev'):
         """eval the model on the dataset
@@ -290,7 +290,7 @@ class Trainer:
                 loss, acc = self.compute_loss(
                     task.query_data, task.query_labels, learner,
                 )
-                val_loss += loss.numpy()[0]
+                val_loss += loss.numpy().item()
                 val_acc += acc
             
             test_acc.append(val_acc / self.config.test_batch_size)
