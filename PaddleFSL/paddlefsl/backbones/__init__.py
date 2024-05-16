@@ -20,4 +20,5 @@ from .rc_position_embedding import RCPositionEmbedding
 from .matchingnet import MatchingNet
 from .distlinear import distLinear
 from .gnn_iclr import GNN
-
+from .gin import GIN
+from .gin import All_Embedding

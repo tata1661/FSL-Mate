@@ -4,7 +4,7 @@ Here, we provide examples of applying PaddleFSL to few-shot image classification
 
 
 ## Datasets
-
+            
 We evaluate the performance on 5 benchmark datasets, including Omniglot, *mini*ImageNet, CIFAR-FS, FC100 and Tiered-ImageNet, which can be accessed as described in [raw_data/README.md](../../raw_data/README.md).
 
 

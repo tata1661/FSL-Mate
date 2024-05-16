@@ -27,7 +27,7 @@ TEST_DATASET = paddlefsl.datasets.CifarFS(mode='test')
 WAYS = 5
 SHOTS = 5
 QUERY_NUM = 15
-MODEL = paddlefsl.vision.backbones.Conv(input_size=(3, 32, 32), output_size=WAYS)
+MODEL = paddlefsl.backbones.Conv(input_size=(3, 32, 32), output_size=WAYS)
 MODEL.output = paddle.nn.Flatten()
 LR = paddle.optimizer.lr.ExponentialDecay(learning_rate=0.001, gamma=0.5)
 OPTIMIZER = paddle.optimizer.Adam(learning_rate=LR, parameters=MODEL.parameters())

@@ -28,7 +28,7 @@ __all__ = ['PACKAGE_HOME', 'DATA_HOME',
 
 _current_path = os.path.dirname(__file__)
 PACKAGE_HOME = os.path.abspath(os.path.join(_current_path, '..', '..'))
-DATA_HOME = os.path.join(PACKAGE_HOME, 'raw_data')
+DATA_HOME = "/home/wangyaqing/FSL-Mate/PaddleFSL/raw_data"
 
 
 def process_root(root, module_name=''):

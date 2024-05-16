@@ -27,8 +27,6 @@ annotations and tutorial examples, such that users can easily develop and compar
 
 ## Installation
 
-To use our package, users should first install paddlepaddle-v2.0.0 or later versions, see https://www.paddlepaddle.org.cn/install .
-
 First, install our required packages.
 
 ```bash
@@ -36,7 +34,7 @@ First, install our required packages.
 git clone https://github.com/tata1661/FSL-Mate.git
 # Install requirements.
 cd FSL-Mate/PaddleFSL
-python setup.py install
+source setup.sh
 ```
 
 Second, update environment variables.

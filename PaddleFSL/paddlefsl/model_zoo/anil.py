@@ -67,7 +67,7 @@ def inner_adapt(feature_model,
     # Adapt the head layer
     for step in range(steps):
         loss = loss_fn(head_layer(support_features), support_labels)
-        utils.gradient_descent(head_layer, inner_lr, loss, approximate)
+        utils.manual_gradient_descent(head_layer, inner_lr, loss, approximate)
     # Evaluate the adapted model
     predictions = head_layer(query_features)
     valid_loss = loss_fn(predictions, query_labels)
@@ -166,7 +166,7 @@ def meta_training(train_dataset,
             # Renew original model parameters using inner validation loss
             inner_valid_loss.backward(retain_graph=True)
             # Accumulate inner validation loss and inner validation accuracy
-            train_loss += inner_valid_loss.numpy()[0]
+            train_loss += inner_valid_loss.numpy().item()
             train_acc += inner_valid_acc
             # Do the same adaptation using validation dataset
             if (iteration + 1) % report_iter == 0 or iteration + 1 == iterations:
@@ -175,7 +175,7 @@ def meta_training(train_dataset,
                 data = (task.support_data, task.support_labels), (task.query_data, task.query_labels)
                 loss_acc = inner_adapt(feature_model, head_cloned, data, loss_fn,
                                        inner_lr, inner_adapt_steps * 2, approximate)
-                valid_loss += loss_acc[0].numpy()[0]
+                valid_loss += loss_acc[0].numpy().item()
                 valid_acc += loss_acc[1]
         meta_opt.step()
         scheduler.step()
@@ -237,7 +237,7 @@ def meta_testing(feature_model,
             data = (task.support_data, task.support_labels), (task.query_data, task.query_labels)
             inner_loss, inner_acc = inner_adapt(feature_model, head_cloned, data, loss_fn,
                                                 inner_lr, inner_adapt_steps, approximate)
-            test_loss += inner_loss.numpy()[0]
+            test_loss += inner_loss.numpy().item()
             test_acc += inner_acc
         test_loss, test_acc = test_loss / test_batch_size, test_acc / test_batch_size
         loss.append(test_loss)

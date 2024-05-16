@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+from . import gnn
 from . import maml
 from . import anil
 from . import protonet
@@ -20,4 +20,4 @@ from . import maml_mol
 from . import par
 from . import matchingnet
 from . import baseline
-from . import gnn
+from . import pet

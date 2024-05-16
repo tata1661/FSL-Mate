@@ -24,8 +24,8 @@ from abc import ABC, abstractmethod
 from collections import defaultdict, Counter
 from typing import List, Dict, Callable
 
-import log
-from paddlefsl.datasets.data_glue.utils import InputExample
+from paddlefsl.utils import log
+from paddlefsl.datasets.fewnlu.data_glue.utils import InputExample
 
 
 logger = log.get_logger('root')

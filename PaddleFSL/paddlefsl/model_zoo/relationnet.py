@@ -108,7 +108,7 @@ def meta_training(train_dataset,
             relation_score = relation_model(prototypes, query_embeddings)
             # Loss and accuracy
             loss, acc = _get_prediction(relation_score, task.query_labels, ways)
-            train_loss += loss.numpy()[0]
+            train_loss += loss.numpy().item()
             train_acc += acc
             # Update model
             loss.backward()
@@ -124,7 +124,7 @@ def meta_training(train_dataset,
                 prototypes = protonet.get_prototypes(support_embeddings, task.support_labels, ways, shots)
                 relation_score = relation_model(prototypes, query_embeddings)
                 loss, acc = _get_prediction(relation_score, task.query_labels, ways)
-                valid_loss += loss.numpy()[0]
+                valid_loss += loss.numpy().item()
                 valid_acc += acc
         # Learning rate decay
         if (epoch + 1) % lr_step_epoch == 0 and type(lr) is not float:
@@ -182,7 +182,7 @@ def meta_testing(test_dataset,
             prototypes = protonet.get_prototypes(support_embeddings, task.support_labels, ways, shots)
             relation_score = relation_model(prototypes, query_embeddings)
             loss, acc = _get_prediction(relation_score, task.query_labels, ways)
-            test_loss += loss.numpy()[0]
+            test_loss += loss.numpy().item()
             test_acc += acc
         loss_list.append(test_loss / episodes)
         acc_list.append(test_acc / episodes)

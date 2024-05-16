@@ -20,7 +20,6 @@ import random
 import pgl.graph as G
 from pahelix.datasets import InMemoryDataset
 
-
 try:
     from rdkit import Chem
     from rdkit.Chem import AllChem
@@ -145,7 +144,7 @@ class MoleculeDataset(InMemoryDataset):
         """
         self.dataset = dataset
         self.root = root
-
+        self.result_list=[]
 
         super(MoleculeDataset, self).__init__()
         if not os.path.exists(self.root + "/new/data.pdparams"):
@@ -230,7 +229,7 @@ class MoleculeDataset(InMemoryDataset):
 
     def get_test_data_sample(self, task = 0 , n_shot_test = 10, n_query = 16, update_step_test = 1):
 
-        s_data, q_data, q_data_adapt = self.sample_test_datasets(self.dataset, task, n_shot_test, n_query, update_step_test)
+        s_data, q_data, q_data_adapt, query = self.sample_test_datasets(self.dataset, task, n_shot_test, n_query, update_step_test)
             
         s_data_y = np.stack([i.y[0] for i in s_data.data_list])
 
@@ -240,7 +239,7 @@ class MoleculeDataset(InMemoryDataset):
         adapt_data = {'s_data': G.Graph.batch(s_data.data_list), 's_label': paddle.to_tensor(s_data_y), 'data_loader': q_loader_adapt}
         eval_data = {'s_data': G.Graph.batch(s_data.data_list), 's_label': paddle.to_tensor(s_data_y), 'data_loader': q_loader}
 
-        return adapt_data, eval_data
+        return adapt_data, eval_data, query
 
     def sample_meta_datasets(self, dataset, task, n_shot, n_query):
         distri_list = obtain_distr_list(dataset)
@@ -278,7 +277,7 @@ class MoleculeDataset(InMemoryDataset):
         q_sample = sample_inds(q_list, update_step * n_query)
         q_data_adapt = self[q_sample]
 
-        return s_data, q_data, q_data_adapt
+        return s_data, q_data, q_data_adapt,q_list
 
 
 def _load_dataset(input_path):

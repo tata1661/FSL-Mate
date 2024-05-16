@@ -107,9 +107,9 @@ class FewRel(NLPDataset):
         return len(self._data_list)
 
     def sample_task_set(self, ways=5, shots=5, query_num=None):
-        if not hasattr(self.vector_initializer, '__call__'):
-            raise ValueError("When calling 'sample_task_set', 'vector_initializer' is required "
-                             "to be paddlefsl.backbones.RCInitVector to generate word vector numpy array")
+        # if not hasattr(self.vector_initializer, '__call__'):
+        #     raise ValueError("When calling 'sample_task_set', 'vector_initializer' is required "
+        #                      "to be paddlefsl.backbones.RCInitVector to generate word vector numpy array")
         query_num = shots if query_num is None else query_num
         # result: List[ (str(label name), List[np.ndarray(image)]) ]
         result = []

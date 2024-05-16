@@ -110,7 +110,7 @@ def meta_testing(args, model_0, criterion, test_dataset, epoch, best_auc, logger
     auc_scores = []
     for task_id in range(len(args.test_tasks)):
         task = args.test_tasks[task_id]
-        adapt_data, eval_data = test_dataset[task].get_test_data_sample(task, args.n_shot_test, args.n_query, args.update_step_test)
+        adapt_data, eval_data, query = test_dataset[task].get_test_data_sample(task, args.n_shot_test, args.n_query, args.update_step_test)
         model = utils.clone_model(model_0)
         
         if args.update_step_test>0:
@@ -185,6 +185,8 @@ def adapt_gradient_descent(model, lr, loss, approximate=True):
     # Do gradient descent on parameters
     gradients = []
     if len(model.parameters()) != 0:
+        for p in model.parameters():
+            p.stop_gradient=False
         gradients = paddle.grad(loss,
                                 model.parameters(),
                                 retain_graph=not approximate,

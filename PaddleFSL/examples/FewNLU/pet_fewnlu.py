@@ -17,13 +17,13 @@ import paddlefsl
 from paddlefsl.model_zoo import pet
 
 # Set computing device
-paddle.set_device('gpu:0')
+paddle.set_device('gpu:1')
 
 
-TASK_NAME = 'cb'
-LANGUAGE = 'en'
-MODEL_NAME = 'bert-base-uncased'
-DATA_PATH = 'FewGLUE_32dev/CB/' # if you want to run fewclue tasks, the argument is not needed.
+TASK_NAME = 'eprstmt'
+LANGUAGE = 'zh'
+MODEL_NAME = 'ernie-1.0'
+DATA_PATH = '' # if you want to run fewclue tasks, the argument is not needed.
 LEARNING_RATE = 1e-4
 EPOCHS = 10
 BATCH_SIZE = 16
@@ -53,7 +53,7 @@ def main():
     state_dict = paddle.load(SAVE_DIR + 'model/model_state.pdparams')
     model.set_dict(state_dict)
 
-    test_acc = pet.do_evaluate(  model=model,
+    test_acc = pet.do_evaluate( model=model,
                                 lan=LANGUAGE,
                                 tokenizer=tokenizer,
                                 data_loader=test_dataloader,

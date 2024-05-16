@@ -84,7 +84,7 @@ def get_parser(root_dir='.',
                         help='use batch norm or not')
     parser.add_argument('--pretrained', type=int, default=1, help='pretrained or not')
     parser.add_argument('--pretrained_weight_path', type=str,
-                        default=os.path.abspath(os.path.join(root_dir,"utils/supervised_contextpred.pdparams")), 
+                        default=os.path.abspath(os.path.dirname(__file__)+"/supervised_contextpred.pdparams"), 
                         help='pretrained path')
     parser.add_argument('--num_node_type', type=int, default=120)
     parser.add_argument('--num_node_tag', type=int, default=3)
