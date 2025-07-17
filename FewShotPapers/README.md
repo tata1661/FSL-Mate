@@ -5192,18 +5192,28 @@ and L. Van Gool.*
 *F. X. Han, D. Niu, H. Chen, W. Guo, S. Yan, and B. Long.*
 [paper](https://sites.ualberta.ca/~dniu/Homepage/Publications_files/fhan-KDD20.pdf)
 
+1. **Meta-Learning for Query Conceptualization at Web Scale,** in KDD, 2020.
+*F. X. Han, D. Niu, H. Chen, W. Guo, S. Yan, and B. Long.*
+[paper](https://sites.ualberta.ca/~dniu/Homepage/Publications_files/fhan-KDD20.pdf)
+
 1. **Preference-Adaptive Meta-Learning for Cold-Start Recommendation,** in IJCAI, 2021.
 *L. Wang, B. Jin, Z. Huang, H. Zhao, D. Lian, Q. Liu, and E. Chen.*
 [paper](https://www.ijcai.org/proceedings/2021/0222.pdf)
+
+1. **A Dynamic Meta-Learning Model for Time-Sensitive Cold-Start Recommendations,** in AAAI, 2022.
+*K. P. Neupane, E. Zheng, Y. Kong, and Q. Yu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20756/20515)
+
+1. **SMINet: State-Aware Multi-Aspect Interests Representation Network for Cold-Start Users Recommendation,** in AAAI, 2022.
+*W. Tao, Y. Li, L. Li, Z. Chen, H. Wen, P. Chen, T. Liang, and Q. Lu.*
+[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20824)
+[code](https://github.com/wanjietao/Fliggy-SMINet-AAAI2022)
 
 1. **Recognizing Medical Search Query Intent by Few-Shot Learning,** in SIGIR, 2022.
 *Y. Wang, S. Wang, L. Yanyan, and D. Dou.*
 [paper](https://dl.acm.org/doi/abs/10.1145/3477495.3531789)
 [code](https://github.com/tata1661/MEDIC-SIGIR22)
 
-1. **Meta-Learning for Query Conceptualization at Web Scale,** in KDD, 2020.
-*F. X. Han, D. Niu, H. Chen, W. Guo, S. Yan, and B. Long.*
-[paper](https://sites.ualberta.ca/~dniu/Homepage/Publications_files/fhan-KDD20.pdf)
 1. **Meta-Learning Helps Personalized Product Search,** in WWW, 2022.
 *B. Wu, Z. Meng, Q. Zhang, and S. Liang.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512036)
@@ -5234,15 +5244,6 @@ and L. Van Gool.*
 1. **Bootstrapping Contrastive Learning Enhanced Music Cold-Start Matching,** in WWW, 2023.
 *X. Zhao, Y. Zhang, Q. Xiao, Y. Ren, and Y. Yang.*
 [paper](https://dl.acm.org/doi/pdf/10.1145/3543873.3584626)
-
-1. **A Dynamic Meta-Learning Model for Time-Sensitive Cold-Start Recommendations,** in AAAI, 2022.
-*K. P. Neupane, E. Zheng, Y. Kong, and Q. Yu.*
-[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20756/20515)
-
-1. **SMINet: State-Aware Multi-Aspect Interests Representation Network for Cold-Start Users Recommendation,** in AAAI, 2022.
-*W. Tao, Y. Li, L. Li, Z. Chen, H. Wen, P. Chen, T. Liang, and Q. Lu.*
-[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20824)
-[code](https://github.com/wanjietao/Fliggy-SMINet-AAAI2022)
 
 1. **M2EU: Meta Learning for Cold-Start Recommendation via Enhancing User Preference Estimation,** in SIGIR, 2023.
 *Z. Wu, and X. Zhou.*
