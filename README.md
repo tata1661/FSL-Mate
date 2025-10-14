@@ -13,9 +13,10 @@ In particular, FSL-Mate currently contains
 We are endeavored to constantly update FSL-Mate. Hopefully, it can make FSL easier. 
 
 ## News🔥 
+- [2025-10-14] Add FSL papers published in CVPR 2025, ACL 2025 and IJCAI 2025.
+
 - [2025-07-17] Add FSL papers published in CVPR 2024, ICML 2024, IJCAI 2024, ACL 2024, NeurIPS 2024, EMNLP 2024, ICCV 2024, ICLR 2025, WWW 2024-2025, KDD 2024-2025, AAAI 2024-2025, NAACL 2024-2025, SIGIR 2024-2025.
-- [2024-03-06] Add FSL papers published in ICLR 2024.
-- [2024-02-20] Add FSL papers published in AAAI and EMNLP 2023.
+
 
 ## Cite Us
 

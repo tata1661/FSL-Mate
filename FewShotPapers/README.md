@@ -306,6 +306,10 @@ Please cite our paper if you find it helpful.
 *Y. Bai, Y. K. Tan, S. Chen, Y. Shu, and T. Chen.*
 [paper](https://doi.org/10.1609/aaai.v39i15.33697)
 
+1. **COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation,** in CVPR, 2025.
+*A. M. Das, G. Bhatt, L. Kumari, S. Verma, and J. Bilmes.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Das_COBRA_COmBinatorial_Retrieval_Augmentation_for_Few-Shot_Adaptation_CVPR_2025_paper.html)
+
 ## [Model](#content)
 
 ### Multitask Learning
@@ -1916,6 +1920,29 @@ and L. Van Gool.*
 *J. Kim, and Y. Yang.*
 [paper](https://doi.org/10.18653/v1/2025.naacl-long.598)
 
+1. **Rethinking Few-Shot Adaptation of Vision-Language Models in Two Stages,** in CVPR, 2025.
+*M. Farina, M. Mancini, G. Iacca, and E. Ricci.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Farina_Rethinking_Few-Shot_Adaptation_of_Vision-Language_Models_in_Two_Stages_CVPR_2025_paper.html)
+
+1. **ImagineFSL: Self-Supervised Pretraining Matters on Imagined Base Set for VLM-based Few-shot Learning,** in CVPR, 2025.
+*H. Yang, X. Li, J. Lv, X. Cheng, Q. Wang, and P. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Yang_ImagineFSL_Self-Supervised_Pretraining_Matters_on_Imagined_Base_Set_for_VLM-based_CVPR_2025_paper.html)
+
+1. **Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning,** in CVPR, 2025.
+*Z. Tian, Y. Liu, and Q. Sun.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Meta-Learning_Hyperparameters_for_Parameter_Efficient_Fine-Tuning_CVPR_2025_paper.html)
+
+1. **ProKeR: A Kernel Perspective on Few-Shot Adaptation of Large Vision-Language Models,** in CVPR, 2025.
+*Y. Bendou, A. Ouasfi, V. Gripon, and A. Boukhayma.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Bendou_ProKeR_A_Kernel_Perspective_on_Few-Shot_Adaptation_of_Large_Vision-Language_CVPR_2025_paper.html)
+
+1. **LoRA Recycle: Unlocking Tuning-Free Few-Shot Adaptability in Visual Foundation Models by Recycling Pre-Tuned LoRAs,** in CVPR, 2025.
+*Z. Hu, Y. Wei, L. Shen, C. Yuan, and D. Tao.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Hu_LoRA_Recycle_Unlocking_Tuning-Free_Few-Shot_Adaptability_in_Visual_Foundation_Models_CVPR_2025_paper.html)
+
+1. **Few-Shot Recognition via Stage-Wise Retrieval-Augmented Finetuning,** in CVPR, 2025.
+*T. Liu, H. Zhang, S. Parashar, and S. Kong.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Few-Shot_Recognition_via_Stage-Wise_Retrieval-Augmented_Finetuning_CVPR_2025_paper.html)
 
 
 ### Refining Meta-learned Parameters
@@ -2341,6 +2368,11 @@ and L. Van Gool.*
 1. **Task-Specific Preconditioner for Cross-Domain Few-Shot Learning,** in AAAI, 2025.
 *S. Kang, J. Park, W. Lee, and W. Rhee.*
 [paper](https://doi.org/10.1609/aaai.v39i17.33953)
+
+1. **Improving Generalization in Meta-Learning via Meta-Gradient Augmentation,** in IJCAI, 2025.
+*R. Wang, H. Sun, Y. Lin, X. Zhang, and Y. Yin.*
+[paper](https://doi.org/10.24963/ijcai.2025/711)
+
 
 ### Learning Search Steps
 
@@ -3923,7 +3955,101 @@ and L. Van Gool.*
 *C. Wang, S. He, X. Fang, M. Wu, S.-K. Lam, and P. Tiwari.*
 [paper](https://doi.org/10.1609/aaai.v39i7.32810)
 
+1. **Active Multimodal Distillation for Few-shot Action Recognition,** in IJCAI, 2025.
+*W. Feng, Y. Zhu, R. Zhang, C. Wang, F. Ma, X. Wang, and X. Li.*
+[paper](https://doi.org/10.24963/ijcai.2025/112)
 
+1. **Concentrate on Weakness: Mining Hard Prototypes for Few-Shot Medical Image Segmentation,** in IJCAI, 2025.
+*J. Jiang, and H. Zhang.*
+[paper](https://doi.org/10.24963/ijcai.2025/139)
+
+1. **Connecting Giants: Synergistic Knowledge Transfer of Large Multimodal Models for Few-Shot Learning,** in IJCAI, 2025.
+*H. Tang, S. He, and J. Qin.*
+[paper](https://doi.org/10.24963/ijcai.2025/693)
+
+1. **Boosting Few-Shot Open-Set Object Detection via Prompt Learning and Robust Decision Boundary,** in IJCAI, 2025.
+*Z. Wu, B. Su, Q. Geng, H. Zhang, and Z. Zhou.*
+[paper](https://doi.org/10.24963/ijcai.2025/735)
+
+1. **TAMT: Temporal-Aware Model Tuning for Cross-Domain Few-Shot Action Recognition,** in CVPR, 2025.
+*Y. Wang, Z. Gao, Q. Wang, Z. Chen, P. Li, and Q. Hu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_TAMT_Temporal-Aware_Model_Tuning_for_Cross-Domain_Few-Shot_Action_Recognition_CVPR_2025_paper.html)
+
+1. **Provoking Multi-modal Few-Shot LVLM via Exploration-Exploitation In-Context Learning,** in CVPR, 2025.
+*C. Chen, Y. Zhai, Y. Zhao, J. Gao, B. Ding, and J. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Provoking_Multi-modal_Few-Shot_LVLM_via_Exploration-Exploitation_In-Context_Learning_CVPR_2025_paper.html)
+
+1. **DSV-LFS: Unifying LLM-Driven Semantic Cues with Visual Features for Robust Few-Shot Segmentation,** in CVPR, 2025.
+*A. Karimi, and C. Poullis.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Karimi_DSV-LFS_Unifying_LLM-Driven_Semantic_Cues_with_Visual_Features_for_Robust_CVPR_2025_paper.html)
+
+1. **The Devil is in Low-Level Features for Cross-Domain Few-Shot Segmentation,** in CVPR, 2025.
+*Y. Liu, Y. Zou, Y. Li, and R. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_The_Devil_is_in_Low-Level_Features_for_Cross-Domain_Few-Shot_Segmentation_CVPR_2025_paper.html)
+
+1. **MobilePortrait: Real-Time One-Shot Neural Head Avatars on Mobile Devices,** in CVPR, 2025.
+*J. Jiang, G. Lin, Z. Rong, C. Liang, Y. Zhu, J. Yang, and T. Zhong.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_MobilePortrait_Real-Time_One-Shot_Neural_Head_Avatars_on_Mobile_Devices_CVPR_2025_paper.html)
+
+1. **Visual Prompting for One-shot Controllable Video Editing without Inversion,** in CVPR, 2025.
+*Z. Zhang, Y. Zhou, D. Peng, J.-H. Lim, Z. Tu, D. W. Soh, and L. G. Foo.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Visual_Prompting_for_One-shot_Controllable_Video_Editing_without_Inversion_CVPR_2025_paper.html)
+
+1. **3D Prior Is All You Need: Cross-Task Few-shot 2D Gaze Estimation,** in CVPR, 2025.
+*Y. Cheng, H. Wang, Z. Zhang, Y. Yue, B. Kim, F. Lu, and H. J. Chang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_3D_Prior_Is_All_You_Need_Cross-Task_Few-shot_2D_Gaze_CVPR_2025_paper.html)
+
+1. **GoLF-NRT: Integrating Global Context and Local Geometry for Few-Shot View Synthesis,** in CVPR, 2025.
+*Y. Wang, L. Fang, H. Zhu, F. Hu, L. Ye, and Z. Ma.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_GoLF-NRT_Integrating_Global_Context_and_Local_Geometry_for_Few-Shot_View_CVPR_2025_paper.html)
+
+1. **EAP-GS: Efficient Augmentation of Pointcloud for 3D Gaussian Splatting in Few-shot Scene Reconstruction,** in CVPR, 2025.
+*D. Dai, and Y. Xing.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_EAP-GS_Efficient_Augmentation_of_Pointcloud_for_3D_Gaussian_Splatting_in_CVPR_2025_paper.html)
+
+1. **Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model,** in CVPR, 2025.
+*Z. An, G. Sun, Y. Liu, R. Li, J. Han, E. Konukoglu, and S. J. Belongie.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/An_Generalized_Few-shot_3D_Point_Cloud_Segmentation_with_Vision-Language_Model_CVPR_2025_paper.html)
+
+1. **Unleashing In-context Learning of Autoregressive Models for Few-shot Image Manipulation,** in CVPR, 2025.
+*B. Lai, F. Juefei-Xu, M. Liu, X. Dai, N. Mehta, C. Zhu, Z. Huang, J. M. Rehg, S. Lee, N. Zhang, and T. Xiao.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lai_Unleashing_In-context_Learning_of_Autoregressive_Models_for_Few-shot_Image_Manipulation_CVPR_2025_paper.html)
+
+1. **FOCUS: Knowledge-enhanced Adaptive Visual Compression for Few-shot Whole Slide Image Classification,** in CVPR, 2025.
+*Z. Guo, C. Xiong, J. Ma, Q. Sun, L. Feng, J. Wang, and H. Chen.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Guo_FOCUS_Knowledge-enhanced_Adaptive_Visual_Compression_for_Few-shot_Whole_Slide_Image_CVPR_2025_paper.html)
+
+1. **Few-shot Personalized Scanpath Prediction,** in CVPR, 2025.
+*R. Xue, J. Xu, S. Mondal, H. Le, G. J. Zelinsky, M. Hoai, and D. Samaras.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Xue_Few-shot_Personalized_Scanpath_Prediction_CVPR_2025_paper.html)
+
+1. **FrugalNeRF: Fast Convergence for Extreme Few-shot Novel View Synthesis without Learned Priors,** in CVPR, 2025.
+*C.-Y. Lin, C.-H. Wu, C.-H. Yeh, S.-H. Yen, C. Sun, and Y.-L. Liu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_FrugalNeRF_Fast_Convergence_for_Extreme_Few-shot_Novel_View_Synthesis_without_CVPR_2025_paper.html)
+
+1. **Text Augmented Correlation Transformer For Few-shot Classification & Segmentation,** in CVPR, 2025.
+*S. R. Nandam, S. Atito, Z. Feng, J. Kittler, and M. Awais.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Nandam_Text_Augmented_Correlation_Transformer_For_Few-shot_Classification__Segmentation_CVPR_2025_paper.html)
+
+1. **Logits DeConfusion with CLIP for Few-Shot Learning,** in CVPR, 2025.
+*S. Li, F. Liu, Z. Hao, X. Wang, L. Li, X. Liu, P. Chen, and W. Ma.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Logits_DeConfusion_with_CLIP_for_Few-Shot_Learning_CVPR_2025_paper.html)
+
+1. **One-shot 3D Object Canonicalization based on Geometric and Semantic Consistency,** in CVPR, 2025.
+*L. Jin, Y. Wang, W. Chen, Q. Dai, Q. Gao, X. Qin, and B. Chen.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_One-shot_3D_Object_Canonicalization_based_on_Geometric_and_Semantic_Consistency_CVPR_2025_paper.html)
+
+1. **Few-shot Implicit Function Generation via Equivariance,** in CVPR, 2025.
+*S. Huang, X. Yang, H. Lu, and X. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_Few-shot_Implicit_Function_Generation_via_Equivariance_CVPR_2025_paper.html)
+
+1. **Single Domain Generalization for Few-Shot Counting via Universal Representation Matching,** in CVPR, 2025.
+*X. Chen, S. Huo, B. Jiang, H. Hu, and X. Chen.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Single_Domain_Generalization_for_Few-Shot_Counting_via_Universal_Representation_Matching_CVPR_2025_paper.html)
+
+1. **A3: Few-shot Prompt Learning of Unlearnable Examples with Cross-Modal Adversarial Feature Alignment,** in CVPR, 2025.
+*X. Wang, X. Gao, D. Liao, T. Qin, Y.-l. Lu, and C.-Z. Xu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_A3_Few-shot_Prompt_Learning_of_Unlearnable_Examples_with_Cross-Modal_Adversarial_CVPR_2025_paper.html)
 
 ### Robotics
 
@@ -4878,6 +5004,38 @@ and L. Van Gool.*
 *K. Sun, H. Wu, B. Shi, S. Mensah, P. Liu, and B. Dong.*
 [paper](https://doi.org/10.1609/aaai.v39i24.34707)
 
+1. **Instance Relation Learning Network with Label Knowledge Propagation for Few-shot Multi-label Intent Detection,** in IJCAI, 2025.
+*S. Zhao, S. Li, W. Chen, T. Wang, J. Yao, J. Zheng, and K.-F. Wong.*
+[paper](https://doi.org/10.24963/ijcai.2025/791)
+
+1. **Bridging Generative and Discriminative Learning: Few-Shot Relation Extraction via Two-Stage Knowledge-Guided Pre-training,** in IJCAI, 2025.
+*Q. Guo, J. Zhang, S. Wang, L. Tian, Z. Kang, B. Yan, and W. Xiao.*
+[paper](https://doi.org/10.24963/ijcai.2025/897)
+
+1. **Multi-task Adversarial Attacks against Black-box Model with Few-shot Queries,** in ACL, 2025.
+*W. Wang, Y. Xiao, H. Lin, Y. Zhang, and X. Cao.*
+[paper](https://aclanthology.org/2025.acl-long.684/)
+
+1. **DS²-ABSA: Dual-Stream Data Synthesis with Label Refinement for Few-Shot Aspect-Based Sentiment Analysis,** in ACL, 2025.
+*H. Xu, Y. Zhang, Q. Wang, and R. Xu.*
+[paper](https://aclanthology.org/2025.acl-long.752/)
+
+1. **A Self-Denoising Model for Robust Few-Shot Relation Extraction,** in ACL, 2025.
+*L. Zhang, Y. Zhang, Z. Lu, F. Meng, J. Zhou, and J. Su.*
+[paper](https://aclanthology.org/2025.acl-long.1299/)
+
+1. **ALGEN: Few-shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment and Generation,** in ACL, 2025.
+*Y. Chen, Q. Xu, and J. Bjerva.*
+[paper](https://aclanthology.org/2025.acl-long.1185/)
+
+1. **AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations,** in ACL, 2025.
+*G. Verma, R. Kaur, N. Srishankar, Z. Zeng, T. Balch, and M. Veloso.*
+[paper](https://aclanthology.org/2025.acl-long.1008/)
+
+1. **Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning,** in ACL, 2025.
+*S. Wang, X. Jin, Z. Wang, J. Wang, J. Zhang, K. Li, Z. Wen, Z. Li, C. He, X. Hu, and L. Zhang.*
+[paper](https://aclanthology.org/2025.acl-long.1135/)
+
 
 
 ### Acoustic Signal Processing
@@ -5150,6 +5308,14 @@ and L. Van Gool.*
 *J. Kim, C. Heo, and J. Jung.*
 [paper](https://doi.org/10.1145/3726302.3730241)
 
+1. **OS-GCL: A One-Shot Learner in Graph Contrastive Learning,** in IJCAI, 2025.
+*C. Ji, C. He, Q. Li, Q. Sun, X. Fu, and J. Li.*
+[paper](https://doi.org/10.24963/ijcai.2025/330)
+
+1. **FS-KEN: Few-shot Knowledge Graph Reasoning by Adversarial Negative Enhancing,** in IJCAI, 2025.
+*L. Meng, K. Liang, Z. Zhu, X. Liu, and W. Lu.*
+[paper](https://doi.org/10.24963/ijcai.2025/512)
+
 ### Recommendation
 
 1. **A Meta-Learning Perspective on Cold-Start Recommendations for Items,** in NeurIPS, 2017.
@@ -5418,6 +5584,18 @@ and L. Van Gool.*
 1. **Kernel-Aware Graph Prompt Learning for Few-Shot Anomaly Detection,** in AAAI, 2025.
 *F. Tao, G.-S. Xie, F. Zhao, and X. Shu.*
 [paper](https://doi.org/10.1609/aaai.v39i7.32790)
+
+1. **UniVAD: A Training-free Unified Model for Few-shot Visual Anomaly Detection,** in CVPR, 2025.
+*Z. Gu, B. Zhu, G. Zhu, Y. Chen, M. Tang, and J. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Gu_UniVAD_A_Training-free_Unified_Model_for_Few-shot_Visual_Anomaly_Detection_CVPR_2025_paper.html)
+
+1. **TailedCore: Few-Shot Sampling for Unsupervised Long-Tail Noisy Anomaly Detection,** in CVPR, 2025.
+*Y. G. Jung, J. Park, J. Yoon, K.-C. Peng, W. Kim, A. B. J. Teoh, and O. I. Camps.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Jung_TailedCore_Few-Shot_Sampling_for_Unsupervised_Long-Tail_Noisy_Anomaly_Detection_CVPR_2025_paper.html)
+
+1. **Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation,** in CVPR, 2025.
+*Y. Jin, J. Peng, Q. He, T. Hu, J. Wu, H. Chen, H. Wang, W. Zhu, M. Chi, J. Liu, and Y. Wang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_Dual-Interrelated_Diffusion_Model_for_Few-Shot_Anomaly_Image_Generation_CVPR_2025_paper.html)
 
 ### AI for Science
 
@@ -5735,6 +5913,32 @@ and L. Van Gool.*
 1. **Retrieving Versus Understanding Extractive Evidence in Few-Shot Learning,** in AAAI, 2025.
 *K. Elbakian, and S. Carton.*
 [paper](https://doi.org/10.1609/aaai.v39i26.34936)
+
+1. **Transferable Relativistic Predictor: Mitigating Cross-Task Cold-Start Issue in NAS,** in IJCAI, 2025.
+*N. Li, B. Xue, L. Ma, and M. Zhang.*
+[paper](https://doi.org/10.24963/ijcai.2025/626)
+
+1. **Latte: Transfering LLMs' Latent-level Knowledge for Few-shot Tabular Learning,** in IJCAI, 2025.
+*R. Shi, H. Gu, H. Ye, Y. Dai, X. Shen, and X. Wang.*
+[paper](https://doi.org/10.24963/ijcai.2025/687)
+
+1. **Dual-Agent Optimization framework for Cross-Domain Few-Shot Segmentation,** in CVPR, 2025.
+*Z. Li, Y. Wang, W. Li, T. Zhang, and X. Liu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Dual-Agent_Optimization_framework_for_Cross-Domain_Few-Shot_Segmentation_CVPR_2025_paper.html)
+
+1. **Temporal Alignment-Free Video Matching for Few-shot Action Recognition,** in CVPR, 2025.
+*S. Lee, W. Moon, H. S. Seong, and J.-P. Heo.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Temporal_Alignment-Free_Video_Matching_for_Few-shot_Action_Recognition_CVPR_2025_paper.html)
+
+1. **Synthetic Prior for Few-Shot Drivable Head Avatar Inversion,** in CVPR, 2025.
+*W. Zielonka, S. J. Garbin, A. Lattas, G. Kopanas, P. F. U. Gotardo, T. Beeler, J. Thies, and T. Bolkart.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zielonka_Synthetic_Prior_for_Few-Shot_Drivable_Head_Avatar_Inversion_CVPR_2025_paper.html)
+
+1. **FFaceNeRF: Few-shot Face Editing in Neural Radiance Fields,** in CVPR, 2025.
+*K. Yun, C. Kim, H. Shin, and J. Noh.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Yun_FFaceNeRF_Few-shot_Face_Editing_in_Neural_Radiance_Fields_CVPR_2025_paper.html)
+
+
 
 ## [Theories](#content)
 
@@ -6087,6 +6291,11 @@ and L. Van Gool.*
 1. **Manifold Induced Biases for Zero-shot and Few-shot Detection of Generated Images.,** in ICLR, 2025.
 *J. Brokman, A. Giloni, O. Hofman, R. Vainshtein, H. Kojima, and G. Gilboa.*
 [paper](https://openreview.net/forum?id=7gGl6HB5Zd)
+
+1. **Exploiting Text Semantics for Few and Zero Shot Node Classification on Text-attributed Graph,** in IJCAI, 2025.
+*Y. Wang, X. Yan, S. Jin, Q. Xu, C. Hu, Y. Zhu, B. Du, J. Wu, and J. Jiang.*
+[paper](https://doi.org/10.24963/ijcai.2025/385)
+
 
 ## [Variants of Few-shot Learning](#content)
 
@@ -6592,7 +6801,61 @@ and L. Van Gool.*
 *L. Li, Y. Tan, S. Yang, H. Cheng, Y. Dong, and L. Yang.*
 [paper](https://doi.org/10.1609/aaai.v39i17.34020)
 
+1. **Few-shot Novel Category Discovery,** in IJCAI, 2025.
+*C. Li, S. Wang, and H. Zhang.*
+[paper](https://doi.org/10.24963/ijcai.2025/151)
 
+1. **CD^2: Constrained Dataset Distillation for Few-Shot Class-Incremental Learning,** in IJCAI, 2025.
+*K. Bao, D. Zhang, H. Zhang, Y. Li, Y. Yue, and S. Ge.*
+[paper](https://doi.org/10.24963/ijcai.2025/530)
+
+1. **Few-Shot Incremental Multi-modal Learning via Touch Guidance and Imaginary Vision Synthesis,** in IJCAI, 2025.
+*L. Wei, Y. Ma, Z. Lin, F. Wang, C. Jin, H. Zhao, and D. Chen.*
+[paper](https://doi.org/10.24963/ijcai.2025/228)
+
+1. **One-shot Federated Learning Methods: A Practical Guide,** in IJCAI, 2025.
+*X. Liu, Z. Tang, X. Li, Y. Song, S. Ji, Z. Liu, B. Han, L. Jiang, and J. Li.*
+[paper](https://doi.org/10.24963/ijcai.2025/1174)
+
+1. **Tripartite Weight-Space Ensemble for Few-Shot Class-Incremental Learning,** in CVPR, 2025.
+*J. Lee, M. Hayat, and S. Yun.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Tripartite_Weight-Space_Ensemble_for_Few-Shot_Class-Incremental_Learning_CVPR_2025_paper.html)
+
+1. **SEC-Prompt: SEmantic Complementary Prompting for Few-Shot Class-Incremental Learning,** in CVPR, 2025.
+*Y. Liu, and M. Yang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_SEC-PromptSEmantic_Complementary_Prompting_for_Few-Shot_Class-Incremental_Learning_CVPR_2025_paper.html)
+
+1. **Attraction Diminishing and Distributing for Few-Shot Class-Incremental Learning,** in CVPR, 2025.
+*L.-J. Zhao, Z.-D. Chen, Y. Wang, X. Luo, and X.-S. Xu.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_Attraction_Diminishing_and_Distributing_for_Few-Shot_Class-Incremental_Learning_CVPR_2025_paper.html)
+
+1. **Task-Specific Gradient Adaptation for Few-Shot One-Class Classification,** in CVPR, 2025.
+*Y. Li, X. Liu, L. Pan, and Y. Ren.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Task-Specific_Gradient_Adaptation_for_Few-Shot_One-Class_Classification_CVPR_2025_paper.html)
+
+1. **Enhancing Few-Shot Class-Incremental Learning via Training-Free Bi-Level Modality Calibration,** in CVPR, 2025.
+*Y. Chen, T. Ding, L. Wang, J. Huo, Y. Gao, and W. Li.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Enhancing_Few-Shot_Class-Incremental_Learning_via_Training-Free_Bi-Level_Modality_Calibration_CVPR_2025_paper.html)
+
+1. **Hyperbolic Uncertainty-Aware Few-Shot Incremental Point Cloud Segmentation,** in CVPR, 2025.
+*T. Sur, S. Mukherjee, K. Rahaman, S. Chaudhuri, M. H. Khan, and B. Banerjee.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Sur_Hyperbolic_Uncertainty-Aware_Few-Shot_Incremental_Point_Cloud_Segmentation_CVPR_2025_paper.html)
+
+1. **Link-based Contrastive Learning for One-Shot Unsupervised Domain Adaptation,** in CVPR, 2025.
+*Y. Zhang, M. Bin, Y. Zhang, Z. Wang, Z. Han, and C. Liang.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Link-based_Contrastive_Learning_for_One-Shot_Unsupervised_Domain_Adaptation_CVPR_2025_paper.html)
+
+1. **FedBiP: Heterogeneous One-Shot Federated Learning with Personalized Latent Diffusion Models,** in CVPR, 2025.
+*H. Chen, H. Li, Y. Zhang, J. Bi, G. Zhang, Y. Zhang, P. Torr, J. Gu, D. Krompass, and V. Tresp.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_FedBiP_Heterogeneous_One-Shot_Federated_Learning_with_Personalized_Latent_Diffusion_Models_CVPR_2025_paper.html)
+
+1. **Mitigating Non-Representative Prototypes and Representation Bias in Few-Shot Continual Relation Extraction,** in ACL, 2025.
+*T. D. Pham, N. L. Hai, L. N. Van, N. T. N. Diep, S. Dinh, and T. H. Nguyen.*
+[paper](https://aclanthology.org/2025.acl-long.530/)
+
+1. **UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning,** in CVPR, 2025.
+*L. Zhou, F. Shakeri, A. Sadraoui, M. Kaaniche, J.-C. Pesquet, and I. B. Ayed.*
+[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_UNEM_UNrolled_Generalized_EM_for_Transductive_Few-Shot_Learning_CVPR_2025_paper.html)
 
 ## [Datasets/Benchmarks](#content)
 
