@@ -4167,6 +4167,203 @@ and L. Van Gool.*
 *Y. Shi, W. Yan, G. Xu, Y. Li, Y. Chen, Z. Li, F. Yu, M. Li, and S. Y. Yeo.*
 [paper](https://openaccess.thecvf.com/content/ICCV2025/html/Shi_PVChat_Personalized_Video_Chat_with_One-Shot_Learning_ICCV_2025_paper.html)
 
+
+1. **Foundation Model Insights and a Multi-Model Approach for Superior Fine-Grained One-shot Subset Selection,** in ICML, 2025.
+*Z. Wan, Z. Wang, Z. Wang, X. Xu, and S. Satoh.*
+[paper](https://proceedings.mlr.press/v267/wan25f.html)
+
+1. **PCEvolve: Private Contrastive Evolution for Synthetic Dataset Generation via Few-Shot Private Data and Generative APIs,** in ICML, 2025.
+*J. Zhang, Y. Liu, J. Fu, Y. Hua, T. Zou, J. Cao, and Q. Yang.*
+[paper](https://proceedings.mlr.press/v267/zhang25ay.html)
+
+1. **Adapter Naturally Serves as Decoupler for Cross-Domain Few-Shot Semantic Segmentation,** in ICML, 2025.
+*J. Tong, R. Ma, Y. Zou, G. Chen, Y. Li, and R. Li.*
+[paper](https://proceedings.mlr.press/v267/tong25b.html)
+
+1. **Adaptive Multi-prompt Contrastive Network for Few-shot Out-of-distribution Detection,** in ICML, 2025.
+*X. Fang, A. Easwaran, and B. Genest.*
+[paper](https://proceedings.mlr.press/v267/fang25a.html)
+
+1. **Revisiting Continuity of Image Tokens for Cross-domain Few-shot Learning,** in ICML, 2025.
+*S. Yi, Y. Zou, Y. Li, and R. Li.*
+[paper](https://proceedings.mlr.press/v267/yi25e.html)
+
+1. **The Surprising Effectiveness of Test-Time Training for Few-Shot Learning,** in ICML, 2025.
+*E. Akyürek, M. Damani, A. Zweiger, L. Qiu, H. Guo, J. Pari, Y. Kim, and J. Andreas.*
+[paper](https://proceedings.mlr.press/v267/akyurek25a.html)
+
+1. **Federated Oriented Learning: A Practical One-Shot Personalized Federated Learning Framework,** in ICML, 2025.
+*G. Huang, and T. Shu.*
+[paper](https://proceedings.mlr.press/v267/huang25ae.html)
+
+1. **Feedforward Few-shot Species Range Estimation,** in ICML, 2025.
+*C. Lange, M. Hamilton, E. Cole, A. Shepard, S. Heinrich, A. Zhu, S. Maji, G. V. Horn, and O. M. Aodha.*
+[paper](https://proceedings.mlr.press/v267/lange25a.html)
+
+1. **Revisiting Neural Networks for Few-Shot Learning: A Zero-Cost NAS Perspective,** in ICML, 2025.
+*H. Kang.*
+[paper](https://proceedings.mlr.press/v267/kang25e.html)
+
+1. **Self-Disentanglement and Re-Composition for Cross-Domain Few-Shot Segmentation,** in ICML, 2025.
+*J. Tong, Y. Zou, G. Chen, Y. Li, and R. Li.*
+[paper](https://proceedings.mlr.press/v267/tong25d.html)
+
+1. **Self-cross Feature based Spiking Neural Networks for Efficient Few-shot Learning,** in ICML, 2025.
+*Q. Xu, J. Zhu, D. Zhou, H. Chen, Y. Liu, J. Shen, and Q. Zhang.*
+[paper](https://proceedings.mlr.press/v267/xu25aq.html)
+
+1. **Provably Improving Generalization of Few-shot models with Synthetic Data,** in ICML, 2025.
+*L.-C. Nguyen, Q. Nguyen-Tri, B. T. Khanh, D. D. Le, L. Tran-Thanh, and K. Than.*
+[paper](https://proceedings.mlr.press/v267/nguyen25h.html)
+
+1. **One-Shot Heterogeneous Federated Learning with Local Model-Guided Diffusion Models,** in ICML, 2025.
+*M. Yang, S. Su, B. Li, and X. Xue.*
+[paper](https://proceedings.mlr.press/v267/yang25ad.html)
+
+1. **FedBEns: One-Shot Federated Learning based on Bayesian Ensemble,** in ICML, 2025.
+*J. Talpini, M. Savi, and G. Neglia.*
+[paper](https://proceedings.mlr.press/v267/talpini25a.html)
+
+1. **Few-Shot Learner Generalizes Across AI-Generated Image Detection,** in ICML, 2025.
+*S. Wu, J. Liu, J. Li, and Y. Wang.*
+[paper](https://proceedings.mlr.press/v267/wu25r.html)
+
+1. **Geometric Feature Embedding for Effective 3D Few-Shot Class Incremental Learning,** in ICML, 2025.
+*X. Li, L. Huang, Z. An, W. Feng, C. Yang, B. Diao, F. Wang, and Y. Xu.*
+[paper](https://proceedings.mlr.press/v267/li25ad.html)
+
+1. **DyPolySeg: Taylor Series-Inspired Dynamic Polynomial Fitting Network for Few-shot Point Cloud Semantic Segmentation,** in ICML, 2025.
+*C. Wang, X. Fang, and P. Tiwari.*
+[paper](https://proceedings.mlr.press/v267/wang25aa.html)
+
+1. **Does One-shot Give the Best Shot? Mitigating Model Inconsistency in One-shot Federated Learning,** in ICML, 2025.
+*H. Zeng, W. Huang, T. Zhou, X. Wu, G. Wan, Y. Chen, and Z. Cai.*
+[paper](https://proceedings.mlr.press/v267/zeng25c.html)
+
+1. **SAND: One-Shot Feature Selection with Additive Noise Distortion,** in ICML, 2025.
+*P. Pad, H. Hammoud, M. Dia, N. Maamari, and L. A. Dunbar.*
+[paper](https://proceedings.mlr.press/v267/pad25a.html)
+
+1. **Unlocking the Power of SAM 2 for Few-Shot Segmentation,** in ICML, 2025.
+*Q. Xu, L. Zhu, X. Liu, G. Lin, C. Long, Z. Li, and R. Zhao.*
+[paper](https://proceedings.mlr.press/v267/xu25an.html)
+
+1. **Random Registers for Cross-Domain Few-Shot Learning,** in ICML, 2025.
+*S. Yi, Y. Zou, Y. Li, and R. Li.*
+[paper](https://proceedings.mlr.press/v267/yi25d.html)
+
+1. **Glasses: Enabling Fast Environment-aware Few-Shot Learning via Device-Cloud Collaboration,** in WWW, 2026.
+*Q. He, S. Zhong, J. Yang, F. Chen, H. Jin, and Y. Yang.*
+[paper](https://doi.org/10.1145/3774904.3792110)
+
+1. **FedMHO: Heterogeneous One-Shot Federated Learning Towards Resource-Constrained Clients,** in WWW, 2026.
+*D. Yao, T. Liu, Y. Shi, and Z. Xu.*
+[paper](https://doi.org/10.1145/3774904.3792743)
+
+1. **DeepSenseMoE: Harnessing Power of Time Series Foundation Models for Few-Shot Human Activity Recognition,** in AAAI, 2026.
+*Z. Fu, D. Cheng, L. Zhang, W. Huang, Z. Chen, and H. Wu.*
+[paper](https://doi.org/10.1609/aaai.v40i1.36990)
+
+1. **Intra-Image Mining and Symmetric Maximum Concept Matching for Few Shot Out-of-Distribution Detection,** in AAAI, 2026.
+*K. Chen, P. Fang, and H. Xue.*
+[paper](https://doi.org/10.1609/aaai.v40i4.37280)
+
+1. **Divide-and-Conquer Decoupled Network for Cross-Domain Few-Shot Segmentation,** in AAAI, 2026.
+*R. Cong, A. Wang, B. Wan, C. Zhang, X. Zhou, and W. Zhang.*
+[paper](https://doi.org/10.1609/aaai.v40i5.37338)
+
+1. **One-Shot Refiner: Boosting Feed-forward Novel View Synthesis via One-Step Diffusion,** in AAAI, 2026.
+*Y. Dong, Q. Zhang, M. Jiang, Z. Wu, Q. Fan, Y. Feng, H. Zhang, H. Bao, and G. Zhang.*
+[paper](https://doi.org/10.1609/aaai.v40i5.37365)
+
+1. **A Theory-Inspired Framework for Few-Shot Cross-Modal Sketch Person Re-Identification,** in AAAI, 2026.
+*Y. Gong, Y. Hou, J. Shi, K. L. Diep, and M. Jiang.*
+[paper](https://doi.org/10.1609/aaai.v40i6.42425)
+
+1. **OWL: Unsupervised 3D Object Detection by Occupancy Guided Warm-up and Large Model Priors Reasoning,** in AAAI, 2026.
+*X. Guo, W. Zhang, S. Zhao, Q. Xia, X. Xie, M. Wang, H. Wu, and C. Wen.*
+[paper](https://doi.org/10.1609/aaai.v40i6.42445)
+
+1. **Otter: Mitigating Background Distractions of Wide-Angle Few-Shot Action Recognition with Enhanced RWKV,** in AAAI, 2026.
+*W. Huang, J. Zhang, Z. Chen, G. Li, L. Zhang, Y. Cao, F. Dong, T. Ogawa, and M. Haseyama.*
+[paper](https://doi.org/10.1609/aaai.v40i7.37428)
+
+1. **Less Is Better: Sparse Instance Learning for Cross-Domain Few-Shot Object Detection,** in AAAI, 2026.
+*Y. Huang, J. Mei, Z. Wu, Y. Yang, H. Zhao, M. Jiu, and H. Sahbi.*
+[paper](https://doi.org/10.1609/aaai.v40i7.37432)
+
+1. **Temporal Object-Aware Vision Transformer for Few-Shot Video Object Detection,** in AAAI, 2026.
+*Y. Kumar, and A. Mishra.*
+[paper](https://doi.org/10.1609/aaai.v40i7.37497)
+
+1. **From Dataset to Real-world: General 3D Object Detection via Generalized Cross-domain Few-shot Learning,** in AAAI, 2026.
+*S. Li, J. Shen, L. Ma, and X. Li.*
+[paper](https://doi.org/10.1609/aaai.v40i8.37569)
+
+1. **TIM++: Transductive Information Maximization for Few-Shot CLIP,** in AAAI, 2026.
+*Y. Li, Y. Zou, Y. Huang, C. Jiao, X. Wang, S. Peng, Z. Guo, and S. Gou.*
+[paper](https://doi.org/10.1609/aaai.v40i8.37598)
+
+1. **Task-Specific Distance Correlation Matching for Few-Shot Action Recognition,** in AAAI, 2026.
+*F. Long, Y. Zhang, J. Lv, J. Xie, and P. Li.*
+[paper](https://doi.org/10.1609/aaai.v40i9.37689)
+
+1. **Bridging Granularity Gaps: Hierarchical Semantic Learning for Cross-domain Few-shot Segmentation,** in AAAI, 2026.
+*S. Sun, H. Gu, C. Xie, Y. Ren, M. Ren, and H. Zhang.*
+[paper](https://doi.org/10.1609/aaai.v40i11.37879)
+
+1. **Biologically-Inspired Evolutionary Domain Symbiosis for Few-shot and Zero-shot Point Cloud Semantic Segmentation,** in AAAI, 2026.
+*C. Wang, Z. Hu, X. Fang, Z. Yu, Y. Wu, M. Xu, Y. Wang, X. Gao, and P. Tiwari.*
+[paper](https://doi.org/10.1609/aaai.v40i12.37929)
+
+1. **Training-free Boosting for Few-shot Segmentation via Generalizing Semantic Mining,** in AAAI, 2026.
+*K. Xiao, Z. Wang, Y. Zhang, and J. Li.*
+[paper](https://doi.org/10.1609/aaai.v40i13.38076)
+
+1. **StyleProto: Style-Augmented Prototype Learning for Cross-Domain Few-Shot Object Detection,** in AAAI, 2026.
+*X. Yang, and Q. Xie.*
+[paper](https://doi.org/10.1609/aaai.v40i14.38160)
+
+1. **F2SST: Frequency-to-Spatial Semantic Transfer for Few-Shot Image Classification,** in AAAI, 2026.
+*X. Chen, B. Wang, J. Fan, L. Zhang, and F. Li.*
+[paper](https://doi.org/10.1609/aaai.v40i24.39123)
+
+1. **HAP: Harmonized Amplitude Perturbation for Cross-Domain Few-Shot Learning,** in AAAI, 2026.
+*W. Li, P. Fang, and H. Xue.*
+[paper](https://doi.org/10.1609/aaai.v40i28.39486)
+
+1. **EfficientFSL: Enhancing Few-Shot Classification via Query-Only Tuning In Vision Transformers,** in AAAI, 2026.
+*W. Liao, H. Ruan, J. Yu, B. Song, Y. Wang, and X. Yang.*
+[paper](https://doi.org/10.1609/aaai.v40i28.39519)
+
+1. **Feature-Aware One-Shot Federated Learning via Hierarchical Token Sequences,** in AAAI, 2026.
+*S. Liu, H. Zhang, X. Wang, Y. Zhu, and G. Luo.*
+[paper](https://doi.org/10.1609/aaai.v40i28.39557)
+
+1. **Synthetic Forgetting Without Access: A Few-Shot Zero-Glance Framework for Machine Unlearning,** in AAAI, 2026.
+*Q. Song, N. Yang, Z. Xu, Y. Li, W. Shao, and F. Xia.*
+[paper](https://doi.org/10.1609/aaai.v40i30.39750)
+
+1. **MPA: Multimodal Prototype Augmentation for Few-Shot Learning,** in AAAI, 2026.
+*L. Wu, W. Wang, L. Zhao, Z. Gao, Q. Lin, S. Yao, Z. Liu, and B. Pu.*
+[paper](https://doi.org/10.1609/aaai.v40i32.39909)
+
+1. **QuEPT: Quantized Elastic Precision Transformers with One-Shot Calibration for Multi-Bit Switching,** in AAAI, 2026.
+*K. Xu, Y. Wang, Z. Li, H. Cui, J. Hu, and X. Zhang.*
+[paper](https://doi.org/10.1609/aaai.v40i32.39945)
+
+1. **Decoupling Template Bias in CLIP: Harnessing Empty Prompts for Enhanced Few-Shot Learning,** in AAAI, 2026.
+*Z. Zhang, G. Chen, Y. Zou, Z. Huang, and Y. Li.*
+[paper](https://doi.org/10.1609/aaai.v40i34.40093)
+
+1. **Learning from Imperfect Data: Incremental Learning and Few-shot Learning,** in AAAI, 2026.
+*Y. Liu.*
+[paper](https://doi.org/10.1609/aaai.v40i47.41349)
+
+1. **From Few-Shot Learning to Data-Efficient Intelligence,** in AAAI, 2026.
+*Y. Wang.*
+[paper](https://doi.org/10.1609/aaai.v40i47.41356)
+
 ### Robotics
 
 1. **Towards One Shot Learning by Imitation for Humanoid Robots,** in ICRA, 2010.
@@ -4268,6 +4465,11 @@ and L. Van Gool.*
 1. **Learning on the Go: A Meta-learning Object Navigation Model,** in ICCV, 2025.
 *X. Qin, X. Song, S. Zhang, X. Yu, X. Zhang, and S. Jiang.*
 [paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qin_Learning_on_the_Go_A_Meta-learning_Object_Navigation_Model_ICCV_2025_paper.html)
+
+
+1. **ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation,** in AAAI, 2026.
+*Z. Chen, C. Gao, L. Shao, J. Shi, J. Huo, and Y. Gao.*
+[paper](https://doi.org/10.1609/aaai.v40i22.38881)
 
 ### Natural Language Processing
 
@@ -5206,6 +5408,47 @@ and L. Van Gool.*
 
 
 
+
+1. **SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression,** in ICML, 2025.
+*M. Mozaffari, A. Yazdanbakhsh, and M. M. Dehnavi.*
+[paper](https://proceedings.mlr.press/v267/mozaffari25a.html)
+
+1. **FSTLLM: Spatio-Temporal LLM for Few Shot Time Series Forecasting,** in ICML, 2025.
+*Y. Jiang, Y. Chen, X. Li, Q. Chao, S. Liu, and G. Cong.*
+[paper](https://proceedings.mlr.press/v267/jiang25a.html)
+
+1. **CERTAIN: Context Uncertainty-aware One-Shot Adaptation for Context-based Offline Meta Reinforcement Learning,** in ICML, 2025.
+*H. Zhou, R. Yang, Y. Zhu, H. Zhao, H. Zhang, D. Zhang, J. Zhao, C. Ye, and C. Jiang.*
+[paper](https://proceedings.mlr.press/v267/zhou25ai.html)
+
+1. **DARA: Few-shot Budget Allocation in Online Advertising via In-Context Decision Making with RL-Finetuned LLMs,** in WWW, 2026.
+*M. Song, Y. Huo, B. Zhou, S. Yin, Z. Xiao, J. Long, Z. Zhang, and C. Yu.*
+[paper](https://doi.org/10.1145/3774904.3792129)
+
+1. **Language Model Representations for Efficient Few-Shot Tabular Classification,** in WWW, 2026.
+*I. Kang, P. Ram, Y. Zhou, H. Samulowitz, and O. Seneviratne.*
+[paper](https://doi.org/10.1145/3774904.3792477)
+
+1. **Stabilizing Cross-Modal Bidirectional Attribution: Few-Shot Adversarial Prompt Tuning for Robust Vision-Language Models,** in AAAI, 2026.
+*J. Feng, S. Wu, H. Sun, P. Zhang, B. Ren, and S. Zhang.*
+[paper](https://doi.org/10.1609/aaai.v40i5.37396)
+
+1. **Cross-Domain Few-Shot Learning via Multi-View Collaborative Optimization with Vision-Language Models,** in AAAI, 2026.
+*D. Chen, W. Zhang, Q. Zhu, P. Hu, W. Li, T. Zhang, and R. Wang.*
+[paper](https://doi.org/10.1609/aaai.v40i24.39086)
+
+1. **PEOAT: Personalization-Guided Evolutionary Question Assembly for One-Shot Adaptive Testing,** in AAAI, 2026.
+*X. Yu, Z. Huang, S. Yang, Z. Wang, H. Ma, and X. Zhang.*
+[paper](https://doi.org/10.1609/aaai.v40i33.40022)
+
+1. **TOFA: Training-Free One-Shot Federated Adaptation for Vision-Language Models,** in AAAI, 2026.
+*L. Zhang, Z. Han, X. Feng, J. Zhang, Y. Li, L. Jiang, J. Lin, and C. Chen.*
+[paper](https://doi.org/10.1609/aaai.v40i33.40058)
+
+1. **GEM: Generative Entropy-Guided Preference Modeling for Few-Shot Alignment of LLMs,** in AAAI, 2026.
+*Y. Zhao, H. Bai, and X. Zhao.*
+[paper](https://doi.org/10.1609/aaai.v40i44.41153)
+
 ### Acoustic Signal Processing
 
 1. **One-Shot Learning of Generative Speech Concepts,** in CogSci, 2014. 
@@ -5484,6 +5727,35 @@ and L. Van Gool.*
 *L. Meng, K. Liang, Z. Zhu, X. Liu, and W. Lu.*
 [paper](https://doi.org/10.24963/ijcai.2025/512)
 
+
+1. **GHOST: Generalizable One-Shot Federated Graph Learning with Proxy-Based Topology Knowledge Retention,** in ICML, 2025.
+*J. Qian, G. Wan, W. Huang, G. Zhang, Y. Wu, B. Du, and M. Ye.*
+[paper](https://proceedings.mlr.press/v267/qian25a.html)
+
+1. **Counterfactual Meta-task Augmentation for Few-shot Graph Node Classification,** in WWW, 2026.
+*Z. Wang, J. Zhang, C. Zhang, S. Cheng, J. Liang, and P. Song.*
+[paper](https://doi.org/10.1145/3774904.3792696)
+
+1. **GORAG: Graph-based Online Retrieval Augmented Generation for Dynamic Few-shot Social Media Text Classification,** in WWW, 2026.
+*Y. Wang, H. Li, F. Teng, and L. Chen.*
+[paper](https://doi.org/10.1145/3774904.3793011)
+
+1. **Dual-Geometry Graph Network: Unifying Local and Global Priors for Few-Shot Learning,** in AAAI, 2026.
+*Z. Han, X. Zhu, C. Yang, J. Qin, and X.-C. Yin.*
+[paper](https://doi.org/10.1609/aaai.v40i6.42461)
+
+1. **Few-Shot Precise Event Spotting via Unified Multi-Entity Graph and Distillation,** in AAAI, 2026.
+*Z. Liu, K. Jiang, M. Ma, Z. Hou, Y. Lin, and J. S. Dong.*
+[paper](https://doi.org/10.1609/aaai.v40i9.37681)
+
+1. **DAPrompt: Dual Alignment Prompt of Structure and Semantics for Few-shot Graph Learning,** in AAAI, 2026.
+*L. Jiang, M. Zhu, Y. Wu, X. Liu, X. Zheng, and S. Ben.*
+[paper](https://doi.org/10.1609/aaai.v40i27.39391)
+
+1. **RFKG-CoT: Relation-Driven Adaptive Hop-count Selection and Few-Shot Path Guidance for Knowledge-Aware QA,** in AAAI, 2026.
+*C. Zhang, M. Li, T. Lv, and G. Zhou.*
+[paper](https://doi.org/10.1609/aaai.v40i41.40765)
+
 ### Recommendation
 
 1. **A Meta-Learning Perspective on Cold-Start Recommendations for Items,** in NeurIPS, 2017.
@@ -5701,6 +5973,43 @@ and L. Van Gool.*
 *S. Soleimany, S. Ebrahimi, S. Seyedsalehi, F. Zarrinkalam, and E. Bagheri.*
 [paper](https://doi.org/10.1145/3726302.3730243)
 
+
+1. **Meta-Learning Driven Few-Shot Knowledge Transfer with Dual-Stage Adaptive Data Replay for Cross-Domain Recommendation,** in WWW, 2026.
+*Y. Qiu, F. Xiong, J. Hu, S. Pan, and L. Wang.*
+[paper](https://doi.org/10.1145/3774904.3792443)
+
+1. **MCRec: Few-Shot Multimodal Cover Recommendation via User Interest Profiles,** in WWW, 2026.
+*W. Zheng, C. Song, and T. Ge.*
+[paper](https://doi.org/10.1145/3774904.3792334)
+
+1. **Sharpness-Consistent Cross-Domain Recommendation for Cold-Start Items,** in WWW, 2026.
+*K. Fei, J. Li, Z. Du, and H. Chen.*
+[paper](https://doi.org/10.1145/3774904.3792576)
+
+1. **Warmer for Less: A Cost-Efficient Strategy for Cold-Start Recommendations at Pinterest,** in WWW, 2026.
+*S. Ebrahimi, W. Jiang, J. Yang, O. Gudmundsson, Y. Tu, and H. Duan.*
+[paper](https://doi.org/10.1145/3774904.3792824)
+
+1. **Few-shot and Zero-shot Audience Expansion with User and Task Model Pre-training on Tabular Data,** in WWW, 2026.
+*S. Qiang, P. Li, Z. Yu, M. Sun, J. Chen, and B. Zheng.*
+[paper](https://doi.org/10.1145/3774904.3792847)
+
+1. **LLM Reasoning for Cold-Start Item Recommendation,** in WWW, 2026.
+*S. Li, Y. Wang, J. Wang, Y. Li, J. Ghosh, and A. Cocos.*
+[paper](https://doi.org/10.1145/3774904.3792872)
+
+1. **M²VAE: Multi-Modal Multi-View Variational Autoencoder for Cold-start Item Recommendation,** in AAAI, 2026.
+*C. He, Y. Liu, Q. Li, C. Hong, W. Zhong, and X.-W. Yao.*
+[paper](https://doi.org/10.1609/aaai.v40i17.38501)
+
+1. **NTSFormer: A Self-Teaching Graph Transformer for Multimodal Isolated Cold-Start Node Classification,** in AAAI, 2026.
+*J. Hu, Y. He, Y. Li, B. Hooi, and B. He.*
+[paper](https://doi.org/10.1609/aaai.v40i17.38506)
+
+1. **MoToRec: Sparse-Regularized Multimodal Tokenization for Cold-Start Recommender,** in AAAI, 2026.
+*J. Liu, Z. Zhang, and R. C. C. Cheung.*
+[paper](https://doi.org/10.1609/aaai.v40i18.38558)
+
 ### Anomaly Detection
 
 1. **Few-Shot Scene-Adaptive Anomaly Detection,** in ECCV, 2020.
@@ -5784,6 +6093,27 @@ and L. Van Gool.*
 1. **Towards Real Unsupervised Anomaly Detection Via Confident Meta-Learning,** in ICCV, 2025.
 *M. Aqeel, S. Sharifi, M. Cristani, and F. Setti.*
 [paper](https://openaccess.thecvf.com/content/ICCV2025/html/Aqeel_Towards_Real_Unsupervised_Anomaly_Detection_Via_Confident_Meta-Learning_ICCV_2025_paper.html)
+
+
+1. **CIFAD: Causal-Invariant Subspace Learning for Few-Shot Anomaly Detection on Dynamic Relational Graphs,** in WWW, 2026.
+*Y. Xiao, H. Xiang, X. Xu, L. Qi, X. Zhang, W. Fan, and W. Dou.*
+[paper](https://doi.org/10.1145/3774904.3792442)
+
+1. **HAAF: Hierarchical Adaptation and Alignment of Foundation Models for Few-Shot Pathology Anomaly Detection,** in WWW, 2026.
+*C. Yang, W. Zhao, Y. Tang, J. Lu, J. Ge, Q. Liu, Z. Gao, and C. Li.*
+[paper](https://doi.org/10.1145/3774904.3793015)
+
+1. **Commonality in Few: Few-Shot Multimodal Anomaly Detection via Hypergraph-Enhanced Memory,** in AAAI, 2026.
+*Y. Lin, H. Yan, X. Tong, Y. Chang, H. Wang, Z. Zhou, S. Gao, Y. Wang, and W. Zhang.*
+[paper](https://doi.org/10.1609/aaai.v40i9.37636)
+
+1. **Disentangled Generation-Based Prototypical Alignment for Few-Shot Unsupervised Domain Adaptation in Graph-Level Anomaly Detection,** in AAAI, 2026.
+*Z. Ni, C. Zhang, H. Wan, and X. Zhao.*
+[paper](https://doi.org/10.1609/aaai.v40i29.39639)
+
+1. **Leveraging Failed Samples: A Few-Shot and Training-Free Framework for Generalized Deepfake Detection,** in AAAI, 2026.
+*S. Yao, R. Tao, X. Zheng, C. Liang, and C. Zhang.*
+[paper](https://doi.org/10.1609/aaai.v40i33.39998)
 
 ### AI for Science
 
@@ -5915,6 +6245,19 @@ and L. Van Gool.*
 
 
 
+
+
+1. **OFL-SAM2: Prompt SAM2 with Online Few-shot Learner for Efficient Medical Image Segmentation,** in AAAI, 2026.
+*M. Lan, L. Zhang, and X. Li.*
+[paper](https://doi.org/10.1609/aaai.v40i7.37502)
+
+1. **Libra-MIL: Multimodal Prototypes Stereoscopic Infused with Task-specific Language Priors for Few-shot Whole Slide Image Classification,** in AAAI, 2026.
+*Z. Zhuang, F. Zhou, and L. Wang.*
+[paper](https://doi.org/10.1609/aaai.v40i16.38415)
+
+1. **Energy-guided Dual Domain-invariant Prompting Framework with Fourier Regularization for Generalized Few-Shot Medical Segmentation,** in AAAI, 2026.
+*S. Liu, Y. Wu, D. Zhu, and J. Li.*
+[paper](https://doi.org/10.1609/aaai.v40i28.39554)
 
 ### Others
 
@@ -6151,6 +6494,11 @@ and L. Van Gool.*
 [paper](https://openaccess.thecvf.com/content/ICCV2025/html/Yun_FedMeNF_Privacy-Preserving_Federated_Meta-Learning_for_Neural_Fields_ICCV_2025_paper.html)
 
 
+
+
+1. **A Better Start: Sensitivity-Aware Warm-Up for Robust and Efficient Fine-Tuning,** in AAAI, 2026.
+*Y. Chen, Z. Wen, J. Chen, and J. Huang.*
+[paper](https://doi.org/10.1609/aaai.v40i36.40284)
 
 ## [Theories](#content)
 
