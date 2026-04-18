@@ -999,6 +999,10 @@ Please cite our paper if you find it helpful.
 *Z. Duan, L. Zhiyi, C. Wang, B. Chen, B. An, and M. Zhou.*
 [paper](https://openreview.net/attachment?id=dxPcdEeQk9&name=pdf)
 
+1. **Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning,** in ICCV, 2025.
+*T. Jiang, Z. Zhang, Y. Liu, and J. Q. Shi.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Causal_Disentanglement_and_Cross-Modal_Alignment_for_Enhanced_Few-Shot_Learning_ICCV_2025_paper.html)
+
 
 
 ### Generative Modeling
@@ -1184,6 +1188,10 @@ and L. Van Gool.*
 1. **Accelerating Convergence in Bayesian Few-Shot Classification.,** in ICML, 2024.
 *T. Ke, H. Cao, and F. Zhou.*
 [paper](https://openreview.net/forum?id=9PQnc6EWdL)
+
+1. **HypDAE: Hyperbolic Diffusion Autoencoders for Hierarchical Few-shot Image Generation,** in ICCV, 2025.
+*L. Li, K. Fan, B. Gong, and X. Yue.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_HypDAE_Hyperbolic_Diffusion_Autoencoders_for_Hierarchical_Few-shot_Image_Generation_ICCV_2025_paper.html)
 
 ## [Algorithm](#content)
 
@@ -1944,6 +1952,10 @@ and L. Van Gool.*
 *T. Liu, H. Zhang, S. Parashar, and S. Kong.*
 [paper](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Few-Shot_Recognition_via_Stage-Wise_Retrieval-Augmented_Finetuning_CVPR_2025_paper.html)
 
+1. **Sparsity Outperforms Low-Rank Projections in Few-Shot Adaptation,** in ICCV, 2025.
+*N. Mrabah, N. Richet, I. B. Ayed, and E. Granger.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Mrabah_Sparsity_Outperforms_Low-Rank_Projections_in_Few-Shot_Adaptation_ICCV_2025_paper.html)
+
 
 ### Refining Meta-learned Parameters
 
@@ -2372,6 +2384,14 @@ and L. Van Gool.*
 1. **Improving Generalization in Meta-Learning via Meta-Gradient Augmentation,** in IJCAI, 2025.
 *R. Wang, H. Sun, Y. Lin, X. Zhang, and Y. Yin.*
 [paper](https://doi.org/10.24963/ijcai.2025/711)
+
+1. **Meta-Learning Neural Mechanisms rather than Bayesian Priors,** in ACL, 2025.
+*M. E. Goodale, S. Mascarenhas, and Y. Lakretz.*
+[paper](https://aclanthology.org/2025.acl-long.860/)
+
+1. **Is Meta-Learning Out? Rethinking Unsupervised Few-Shot Classification with Limited Entropy,** in ICCV, 2025.
+*Y. Guan, Y. Liu, K. Zhou, Z. Shen, J.-N. Hwang, S. Belongie, and L. Li.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Guan_Is_Meta-Learning_Out_Rethinking_Unsupervised_Few-Shot_Classification_with_Limited_Entropy_ICCV_2025_paper.html)
 
 
 ### Learning Search Steps
@@ -4051,6 +4071,102 @@ and L. Van Gool.*
 *X. Wang, X. Gao, D. Liao, T. Qin, Y.-l. Lu, and C.-Z. Xu.*
 [paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_A3_Few-shot_Prompt_Learning_of_Unlearnable_Examples_with_Cross-Modal_Adversarial_CVPR_2025_paper.html)
 
+1. **Doodle Your Keypoints: Sketch-Based Few-Shot Keypoint Detection,** in ICCV, 2025.
+*S. Maity, A. K. Bhunia, S. Koley, P. N. Chowdhury, A. Sain, and Y.-Z. Song.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Maity_Doodle_Your_Keypoints_Sketch-Based_Few-Shot_Keypoint_Detection_ICCV_2025_paper.html)
+
+1. **Rethinking Few Shot CLIP Benchmarks: A Critical Analysis in the Inductive Setting,** in ICCV, 2025.
+*A. Kravets, D. Chen, and V. P. Namboodiri.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Kravets_Rethinking_Few_Shot_CLIP_Benchmarks_A_Critical_Analysis_in_the_ICCV_2025_paper.html)
+
+1. **Trokens: Semantic-Aware Relational Trajectory Tokens for Few-Shot Action Recognition,** in ICCV, 2025.
+*P. Kumar, S. Huang, M. Walmer, S. S. Rambhatla, and A. Shrivastava.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Kumar_Trokens_Semantic-Aware_Relational_Trajectory_Tokens_for_Few-Shot_Action_Recognition_ICCV_2025_paper.html)
+
+1. **ArtEditor: Learning Customized Instructional Image Editor from Few-Shot Examples,** in ICCV, 2025.
+*S. Huang, Y. Song, Y. Zhang, H. Guo, X. Wang, and J. Liu.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Huang_ArtEditor_Learning_Customized_Instructional_Image_Editor_from_Few-Shot_Examples_ICCV_2025_paper.html)
+
+1. **Balancing Conservatism and Aggressiveness: Prototype-Affinity Hybrid Network for Few-Shot Segmentation,** in ICCV, 2025.
+*T. Zou, S. Xiong, R. Yao, and Y. Rong.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Balancing_Conservatism_and_Aggressiveness_Prototype-Affinity_Hybrid_Network_for_Few-Shot_Segmentation_ICCV_2025_paper.html)
+
+1. **Beyond Label Semantics: Language-Guided Action Anatomy for Few-shot Action Recognition,** in ICCV, 2025.
+*Z. Qian, X. Yao, Y. Huang, C. Zhang, J. Ying, and H. Sun.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qian_Beyond_Label_Semantics_Language-Guided_Action_Anatomy_for_Few-shot_Action_Recognition_ICCV_2025_paper.html)
+
+1. **Few-Shot Pattern Detection via Template Matching and Regression,** in ICCV, 2025.
+*E. Jo, D. Kang, S. Kim, Y. Choi, and M. Cho.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Jo_Few-Shot_Pattern_Detection_via_Template_Matching_and_Regression_ICCV_2025_paper.html)
+
+1. **MOVE: Motion-Guided Few-Shot Video Object Segmentation,** in ICCV, 2025.
+*K. Ying, H. Hu, and H. Ding.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ying_MOVE_Motion-Guided_Few-Shot_Video_Object_Segmentation_ICCV_2025_paper.html)
+
+1. **Self-Ensembling Gaussian Splatting for Few-Shot Novel View Synthesis,** in ICCV, 2025.
+*C. Zhao, X. Wang, T. Zhang, S. Javed, and M. Salzmann.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Zhao_Self-Ensembling_Gaussian_Splatting_for_Few-Shot_Novel_View_Synthesis_ICCV_2025_paper.html)
+
+1. **Object-level Correlation for Few-Shot Segmentation,** in ICCV, 2025.
+*C. Wen, Y. Zhang, J. Fan, H. Zhu, X.-S. Wei, Y. Wang, Z. Kou, and S. Sun.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Wen_Object-level_Correlation_for_Few-Shot_Segmentation_ICCV_2025_paper.html)
+
+1. **Multi-Modal Few-Shot Temporal Action Segmentation,** in ICCV, 2025.
+*Z. Lu, and E. Elhamifar.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_Multi-Modal_Few-Shot_Temporal_Action_Segmentation_ICCV_2025_paper.html)
+
+1. **Enhancing Few-Shot Vision-Language Classification with Large Multimodal Model Features,** in ICCV, 2025.
+*C. Mitra, B. Huang, T. Chai, Z. Lin, A. Arbelle, R. Feris, L. Karlinsky, T. Darrell, D. Ramanan, and R. Herzig.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Mitra_Enhancing_Few-Shot_Vision-Language_Classification_with_Large_Multimodal_Model_Features_ICCV_2025_paper.html)
+
+1. **RI3D: Few-Shot Gaussian Splatting With Repair and Inpainting Diffusion Priors,** in ICCV, 2025.
+*A. Paliwal, X. Zhou, W. Ye, J. Xiong, R. Ranjan, and N. K. Kalantari.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Paliwal_RI3D_Few-Shot_Gaussian_Splatting_With_Repair_and_Inpainting_Diffusion_Priors_ICCV_2025_paper.html)
+
+1. **D2ST-Adapter: Disentangled-and-Deformable Spatio-Temporal Adapter for Few-shot Action Recognition,** in ICCV, 2025.
+*W. Pei, Q. Tan, G. Lu, J. Tian, and J. Yu.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Pei_D2ST-Adapter_Disentangled-and-Deformable_Spatio-Temporal_Adapter_for_Few-shot_Action_Recognition_ICCV_2025_paper.html)
+
+1. **FontAnimate: High Quality Few-shot Font Generation via Animating Font Transfer Process,** in ICCV, 2025.
+*B. Fu, Z. Wang, K. Yan, S. Zhao, Q. Qin, J. Wen, J. He, and P. Gao.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Fu_FontAnimate_High_Quality_Few-shot_Font_Generation_via_Animating_Font_Transfer_ICCV_2025_paper.html)
+
+1. **When Pixel Difference Patterns Meet ViT: PiDiViT for Few-Shot Object Detection,** in ICCV, 2025.
+*H. Zhou, Y. Liu, C. Mo, W. Li, B. Peng, and L. Liu.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_When_Pixel_Difference_Patterns_Meet_ViT_PiDiViT_for_Few-Shot_Object_ICCV_2025_paper.html)
+
+1. **Verbalized Representation Learning for Interpretable Few-Shot Generalization,** in ICCV, 2025.
+*C.-F. Yang, D. Yin, W. Hu, H. Ji, N. Peng, B. Zhou, and K.-W. Chang.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_Verbalized_Representation_Learning_for_Interpretable_Few-Shot_Generalization_ICCV_2025_paper.html)
+
+1. **DeFSS: Image-to-Mask Denoising Learning for Few-shot Segmentation,** in ICCV, 2025.
+*Z. Qin, J. Xu, and W. Ge.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qin_DeFSS_Image-to-Mask_Denoising_Learning_for_Few-shot_Segmentation_ICCV_2025_paper.html)
+
+1. **Few-Shot Image Quality Assessment via Adaptation of Vision-Language Models,** in ICCV, 2025.
+*X. Li, Z. Huang, Y. Zhang, Y. Shen, K. Li, X. Zheng, L. Cao, and R. Ji.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_Few-Shot_Image_Quality_Assessment_via_Adaptation_of_Vision-Language_Models_ICCV_2025_paper.html)
+
+1. **Generalized Few-Shot Point Cloud Segmentation via LLM-Assisted Hyper-Relation Matching,** in ICCV, 2025.
+*Z. Li, Y. Wang, G. Xiong, W. Li, Y. Pan, and T. Zhang.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_Generalized_Few-Shot_Point_Cloud_Segmentation_via_LLM-Assisted_Hyper-Relation_Matching_ICCV_2025_paper.html)
+
+1. **OneGT: One-Shot Geometry-Texture Neural Rendering for Head Avatars,** in ICCV, 2025.
+*J. Chen, B. Li, F. Zhang, S. Zhao, and Q. He.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Chen_OneGT_One-Shot_Geometry-Texture_Neural_Rendering_for_Head_Avatars_ICCV_2025_paper.html)
+
+1. **Controllable and Expressive One-Shot Video Head Swapping,** in ICCV, 2025.
+*C. Ji, J. Qi, P. Zhang, B. Zhang, and L. Bo.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ji_Controllable_and_Expressive_One-Shot_Video_Head_Swapping_ICCV_2025_paper.html)
+
+1. **One-Shot Knowledge Transfer for Scalable Person Re-Identification,** in ICCV, 2025.
+*L. Li, L. Qi, and X. Geng.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_One-Shot_Knowledge_Transfer_for_Scalable_Person_Re-Identification_ICCV_2025_paper.html)
+
+1. **PVChat: Personalized Video Chat with One-Shot Learning,** in ICCV, 2025.
+*Y. Shi, W. Yan, G. Xu, Y. Li, Y. Chen, Z. Li, F. Yu, M. Li, and S. Y. Yeo.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Shi_PVChat_Personalized_Video_Chat_with_One-Shot_Learning_ICCV_2025_paper.html)
+
 ### Robotics
 
 1. **Towards One Shot Learning by Imitation for Humanoid Robots,** in ICRA, 2010.
@@ -4148,6 +4264,10 @@ and L. Van Gool.*
 1. **Predicate Hierarchies Improve Few-Shot State Classification.,** in ICLR, 2025.
 *E. Jin, J. Hsu, and J. Wu.*
 [paper](https://openreview.net/forum?id=lxu8Vz6cLs)
+
+1. **Learning on the Go: A Meta-learning Object Navigation Model,** in ICCV, 2025.
+*X. Qin, X. Song, S. Zhang, X. Yu, X. Zhang, and S. Jiang.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qin_Learning_on_the_Go_A_Meta-learning_Object_Navigation_Model_ICCV_2025_paper.html)
 
 ### Natural Language Processing
 
@@ -5036,6 +5156,54 @@ and L. Van Gool.*
 *S. Wang, X. Jin, Z. Wang, J. Wang, J. Zhang, K. Li, Z. Wen, Z. Li, C. He, X. Hu, and L. Zhang.*
 [paper](https://aclanthology.org/2025.acl-long.1135/)
 
+1. **Detecting Sockpuppetry on Wikipedia Using Meta-Learning,** in ACL, 2025.
+*L. Raszewski, and C. d. Kock.*
+[paper](https://aclanthology.org/2025.acl-long.1083/)
+
+1. **Warmup Generations: A Task-Agnostic Approach for Guiding Sequence-to-Sequence Learning with Unsupervised Initial State Generation,** in ACL, 2025.
+*S. Li, Z. Sun, J. Wang, X. Liu, P. Stenetorp, S. Reddy, and D. I. Adelani.*
+[paper](https://aclanthology.org/2025.acl-long.434/)
+
+1. **Reversal of Thought: Enhancing Large Language Models with Preference-Guided Reverse Reasoning Warm-up,** in ACL, 2025.
+*J. Yuan, D. Du, H. Zhang, Z. Di, and U. Naseem.*
+[paper](https://aclanthology.org/2025.acl-long.955/)
+
+1. **Few-Shot Learning Translation from New Languages,** in EMNLP, 2025.
+*C. Mullov, and A. Waibel.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.163)
+
+1. **LLM-Driven Implicit Target Augmentation and Fine-Grained Contextual Modeling for Zero-Shot and Few-Shot Stance Detection,** in EMNLP, 2025.
+*Y. Ji, J. Ning, Y.-J. Zhang, Z. Liu, and H. Lin.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.299)
+
+1. **Few-Shot Open-Set Classification via Reasoning-Aware Decomposition,** in EMNLP, 2025.
+*A. K. Singh, and H. Yannakoudakis.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.699)
+
+1. **Leveraging Text-to-Text Transformers as Classifier Chain for Few-Shot Multi-Label Classification,** in EMNLP, 2025.
+*Q. A. Nguyen, N. Tomeh, M. Lebbah, T. Charnois, and H. Azzag.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.1368)
+
+1. **Meta-Semantics Augmented Few-Shot Relational Learning,** in EMNLP, 2025.
+*H. Wu, and J. Yin.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.1569)
+
+1. **XAutoLM: Efficient Fine-Tuning of Language Models via Meta-Learning and AutoML,** in EMNLP, 2025.
+*E. L. Estevanell-Valladares, S. Estevez-Velarde, Y. Gutiérrez, A. Montoyo, and R. Mitkov.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.399)
+
+1. **GCML: Gradient Coherence Guided Meta-Learning for Cross-Domain Emerging Topic Rumor Detection,** in EMNLP, 2025.
+*Z. He, J. Huang, M. Lu, Z. Huang, S. Liu, Z. Tian, and D. S. Li.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.968)
+
+1. **Rapid Word Learning Through Meta In-Context Learning,** in EMNLP, 2025.
+*W. Wang, G. Jiang, T. Linzen, and B. M. Lake.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.1631)
+
+1. **Warm Up Before You Train: Unlocking General Reasoning in Resource-Constrained Settings,** in EMNLP, 2025.
+*S. Shrestha, M. Kim, A. Nepal, A. Shrestha, and K. W. Ross.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.727)
+
 
 
 ### Acoustic Signal Processing
@@ -5597,6 +5765,26 @@ and L. Van Gool.*
 *Y. Jin, J. Peng, Q. He, T. Hu, J. Wu, H. Chen, H. Wang, W. Zhu, M. Chi, J. Liu, and Y. Wang.*
 [paper](https://openaccess.thecvf.com/content/CVPR2025/html/Jin_Dual-Interrelated_Diffusion_Model_for_Few-Shot_Anomaly_Image_Generation_CVPR_2025_paper.html)
 
+1. **ReMP-AD: Retrieval-enhanced Multi-modal Prompt Fusion for Few-Shot Industrial Visual Anomaly Detection,** in ICCV, 2025.
+*H. Ma, G. Yang, D. Zhao, Y. Ji, and W. Zuo.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ma_ReMP-AD_Retrieval-enhanced_Multi-modal_Prompt_Fusion_for_Few-Shot_Industrial_Visual_Anomaly_ICCV_2025_paper.html)
+
+1. **FIND: Few-Shot Anomaly Inspection with Normal-Only Multi-Modal Data,** in ICCV, 2025.
+*Y. Li, F. Liu, J. Liao, S. Tian, C.-S. Foo, and X. Yang.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_FIND_Few-Shot_Anomaly_Inspection_with_Normal-Only_Multi-Modal_Data_ICCV_2025_paper.html)
+
+1. **DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary Lookup,** in ICCV, 2025.
+*Z. Qu, X. Tao, X. Gong, S. Qu, X. Zhang, X. Wang, F. Shen, Z. Zhang, M. Prasad, and G. Ding.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Qu_DictAS_A_Framework_for_Class-Generalizable_Few-Shot_Anomaly_Segmentation_via_Dictionary_ICCV_2025_paper.html)
+
+1. **SeaS: Few-shot Industrial Anomaly Image Generation with Separation and Sharing Fine-tuning,** in ICCV, 2025.
+*Z. Dai, S. Zeng, H. Liu, X. Li, F. Xue, and Y. Zhou.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Dai_SeaS_Few-shot_Industrial_Anomaly_Image_Generation_with_Separation_and_Sharing_ICCV_2025_paper.html)
+
+1. **Towards Real Unsupervised Anomaly Detection Via Confident Meta-Learning,** in ICCV, 2025.
+*M. Aqeel, S. Sharifi, M. Cristani, and F. Setti.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Aqeel_Towards_Real_Unsupervised_Anomaly_Detection_Via_Confident_Meta-Learning_ICCV_2025_paper.html)
+
 ### AI for Science
 
 1. **Low Data Drug Discovery With One-Shot Learning,** in ACS Central Science, 2017.
@@ -5637,6 +5825,10 @@ and L. Van Gool.*
 1. **UniMatch: Universal Matching from Atom to Task for Few-Shot Drug Discovery.,** in ICLR, 2025.
 *R. Li, M. Li, W. Liu, Y. Zhou, X. Zhou, Y. Yao, Q. Zhang, and H. Chen.*
 [paper](https://openreview.net/forum?id=v9EjwMM55Y)
+
+1. **Molecular String Representation Preferences in Pretrained LLMs: A Comparative Study in Zero- & Few-Shot Molecular Property Prediction,** in EMNLP, 2025.
+*G. A. Baker, M. Sanz-Guerrero, and K. v. d. Wense.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.56)
 
 
 ### AI for Healthcare
@@ -5716,6 +5908,10 @@ and L. Van Gool.*
 1. **EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records,** in EMNLP, 2024.
 *W. Shi, R. Xu, Y. Zhuang, Y. Yu, J. Zhang, H. Wu, Y. Zhu, J. C. Ho, C. Yang, and M. D. Wang.*
 [paper](https://aclanthology.org/2024.emnlp-main.1245)
+
+1. **One Polyp Identifies All: One-Shot Polyp Segmentation with SAM via Cascaded Priors and Iterative Prompt Evolution,** in ICCV, 2025.
+*X. Mao, X. Xing, F. Meng, J. Liu, F. Bai, Q. Nie, and M. Meng.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Mao_One_Polyp_Identifies_All_One-Shot_Polyp_Segmentation_with_SAM_via_ICCV_2025_paper.html)
 
 
 
@@ -5937,6 +6133,22 @@ and L. Van Gool.*
 1. **FFaceNeRF: Few-shot Face Editing in Neural Radiance Fields,** in CVPR, 2025.
 *K. Yun, C. Kim, H. Shin, and J. Noh.*
 [paper](https://openaccess.thecvf.com/content/CVPR2025/html/Yun_FFaceNeRF_Few-shot_Face_Editing_in_Neural_Radiance_Fields_CVPR_2025_paper.html)
+
+1. **One-Shot is Enough: Consolidating Multi-Turn Attacks into Efficient Single-Turn Prompts for LLMs,** in ACL, 2025.
+*J. Ha, H. Kim, S. Yu, H. Park, A. Yousefpour, Y. Park, and S. Kim.*
+[paper](https://aclanthology.org/2025.acl-long.805/)
+
+1. **Learning from Few Samples: A Novel Approach for High-Quality Malcode Generation,** in EMNLP, 2025.
+*H. Ma, D. Liu, X. Cai, P. Zhou, and Y. Xie.*
+[paper](https://doi.org/10.18653/v1/2025.emnlp-main.72)
+
+1. **Sibai: A Few-Shot Meta-Classifier for Poisoning Detection in Federated Learning,** in ICCV, 2025.
+*M. Götz, T. Krauß, and A. Dmitrienko.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Gotz_Sibai_A_Few-Shot_Meta-Classifier_for_Poisoning_Detection_in_Federated_Learning_ICCV_2025_paper.html)
+
+1. **FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields,** in ICCV, 2025.
+*J. Yun, M. Hong, and G. Kim.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Yun_FedMeNF_Privacy-Preserving_Federated_Meta-Learning_for_Neural_Fields_ICCV_2025_paper.html)
 
 
 
@@ -6857,6 +7069,54 @@ and L. Van Gool.*
 *L. Zhou, F. Shakeri, A. Sadraoui, M. Kaaniche, J.-C. Pesquet, and I. B. Ayed.*
 [paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_UNEM_UNrolled_Generalized_EM_for_Transductive_Few-Shot_Learning_CVPR_2025_paper.html)
 
+1. **Lark: Low-Rank Updates After Knowledge Localization for Few-shot Class-Incremental Learning,** in ICCV, 2025.
+*J. Shi, J. Zhao, Y. Yang, X. Wu, J. Li, and L. He.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Shi_Lark_Low-Rank_Updates_After_Knowledge_Localization_for_Few-shot_Class-Incremental_Learning_ICCV_2025_paper.html)
+
+1. **Incremental Few-Shot Semantic Segmentation via Multi-Level Switchable Visual Prompts,** in ICCV, 2025.
+*M. Wan, K. Li, Q. Geng, W. Shi, and Z. Zhou.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Wan_Incremental_Few-Shot_Semantic_Segmentation_via_Multi-Level_Switchable_Visual_Prompts_ICCV_2025_paper.html)
+
+1. **Towards Effective Foundation Model Adaptation for Extreme Cross-Domain Few-Shot Learning,** in ICCV, 2025.
+*F. Zhou, P. Wang, L. Zhang, W. Wei, C. Ding, G. Lin, and Y. Zhang.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Towards_Effective_Foundation_Model_Adaptation_for_Extreme_Cross-Domain_Few-Shot_Learning_ICCV_2025_paper.html)
+
+1. **Unknown Text Learning for CLIP-based Few-Shot Open-set Recognition,** in ICCV, 2025.
+*R. Ma, Q. Wang, B. Cao, Q. Hu, and Y. Han.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Ma_Unknown_Text_Learning_for_CLIP-based_Few-Shot_Open-set_Recognition_ICCV_2025_paper.html)
+
+1. **Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation,** in ICCV, 2025.
+*J. Liu, J. Shen, P. Zhou, J.-J. Sonke, and E. Gavves.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Probabilistic_Prototype_Calibration_of_Vision-language_Models_for_Generalized_Few-shot_Semantic_ICCV_2025_paper.html)
+
+1. **Revisiting Pool-based Prompt Learning for Few-shot Class-incremental Learning,** in ICCV, 2025.
+*Y. Jiang, Y. Zou, Y. Li, and R. Li.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Revisiting_Pool-based_Prompt_Learning_for_Few-shot_Class-incremental_Learning_ICCV_2025_paper.html)
+
+1. **Adapting In-Domain Few-Shot Segmentation to New Domains without Source Domain Retraining,** in ICCV, 2025.
+*Q. Fan, K. Liu, N. Liu, H. Cholakkal, R. M. Anwer, W. Li, and Y. Gao.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Fan_Adapting_In-Domain_Few-Shot_Segmentation_to_New_Domains_without_Source_Domain_ICCV_2025_paper.html)
+
+1. **Flexi-FSCIL: Adaptive Knowledge Retention for Breaking the Stability-Plasticity Dilemma in Few-Shot Class-Incremental Learning,** in ICCV, 2025.
+*W. Xie, Y. Wang, C. Liu, Z. Jiang, and X. Yang.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Xie_Flexi-FSCIL_Adaptive_Knowledge_Retention_for_Breaking_the_Stability-Plasticity_Dilemma_in_ICCV_2025_paper.html)
+
+1. **Feature Decomposition-Recomposition in Large Vision-Language Model for Few-Shot Class-Incremental Learning,** in ICCV, 2025.
+*Z. Xue, M. Kan, S. Shan, and X. Chen.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Xue_Feature_Decomposition-Recomposition_in_Large_Vision-Language_Model_for_Few-Shot_Class-Incremental_Learning_ICCV_2025_paper.html)
+
+1. **Seeing 3D Through 2D Lenses: 3D Few-Shot Class-Incremental Learning via Cross-Modal Geometric Rectification,** in ICCV, 2025.
+*T. Xiang, X. Xu, B. Liu, J. Li, Y. Li, and S. He.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Xiang_Seeing_3D_Through_2D_Lenses_3D_Few-Shot_Class-Incremental_Learning_via_ICCV_2025_paper.html)
+
+1. **Auxiliary Prompt Tuning of Vision-Language Models for Few-Shot Out-of-Distribution Detection,** in ICCV, 2025.
+*W. Miao, G. Pang, Z. Wang, J. Zheng, and X. Bai.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Miao_Auxiliary_Prompt_Tuning_of_Vision-Language_Models_for_Few-Shot_Out-of-Distribution_Detection_ICCV_2025_paper.html)
+
+1. **Meta-Learning Dynamic Center Distance: Hard Sample Mining for Learning with Noisy Labels,** in ICCV, 2025.
+*C. Mu, Y. Qu, J. Yan, E. Yang, and C. Deng.*
+[paper](https://openaccess.thecvf.com/content/ICCV2025/html/Mu_Meta-Learning_Dynamic_Center_Distance_Hard_Sample_Mining_for_Learning_with_ICCV_2025_paper.html)
+
 ## [Datasets/Benchmarks](#content)
 
 1. **FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset With State-of-the-Art Evaluation,** in EMNLP, 2018.
@@ -7037,7 +7297,6 @@ and L. Van Gool.*
 
 1. **keras-fsl,** a library for few-shot learning written in *Tensorflow*.
 [link](https://github.com/few-shot-learning/Keras-FewShotLearning)
-
 
 
 
