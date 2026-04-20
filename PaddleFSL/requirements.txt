@@ -3,7 +3,7 @@ rdkit-pypi
 pgl
 paddlehelix
 paddlefsl
-scikit-learn==1.0.2
+scikit-learn==1.5.0
 ujson
 paddlenlp==2.0.6
 transformers==3.3.1
